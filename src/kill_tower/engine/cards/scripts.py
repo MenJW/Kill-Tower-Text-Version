@@ -197,6 +197,23 @@ def squeeze_script(
     runtime.player.add_resource("osty_attacks_played", 1)
 
 
+def precise_cut_script(
+    runtime: "CombatRuntime",
+    card: CardInstance,
+    target: MonsterState | None,
+) -> None:
+    definition = runtime.get_card_definition(card)
+    enemy = _require_target(runtime, target, definition.name or card.definition_id)
+    base_damage = max(0, (definition.numbers.damage or 0) - len(runtime.player.hand))
+    runtime.attack(
+        attacker=runtime.state.player,
+        target=enemy,
+        base_damage=base_damage,
+        hits=1,
+        source_name=definition.name or "Precise Cut",
+    )
+
+
 def generic_numbers_script(
     runtime: "CombatRuntime",
     card: CardInstance,
@@ -233,6 +250,7 @@ _IGNORABLE_CLAUSE_PATTERNS = (
     re.compile(r"^Retain your Hand this turn\b", re.IGNORECASE),
     re.compile(r"^只有在", re.IGNORECASE),
     re.compile(r"^你在本回合中每打出过一张技能牌，其耗能减少", re.IGNORECASE),
+    re.compile(r"^只有当你的抽牌堆中没有牌时才能打出", re.IGNORECASE),
 )
 
 _POWER_NAME_TO_ID = {
@@ -387,7 +405,15 @@ def _apply_clause(
         runtime.gain_energy(int(match.group(1)), definition.name or card.definition_id)
         return True
 
+    if match := re.fullmatch(r"获得(\d+) energy", clause, flags=re.IGNORECASE):
+        runtime.gain_energy(int(match.group(1)), definition.name or card.definition_id)
+        return True
+
     if match := re.fullmatch(r"(?:You )?gain (\d+) star", clause, flags=re.IGNORECASE):
+        runtime.gain_resource("star", int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"获得(\d+) star", clause, flags=re.IGNORECASE):
         runtime.gain_resource("star", int(match.group(1)), definition.name or card.definition_id)
         return True
 
@@ -458,6 +484,12 @@ def _apply_clause(
             runtime.apply_power(resolved_enemy, power_id, int(match.group(1)), definition.name or card.definition_id)
         return True
 
+    if match := re.fullmatch(r"给予所有敌人(\d+)层(易伤|虚弱)", clause, flags=re.IGNORECASE):
+        power_id = "vulnerable" if match.group(2) == "易伤" else "weak"
+        for resolved_enemy in runtime.alive_enemies():
+            runtime.apply_power(resolved_enemy, power_id, int(match.group(1)), definition.name or card.definition_id)
+        return True
+
     if match := re.fullmatch(r"Apply (\d+) (Vulnerable|Weak|Poison|Doom) to a random enemy", clause, flags=re.IGNORECASE):
         enemies = runtime.alive_enemies()
         if not enemies:
@@ -479,6 +511,12 @@ def _apply_clause(
             int(match.group(1)),
             definition.name or card.definition_id,
         )
+        return True
+
+    if match := re.fullmatch(r"给予(\d+)层(易伤|虚弱)", clause, flags=re.IGNORECASE):
+        resolved_enemy = _require_target(runtime, enemy, definition.name or card.definition_id)
+        power_id = "vulnerable" if match.group(2) == "易伤" else "weak"
+        runtime.apply_power(resolved_enemy, power_id, int(match.group(1)), definition.name or card.definition_id)
         return True
 
     if match := re.fullmatch(r"(?:You )?gain (\d+) (Strength|Dexterity|Focus) this turn", clause, flags=re.IGNORECASE):
@@ -503,6 +541,22 @@ def _apply_clause(
         )
         return True
 
+    if match := re.fullmatch(r"失去(\d+)点集中", clause, flags=re.IGNORECASE):
+        runtime.apply_power(runtime.state.player, "focus", -int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"Lose (\d+) Focus", clause, flags=re.IGNORECASE):
+        runtime.apply_power(runtime.state.player, "focus", -int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"Next turn, draw (\d+) cards?", clause, flags=re.IGNORECASE):
+        runtime.apply_power(runtime.state.player, "draw-next-turn", int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"在下个回合抽(\d+)张牌", clause, flags=re.IGNORECASE):
+        runtime.apply_power(runtime.state.player, "draw-next-turn", int(match.group(1)), definition.name or card.definition_id)
+        return True
+
     if match := re.fullmatch(
         r"If you have played fewer than (\d+) cards this turn, draw (\d+) cards?",
         clause,
@@ -522,6 +576,26 @@ def _apply_clause(
         resolved_enemy = _require_target(runtime, enemy, definition.name or card.definition_id)
         if not resolved_enemy.alive:
             runtime.gain_energy(int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"If this kills an enemy, gain (\d+) star", clause, flags=re.IGNORECASE):
+        resolved_enemy = _require_target(runtime, enemy, definition.name or card.definition_id)
+        if not resolved_enemy.alive:
+            runtime.gain_resource("star", int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"如果此牌击杀了敌人，获得(\d+) star", clause, flags=re.IGNORECASE):
+        resolved_enemy = _require_target(runtime, enemy, definition.name or card.definition_id)
+        if not resolved_enemy.alive:
+            runtime.gain_resource("star", int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if re.fullmatch(r"Fill your Hand with Debris", clause, flags=re.IGNORECASE):
+        runtime.add_cards_to_hand("debris", max(0, 10 - len(runtime.player.hand)), definition.name or card.definition_id, temporary=True)
+        return True
+
+    if re.fullmatch(r"用碎屑填满你的手牌", clause, flags=re.IGNORECASE):
+        runtime.add_cards_to_hand("debris", max(0, 10 - len(runtime.player.hand)), definition.name or card.definition_id, temporary=True)
         return True
 
     return False

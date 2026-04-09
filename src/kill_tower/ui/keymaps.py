@@ -12,6 +12,10 @@ class KeyBindingSpec:
 
 DEFAULT_BINDINGS: tuple[KeyBindingSpec, ...] = (
     KeyBindingSpec("q", "quit", "Quit"),
+    KeyBindingSpec("r", "run_current", "Run"),
+    KeyBindingSpec("c", "next_character", "Character"),
+    KeyBindingSpec("l", "toggle_language", "Language"),
+    KeyBindingSpec("f", "toggle_full_act", "Full Act"),
     KeyBindingSpec("p", "show_paths", "Paths"),
     KeyBindingSpec("s", "show_status", "Status"),
 )

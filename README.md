@@ -6,7 +6,7 @@ The current repository contains:
 
 - a Python package layout under src/
 - a Typer CLI entry point
-- a minimal Textual application shell
+- a runnable Textual launcher for Chinese single-player runs
 - data schemas and loading utilities
 - snapshot import and normalization script templates
 - baseline docs for architecture, parity, combat flow, and TUI flow
@@ -19,6 +19,7 @@ source .venv/bin/activate
 pip install -e .[dev]
 kill-tower info
 kill-tower run ui
+kill-tower run play
 ```
 
 ## Common Commands
@@ -28,6 +29,8 @@ kill-tower info
 kill-tower data paths
 kill-tower data init-manifest
 kill-tower run ui
+kill-tower run play
+kill-tower run play --character-id silent --full-act
 python scripts/smoke_run.py
 python scripts/generate_unresolved_coverage_report.py 2026-04-09_build_unknown
 python scripts/generate_transcript_goldens.py

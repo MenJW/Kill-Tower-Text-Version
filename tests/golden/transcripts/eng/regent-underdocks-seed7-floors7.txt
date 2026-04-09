@@ -1,0 +1,260 @@
+Run started for The Regent in Underdocks at Ascension 0.
+Floor 1: entering monster room.
+Encounter queued: Punch Construct.
+The Regent enters combat against Punch Construct.
+Combat started.
+Turn 1: player turn started.
+The Regent gains 3 star from Divine Right.
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+Punch Construct uses READY.
+Punch Construct gains 10 Block from READY.
+Next intent for Punch Construct: Attack.
+Turn 2: player turn started.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Falling Star for 0 energy.
+The Regent uses Falling Star on Punch Construct for 7 damage x1 (0 HP lost).
+Punch Construct gains 1 weak from Falling Star.
+Punch Construct gains 1 vulnerable from Falling Star.
+Turn 2: player turn ended.
+Punch Construct uses Strong Punch.
+Punch Construct uses Strong Punch on The Regent for 10 damage x1 (0 HP lost).
+Punch Construct's weak decreases to 0.
+Punch Construct's vulnerable decreases to 0.
+Next intent for Punch Construct: Attack + Debuff.
+Turn 3: player turn started.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+Punch Construct uses Fast Punch.
+Punch Construct uses Fast Punch on The Regent for 5 damage x2 (0 HP lost).
+The Regent gains 1 weak from Fast Punch.
+Next intent for Punch Construct: Defend.
+Turn 4: player turn started.
+The Regent plays Falling Star for 0 energy.
+The Regent uses Falling Star on Punch Construct for 5 damage x1 (5 HP lost).
+Punch Construct gains 1 weak from Falling Star.
+Punch Construct gains 1 vulnerable from Falling Star.
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+Turn 4: player turn ended.
+The Regent's weak decreases to 0.
+Punch Construct uses READY.
+Punch Construct gains 10 Block from READY.
+Punch Construct's weak decreases to 0.
+Punch Construct's vulnerable decreases to 0.
+Next intent for Punch Construct: Attack.
+Turn 5: player turn started.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+Turn 5: player turn ended.
+Punch Construct uses Strong Punch.
+Punch Construct uses Strong Punch on The Regent for 14 damage x1 (0 HP lost).
+Next intent for Punch Construct: Attack + Debuff.
+Turn 6: player turn started.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Falling Star for 0 energy.
+The Regent uses Falling Star on Punch Construct for 7 damage x1 (7 HP lost).
+Punch Construct gains 1 weak from Falling Star.
+Punch Construct gains 1 vulnerable from Falling Star.
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Punch Construct for 9 damage x1 (9 HP lost).
+Punch Construct is defeated.
+Combat won.
+Floor 1: gained 20 gold.
+Reward: add devastate to the deck.
+Reward: obtain potion liquid-memories.
+Floor 2: entering monster room.
+Encounter queued: Sewer Clam.
+The Regent enters combat against Sewer Clam.
+Combat started.
+Turn 1: player turn started.
+The Regent gains 3 star from Divine Right.
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+Sewer Clam uses Pressurize.
+Sewer Clam gains 4 strength from Pressurize.
+Next intent for Sewer Clam: Attack.
+Turn 2: player turn started.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Falling Star for 0 energy.
+The Regent uses Falling Star on Sewer Clam for 7 damage x1 (7 HP lost).
+Sewer Clam gains 1 weak from Falling Star.
+Sewer Clam gains 1 vulnerable from Falling Star.
+Turn 2: player turn ended.
+Sewer Clam uses Jet.
+Sewer Clam uses Jet on The Regent for 10 damage x1 (0 HP lost).
+Sewer Clam's weak decreases to 0.
+Sewer Clam's vulnerable decreases to 0.
+Next intent for Sewer Clam: Buff.
+Turn 3: player turn started.
+The Regent plays Devastate for 1 energy.
+The Regent uses Devastate on Sewer Clam for 30 damage x1 (30 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+Sewer Clam is defeated.
+Combat won.
+Floor 2: gained 20 gold.
+Reward: add knockout-blow to the deck.
+Floor 3: entering monster room.
+Encounter queued: Haunted Ship.
+The Regent enters combat against Haunted Ship.
+Combat started.
+Turn 1: player turn started.
+The Regent gains 3 star from Divine Right.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+Haunted Ship uses Ramming Speed.
+Haunted Ship uses Ramming Speed on The Regent for 10 damage x1 (5 HP lost).
+Next intent for Haunted Ship: Attack.
+Turn 2: player turn started.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Falling Star for 0 energy.
+The Regent uses Falling Star on Haunted Ship for 7 damage x1 (7 HP lost).
+Haunted Ship gains 1 weak from Falling Star.
+Haunted Ship gains 1 vulnerable from Falling Star.
+Turn 2: player turn ended.
+Haunted Ship uses Swipe.
+Haunted Ship uses Swipe on The Regent for 9 damage x1 (0 HP lost).
+Haunted Ship's weak decreases to 0.
+Haunted Ship's vulnerable decreases to 0.
+Next intent for Haunted Ship: Attack.
+Turn 3: player turn started.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Devastate for 1 energy.
+The Regent uses Devastate on Haunted Ship for 30 damage x1 (30 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+Haunted Ship uses Stomp.
+Haunted Ship uses Stomp on The Regent for 4 damage x3 (7 HP lost).
+Next intent for Haunted Ship: Debuff.
+Turn 4: player turn started.
+The Regent plays Falling Star for 0 energy.
+The Regent uses Falling Star on Haunted Ship for 7 damage x1 (7 HP lost).
+Haunted Ship gains 1 weak from Falling Star.
+Haunted Ship gains 1 vulnerable from Falling Star.
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Haunted Ship for 9 damage x1 (9 HP lost).
+Haunted Ship is defeated.
+Combat won.
+Floor 3: gained 20 gold.
+Reward: add kingly-kick to the deck.
+Reward: obtain potion ship-in-a-bottle.
+Floor 4: entering event room.
+Event: Doors of Light and Dark
+A doorway existed where none existed moments before...
+
+You enter to find two shimmering doorways and a [gold]well-dressed doorman[/gold].
+“Finally, a visitor! Please please! Choose a door, any door!”
+
+[blue]Are we still in the Spire? How is this place so clean?[/blue]
+Chosen option: Light Door.
+[sine][gold]Into the light...[/gold][/sine]
+
+[jitter]It's blinding!![/jitter] But the light [gold]strengthens[/gold] you.
+
+You're back in the [blue]Underdocks[/blue].
+How did you? Huh...?
+Upgrade devastate, falling-star.
+Floor 5: entering merchant room.
+Merchant visited with 159 gold.
+Merchant removes strike-regent for 75 gold.
+Merchant sells devastate for 75 gold.
+Floor 6: entering campfire room.
+Campfire heals The Regent for 12 HP.
+Floor 7: entering elite room.
+Encounter queued: Skulking Colony.
+The Regent enters combat against Skulking Colony.
+Combat started.
+Turn 1: player turn started.
+The Regent gains 3 star from Divine Right.
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+The Regent plays Strike for 1 energy.
+The Regent uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+Skulking Colony uses Inertia.
+Skulking Colony gains 10 Block from Inertia.
+Skulking Colony gains 3 strength from Inertia.
+Next intent for Skulking Colony: Attack.
+Turn 2: player turn started.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Defend for 1 energy.
+The Regent gains 5 Block from Defend.
+The Regent plays Devastate for 1 energy.
+The Regent uses Devastate on Skulking Colony for 30 damage x1 (20 HP lost).
+The Regent plays Falling Star for 0 energy.
+The Regent uses Falling Star on Skulking Colony for 7 damage x1 (7 HP lost).
+Skulking Colony gains 1 weak from Falling Star.
+Skulking Colony gains 1 vulnerable from Falling Star.
+Turn 2: player turn ended.
+Skulking Colony uses Zoom.
+Skulking Colony uses Zoom on The Regent for 14 damage x1 (4 HP lost).
+Skulking Colony's weak decreases to 0.
+Skulking Colony's vulnerable decreases to 0.
+Next intent for Skulking Colony: Attack.
+Turn 3: player turn started.
+The Regent plays Knockout Blow for 3 energy.
+The Regent uses Knockout Blow on Skulking Colony for 30 damage x1 (30 HP lost).
+Turn 3: player turn ended.
+Skulking Colony uses Super Crab.
+Skulking Colony uses Super Crab on The Regent for 9 damage x2 (18 HP lost).
+Next intent for Skulking Colony: Attack + Status.
+Turn 4: player turn started.
+The Regent plays Falling Star for 0 energy.
+The Regent uses Falling Star on Skulking Colony for 7 damage x1 (7 HP lost).
+Skulking Colony is defeated.
+Combat won.
+Floor 7: gained 35 gold.
+Reward: add comet to the deck.
+Reward: obtain relic vexing-puzzlebox.
+Reward: obtain potion energy-potion.
+Completed underdocks run slice.

@@ -105,3 +105,55 @@ def test_regression_transcripts_have_no_unresolved_effect_markers() -> None:
         ]
 
         assert issues == [], (character_id, issues)
+
+
+def test_zhs_five_characters_clear_seven_floor_regression() -> None:
+    service = RunService()
+
+    for character_id in ["ironclad", "silent", "defect", "regent", "necrobinder"]:
+        result = service.run_auto(
+            character_id=character_id,
+            snapshot_tag="2026-04-09_build_unknown",
+            lang="zhs",
+            act_id="underdocks",
+            seed=7,
+            floors=7,
+        )
+        issues = [
+            line
+            for line in result.record.transcript
+            if "unimplemented clauses" in line
+            or "Unsupported event effect" in line
+            or "number-only fallback" in line
+            or "has no executable script yet" in line
+        ]
+
+        assert result.record.victory is True, character_id
+        assert result.record.floor == 7, character_id
+        assert issues == [], (character_id, issues)
+
+
+def test_zhs_recommended_full_act_characters_clear_without_unresolved_markers() -> None:
+    service = RunService()
+
+    for character_id in ["silent", "regent"]:
+        result = service.run_auto(
+            character_id=character_id,
+            snapshot_tag="2026-04-09_build_unknown",
+            lang="zhs",
+            act_id="underdocks",
+            seed=7,
+            floors=None,
+        )
+        issues = [
+            line
+            for line in result.record.transcript
+            if "unimplemented clauses" in line
+            or "Unsupported event effect" in line
+            or "number-only fallback" in line
+            or "has no executable script yet" in line
+        ]
+
+        assert result.record.victory is True, character_id
+        assert result.record.floor == 15, character_id
+        assert issues == [], (character_id, issues)

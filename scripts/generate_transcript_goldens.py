@@ -17,9 +17,13 @@ SCENARIOS: list[dict[str, Any]] = [
     {"lang": "eng", "character_id": "ironclad", "act_id": "underdocks", "seed": 7, "floors": 7},
     {"lang": "eng", "character_id": "silent", "act_id": "underdocks", "seed": 7, "floors": 7},
     {"lang": "eng", "character_id": "defect", "act_id": "underdocks", "seed": 7, "floors": 7},
+    {"lang": "eng", "character_id": "regent", "act_id": "underdocks", "seed": 7, "floors": 7},
+    {"lang": "eng", "character_id": "necrobinder", "act_id": "underdocks", "seed": 7, "floors": 7},
     {"lang": "zhs", "character_id": "ironclad", "act_id": "underdocks", "seed": 7, "floors": 7},
     {"lang": "zhs", "character_id": "silent", "act_id": "underdocks", "seed": 7, "floors": 7},
     {"lang": "zhs", "character_id": "defect", "act_id": "underdocks", "seed": 7, "floors": 7},
+    {"lang": "zhs", "character_id": "regent", "act_id": "underdocks", "seed": 7, "floors": 7},
+    {"lang": "zhs", "character_id": "necrobinder", "act_id": "underdocks", "seed": 7, "floors": 7},
 ]
 
 UNRESOLVED_MARKERS = (

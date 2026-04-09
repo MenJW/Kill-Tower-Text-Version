@@ -1,6 +1,6 @@
 # Unresolved Coverage Report: 2026-04-09_build_unknown
 
-Generated at: 2026-04-09T08:48:19.356672+00:00
+Generated at: 2026-04-09T09:14:49.628081+00:00
 
 Status policy:
 - resolved: executed or structurally covered without unresolved markers
@@ -12,7 +12,7 @@ Status policy:
 
 | Entity | Total | Resolved | Partial | Unresolved | Error | Coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| cards | 576 | 152 | 196 | 228 | 0 | 26.4% |
+| cards | 576 | 156 | 192 | 228 | 0 | 27.1% |
 | relics | 288 | 5 | 0 | 283 | 0 | 1.7% |
 | potions | 63 | 20 | 0 | 43 | 0 | 31.7% |
 | events | 66 | 34 | 14 | 18 | 0 | 51.5% |
@@ -229,7 +229,7 @@ Status policy:
 
 | Entity | Total | Resolved | Partial | Unresolved | Error | Coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| cards | 576 | 69 | 245 | 262 | 0 | 12.0% |
+| cards | 576 | 105 | 222 | 249 | 0 | 18.2% |
 | relics | 288 | 5 | 0 | 283 | 0 | 1.7% |
 | potions | 63 | 1 | 0 | 62 | 0 | 1.6% |
 | events | 66 | 10 | 46 | 10 | 0 | 15.2% |
@@ -242,12 +242,10 @@ Status policy:
 - accuracy [unresolved]: 精准 has no executable script yet.
 - acrobatics [partial]: 杂技 still has unimplemented clauses: 丢弃1张牌
 - adaptive-strike [partial]: 适应打击 still has unimplemented clauses: 将这张牌的一张01 energy复制品添加到你的弃牌堆
-- adrenaline [partial]: 肾上腺素 still has unimplemented clauses: 获得1 energy
 - afterimage [unresolved]: 余像 has no executable script yet.
 - afterlife [unresolved]: 来生 has no executable script yet.
 - aggression [unresolved]: 好勇斗狠 has no executable script yet.
 - alchemize [unresolved]: 炼制药水 has no executable script yet.
-- alignment [unresolved]: 星位序列 has no executable script yet.
 - all-for-one [partial]: 万物一心 still has unimplemented clauses: 将你弃牌堆中的所有01 energy牌放入你的手牌
 - anger [partial]: 愤怒 still has unimplemented clauses: 将一张此牌的复制品加入你的弃牌堆
 - anointed [unresolved]: 天选 has no executable script yet.
@@ -258,7 +256,6 @@ Status policy:
 - arsenal [unresolved]: 武器库 has no executable script yet.
 - ascenders-bane [unresolved]: 进阶之灾 has no executable script yet.
 - ashen-strike [partial]: 灰烬打击 still has unimplemented clauses: 你的消耗牌堆中每有一张牌，伤害增加3
-- assassinate [partial]: 刺杀 still has unimplemented clauses: 给予1层易伤
 - automation [unresolved]: 自动化 has no executable script yet.
 - bad-luck [unresolved]: 霉运 has no executable script yet.
 - ball-lightning [partial]: 球状闪电 still has unimplemented clauses: 生成1个闪电充能球
@@ -267,16 +264,19 @@ Status policy:
 - barricade [unresolved]: 壁垒 has no executable script yet.
 - battle-trance [partial]: 战斗专注 still has unimplemented clauses: 你在本回合内不能再抽任何牌
 - beacon-of-hope [unresolved]: 希望灯塔 has no executable script yet.
-- beam-cell [partial]: 光束射线 still has unimplemented clauses: 给予1层易伤
 - beat-down [unresolved]: 狠揍 has no executable script yet.
 - beat-into-shape [partial]: 锻打成型 still has unimplemented clauses: 铸造X; 本回合此前你每击中过该敌人一次，铸造值就上升5
 - beckon [unresolved]: 呼唤 has no executable script yet.
 - begone [partial]: 下去！ still has unimplemented clauses: 选择你手牌中的一张牌，将其变化为仆从俯冲
 - believe-in-you [unresolved]: 相信着你 has no executable script yet.
 - biased-cognition [unresolved]: 偏差认知 has no executable script yet.
-- big-bang [partial]: 大爆炸 still has unimplemented clauses: 获得1 energy; 获得1 star; 铸造5
+- big-bang [partial]: 大爆炸 still has unimplemented clauses: 铸造5
 - black-hole [unresolved]: 黑洞 has no executable script yet.
 - blade-dance [unresolved]: 刀刃之舞 has no executable script yet.
+- blade-of-ink [unresolved]: 墨之刃 has no executable script yet.
+- blight-strike [partial]: 荒疫打击 still has unimplemented clauses: 给予等量于所造成伤害的灾厄
+- blur [partial]: 残影 still has unimplemented clauses: 你的下一回合开始时格挡不会消失
+- body-slam [partial]: 全身撞击 used number-only fallback resolution.
 
 ### Relics Needing Attention
 

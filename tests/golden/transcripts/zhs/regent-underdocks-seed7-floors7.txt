@@ -1,0 +1,260 @@
+Run started for 储君 in 暗港 at Ascension 0.
+Floor 1: entering monster room.
+Encounter queued: 拳击构装体.
+储君 enters combat against 拳击构装体.
+Combat started.
+Turn 1: player turn started.
+储君 gains 3 star from Divine Right.
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+拳击构装体 uses 准备就绪.
+拳击构装体 gains 10 Block from 准备就绪.
+Next intent for 拳击构装体: Attack.
+Turn 2: player turn started.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 陨星 for 0 energy.
+储君 uses 陨星 on 拳击构装体 for 7 damage x1 (0 HP lost).
+拳击构装体 gains 1 weak from 陨星.
+拳击构装体 gains 1 vulnerable from 陨星.
+Turn 2: player turn ended.
+拳击构装体 uses 强力拳.
+拳击构装体 uses 强力拳 on 储君 for 10 damage x1 (0 HP lost).
+拳击构装体's weak decreases to 0.
+拳击构装体's vulnerable decreases to 0.
+Next intent for 拳击构装体: Attack + Debuff.
+Turn 3: player turn started.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+拳击构装体 uses 快速拳.
+拳击构装体 uses 快速拳 on 储君 for 5 damage x2 (0 HP lost).
+储君 gains 1 weak from 快速拳.
+Next intent for 拳击构装体: Defend.
+Turn 4: player turn started.
+储君 plays 陨星 for 0 energy.
+储君 uses 陨星 on 拳击构装体 for 5 damage x1 (5 HP lost).
+拳击构装体 gains 1 weak from 陨星.
+拳击构装体 gains 1 vulnerable from 陨星.
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+Turn 4: player turn ended.
+储君's weak decreases to 0.
+拳击构装体 uses 准备就绪.
+拳击构装体 gains 10 Block from 准备就绪.
+拳击构装体's weak decreases to 0.
+拳击构装体's vulnerable decreases to 0.
+Next intent for 拳击构装体: Attack.
+Turn 5: player turn started.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+Turn 5: player turn ended.
+拳击构装体 uses 强力拳.
+拳击构装体 uses 强力拳 on 储君 for 14 damage x1 (0 HP lost).
+Next intent for 拳击构装体: Attack + Debuff.
+Turn 6: player turn started.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 陨星 for 0 energy.
+储君 uses 陨星 on 拳击构装体 for 7 damage x1 (7 HP lost).
+拳击构装体 gains 1 weak from 陨星.
+拳击构装体 gains 1 vulnerable from 陨星.
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 拳击构装体 for 9 damage x1 (9 HP lost).
+拳击构装体 is defeated.
+Combat won.
+Floor 1: gained 20 gold.
+Reward: add devastate to the deck.
+Reward: obtain potion energy-potion.
+Floor 2: entering monster room.
+Encounter queued: 下水道蚌.
+储君 enters combat against 下水道蚌.
+Combat started.
+Turn 1: player turn started.
+储君 gains 3 star from Divine Right.
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+下水道蚌 uses 增压.
+下水道蚌 gains 4 strength from 增压.
+Next intent for 下水道蚌: Attack.
+Turn 2: player turn started.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 陨星 for 0 energy.
+储君 uses 陨星 on 下水道蚌 for 7 damage x1 (7 HP lost).
+下水道蚌 gains 1 weak from 陨星.
+下水道蚌 gains 1 vulnerable from 陨星.
+Turn 2: player turn ended.
+下水道蚌 uses 喷射.
+下水道蚌 uses 喷射 on 储君 for 10 damage x1 (0 HP lost).
+下水道蚌's weak decreases to 0.
+下水道蚌's vulnerable decreases to 0.
+Next intent for 下水道蚌: Buff.
+Turn 3: player turn started.
+储君 plays 葬送 for 1 energy.
+储君 uses 葬送 on 下水道蚌 for 30 damage x1 (30 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+下水道蚌 is defeated.
+Combat won.
+Floor 2: gained 20 gold.
+Reward: add knockout-blow to the deck.
+Floor 3: entering monster room.
+Encounter queued: 幽灵船.
+储君 enters combat against 幽灵船.
+Combat started.
+Turn 1: player turn started.
+储君 gains 3 star from Divine Right.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 幽灵船 for 6 damage x1 (6 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 幽灵船 for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+幽灵船 uses 撞击速度.
+幽灵船 uses 撞击速度 on 储君 for 10 damage x1 (5 HP lost).
+Next intent for 幽灵船: Attack.
+Turn 2: player turn started.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 陨星 for 0 energy.
+储君 uses 陨星 on 幽灵船 for 7 damage x1 (7 HP lost).
+幽灵船 gains 1 weak from 陨星.
+幽灵船 gains 1 vulnerable from 陨星.
+Turn 2: player turn ended.
+幽灵船 uses 扫击.
+幽灵船 uses 扫击 on 储君 for 9 damage x1 (0 HP lost).
+幽灵船's weak decreases to 0.
+幽灵船's vulnerable decreases to 0.
+Next intent for 幽灵船: Attack.
+Turn 3: player turn started.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 葬送 for 1 energy.
+储君 uses 葬送 on 幽灵船 for 30 damage x1 (30 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 幽灵船 for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+幽灵船 uses 践踏.
+幽灵船 uses 践踏 on 储君 for 4 damage x3 (7 HP lost).
+Next intent for 幽灵船: Debuff.
+Turn 4: player turn started.
+储君 plays 陨星 for 0 energy.
+储君 uses 陨星 on 幽灵船 for 7 damage x1 (7 HP lost).
+幽灵船 gains 1 weak from 陨星.
+幽灵船 gains 1 vulnerable from 陨星.
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 幽灵船 for 9 damage x1 (9 HP lost).
+幽灵船 is defeated.
+Combat won.
+Floor 3: gained 20 gold.
+Reward: add kingly-kick to the deck.
+Reward: obtain potion vulnerable-potion.
+Floor 4: entering event room.
+Event: 光与暗的门扉
+一道门扉突然凭空出现了…
+
+你步入其中，见到了两道散发着微光的门，以及一位[gold]衣着得体的看门人[/gold]。
+“终于有访客了！请，请！选一扇门，任何一扇都可以！”
+
+[blue]我们还在尖塔里吗？这地方为何竟如此洁净？[/blue]
+Chosen option: 光之门.
+[sine][purple]步入光明之中…[/purple][/sine]
+
+[jitter]好刺眼的光！！[/jitter]但这股光流转而[gold]强化[/gold]了你。
+
+你回到了[blue]暗港[/blue]。
+怎么个事儿? 哈…?
+Upgrade devastate, falling-star.
+Floor 5: entering merchant room.
+Merchant visited with 159 gold.
+Merchant removes strike-regent for 75 gold.
+Merchant sells devastate for 75 gold.
+Floor 6: entering campfire room.
+Campfire heals 储君 for 12 HP.
+Floor 7: entering elite room.
+Encounter queued: 鬼祟珊瑚群.
+储君 enters combat against 鬼祟珊瑚群.
+Combat started.
+Turn 1: player turn started.
+储君 gains 3 star from Divine Right.
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+储君 plays 打击 for 1 energy.
+储君 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+鬼祟珊瑚群 uses 惯性.
+鬼祟珊瑚群 gains 10 Block from 惯性.
+鬼祟珊瑚群 gains 3 strength from 惯性.
+Next intent for 鬼祟珊瑚群: Attack.
+Turn 2: player turn started.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 防御 for 1 energy.
+储君 gains 5 Block from 防御.
+储君 plays 葬送 for 1 energy.
+储君 uses 葬送 on 鬼祟珊瑚群 for 30 damage x1 (20 HP lost).
+储君 plays 陨星 for 0 energy.
+储君 uses 陨星 on 鬼祟珊瑚群 for 7 damage x1 (7 HP lost).
+鬼祟珊瑚群 gains 1 weak from 陨星.
+鬼祟珊瑚群 gains 1 vulnerable from 陨星.
+Turn 2: player turn ended.
+鬼祟珊瑚群 uses 猛冲.
+鬼祟珊瑚群 uses 猛冲 on 储君 for 14 damage x1 (4 HP lost).
+鬼祟珊瑚群's weak decreases to 0.
+鬼祟珊瑚群's vulnerable decreases to 0.
+Next intent for 鬼祟珊瑚群: Attack.
+Turn 3: player turn started.
+储君 plays 决胜一击 for 3 energy.
+储君 uses 决胜一击 on 鬼祟珊瑚群 for 30 damage x1 (30 HP lost).
+Turn 3: player turn ended.
+鬼祟珊瑚群 uses 超级蟹.
+鬼祟珊瑚群 uses 超级蟹 on 储君 for 9 damage x2 (18 HP lost).
+Next intent for 鬼祟珊瑚群: Attack + Status.
+Turn 4: player turn started.
+储君 plays 陨星 for 0 energy.
+储君 uses 陨星 on 鬼祟珊瑚群 for 7 damage x1 (7 HP lost).
+鬼祟珊瑚群 is defeated.
+Combat won.
+Floor 7: gained 35 gold.
+Reward: add comet to the deck.
+Reward: obtain relic sozu.
+Reward: obtain potion cure-all.
+Completed underdocks run slice.

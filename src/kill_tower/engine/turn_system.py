@@ -31,7 +31,10 @@ class TurnManager:
         state.player.block = 0
         state.player.energy = state.player.max_energy
         state.cards_played_this_turn.clear()
-        draw_cards(state.player, cards_to_draw, self.rng)
+        extra_draw = state.player.get_power("draw-next-turn")
+        draw_cards(state.player, cards_to_draw + extra_draw, self.rng)
+        if extra_draw > 0:
+            state.player.reduce_power("draw-next-turn", extra_draw)
         state.transcript.append(f"Turn {state.turn}: player turn started.")
 
     def end_player_turn(self, state: CombatState) -> None:

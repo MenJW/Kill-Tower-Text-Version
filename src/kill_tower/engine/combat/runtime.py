@@ -305,6 +305,30 @@ class CombatRuntime:
             exhausted += 1
         return exhausted
 
+    def add_cards_to_hand(
+        self,
+        card_id: str,
+        count: int,
+        source_name: str,
+        temporary: bool = False,
+    ) -> int:
+        added = 0
+        while added < count and len(self.player.hand) < 10:
+            definition = self.registry.cards[card_id]
+            instance = CardInstance(
+                definition_id=definition.id,
+                instance_id=f"{definition.id}-generated-{len(self.state.transcript)}-{added}",
+                cost=definition.numbers.cost or 0,
+                name=definition.name,
+                card_type=definition.card_type,
+                temporary=temporary,
+            )
+            self.player.hand.append(instance)
+            added += 1
+        if added > 0:
+            self.log(f"{self.player.name} adds {added} {card_id} card(s) to hand from {source_name}.")
+        return added
+
     def lose_hp(
         self,
         target: PlayerState | MonsterState,
@@ -597,6 +621,8 @@ class CombatRuntime:
         if definition.id == "dualcast" and self.player.orbs:
             if self.player.orbs[-1] == "lightning-orb":
                 return 16
+        if definition.id == "precise-cut":
+            return max(0, (definition.numbers.damage or 0) - len(self.player.hand) + 1)
         if definition.numbers.damage is None:
             return 0
         damage = definition.numbers.damage + self.player.get_power("strength")

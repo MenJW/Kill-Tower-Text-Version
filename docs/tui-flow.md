@@ -18,14 +18,15 @@
 - Focus-aware navigation for panels and lists
 - No hidden state changes outside the visible log
 
-## Initial Shell
+## Current Launcher
 
-The first UI shell should expose:
+The current UI launcher exposes:
 
-- project status
-- configured data paths
-- current snapshot tag
-- next implementation steps
+- zhs/eng language toggle
+- character cycling across the 5 current single-player characters
+- stable 7-floor run mode and full-act mode toggle
+- live transcript tail and run summary
+- path/status inspection for debugging
 
 ## Planned Combat Layout
 
