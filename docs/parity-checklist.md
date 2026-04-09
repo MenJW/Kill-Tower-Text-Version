@@ -2,10 +2,11 @@
 
 ## Version Baseline
 
-- Target game version: TBD
-- Target build id: TBD
-- Snapshot tag: TBD
+- Target game version: 1.0.17
+- Target build id: unknown
+- Snapshot tag: 2026-04-09_build_unknown
 - Languages imported: eng, zhs
+- Release scope: single-player only, coop deferred
 
 ## Core Systems
 

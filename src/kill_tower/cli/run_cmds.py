@@ -8,6 +8,7 @@ from kill_tower.data.service import DataService
 from kill_tower.engine.action_queue import Action, ActionQueue
 from kill_tower.engine.combat import CombatRuntime
 from kill_tower.engine.rng import SeededRNG
+from kill_tower.services.run_service import RunService
 from kill_tower.services.transcript_service import TranscriptService
 from kill_tower.ui.app import KillTowerApp
 
@@ -61,3 +62,42 @@ def vertical_slice(
     table.add_row("hp", f"{result.player_hp}/{result.max_player_hp}")
     console.print(table)
     console.print("\n".join(result.transcript))
+
+
+@app.command("auto")
+def auto_run(
+    snapshot_tag: str | None = typer.Option(None, help="Snapshot tag to load."),
+    lang: str = typer.Option("eng", help="Normalized language to load."),
+    character_id: str = typer.Option("ironclad", help="Character id."),
+    act_id: str | None = typer.Option(None, help="Act id to route through."),
+    seed: int = typer.Option(7, help="Deterministic run seed."),
+    floors: int = typer.Option(5, min=1, help="How many floors to resolve automatically."),
+    slot: str | None = typer.Option(None, help="Optional save slot name."),
+) -> None:
+    run_service = RunService()
+    result = run_service.run_auto(
+        character_id=character_id,
+        snapshot_tag=snapshot_tag,
+        lang=lang,
+        act_id=act_id,
+        seed=seed,
+        floors=floors,
+    )
+    save_path = None
+    if slot is not None:
+        save_path = run_service.save_run(slot, result.record, result.replay)
+
+    table = Table(title="Auto Run Result")
+    table.add_column("Field")
+    table.add_column("Value")
+    table.add_row("snapshot", result.record.snapshot_tag)
+    table.add_row("act", result.record.act_id)
+    table.add_row("character", result.record.character_id)
+    table.add_row("floors cleared", str(result.record.floor))
+    table.add_row("victory", str(result.record.victory))
+    table.add_row("hp", f"{result.record.player.hp}/{result.record.player.max_hp}")
+    table.add_row("gold", str(result.record.player.gold))
+    if save_path is not None:
+        table.add_row("save", str(save_path))
+    console.print(table)
+    console.print("\n".join(result.record.transcript))

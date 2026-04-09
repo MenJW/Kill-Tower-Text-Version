@@ -3,6 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Callable, TYPE_CHECKING
 
+from kill_tower.engine.turn_system import draw_cards
+
 if TYPE_CHECKING:
     from kill_tower.engine.combat.runtime import CombatRuntime
 
@@ -11,7 +13,13 @@ RelicHook = Callable[["CombatRuntime"], None]
 
 @dataclass(frozen=True, slots=True)
 class RelicHooks:
+    on_combat_start: RelicHook | None = None
     on_combat_end: RelicHook | None = None
+
+
+def ring_of_the_snake_on_combat_start(runtime: "CombatRuntime") -> None:
+    draw_cards(runtime.player, 2, runtime.rng)
+    runtime.log(f"Ring of the Snake draws 2 additional cards for {runtime.player.name}.")
 
 
 def burning_blood_on_combat_end(runtime: "CombatRuntime") -> None:
@@ -24,6 +32,7 @@ def burning_blood_on_combat_end(runtime: "CombatRuntime") -> None:
 
 
 RELIC_HOOKS: dict[str, RelicHooks] = {
+    "ring-of-the-snake": RelicHooks(on_combat_start=ring_of_the_snake_on_combat_start),
     "burning-blood": RelicHooks(on_combat_end=burning_blood_on_combat_end),
 }
 

@@ -45,10 +45,27 @@ class CombatRuntime:
         max_turns: int = 12,
         shuffle_draw_pile: bool = True,
     ) -> VerticalSliceResult:
+        return self.run_encounter(
+            encounter_id=encounter_id,
+            character_id=character_id,
+            player_state=self.build_player_state(character_id),
+            max_turns=max_turns,
+            shuffle_draw_pile=shuffle_draw_pile,
+        )
+
+    def run_encounter(
+        self,
+        encounter_id: str,
+        character_id: str,
+        player_state: PlayerState,
+        max_turns: int = 12,
+        shuffle_draw_pile: bool = True,
+    ) -> VerticalSliceResult:
         self.start_encounter(
             character_id=character_id,
             encounter_id=encounter_id,
             shuffle_draw_pile=shuffle_draw_pile,
+            player_state=player_state,
         )
         while self.state.victory is None and self.state.turn <= max_turns:
             self.play_auto_turn()
@@ -74,8 +91,9 @@ class CombatRuntime:
         character_id: str,
         encounter_id: str,
         shuffle_draw_pile: bool = True,
+        player_state: PlayerState | None = None,
     ) -> CombatState:
-        player = self._build_player_state(character_id)
+        player = player_state or self.build_player_state(character_id)
         if shuffle_draw_pile:
             self.rng.shuffle(player.draw_pile)
         enemies = self._build_enemy_states(encounter_id)
@@ -94,6 +112,10 @@ class CombatRuntime:
             f"{player.name} enters combat against {', '.join(enemy.name for enemy in enemies)}."
         )
         self.turn_manager.begin_combat(self.state, opening_draw=5)
+        for relic_id in self.player.relic_ids:
+            hooks = resolve_relic_hooks(relic_id)
+            if hooks.on_combat_start is not None:
+                hooks.on_combat_start(self)
         return self.state
 
     @property
@@ -170,8 +192,9 @@ class CombatRuntime:
     ) -> int:
         total_hp_damage = 0
         strength = attacker.get_power("strength")
+        weak_multiplier = 0.75 if attacker.get_power("weak") > 0 else 1.0
         vulnerable_multiplier = 1.5 if target.get_power("vulnerable") > 0 else 1.0
-        per_hit_damage = max(0, int((base_damage + strength) * vulnerable_multiplier))
+        per_hit_damage = max(0, int((base_damage + strength) * weak_multiplier * vulnerable_multiplier))
         actual_hits = max(1, hits)
         for _ in range(actual_hits):
             hp_damage = self._apply_raw_damage(target, per_hit_damage)
@@ -261,11 +284,20 @@ class CombatRuntime:
             target.hp = max(0, target.hp - damage)
         return damage
 
-    def _build_player_state(self, character_id: str) -> PlayerState:
+    def build_player_state(
+        self,
+        character_id: str,
+        current_hp: int | None = None,
+        max_hp: int | None = None,
+        gold: int | None = None,
+        relic_ids: list[str] | None = None,
+        deck_definition_ids: list[str] | None = None,
+    ) -> PlayerState:
         character = self.registry.characters[character_id]
         draw_pile = []
-        for index, card_ref in enumerate(character.starter_deck, start=1):
-            definition = self.registry.cards[card_ref.entity_id]
+        deck_ids = deck_definition_ids or [card_ref.entity_id for card_ref in character.starter_deck]
+        for index, card_id in enumerate(deck_ids, start=1):
+            definition = self.registry.cards[card_id]
             draw_pile.append(
                 CardInstance(
                     definition_id=definition.id,
@@ -279,14 +311,21 @@ class CombatRuntime:
             combatant_id="player",
             character_id=character.id,
             name=character.name or character_id,
-            max_hp=character.max_hp,
-            hp=character.max_hp,
+            max_hp=max_hp if max_hp is not None else character.max_hp,
+            hp=current_hp
+            if current_hp is not None
+            else (max_hp if max_hp is not None else character.max_hp),
             energy=character.starting_energy,
             max_energy=character.starting_energy,
-            gold=character.starting_gold,
+            gold=gold if gold is not None else character.starting_gold,
             draw_pile=draw_pile,
-            relic_ids=[ref.entity_id for ref in character.starter_relics],
+            relic_ids=list(relic_ids)
+            if relic_ids is not None
+            else [ref.entity_id for ref in character.starter_relics],
         )
+
+    def _build_player_state(self, character_id: str) -> PlayerState:
+        return self.build_player_state(character_id)
 
     def _build_enemy_states(self, encounter_id: str) -> list[MonsterState]:
         encounter = self.registry.encounters[encounter_id]
@@ -367,6 +406,9 @@ class CombatRuntime:
         if ritual > 0:
             actor.add_power("strength", ritual)
             self.log(f"{actor.name} gains {ritual} Strength from ritual.")
+        if actor.get_power("weak") > 0:
+            actor.reduce_power("weak", 1)
+            self.log(f"{actor.name}'s weak decreases to {actor.get_power('weak')}.")
         if actor.get_power("vulnerable") > 0:
             actor.reduce_power("vulnerable", 1)
             self.log(f"{actor.name}'s vulnerable decreases to {actor.get_power('vulnerable')}.")
