@@ -28,6 +28,7 @@ class TurnManager:
 
     def start_player_turn(self, state: CombatState, cards_to_draw: int = 5) -> None:
         state.phase = CombatPhase.PLAYER
+        state.player.block = 0
         state.player.energy = state.player.max_energy
         draw_cards(state.player, cards_to_draw, self.rng)
         state.transcript.append(f"Turn {state.turn}: player turn started.")

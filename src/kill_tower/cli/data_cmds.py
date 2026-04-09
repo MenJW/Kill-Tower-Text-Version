@@ -5,8 +5,10 @@ from pathlib import Path
 
 import typer
 from rich.console import Console
+from rich.table import Table
 
 from kill_tower.app.config import get_config
+from kill_tower.data.service import DataService
 from kill_tower.data.loader import write_json
 from kill_tower.data.schemas import ManifestCounts, SnapshotManifest
 
@@ -19,6 +21,37 @@ def paths() -> None:
     config = get_config()
     for name, value in config.paths.model_dump().items():
         console.print(f"{name}: {value}")
+
+
+@app.command("snapshots")
+def snapshots() -> None:
+    service = DataService()
+    table = Table(title="Available Snapshots")
+    table.add_column("tag")
+    table.add_column("version")
+    table.add_column("languages")
+    for snapshot in service.list_snapshots():
+        table.add_row(
+            snapshot.tag,
+            snapshot.manifest.game_version,
+            ", ".join(snapshot.available_languages),
+        )
+    console.print(table)
+
+
+@app.command("registry-summary")
+def registry_summary(
+    snapshot_tag: str | None = typer.Option(None, help="Snapshot tag to inspect."),
+    lang: str = typer.Option("eng", help="Language to load."),
+) -> None:
+    service = DataService()
+    registry = service.load_registry(snapshot_tag=snapshot_tag, lang=lang)
+    table = Table(title="Registry Summary")
+    table.add_column("entity")
+    table.add_column("count")
+    for entity, count in registry.summary().items():
+        table.add_row(entity, str(count))
+    console.print(table)
 
 
 @app.command("init-manifest")

@@ -37,3 +37,7 @@ def info() -> None:
 
 def run() -> None:
     app()
+
+
+if __name__ == "__main__":
+    run()
