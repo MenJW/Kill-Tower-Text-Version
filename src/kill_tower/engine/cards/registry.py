@@ -4,13 +4,17 @@ from typing import Callable
 
 from kill_tower.engine.cards.scripts import (
     bash_script,
+    bodyguard_script,
     defend_script,
+    dualcast_script,
     falling_star_script,
     neutralize_script,
     strike_script,
     survivor_script,
     unsupported_card_script,
+    unleash_script,
     venerate_script,
+    zap_script,
 )
 from kill_tower.engine.state_models import CardInstance, MonsterState
 
@@ -24,6 +28,10 @@ CARD_SCRIPTS: dict[str, CardScript] = {
     "survivor": survivor_script,
     "falling-star": falling_star_script,
     "venerate": venerate_script,
+    "zap": zap_script,
+    "dualcast": dualcast_script,
+    "bodyguard": bodyguard_script,
+    "unleash": unleash_script,
 }
 
 

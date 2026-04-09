@@ -4,6 +4,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import TypeVar
 
+from kill_tower.data.event_outcomes import enrich_registry_events
 from kill_tower.data.loader import load_collection
 from kill_tower.data.schemas import (
     AchievementDefinition,
@@ -99,4 +100,5 @@ def build_registry(normalized_lang_dir: Path) -> ContentRegistry:
         file_path = normalized_lang_dir / file_name
         if file_path.exists():
             setattr(registry, attr_name, _index_by_id(load_collection(file_path, model_type)))
+    enrich_registry_events(registry)
     return registry

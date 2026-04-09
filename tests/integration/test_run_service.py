@@ -25,7 +25,8 @@ def test_run_service_advances_five_floors_and_round_trips_save(tmp_path) -> None
         "merchant",
     ]
     assert any(event.action == "combat_resolved" for event in result.replay.events)
-    assert any("Event outcomes are not yet structured" in line for line in result.record.transcript)
+    assert any(line.startswith("Chosen option:") for line in result.record.transcript)
+    assert any("Merchant" in line for line in result.record.transcript)
 
     service.save_run("slot-auto", result.record, result.replay)
     loaded = service.load_run("slot-auto")
@@ -51,3 +52,21 @@ def test_silent_starter_relic_draws_additional_cards() -> None:
 
     assert len(state.player.hand) == 7
     assert any("Ring of the Snake draws 2 additional cards" in line for line in state.transcript)
+
+
+def test_all_characters_can_clear_three_floor_run_slice() -> None:
+    service = RunService()
+
+    for character_id in ["ironclad", "silent", "defect", "regent", "necrobinder"]:
+        result = service.run_auto(
+            character_id=character_id,
+            snapshot_tag="2026-04-09_build_unknown",
+            lang="eng",
+            act_id="underdocks",
+            seed=7,
+            floors=5,
+        )
+
+        assert result.record.floor == 5, character_id
+        assert result.record.victory is True, character_id
+        assert result.record.player.hp > 0, character_id

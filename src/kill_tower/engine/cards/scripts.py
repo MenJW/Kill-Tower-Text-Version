@@ -117,11 +117,46 @@ def falling_star_script(
 
 def venerate_script(runtime: "CombatRuntime", card: CardInstance, target: MonsterState | None) -> None:
     definition = runtime.get_card_definition(card)
-    runtime.apply_power(
-        target=runtime.state.player,
-        power_id="star",
+    runtime.gain_resource(
+        resource_id="star",
         amount=definition.numbers.magic or 0,
         source_name=definition.name or "Venerate",
+    )
+
+
+def zap_script(runtime: "CombatRuntime", card: CardInstance, target: MonsterState | None) -> None:
+    definition = runtime.get_card_definition(card)
+    runtime.channel_orb("lightning-orb", definition.name or "Zap")
+
+
+def dualcast_script(runtime: "CombatRuntime", card: CardInstance, target: MonsterState | None) -> None:
+    definition = runtime.get_card_definition(card)
+    runtime.evoke_rightmost_orb(times=2, source_name=definition.name or "Dualcast")
+
+
+def bodyguard_script(runtime: "CombatRuntime", card: CardInstance, target: MonsterState | None) -> None:
+    definition = runtime.get_card_definition(card)
+    runtime.gain_resource(
+        resource_id="osty_hp",
+        amount=definition.numbers.magic or 0,
+        source_name=definition.name or "Bodyguard",
+    )
+
+
+def unleash_script(
+    runtime: "CombatRuntime",
+    card: CardInstance,
+    target: MonsterState | None,
+) -> None:
+    definition = runtime.get_card_definition(card)
+    enemy = _require_target(runtime, target, definition.name or card.definition_id)
+    summon_power = runtime.player.get_resource("osty_hp")
+    runtime.attack(
+        attacker=runtime.state.player,
+        target=enemy,
+        base_damage=(definition.numbers.damage or 0) + summon_power,
+        hits=1,
+        source_name=definition.name or "Unleash",
     )
 
 

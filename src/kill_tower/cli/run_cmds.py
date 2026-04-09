@@ -72,6 +72,7 @@ def auto_run(
     act_id: str | None = typer.Option(None, help="Act id to route through."),
     seed: int = typer.Option(7, help="Deterministic run seed."),
     floors: int = typer.Option(5, min=1, help="How many floors to resolve automatically."),
+    ascension_level: int = typer.Option(0, min=0, help="Ascension level to apply."),
     slot: str | None = typer.Option(None, help="Optional save slot name."),
 ) -> None:
     run_service = RunService()
@@ -82,6 +83,7 @@ def auto_run(
         act_id=act_id,
         seed=seed,
         floors=floors,
+        ascension_level=ascension_level,
     )
     save_path = None
     if slot is not None:
@@ -92,11 +94,17 @@ def auto_run(
     table.add_column("Value")
     table.add_row("snapshot", result.record.snapshot_tag)
     table.add_row("act", result.record.act_id)
+    table.add_row("ascension", str(result.record.ascension_level))
     table.add_row("character", result.record.character_id)
     table.add_row("floors cleared", str(result.record.floor))
     table.add_row("victory", str(result.record.victory))
     table.add_row("hp", f"{result.record.player.hp}/{result.record.player.max_hp}")
     table.add_row("gold", str(result.record.player.gold))
+    table.add_row("deck size", str(len(result.record.player.deck_definition_ids)))
+    table.add_row(
+        "potions",
+        f"{len(result.record.player.potion_ids)}/{result.record.player.max_potion_slots}",
+    )
     if save_path is not None:
         table.add_row("save", str(save_path))
     console.print(table)

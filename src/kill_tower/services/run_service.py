@@ -7,8 +7,13 @@ from typing import Any
 from kill_tower.data.registry import ContentRegistry
 from kill_tower.data.service import DataService, SnapshotBundle
 from kill_tower.engine.combat import CombatRuntime
+from kill_tower.services.ascension_service import AscensionService
+from kill_tower.services.event_service import EventService
+from kill_tower.services.map_service import MapService
+from kill_tower.services.reward_service import RewardService
 from kill_tower.services.replay_service import ReplayLog, ReplayService
 from kill_tower.services.save_service import SaveService
+from kill_tower.services.shop_service import ShopService
 
 
 @dataclass(slots=True)
@@ -30,6 +35,8 @@ class CampaignPlayerState:
     starting_energy: int
     relic_ids: list[str] = field(default_factory=list)
     deck_definition_ids: list[str] = field(default_factory=list)
+    potion_ids: list[str] = field(default_factory=list)
+    max_potion_slots: int = 3
 
 
 @dataclass(slots=True)
@@ -37,10 +44,12 @@ class RunRecord:
     snapshot_tag: str
     language: str
     seed: int
+    ascension_level: int
     act_id: str
     character_id: str
     player: CampaignPlayerState
     rooms: list[PlannedRoom] = field(default_factory=list)
+    cards_removed: int = 0
     floor: int = 0
     victory: bool | None = None
     transcript: list[str] = field(default_factory=list)
@@ -54,10 +63,12 @@ class RunRecord:
             snapshot_tag=str(payload["snapshot_tag"]),
             language=str(payload["language"]),
             seed=int(payload["seed"]),
+            ascension_level=int(payload.get("ascension_level", 0)),
             act_id=str(payload["act_id"]),
             character_id=str(payload["character_id"]),
             player=CampaignPlayerState(**payload["player"]),
             rooms=[PlannedRoom(**room_payload) for room_payload in payload.get("rooms", [])],
+            cards_removed=int(payload.get("cards_removed", 0)),
             floor=int(payload.get("floor", 0)),
             victory=payload.get("victory"),
             transcript=list(payload.get("transcript", [])),
@@ -78,6 +89,10 @@ class RunService:
     ) -> None:
         self.data_service = data_service or DataService()
         self.save_service = save_service or SaveService()
+        self.ascension_service = AscensionService()
+        self.map_service = MapService()
+        self.reward_service = RewardService()
+        self.shop_service = ShopService(self.reward_service)
 
     def create_run(
         self,
@@ -87,17 +102,29 @@ class RunService:
         act_id: str | None = None,
         seed: int = 0,
         floors: int | None = None,
+        ascension_level: int = 0,
     ) -> RunRecord:
         bundle = self.data_service.load_bundle(snapshot_tag=snapshot_tag, lang=lang)
         resolved_act_id = self._resolve_act_id(bundle.registry, act_id)
-        player = self._build_campaign_player(bundle.registry, character_id)
-        rooms = self._build_room_plan(bundle.registry, resolved_act_id, floors=floors, seed=seed)
+        ascension_rules = self.ascension_service.rules_for_level(ascension_level)
+        player = self._build_campaign_player(bundle.registry, character_id, ascension_level)
+        rooms = [
+            PlannedRoom(**payload)
+            for payload in self.map_service.plan_rooms(
+                bundle.registry,
+                resolved_act_id,
+                floors=floors,
+                seed=seed,
+                ascension_rules=ascension_rules,
+            )
+        ]
         act_name = bundle.registry.acts[resolved_act_id].name or resolved_act_id
-        transcript = [f"Run started for {player.name} in {act_name}."]
+        transcript = [f"Run started for {player.name} in {act_name} at Ascension {ascension_level}."]
         return RunRecord(
             snapshot_tag=bundle.snapshot.tag,
             language=bundle.language,
             seed=seed,
+            ascension_level=ascension_level,
             act_id=resolved_act_id,
             character_id=character_id,
             player=player,
@@ -114,6 +141,7 @@ class RunService:
         seed: int = 0,
         floors: int | None = 5,
         max_turns: int = 18,
+        ascension_level: int = 0,
     ) -> AutoRunResult:
         record = self.create_run(
             character_id=character_id,
@@ -122,9 +150,18 @@ class RunService:
             act_id=act_id,
             seed=seed,
             floors=floors,
+            ascension_level=ascension_level,
         )
         replay = ReplayService(seed=seed)
-        replay.record(0, "run_started", {"act_id": record.act_id, "character_id": character_id})
+        replay.record(
+            0,
+            "run_started",
+            {
+                "act_id": record.act_id,
+                "character_id": character_id,
+                "ascension_level": record.ascension_level,
+            },
+        )
         bundle = self.data_service.load_bundle(snapshot_tag=record.snapshot_tag, lang=record.language)
 
         while record.victory is None and record.floor < len(record.rooms):
@@ -193,8 +230,13 @@ class RunService:
         self,
         registry: ContentRegistry,
         character_id: str,
+        ascension_level: int,
     ) -> CampaignPlayerState:
         character = registry.characters[character_id]
+        ascension_rules = self.ascension_service.rules_for_level(ascension_level)
+        deck_definition_ids = [ref.entity_id for ref in character.starter_deck]
+        if ascension_rules.starting_curse_id is not None:
+            deck_definition_ids.append(ascension_rules.starting_curse_id)
         return CampaignPlayerState(
             character_id=character.id,
             name=character.name or character_id,
@@ -203,7 +245,8 @@ class RunService:
             gold=character.starting_gold,
             starting_energy=character.starting_energy,
             relic_ids=[ref.entity_id for ref in character.starter_relics],
-            deck_definition_ids=[ref.entity_id for ref in character.starter_deck],
+            deck_definition_ids=deck_definition_ids,
+            max_potion_slots=ascension_rules.max_potion_slots,
         )
 
     def _build_room_plan(
@@ -270,10 +313,13 @@ class RunService:
         replay: ReplayService,
         max_turns: int,
     ) -> None:
+        ascension_rules = self.ascension_service.rules_for_level(record.ascension_level)
         runtime = CombatRuntime(
             registry=bundle.registry,
             seed=record.seed + room.floor * 997,
             snapshot_tag=record.snapshot_tag,
+            enemy_hp_scale=ascension_rules.enemy_hp_scale,
+            enemy_damage_scale=ascension_rules.enemy_damage_scale,
         )
         player_state = runtime.build_player_state(
             character_id=record.character_id,
@@ -306,10 +352,21 @@ class RunService:
             record.victory = False
             record.transcript.append(f"Run failed on floor {room.floor}.")
             return
-        gold_reward = self._gold_reward(room.room_type)
+        gold_reward = self.reward_service.gold_reward(room.room_type, ascension_rules)
         if gold_reward > 0:
             record.player.gold += gold_reward
             record.transcript.append(f"Floor {room.floor}: gained {gold_reward} gold.")
+        record.transcript.extend(
+            self.reward_service.apply_combat_rewards(
+                record.player,
+                record.character_id,
+                bundle.registry,
+                room.room_type,
+                seed=record.seed,
+                floor=room.floor,
+                ascension_rules=ascension_rules,
+            )
+        )
 
     def _resolve_event_room(
         self,
@@ -319,30 +376,48 @@ class RunService:
         replay: ReplayService,
     ) -> None:
         event = bundle.registry.events[room.event_id or ""]
-        if not event.pages:
-            record.transcript.append(f"Event {event.name or event.id} has no structured pages.")
-            replay.record(room.floor, "event_resolved", {"event_id": event.id, "choice_id": ""})
-            return
-        page = event.pages[0]
         record.transcript.append(f"Event: {event.name or event.id}")
-        record.transcript.append(page.body)
-        choice_id = ""
-        if page.choices:
-            choice = page.choices[0]
-            choice_id = choice.id
-            record.transcript.append(f"Chosen option: {choice.label}.")
-            record.transcript.append(
-                "Event outcomes are not yet structured in normalized data; no state mutation applied."
-            )
-        replay.record(room.floor, "event_resolved", {"event_id": event.id, "choice_id": choice_id})
+        resolution = EventService(bundle.registry).resolve_auto(event.id, record.player)
+        record.transcript.extend(resolution.transcript)
+        record.transcript.extend(resolution.applied_outcomes)
+        replay.record(
+            room.floor,
+            "event_resolved",
+            {
+                "event_id": event.id,
+                "choices": resolution.chosen_options,
+                "hp": record.player.hp,
+                "gold": record.player.gold,
+            },
+        )
+        if record.player.hp <= 0:
+            record.victory = False
+            record.transcript.append(f"Run failed in event {event.id}.")
 
     def _resolve_merchant_room(self, record: RunRecord, room: PlannedRoom, replay: ReplayService) -> None:
-        record.transcript.append(f"Merchant visited with {record.player.gold} gold. Shop logic pending.")
-        replay.record(room.floor, "merchant_resolved", {"gold": record.player.gold})
+        bundle = self.data_service.load_bundle(snapshot_tag=record.snapshot_tag, lang=record.language)
+        ascension_rules = self.ascension_service.rules_for_level(record.ascension_level)
+        messages, cards_removed = self.shop_service.resolve_merchant(
+            record.player,
+            record.character_id,
+            bundle.registry,
+            seed=record.seed,
+            floor=room.floor,
+            ascension_rules=ascension_rules,
+            cards_removed=record.cards_removed,
+        )
+        record.cards_removed = cards_removed
+        record.transcript.extend(messages)
+        replay.record(
+            room.floor,
+            "merchant_resolved",
+            {"gold": record.player.gold, "cards_removed": record.cards_removed},
+        )
 
     def _resolve_campfire_room(self, record: RunRecord, room: PlannedRoom, replay: ReplayService) -> None:
+        ascension_rules = self.ascension_service.rules_for_level(record.ascension_level)
         previous_hp = record.player.hp
-        heal_amount = max(1, record.player.max_hp * 3 // 10)
+        heal_amount = max(1, int(record.player.max_hp * 0.3 * ascension_rules.campfire_heal_multiplier))
         record.player.hp = min(record.player.max_hp, record.player.hp + heal_amount)
         actual_heal = record.player.hp - previous_hp
         record.transcript.append(f"Campfire heals {record.player.name} for {actual_heal} HP.")

@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import defaultdict
 from typing import Any
 
+from kill_tower.data.event_outcomes import parse_event_outcomes
 from kill_tower.utils.ids import slugify_id
 from kill_tower.utils.text import collapse_whitespace, normalize_text_block
 
@@ -225,12 +226,13 @@ def _normalize_monster(normalized: dict[str, Any], base: dict[str, Any]) -> dict
 
 
 def _normalize_event_option(raw_option: dict[str, Any]) -> dict[str, Any]:
+    description = _clean_description(raw_option.get("description"))
     return {
         "id": slugify_id(str(raw_option.get("id") or raw_option.get("title") or "option")),
         "label": _clean_name(raw_option.get("title"), str(raw_option.get("id") or "Option")),
-        "description": _clean_description(raw_option.get("description")),
+        "description": description,
         "requirement": None,
-        "outcomes": [],
+        "outcomes": parse_event_outcomes(description),
     }
 
 

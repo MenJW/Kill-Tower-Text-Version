@@ -31,9 +31,13 @@ class CombatRuntime:
         registry: ContentRegistry,
         seed: int = 0,
         snapshot_tag: str | None = None,
+        enemy_hp_scale: float = 1.0,
+        enemy_damage_scale: float = 1.0,
     ) -> None:
         self.registry = registry
         self.snapshot_tag = snapshot_tag
+        self.enemy_hp_scale = enemy_hp_scale
+        self.enemy_damage_scale = enemy_damage_scale
         self.rng = SeededRNG(seed)
         self.turn_manager = TurnManager(self.rng)
         self.state: CombatState | None = None
@@ -116,6 +120,7 @@ class CombatRuntime:
             hooks = resolve_relic_hooks(relic_id)
             if hooks.on_combat_start is not None:
                 hooks.on_combat_start(self)
+        self._apply_player_turn_start_effects()
         return self.state
 
     @property
@@ -159,6 +164,10 @@ class CombatRuntime:
             targets = self.alive_enemies()
             if 0 <= target_index < len(targets):
                 target = targets[target_index]
+        elif definition.numbers.damage is not None:
+            targets = self.alive_enemies()
+            if targets:
+                target = max(targets, key=self._enemy_threat)
         self.log(
             f"{self.player.name} plays {definition.name or card.definition_id} "
             f"for {card.cost} energy."
@@ -181,6 +190,7 @@ class CombatRuntime:
                 return
         self.state.turn += 1
         self.turn_manager.start_player_turn(self.state)
+        self._apply_player_turn_start_effects()
 
     def attack(
         self,
@@ -223,8 +233,33 @@ class CombatRuntime:
     ) -> None:
         if amount <= 0:
             return
+        if target.get_power("frail") > 0:
+            amount = max(0, int(amount * 0.75))
         target.block += amount
         self.log(f"{target.name} gains {amount} Block from {source_name}.")
+
+    def gain_resource(self, resource_id: str, amount: int, source_name: str) -> None:
+        if amount <= 0:
+            return
+        self.player.add_resource(resource_id, amount)
+        self.log(f"{self.player.name} gains {amount} {resource_id} from {source_name}.")
+
+    def channel_orb(self, orb_id: str, source_name: str) -> None:
+        if len(self.player.orbs) >= self.player.orb_slots:
+            evoked = self.player.orbs.pop(0)
+            self.log(f"{source_name} forces {evoked} to evoke because orb slots are full.")
+            self._resolve_orb_effect(evoked, trigger="evoke", source_name=source_name)
+        self.player.orbs.append(orb_id)
+        self.log(f"{self.player.name} channels {orb_id} from {source_name}.")
+
+    def evoke_rightmost_orb(self, times: int, source_name: str) -> None:
+        for _ in range(times):
+            if not self.player.orbs:
+                self.log(f"{source_name} has no orb to evoke.")
+                return
+            orb_id = self.player.orbs.pop()
+            self.log(f"{self.player.name} evokes {orb_id} from {source_name}.")
+            self._resolve_orb_effect(orb_id, trigger="evoke", source_name=source_name)
 
     def heal(
         self,
@@ -261,7 +296,7 @@ class CombatRuntime:
             self.attack(
                 attacker=monster,
                 target=self.player,
-                base_damage=move.damage,
+                base_damage=max(1, int(move.damage * self.enemy_damage_scale)),
                 hits=move.hits or 1,
                 source_name=move.name or move.id,
             )
@@ -332,7 +367,8 @@ class CombatRuntime:
         enemies: list[MonsterState] = []
         for index, monster_ref in enumerate(encounter.monsters, start=1):
             definition = self.registry.monsters[monster_ref.entity_id]
-            hp = definition.hp_min or definition.hp_max or 1
+            base_hp = definition.hp_min or definition.hp_max or 1
+            hp = max(1, int(base_hp * self.enemy_hp_scale))
             enemies.append(
                 MonsterState(
                     combatant_id=f"{definition.id}-{index}",
@@ -378,8 +414,21 @@ class CombatRuntime:
         incoming_damage = self._estimated_incoming_damage()
         if incoming_damage > self.player.block:
             for index, card, definition in playable:
-                if definition.id == "defend-ironclad":
+                if definition.numbers.block is not None:
                     return index, None
+
+        for index, _card, definition in playable:
+            if definition.id == "dualcast" and self.player.orbs:
+                target = max(self.alive_enemies(), key=self._enemy_threat)
+                return index, self.alive_enemies().index(target)
+
+        for index, _card, definition in playable:
+            if definition.id == "zap" and len(self.player.orbs) < self.player.orb_slots:
+                return index, None
+
+        for index, _card, definition in playable:
+            if definition.id == "bodyguard" and self.player.get_resource("osty_hp") < 6:
+                return index, None
 
         attack_cards = [
             (index, definition) for index, _card, definition in playable if definition.numbers.damage is not None
@@ -393,12 +442,13 @@ class CombatRuntime:
             return index, self.alive_enemies().index(target)
 
         for index, _card, definition in playable:
-            if definition.id == "defend-ironclad":
+            if definition.numbers.block is not None:
                 return index, None
         return None
 
     def _end_player_turn(self) -> None:
         self.turn_manager.end_player_turn(self.state)
+        self._apply_orb_passives()
         self._apply_end_of_turn_effects(self.player)
 
     def _apply_end_of_turn_effects(self, actor: PlayerState | MonsterState) -> None:
@@ -409,11 +459,19 @@ class CombatRuntime:
         if actor.get_power("weak") > 0:
             actor.reduce_power("weak", 1)
             self.log(f"{actor.name}'s weak decreases to {actor.get_power('weak')}.")
+        if actor.get_power("frail") > 0:
+            actor.reduce_power("frail", 1)
+            self.log(f"{actor.name}'s frail decreases to {actor.get_power('frail')}.")
         if actor.get_power("vulnerable") > 0:
             actor.reduce_power("vulnerable", 1)
             self.log(f"{actor.name}'s vulnerable decreases to {actor.get_power('vulnerable')}.")
 
     def _estimated_card_damage(self, definition: CardDefinition, target: MonsterState) -> int:
+        if definition.id == "unleash":
+            return max(0, (definition.numbers.damage or 0) + self.player.get_resource("osty_hp"))
+        if definition.id == "dualcast" and self.player.orbs:
+            if self.player.orbs[-1] == "lightning-orb":
+                return 16
         if definition.numbers.damage is None:
             return 0
         damage = definition.numbers.damage + self.player.get_power("strength")
@@ -430,7 +488,9 @@ class CombatRuntime:
             move = definition.moves[enemy.move_cursor % len(definition.moves)]
             if move.damage is None:
                 continue
-            damage = move.damage + enemy.get_power("strength")
+            damage = max(1, int(move.damage * self.enemy_damage_scale)) + enemy.get_power("strength")
+            if enemy.get_power("weak") > 0:
+                damage = int(damage * 0.75)
             total += damage * (move.hits or 1)
         return total
 
@@ -454,3 +514,39 @@ class CombatRuntime:
             if hooks.on_combat_end is not None:
                 hooks.on_combat_end(self)
         return True
+
+    def _apply_player_turn_start_effects(self) -> None:
+        for orb_id in list(self.player.orbs):
+            if orb_id == "plasma-orb":
+                self.player.energy += 1
+                self.log(f"{self.player.name} gains 1 energy from {orb_id}.")
+        for relic_id in self.player.relic_ids:
+            hooks = resolve_relic_hooks(relic_id)
+            if hooks.on_player_turn_start is not None:
+                hooks.on_player_turn_start(self)
+
+    def _apply_orb_passives(self) -> None:
+        for orb_id in list(self.player.orbs):
+            self._resolve_orb_effect(orb_id, trigger="passive", source_name=orb_id)
+
+    def _resolve_orb_effect(self, orb_id: str, trigger: str, source_name: str) -> None:
+        if orb_id == "lightning-orb":
+            enemies = self.alive_enemies()
+            if not enemies:
+                return
+            damage = 3 if trigger == "passive" else 8
+            enemy = self.rng.choice(enemies)
+            hp_loss = self._apply_raw_damage(enemy, damage)
+            self.log(
+                f"{source_name} deals {damage} lightning damage to {enemy.name}"
+                f" ({hp_loss} HP lost)."
+            )
+            if not enemy.alive:
+                self.log(f"{enemy.name} is defeated.")
+            self._check_combat_end()
+        elif orb_id == "frost-orb":
+            amount = 2 if trigger == "passive" else 5
+            self.gain_block(self.player, amount, source_name)
+        elif orb_id == "plasma-orb" and trigger == "evoke":
+            self.player.energy += 2
+            self.log(f"{self.player.name} gains 2 energy from {source_name}.")

@@ -95,3 +95,42 @@ def test_normalize_character_canonicalizes_starting_refs() -> None:
     assert normalized["starter_deck"][0]["entity_id"] == "strike-defect"
     assert normalized["starter_relics"][0]["entity_id"] == "cracked-core"
     assert normalized["max_hp"] == 75
+
+
+def test_normalize_event_option_extracts_common_outcomes() -> None:
+    records_by_lang = {
+        "eng": {
+            "id": "ABYSSAL_BATHS",
+            "name": "Abyssal Baths",
+            "description": "A room with a dangerous bath.",
+            "act": "Underdocks",
+            "options": [
+                {
+                    "id": "IMMERSE",
+                    "title": "Immerse",
+                    "description": "Gain [green]2[/green] Max HP. Take [red]3[/red] damage.",
+                },
+                {
+                    "id": "ABSTAIN",
+                    "title": "Abstain",
+                    "description": "Heal [green]10[/green] HP.",
+                },
+            ],
+            "pages": [],
+        }
+    }
+
+    normalized = normalize_entity(
+        endpoint="events",
+        records_by_lang=records_by_lang,
+        preferred_lang="eng",
+        snapshot_tag="test-tag",
+        base_url="https://spire-codex.com",
+    )
+
+    root_choices = normalized["pages"][0]["choices"]
+    assert root_choices[0]["outcomes"] == [
+        {"outcome_type": "gain_max_hp", "value": 2},
+        {"outcome_type": "take_damage", "value": 3},
+    ]
+    assert root_choices[1]["outcomes"] == [{"outcome_type": "heal", "value": 10}]

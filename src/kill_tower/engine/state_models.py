@@ -62,6 +62,21 @@ class PlayerState(CombatantState):
     exhaust_pile: list[CardInstance] = field(default_factory=list)
     relic_ids: list[str] = field(default_factory=list)
     potion_ids: list[str] = field(default_factory=list)
+    resources: dict[str, int] = field(default_factory=dict)
+    orbs: list[str] = field(default_factory=list)
+    orb_slots: int = 3
+
+    def get_resource(self, resource_id: str) -> int:
+        return self.resources.get(resource_id, 0)
+
+    def add_resource(self, resource_id: str, amount: int) -> None:
+        if amount == 0:
+            return
+        new_value = self.resources.get(resource_id, 0) + amount
+        if new_value <= 0:
+            self.resources.pop(resource_id, None)
+            return
+        self.resources[resource_id] = new_value
 
 
 @dataclass(slots=True)
