@@ -92,7 +92,7 @@ Combat won.
 Combat won.
 Floor 1: gained 20 gold.
 Reward: add meteor-strike to the deck.
-Reward: obtain potion energy-potion.
+Reward: obtain potion liquid-memories.
 Floor 2: entering monster room.
 Encounter queued: 下水道蚌.
 故障机器人 enters combat against 下水道蚌.
@@ -228,7 +228,7 @@ Combat won.
 Combat won.
 Floor 3: gained 20 gold.
 Reward: add ice-lance to the deck.
-Reward: obtain potion vulnerable-potion.
+Reward: obtain potion ship-in-a-bottle.
 Floor 4: entering event room.
 Event: 光与暗的门扉
 一道门扉突然凭空出现了…
@@ -328,6 +328,8 @@ lightning-orb deals 3 lightning damage to 鬼祟珊瑚群 (0 HP lost).
 鬼祟珊瑚群 uses 猛冲 on 故障机器人 for 22 damage x1 (12 HP lost).
 Next intent for 鬼祟珊瑚群: Attack.
 Turn 7: player turn started.
+故障机器人 gains 10 Block from 瓶中船.
+故障机器人 uses potion 瓶中船.
 故障机器人 plays 防御 for 1 energy.
 故障机器人 gains 5 Block from 防御.
 故障机器人 plays 防御 for 1 energy.
@@ -338,7 +340,7 @@ Turn 7: player turn started.
 双重释放 has no orb to evoke.
 Turn 7: player turn ended.
 鬼祟珊瑚群 uses 超级蟹.
-鬼祟珊瑚群 uses 超级蟹 on 故障机器人 for 12 damage x2 (14 HP lost).
+鬼祟珊瑚群 uses 超级蟹 on 故障机器人 for 12 damage x2 (4 HP lost).
 Next intent for 鬼祟珊瑚群: Attack + Status.
 Turn 8: player turn started.
 故障机器人 plays 防御 for 1 energy.
@@ -359,6 +361,6 @@ Turn 9: player turn started.
 Combat won.
 Floor 7: gained 35 gold.
 Reward: add hyperbeam to the deck.
-Reward: obtain relic sozu.
-Reward: obtain potion cure-all.
+Reward: obtain relic vexing-puzzlebox.
+Reward: obtain potion energy-potion.
 Completed underdocks run slice.

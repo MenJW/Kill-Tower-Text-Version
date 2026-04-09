@@ -5,6 +5,7 @@ from rich.console import Console
 from rich.table import Table
 
 from kill_tower.app.config import get_config
+from kill_tower.cli.manual_play import play_interactive_run
 from kill_tower.data.service import DataService
 from kill_tower.engine.action_queue import Action, ActionQueue
 from kill_tower.engine.combat import CombatRuntime
@@ -21,27 +22,31 @@ def _resolved_lang(lang: str | None) -> str:
     return lang or get_config().runtime.default_language
 
 
-def _print_run_result(result, save_path=None) -> None:
-    table = Table(title="Auto Run Result")
+def _print_record(record, title: str, save_path=None) -> None:
+    table = Table(title=title)
     table.add_column("Field")
     table.add_column("Value")
-    table.add_row("snapshot", result.record.snapshot_tag)
-    table.add_row("act", result.record.act_id)
-    table.add_row("ascension", str(result.record.ascension_level))
-    table.add_row("character", result.record.character_id)
-    table.add_row("floors cleared", str(result.record.floor))
-    table.add_row("victory", str(result.record.victory))
-    table.add_row("hp", f"{result.record.player.hp}/{result.record.player.max_hp}")
-    table.add_row("gold", str(result.record.player.gold))
-    table.add_row("deck size", str(len(result.record.player.deck_definition_ids)))
+    table.add_row("snapshot", record.snapshot_tag)
+    table.add_row("act", record.act_id)
+    table.add_row("ascension", str(record.ascension_level))
+    table.add_row("character", record.character_id)
+    table.add_row("floors cleared", str(record.floor))
+    table.add_row("victory", str(record.victory))
+    table.add_row("hp", f"{record.player.hp}/{record.player.max_hp}")
+    table.add_row("gold", str(record.player.gold))
+    table.add_row("deck size", str(len(record.player.deck_definition_ids)))
     table.add_row(
         "potions",
-        f"{len(result.record.player.potion_ids)}/{result.record.player.max_potion_slots}",
+        f"{len(record.player.potion_ids)}/{record.player.max_potion_slots}",
     )
     if save_path is not None:
         table.add_row("save", str(save_path))
     console.print(table)
-    console.print("\n".join(result.record.transcript))
+    console.print("\n".join(record.transcript))
+
+
+def _print_run_result(result, save_path=None) -> None:
+    _print_record(result.record, title="Auto Run Result", save_path=save_path)
 
 
 @app.command("ui")
@@ -126,18 +131,24 @@ def auto_run(
 def play(
     character_id: str = typer.Option("ironclad", help="Character id."),
     seed: int = typer.Option(7, help="Deterministic run seed."),
+    snapshot_tag: str | None = typer.Option(None, help="Snapshot tag to load."),
+    lang: str | None = typer.Option(None, help="Normalized language to load."),
     full_act: bool = typer.Option(False, help="Resolve the full act instead of the stable 7-floor slice."),
+    floors: int = typer.Option(7, min=1, help="How many floors to route manually when not using --full-act."),
     ascension_level: int = typer.Option(0, min=0, help="Ascension level to apply."),
 ) -> None:
     config = get_config()
     run_service = RunService()
-    result = run_service.run_auto(
+    resolved_lang = _resolved_lang(lang)
+    record = play_interactive_run(
+        console=console,
+        run_service=run_service,
         character_id=character_id,
-        snapshot_tag=config.runtime.default_snapshot_tag or "2026-04-09_build_unknown",
-        lang=config.runtime.default_language,
+        snapshot_tag=snapshot_tag or config.runtime.default_snapshot_tag or "2026-04-09_build_unknown",
+        lang=resolved_lang,
         act_id="underdocks",
         seed=seed,
-        floors=None if full_act else 7,
+        floors=None if full_act else floors,
         ascension_level=ascension_level,
     )
-    _print_run_result(result)
+    _print_record(record, title="Manual Run Result")

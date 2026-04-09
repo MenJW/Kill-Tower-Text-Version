@@ -130,7 +130,7 @@ Turn 10: player turn started.
 Combat won.
 Floor 1: gained 20 gold.
 Reward: add dash to the deck.
-Reward: obtain potion energy-potion.
+Reward: obtain potion liquid-memories.
 Floor 2: entering monster room.
 Encounter queued: 下水道蚌.
 静默猎手 enters combat against 下水道蚌.
@@ -303,7 +303,7 @@ Turn 7: player turn started.
 Combat won.
 Floor 3: gained 20 gold.
 Reward: add predator to the deck.
-Reward: obtain potion vulnerable-potion.
+Reward: obtain potion ship-in-a-bottle.
 Floor 4: entering event room.
 Event: 光与暗的门扉
 一道门扉突然凭空出现了…
@@ -418,6 +418,6 @@ Turn 8: player turn started.
 Combat won.
 Floor 7: gained 35 gold.
 Reward: add grand-finale to the deck.
-Reward: obtain relic sozu.
-Reward: obtain potion cure-all.
+Reward: obtain relic vexing-puzzlebox.
+Reward: obtain potion energy-potion.
 Completed underdocks run slice.

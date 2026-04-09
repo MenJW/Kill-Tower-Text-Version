@@ -82,7 +82,7 @@ Combat won.
 Burning Blood heals 铁甲战士 for 6 HP.
 Floor 1: gained 20 gold.
 Reward: add bludgeon to the deck.
-Reward: obtain potion energy-potion.
+Reward: obtain potion radiant-tincture.
 Floor 2: entering monster room.
 Encounter queued: 下水道蚌.
 铁甲战士 enters combat against 下水道蚌.
@@ -151,7 +151,7 @@ Combat won.
 Burning Blood heals 铁甲战士 for 6 HP.
 Floor 3: gained 20 gold.
 Reward: add pacts-end to the deck.
-Reward: obtain potion vulnerable-potion.
+Reward: obtain potion cure-all.
 Floor 4: entering event room.
 Event: 光与暗的门扉
 一道门扉突然凭空出现了…
@@ -242,6 +242,6 @@ Combat won.
 Burning Blood heals 铁甲战士 for 6 HP.
 Floor 7: gained 35 gold.
 Reward: add impervious to the deck.
-Reward: obtain relic sozu.
-Reward: obtain potion cure-all.
+Reward: obtain relic vexing-puzzlebox.
+Reward: obtain potion liquid-memories.
 Completed underdocks run slice.

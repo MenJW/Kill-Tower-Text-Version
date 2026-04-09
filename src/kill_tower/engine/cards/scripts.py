@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from typing import TYPE_CHECKING
 
-from kill_tower.data.event_outcomes import strip_markup
+from kill_tower.data.event_outcomes import resolve_execution_description, strip_markup
 from kill_tower.engine.state_models import CardInstance, MonsterState
 
 if TYPE_CHECKING:
@@ -276,7 +276,7 @@ def generic_description_script(
     target: MonsterState | None,
 ) -> tuple[bool, list[str]]:
     definition = runtime.get_card_definition(card)
-    description = strip_markup(definition.description or "")
+    description = strip_markup(resolve_execution_description(definition) or "")
     if not description:
         return False, []
 

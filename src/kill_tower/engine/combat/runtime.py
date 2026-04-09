@@ -5,7 +5,7 @@ import re
 
 from kill_tower.data.registry import ContentRegistry
 from kill_tower.data.schemas import CardDefinition, CharacterDefinition, MonsterDefinition, MonsterMove
-from kill_tower.data.event_outcomes import strip_markup
+from kill_tower.data.event_outcomes import resolve_execution_description, strip_markup
 from kill_tower.engine.cards import resolve_card_script
 from kill_tower.engine.monsters import execute_monster_turn, preview_next_intent
 from kill_tower.engine.relics import resolve_relic_hooks
@@ -157,6 +157,9 @@ class CombatRuntime:
             self.play_card(hand_index, target_index)
         if self.state.victory is None:
             self._end_player_turn()
+
+    def end_player_turn(self) -> None:
+        self._end_player_turn()
 
     def play_card(self, hand_index: int, target_index: int | None = None) -> None:
         card = self.player.hand.pop(hand_index)
@@ -757,7 +760,7 @@ class CombatRuntime:
         potion = self.registry.potions.get(potion_id)
         if potion is None:
             return False
-        description = strip_markup(potion.description or "").lower()
+        description = strip_markup(resolve_execution_description(potion) or "").lower()
         if "heal" in description:
             return self.player.hp <= self.player.max_hp // 2
         if "gain 1 energy" in description or "gain 2 energy" in description:
@@ -770,11 +773,16 @@ class CombatRuntime:
             return dangerous_fight
         return False
 
+    def use_potion(self, potion_index: int) -> None:
+        if potion_index < 0 or potion_index >= len(self.player.potion_ids):
+            raise IndexError("Potion index is out of range.")
+        self._use_potion(self.player.potion_ids[potion_index])
+
     def _use_potion(self, potion_id: str) -> None:
         potion = self.registry.potions.get(potion_id)
         if potion is None:
             return
-        description = strip_markup(potion.description or "")
+        description = strip_markup(resolve_execution_description(potion) or "")
         source_name = potion.name or potion.id
         used = False
 

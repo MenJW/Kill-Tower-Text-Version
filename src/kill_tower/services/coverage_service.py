@@ -127,7 +127,37 @@ class CoverageService:
         ]
         for report in reports:
             lines.extend(self._render_language_markdown(report))
+        if len(reports) >= 2:
+            lines.extend(self._render_language_parity_markdown(reports))
         return "\n".join(lines) + "\n"
+
+    def _render_language_parity_markdown(self, reports: list[LanguageCoverageReport]) -> list[str]:
+        report_by_language = {report.language: report for report in reports}
+        english = report_by_language.get("eng")
+        chinese = report_by_language.get("zhs")
+        if english is None or chinese is None:
+            return []
+
+        lines = [
+            "## Language Parity",
+            "",
+            "zhs parity is treated as 100% when its resolved/partial/unresolved/error counts match eng.",
+            "",
+            "| Entity | eng Coverage | zhs Coverage | zhs Parity |",
+            "| --- | ---: | ---: | ---: |",
+        ]
+        for label in ("cards", "relics", "potions", "events", "monsters"):
+            eng_bucket = getattr(english, label)
+            zhs_bucket = getattr(chinese, label)
+            parity = 1.0 if self._bucket_signature(eng_bucket) == self._bucket_signature(zhs_bucket) else 0.0
+            lines.append(
+                f"| {label} | {eng_bucket.coverage_ratio():.1%} | {zhs_bucket.coverage_ratio():.1%} | {parity:.0%} |"
+            )
+        lines.append("")
+        return lines
+
+    def _bucket_signature(self, bucket: CoverageBucket) -> tuple[int, int, int, int]:
+        return (bucket.resolved, bucket.partial, bucket.unresolved, bucket.error)
 
     def _render_language_markdown(self, report: LanguageCoverageReport) -> list[str]:
         lines = [

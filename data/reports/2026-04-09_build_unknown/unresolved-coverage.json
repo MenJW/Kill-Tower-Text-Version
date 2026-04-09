@@ -3,7 +3,7 @@
     {
       "snapshot_tag": "2026-04-09_build_unknown",
       "language": "eng",
-      "generated_at": "2026-04-09T09:14:49.458207+00:00",
+      "generated_at": "2026-04-09T09:49:30.867005+00:00",
       "cards": {
         "total": 576,
         "resolved": 156,
@@ -5014,20 +5014,20 @@
     {
       "snapshot_tag": "2026-04-09_build_unknown",
       "language": "zhs",
-      "generated_at": "2026-04-09T09:14:49.583153+00:00",
+      "generated_at": "2026-04-09T09:49:31.662146+00:00",
       "cards": {
         "total": 576,
-        "resolved": 105,
-        "partial": 222,
-        "unresolved": 249,
+        "resolved": 156,
+        "partial": 192,
+        "unresolved": 228,
         "error": 0,
-        "coverage_ratio": 0.18229166666666666,
+        "coverage_ratio": 0.2708333333333333,
         "entries": [
           {
             "entity_id": "abrasive",
             "name": "磨蚀",
-            "status": "unresolved",
-            "detail": "磨蚀 has no executable script yet."
+            "status": "partial",
+            "detail": "磨蚀 still has unimplemented clauses: Gain 4 Thorns"
           },
           {
             "entity_id": "accelerant",
@@ -5042,16 +5042,10 @@
             "detail": "精准 has no executable script yet."
           },
           {
-            "entity_id": "acrobatics",
-            "name": "杂技",
-            "status": "partial",
-            "detail": "杂技 still has unimplemented clauses: 丢弃1张牌"
-          },
-          {
             "entity_id": "adaptive-strike",
             "name": "适应打击",
             "status": "partial",
-            "detail": "适应打击 still has unimplemented clauses: 将这张牌的一张01 energy复制品添加到你的弃牌堆"
+            "detail": "适应打击 still has unimplemented clauses: Add a 01 energy copy of this card into your Discard Pile"
           },
           {
             "entity_id": "afterimage",
@@ -5081,25 +5075,19 @@
             "entity_id": "all-for-one",
             "name": "万物一心",
             "status": "partial",
-            "detail": "万物一心 still has unimplemented clauses: 将你弃牌堆中的所有01 energy牌放入你的手牌"
+            "detail": "万物一心 still has unimplemented clauses: Put ALL 01 energy cards from your Discard Pile into your Hand"
           },
           {
             "entity_id": "anger",
             "name": "愤怒",
             "status": "partial",
-            "detail": "愤怒 still has unimplemented clauses: 将一张此牌的复制品加入你的弃牌堆"
+            "detail": "愤怒 still has unimplemented clauses: Add a copy of this card into your Discard Pile"
           },
           {
             "entity_id": "anointed",
             "name": "天选",
             "status": "unresolved",
             "detail": "天选 has no executable script yet."
-          },
-          {
-            "entity_id": "anticipate",
-            "name": "预判",
-            "status": "unresolved",
-            "detail": "预判 has no executable script yet."
           },
           {
             "entity_id": "apotheosis",
@@ -5117,7 +5105,7 @@
             "entity_id": "armaments",
             "name": "武装",
             "status": "partial",
-            "detail": "武装 still has unimplemented clauses: 升级你手牌中的一张牌"
+            "detail": "武装 still has unimplemented clauses: Upgrade a card in your Hand"
           },
           {
             "entity_id": "arsenal",
@@ -5135,7 +5123,7 @@
             "entity_id": "ashen-strike",
             "name": "灰烬打击",
             "status": "partial",
-            "detail": "灰烬打击 still has unimplemented clauses: 你的消耗牌堆中每有一张牌，伤害增加3"
+            "detail": "灰烬打击 still has unimplemented clauses: Deals 3 additional damage for each card in your Exhaust Pile"
           },
           {
             "entity_id": "automation",
@@ -5150,16 +5138,10 @@
             "detail": "霉运 has no executable script yet."
           },
           {
-            "entity_id": "ball-lightning",
-            "name": "球状闪电",
-            "status": "partial",
-            "detail": "球状闪电 still has unimplemented clauses: 生成1个闪电充能球"
-          },
-          {
             "entity_id": "banshees-cry",
             "name": "女妖之嚎",
             "status": "partial",
-            "detail": "女妖之嚎 still has unimplemented clauses: 本场战斗中每打出过一张虚无牌，此牌费用就减少2 energy"
+            "detail": "女妖之嚎 still has unimplemented clauses: Costs 2 energy less for each Ethereal card played this combat"
           },
           {
             "entity_id": "barrage",
@@ -5177,7 +5159,7 @@
             "entity_id": "battle-trance",
             "name": "战斗专注",
             "status": "partial",
-            "detail": "战斗专注 still has unimplemented clauses: 你在本回合内不能再抽任何牌"
+            "detail": "战斗专注 still has unimplemented clauses: You cannot draw additional cards this turn"
           },
           {
             "entity_id": "beacon-of-hope",
@@ -5195,7 +5177,7 @@
             "entity_id": "beat-into-shape",
             "name": "锻打成型",
             "status": "partial",
-            "detail": "锻打成型 still has unimplemented clauses: 铸造X; 本回合此前你每击中过该敌人一次，铸造值就上升5"
+            "detail": "锻打成型 still has unimplemented clauses: Forge X; Forges an additional 5 for every other time you've hit the enemy this turn"
           },
           {
             "entity_id": "beckon",
@@ -5207,7 +5189,7 @@
             "entity_id": "begone",
             "name": "下去！",
             "status": "partial",
-            "detail": "下去！ still has unimplemented clauses: 选择你手牌中的一张牌，将其变化为仆从俯冲"
+            "detail": "下去！ still has unimplemented clauses: Choose a card in your Hand to Transform into Minion Dive Bomb"
           },
           {
             "entity_id": "believe-in-you",
@@ -5218,14 +5200,14 @@
           {
             "entity_id": "biased-cognition",
             "name": "偏差认知",
-            "status": "unresolved",
-            "detail": "偏差认知 has no executable script yet."
+            "status": "partial",
+            "detail": "偏差认知 still has unimplemented clauses: At the start of your turn, lose 1 Focus"
           },
           {
             "entity_id": "big-bang",
             "name": "大爆炸",
             "status": "partial",
-            "detail": "大爆炸 still has unimplemented clauses: 铸造5"
+            "detail": "大爆炸 still has unimplemented clauses: Forge 5"
           },
           {
             "entity_id": "black-hole",
@@ -5249,13 +5231,13 @@
             "entity_id": "blight-strike",
             "name": "荒疫打击",
             "status": "partial",
-            "detail": "荒疫打击 still has unimplemented clauses: 给予等量于所造成伤害的灾厄"
+            "detail": "荒疫打击 still has unimplemented clauses: Apply Doom equal to damage dealt"
           },
           {
             "entity_id": "blur",
             "name": "残影",
             "status": "partial",
-            "detail": "残影 still has unimplemented clauses: 你的下一回合开始时格挡不会消失"
+            "detail": "残影 still has unimplemented clauses: Block is not removed at the start of your next turn"
           },
           {
             "entity_id": "body-slam",
@@ -5267,13 +5249,13 @@
             "entity_id": "bolas",
             "name": "流星锤",
             "status": "partial",
-            "detail": "流星锤 still has unimplemented clauses: 在你的下个回合开始时，将此卡返回你的手牌"
+            "detail": "流星锤 still has unimplemented clauses: At the start of your next turn, return this to your Hand"
           },
           {
             "entity_id": "bombardment",
             "name": "轰击",
             "status": "partial",
-            "detail": "轰击 still has unimplemented clauses: 在你的回合开始时，从消耗牌堆打出这张牌"
+            "detail": "轰击 still has unimplemented clauses: At the start of your turn, plays from the Exhaust Pile"
           },
           {
             "entity_id": "bone-shards",
@@ -5285,13 +5267,13 @@
             "entity_id": "boost-away",
             "name": "高速脱离",
             "status": "partial",
-            "detail": "高速脱离 still has unimplemented clauses: 将一张晕眩添加到你的弃牌堆中"
+            "detail": "高速脱离 still has unimplemented clauses: Add a Dazed into your Discard Pile"
           },
           {
             "entity_id": "borrowed-time",
             "name": "预借时间",
             "status": "partial",
-            "detail": "预借时间 still has unimplemented clauses: 给予自身3层灾厄"
+            "detail": "预借时间 still has unimplemented clauses: Apply 3 Doom to yourself"
           },
           {
             "entity_id": "bouncing-flask",
@@ -5300,16 +5282,10 @@
             "detail": "弹跳药瓶 has no executable script yet."
           },
           {
-            "entity_id": "brand",
-            "name": "烙印",
-            "status": "partial",
-            "detail": "烙印 still has unimplemented clauses: 消耗1张牌; 获得1点力量"
-          },
-          {
             "entity_id": "brightest-flame",
             "name": "至亮之焰",
             "status": "partial",
-            "detail": "至亮之焰 still has unimplemented clauses: 失去1点最大生命"
+            "detail": "至亮之焰 still has unimplemented clauses: Lose 1 Max HP"
           },
           {
             "entity_id": "bubble-bubble",
@@ -5326,8 +5302,8 @@
           {
             "entity_id": "bulk-up",
             "name": "暴涨",
-            "status": "unresolved",
-            "detail": "暴涨 has no executable script yet."
+            "status": "partial",
+            "detail": "暴涨 still has unimplemented clauses: Lose 1 Orb Slot"
           },
           {
             "entity_id": "bullet-time",
@@ -5339,13 +5315,13 @@
             "entity_id": "bully",
             "name": "欺凌",
             "status": "partial",
-            "detail": "欺凌 still has unimplemented clauses: 该敌人身上每有一层易伤就额外造成2点伤害"
+            "detail": "欺凌 still has unimplemented clauses: Deals 2 additional damage for each Vulnerable on the enemy"
           },
           {
             "entity_id": "bulwark",
             "name": "铸墙",
             "status": "partial",
-            "detail": "铸墙 still has unimplemented clauses: 铸造10"
+            "detail": "铸墙 still has unimplemented clauses: Forge 10"
           },
           {
             "entity_id": "bundle-of-joy",
@@ -5358,12 +5334,6 @@
             "name": "灼伤",
             "status": "partial",
             "detail": "灼伤 used number-only fallback resolution."
-          },
-          {
-            "entity_id": "burning-pact",
-            "name": "燃烧契约",
-            "status": "partial",
-            "detail": "燃烧契约 still has unimplemented clauses: 消耗1张牌"
           },
           {
             "entity_id": "burst",
@@ -5450,12 +5420,6 @@
             "detail": "冲锋！！ has no executable script yet."
           },
           {
-            "entity_id": "charge-battery",
-            "name": "充电",
-            "status": "partial",
-            "detail": "充电 still has unimplemented clauses: 在下个回合获得1 energy"
-          },
-          {
             "entity_id": "child-of-the-stars",
             "name": "群星之子",
             "status": "unresolved",
@@ -5471,7 +5435,7 @@
             "entity_id": "claw",
             "name": "爪击",
             "status": "partial",
-            "detail": "爪击 still has unimplemented clauses: 本场战斗中所有爪击卡牌的伤害增加2点"
+            "detail": "爪击 still has unimplemented clauses: Increase the damage of ALL Claw cards by 2 this combat"
           },
           {
             "entity_id": "cleanse",
@@ -5483,7 +5447,7 @@
             "entity_id": "cloak-and-dagger",
             "name": "斗篷与匕首",
             "status": "partial",
-            "detail": "斗篷与匕首 still has unimplemented clauses: 将1张小刀添加到你的手牌"
+            "detail": "斗篷与匕首 still has unimplemented clauses: Add 1 Shiv into your Hand"
           },
           {
             "entity_id": "clumsy",
@@ -5492,40 +5456,34 @@
             "detail": "笨拙 has no executable script yet."
           },
           {
-            "entity_id": "cold-snap",
-            "name": "寒流",
-            "status": "partial",
-            "detail": "寒流 still has unimplemented clauses: 生成1个冰霜充能球"
-          },
-          {
             "entity_id": "collision-course",
             "name": "碰撞轨迹",
             "status": "partial",
-            "detail": "碰撞轨迹 still has unimplemented clauses: 将一张碎屑添加至你的手牌"
+            "detail": "碰撞轨迹 still has unimplemented clauses: Add a Debris into your Hand"
           },
           {
             "entity_id": "colossus",
             "name": "巨像",
             "status": "partial",
-            "detail": "巨像 still has unimplemented clauses: 在本回合中，有易伤状态的敌人对你造成的伤害降低50%"
+            "detail": "巨像 still has unimplemented clauses: You receive 50% less damage from Vulnerable enemies this turn"
           },
           {
             "entity_id": "compact",
             "name": "压缩",
             "status": "partial",
-            "detail": "压缩 still has unimplemented clauses: 将你手牌中的全部状态牌变化为燃料"
+            "detail": "压缩 still has unimplemented clauses: Transform all Status cards in your Hand into Fuel"
           },
           {
             "entity_id": "compile-driver",
             "name": "编译冲击",
             "status": "partial",
-            "detail": "编译冲击 still has unimplemented clauses: 你每有一种不同的充能球，就抽一张牌"
+            "detail": "编译冲击 still has unimplemented clauses: Draw 1 card for each unique Orb you have"
           },
           {
             "entity_id": "conflagration",
             "name": "焚烧",
             "status": "partial",
-            "detail": "焚烧 still has unimplemented clauses: 你在本回合中每打出过一张其他攻击牌，这张牌的伤害就提升2点"
+            "detail": "焚烧 still has unimplemented clauses: Deals 2 additional damage for each other Attack you've played this turn"
           },
           {
             "entity_id": "conqueror",
@@ -5552,12 +5510,6 @@
             "detail": "冷却剂 has no executable script yet."
           },
           {
-            "entity_id": "coolheaded",
-            "name": "冷静头脑",
-            "status": "partial",
-            "detail": "冷静头脑 still has unimplemented clauses: 生成1个冰霜充能球"
-          },
-          {
             "entity_id": "coordinate",
             "name": "协同配合",
             "status": "unresolved",
@@ -5579,7 +5531,7 @@
             "entity_id": "cosmic-indifference",
             "name": "宇宙冷漠",
             "status": "partial",
-            "detail": "宇宙冷漠 still has unimplemented clauses: 将弃牌堆中的一张牌放到你的抽牌堆的顶部"
+            "detail": "宇宙冷漠 still has unimplemented clauses: Put a card from your Discard Pile on top of your Draw Pile"
           },
           {
             "entity_id": "countdown",
@@ -5597,7 +5549,7 @@
             "entity_id": "crescent-spear",
             "name": "新月长矛",
             "status": "partial",
-            "detail": "新月长矛 still has unimplemented clauses: 你每有一张拥有1 star耗能的卡牌，这张牌就额外造成2点伤害"
+            "detail": "新月长矛 still has unimplemented clauses: Deals 2 additional damage for ALL your cards that have a 1 star cost"
           },
           {
             "entity_id": "crimson-mantle",
@@ -5612,28 +5564,10 @@
             "detail": "残酷 has no executable script yet."
           },
           {
-            "entity_id": "crush-under",
-            "name": "下砸",
-            "status": "partial",
-            "detail": "下砸 still has unimplemented clauses: 所有敌人在本回合失去1点力量"
-          },
-          {
             "entity_id": "curse-of-the-bell",
             "name": "铃铛的诅咒",
             "status": "unresolved",
             "detail": "铃铛的诅咒 has no executable script yet."
-          },
-          {
-            "entity_id": "dagger-spray",
-            "name": "匕首雨",
-            "status": "partial",
-            "detail": "匕首雨 used number-only fallback resolution."
-          },
-          {
-            "entity_id": "dagger-throw",
-            "name": "投掷匕首",
-            "status": "partial",
-            "detail": "投掷匕首 still has unimplemented clauses: 丢弃一张牌"
           },
           {
             "entity_id": "danse-macabre",
@@ -5648,12 +5582,6 @@
             "detail": "黑暗之拥 has no executable script yet."
           },
           {
-            "entity_id": "dark-shackles",
-            "name": "黑暗镣铐",
-            "status": "unresolved",
-            "detail": "黑暗镣铐 has no executable script yet."
-          },
-          {
             "entity_id": "darkness",
             "name": "漆黑",
             "status": "unresolved",
@@ -5666,16 +5594,10 @@
             "detail": "晕眩 has no executable script yet."
           },
           {
-            "entity_id": "deadly-poison",
-            "name": "致命毒药",
-            "status": "unresolved",
-            "detail": "致命毒药 has no executable script yet."
-          },
-          {
             "entity_id": "death-march",
             "name": "死亡行军",
             "status": "partial",
-            "detail": "死亡行军 still has unimplemented clauses: 你在回合进行中每抽到一张牌，都会使其额外造成3点伤害"
+            "detail": "死亡行军 still has unimplemented clauses: Deals 3 additional damage for each card drawn during your turn"
           },
           {
             "entity_id": "deathbringer",
@@ -5687,13 +5609,13 @@
             "entity_id": "deaths-door",
             "name": "死亡之门",
             "status": "partial",
-            "detail": "死亡之门 still has unimplemented clauses: 如果你在本回合中曾给予过灾厄，则额外获得2次格挡"
+            "detail": "死亡之门 still has unimplemented clauses: If you applied Doom this turn, gain Block 2 additional times"
           },
           {
             "entity_id": "debilitate",
             "name": "摧残",
             "status": "partial",
-            "detail": "摧残 still has unimplemented clauses: 在接下来的3回合内，该敌人身上的易伤与虚弱效率翻倍"
+            "detail": "摧残 still has unimplemented clauses: Vulnerable and Weak are twice as effective against the enemy for the next 3 turns"
           },
           {
             "entity_id": "debris",
@@ -5717,19 +5639,7 @@
             "entity_id": "decisions-decisions",
             "name": "抉择，抉择",
             "status": "partial",
-            "detail": "抉择，抉择 still has unimplemented clauses: 选择你手牌中的一张技能牌，并将其打出3次"
-          },
-          {
-            "entity_id": "defragment",
-            "name": "碎片整理",
-            "status": "unresolved",
-            "detail": "碎片整理 has no executable script yet."
-          },
-          {
-            "entity_id": "delay",
-            "name": "拖延",
-            "status": "partial",
-            "detail": "拖延 still has unimplemented clauses: 在下个回合， 获得1 energy"
+            "detail": "抉择，抉择 still has unimplemented clauses: Choose a Skill in your Hand and play it 3 times"
           },
           {
             "entity_id": "demesne",
@@ -5747,7 +5657,7 @@
             "entity_id": "demonic-shield",
             "name": "恶魔护盾",
             "status": "partial",
-            "detail": "恶魔护盾 still has unimplemented clauses: 给予另一位玩家你当前格挡值的格挡"
+            "detail": "恶魔护盾 still has unimplemented clauses: Give another player Block equal to your Block"
           },
           {
             "entity_id": "devour-life",
@@ -5777,19 +5687,13 @@
             "entity_id": "dismantle",
             "name": "拆卸",
             "status": "partial",
-            "detail": "拆卸 still has unimplemented clauses: 如果该敌人有易伤状态，则攻击两次"
+            "detail": "拆卸 still has unimplemented clauses: If the enemy is Vulnerable, hits twice"
           },
           {
             "entity_id": "distraction",
             "name": "声东击西",
             "status": "unresolved",
             "detail": "声东击西 has no executable script yet."
-          },
-          {
-            "entity_id": "dodge-and-roll",
-            "name": "闪躲翻滚",
-            "status": "partial",
-            "detail": "闪躲翻滚 still has unimplemented clauses: 在下个回合，获得4点格挡"
           },
           {
             "entity_id": "dominate",
@@ -5813,7 +5717,7 @@
             "entity_id": "drain-power",
             "name": "能量汲取",
             "status": "partial",
-            "detail": "能量汲取 still has unimplemented clauses: 随机升级你弃牌堆中的2张牌"
+            "detail": "能量汲取 still has unimplemented clauses: Upgrade 2 random cards in your Discard Pile"
           },
           {
             "entity_id": "dredge",
@@ -5825,19 +5729,13 @@
             "entity_id": "drum-of-battle",
             "name": "战鼓",
             "status": "partial",
-            "detail": "战鼓 still has unimplemented clauses: 在你的回合开始时，消耗你的抽牌堆顶部的牌"
+            "detail": "战鼓 still has unimplemented clauses: At the start of your turn, Exhaust the top card of your Draw Pile"
           },
           {
             "entity_id": "dual-wield",
             "name": "双持",
             "status": "unresolved",
             "detail": "双持 has no executable script yet."
-          },
-          {
-            "entity_id": "dying-star",
-            "name": "星灭",
-            "status": "partial",
-            "detail": "星灭 still has unimplemented clauses: 所有敌人在本回合中失去9点力量"
           },
           {
             "entity_id": "echo-form",
@@ -5849,7 +5747,7 @@
             "entity_id": "echoing-slash",
             "name": "回响斩击",
             "status": "partial",
-            "detail": "回响斩击 still has unimplemented clauses: 每有一名敌人被击杀，就重复此效果"
+            "detail": "回响斩击 still has unimplemented clauses: Repeat this effect for each enemy killed"
           },
           {
             "entity_id": "eidolon",
@@ -5860,20 +5758,14 @@
           {
             "entity_id": "end-of-days",
             "name": "末日降临",
-            "status": "unresolved",
-            "detail": "末日降临 has no executable script yet."
+            "status": "partial",
+            "detail": "末日降临 still has unimplemented clauses: Kill enemies with at least as much Doom as HP"
           },
           {
             "entity_id": "energy-surge",
             "name": "能量涌动",
             "status": "unresolved",
             "detail": "能量涌动 has no executable script yet."
-          },
-          {
-            "entity_id": "enfeebling-touch",
-            "name": "弱化之触",
-            "status": "unresolved",
-            "detail": "弱化之触 has no executable script yet."
           },
           {
             "entity_id": "enlightenment",
@@ -5906,12 +5798,6 @@
             "detail": "涂毒 has no executable script yet."
           },
           {
-            "entity_id": "equilibrium",
-            "name": "均衡",
-            "status": "partial",
-            "detail": "均衡 still has unimplemented clauses: 在本回合保留你的手牌"
-          },
-          {
             "entity_id": "eradicate",
             "name": "根除",
             "status": "partial",
@@ -5921,7 +5807,7 @@
             "entity_id": "escape-plan",
             "name": "逃脱计划",
             "status": "partial",
-            "detail": "逃脱计划 still has unimplemented clauses: 如果抽到的是技能牌，则获得3点格挡"
+            "detail": "逃脱计划 still has unimplemented clauses: If you draw a Skill, gain 3 Block"
           },
           {
             "entity_id": "eternal-armor",
@@ -5933,7 +5819,7 @@
             "entity_id": "evil-eye",
             "name": "邪眼",
             "status": "partial",
-            "detail": "邪眼 still has unimplemented clauses: 如果你在本回合消耗过卡牌，则额外获得8点格挡"
+            "detail": "邪眼 still has unimplemented clauses: Gain another 8 Block if you have Exhausted a card this turn"
           },
           {
             "entity_id": "expect-a-fight",
@@ -5950,8 +5836,8 @@
           {
             "entity_id": "expose",
             "name": "暴露",
-            "status": "unresolved",
-            "detail": "暴露 has no executable script yet."
+            "status": "partial",
+            "detail": "暴露 still has unimplemented clauses: Remove all Artifact and Block from the enemy"
           },
           {
             "entity_id": "exterminate",
@@ -5975,13 +5861,7 @@
             "entity_id": "feed",
             "name": "狂宴",
             "status": "partial",
-            "detail": "狂宴 still has unimplemented clauses: 斩杀时，永久获得3点最大生命值"
-          },
-          {
-            "entity_id": "feeding-frenzy",
-            "name": "疯狂进食",
-            "status": "unresolved",
-            "detail": "疯狂进食 has no executable script yet."
+            "detail": "狂宴 still has unimplemented clauses: If Fatal, raise your Max HP by 3"
           },
           {
             "entity_id": "feel-no-pain",
@@ -5999,7 +5879,7 @@
             "entity_id": "fetch",
             "name": "取回",
             "status": "partial",
-            "detail": "取回 used number-only fallback resolution."
+            "detail": "取回 still has unimplemented clauses: If this is the first time this card has been played this turn, draw 1 card"
           },
           {
             "entity_id": "fiend-fire",
@@ -6011,13 +5891,13 @@
             "entity_id": "fight-me",
             "name": "与我一战！",
             "status": "partial",
-            "detail": "与我一战！ used number-only fallback resolution."
+            "detail": "与我一战！ still has unimplemented clauses: Deal 5 damage twice; The enemy gains 1 Strength"
           },
           {
             "entity_id": "fight-through",
             "name": "强撑",
             "status": "partial",
-            "detail": "强撑 still has unimplemented clauses: 将2张伤口加入你的弃牌堆"
+            "detail": "强撑 still has unimplemented clauses: Add 2 Wounds into your Discard Pile"
           },
           {
             "entity_id": "finisher",
@@ -6029,7 +5909,7 @@
             "entity_id": "fisticuffs",
             "name": "拳斗",
             "status": "partial",
-            "detail": "拳斗 still has unimplemented clauses: 获得等量于所造成伤害的格挡"
+            "detail": "拳斗 still has unimplemented clauses: Gain Block equal to damage dealt"
           },
           {
             "entity_id": "flak-cannon",
@@ -6038,22 +5918,10 @@
             "detail": "散射炮 used number-only fallback resolution."
           },
           {
-            "entity_id": "flame-barrier",
-            "name": "火焰屏障",
-            "status": "partial",
-            "detail": "火焰屏障 still has unimplemented clauses: 你在这个回合每受到一次攻击，都会对攻击者造成4点伤害"
-          },
-          {
             "entity_id": "flanking",
             "name": "夹击",
             "status": "unresolved",
             "detail": "夹击 has no executable script yet."
-          },
-          {
-            "entity_id": "flatten",
-            "name": "重压",
-            "status": "partial",
-            "detail": "重压 used number-only fallback resolution."
           },
           {
             "entity_id": "flechettes",
@@ -6062,28 +5930,16 @@
             "detail": "飞镖 used number-only fallback resolution."
           },
           {
-            "entity_id": "focused-strike",
-            "name": "集中打击",
-            "status": "partial",
-            "detail": "集中打击 still has unimplemented clauses: 在本回合获得1点集中"
-          },
-          {
             "entity_id": "follow-through",
             "name": "跟进",
             "status": "partial",
-            "detail": "跟进 still has unimplemented clauses: 如果在本回合，你打出的上一张牌是技能牌，则给予所有敌人1层虚弱"
+            "detail": "跟进 still has unimplemented clauses: If the last card you played this turn was a Skill, apply 1 Weak to ALL enemies"
           },
           {
             "entity_id": "folly",
             "name": "愚行",
             "status": "unresolved",
             "detail": "愚行 has no executable script yet."
-          },
-          {
-            "entity_id": "footwork",
-            "name": "灵动步法",
-            "status": "unresolved",
-            "detail": "灵动步法 has no executable script yet."
           },
           {
             "entity_id": "forbidden-grimoire",
@@ -6116,28 +5972,16 @@
             "detail": "友谊 has no executable script yet."
           },
           {
-            "entity_id": "ftl",
-            "name": "超越光速",
-            "status": "partial",
-            "detail": "超越光速 still has unimplemented clauses: 如果你在这回合打出的牌数小于3张，抽1张牌"
-          },
-          {
             "entity_id": "furnace",
             "name": "熔炉",
             "status": "unresolved",
             "detail": "熔炉 has no executable script yet."
           },
           {
-            "entity_id": "fusion",
-            "name": "聚变",
-            "status": "unresolved",
-            "detail": "聚变 has no executable script yet."
-          },
-          {
             "entity_id": "gang-up",
             "name": "群起攻之",
             "status": "partial",
-            "detail": "群起攻之 still has unimplemented clauses: 本回合其他玩家每攻击过一次该敌人，该牌造成的伤害就额外增加5点"
+            "detail": "群起攻之 still has unimplemented clauses: Deals 5 additional damage for each time another player has attacked the enemy this turn"
           },
           {
             "entity_id": "genesis",
@@ -6149,25 +5993,19 @@
             "entity_id": "genetic-algorithm",
             "name": "遗传算法",
             "status": "partial",
-            "detail": "遗传算法 still has unimplemented clauses: 每打出一次，这张牌在本局游戏中的格挡值永久增加3点"
-          },
-          {
-            "entity_id": "glacier",
-            "name": "冰川",
-            "status": "partial",
-            "detail": "冰川 still has unimplemented clauses: 生成2个冰霜充能球"
+            "detail": "遗传算法 still has unimplemented clauses: Permanently increase this card's Block by 3"
           },
           {
             "entity_id": "glasswork",
             "name": "玻璃工艺",
             "status": "partial",
-            "detail": "玻璃工艺 still has unimplemented clauses: 生成1个玻璃充能球"
+            "detail": "玻璃工艺 still has unimplemented clauses: Channel 1 Glass"
           },
           {
             "entity_id": "glimmer",
             "name": "微光",
             "status": "partial",
-            "detail": "微光 still has unimplemented clauses: 将你手牌中的1张牌放到抽牌堆顶部"
+            "detail": "微光 still has unimplemented clauses: Put 1 card from your Hand on top of your Draw Pile"
           },
           {
             "entity_id": "glimpse-beyond",
@@ -6176,16 +6014,10 @@
             "detail": "彼岸一瞥 has no executable script yet."
           },
           {
-            "entity_id": "glitterstream",
-            "name": "流光溢彩",
-            "status": "partial",
-            "detail": "流光溢彩 still has unimplemented clauses: 在下一回合获得4点格挡"
-          },
-          {
             "entity_id": "go-for-the-eyes",
             "name": "眼部攻击",
             "status": "partial",
-            "detail": "眼部攻击 still has unimplemented clauses: 如果敌人的意图是攻击，则给予1层虚弱"
+            "detail": "眼部攻击 still has unimplemented clauses: If the enemy intends to attack, apply 1 Weak"
           },
           {
             "entity_id": "gold-axe",
@@ -6197,19 +6029,19 @@
             "entity_id": "grapple",
             "name": "擒拿",
             "status": "partial",
-            "detail": "擒拿 still has unimplemented clauses: 当你在本回合获得格挡时，对该敌人造成5点伤害"
+            "detail": "擒拿 still has unimplemented clauses: Whenever you gain Block this turn, deal 5 damage to the enemy"
           },
           {
             "entity_id": "grave-warden",
             "name": "守墓人",
             "status": "partial",
-            "detail": "守墓人 still has unimplemented clauses: 将一张灵魂放入你的抽牌堆中"
+            "detail": "守墓人 still has unimplemented clauses: Add a Soul into your Draw Pile"
           },
           {
             "entity_id": "graveblast",
             "name": "坟冢爆射",
             "status": "partial",
-            "detail": "坟冢爆射 still has unimplemented clauses: 将弃牌堆中的一张牌放入你的手牌"
+            "detail": "坟冢爆射 still has unimplemented clauses: Put a card from your Discard Pile into your Hand"
           },
           {
             "entity_id": "greed",
@@ -6222,12 +6054,6 @@
             "name": "护驾！！！",
             "status": "unresolved",
             "detail": "护驾！！！ has no executable script yet."
-          },
-          {
-            "entity_id": "guiding-star",
-            "name": "引导之星",
-            "status": "partial",
-            "detail": "引导之星 still has unimplemented clauses: 在下一回合抽2张牌"
           },
           {
             "entity_id": "guilty",
@@ -6257,19 +6083,19 @@
             "entity_id": "hand-of-greed",
             "name": "贪婪之手",
             "status": "partial",
-            "detail": "贪婪之手 still has unimplemented clauses: 斩杀时，获得20金币"
+            "detail": "贪婪之手 still has unimplemented clauses: If Fatal, gain 20 Gold"
           },
           {
             "entity_id": "hand-trick",
             "name": "手上技法",
             "status": "partial",
-            "detail": "手上技法 still has unimplemented clauses: 在本回合给你手牌中的一张技能牌添加奇巧"
+            "detail": "手上技法 still has unimplemented clauses: Add Sly to a Skill in your Hand this turn"
           },
           {
             "entity_id": "hang",
             "name": "吊杀",
             "status": "partial",
-            "detail": "吊杀 still has unimplemented clauses: 让所有“吊杀”牌对这名敌人造成的伤害翻倍"
+            "detail": "吊杀 still has unimplemented clauses: Double the damage ALL Hang cards deal to this enemy"
           },
           {
             "entity_id": "haunt",
@@ -6284,16 +6110,10 @@
             "detail": "破灭 has no executable script yet."
           },
           {
-            "entity_id": "haze",
-            "name": "迷雾",
-            "status": "unresolved",
-            "detail": "迷雾 has no executable script yet."
-          },
-          {
             "entity_id": "headbutt",
             "name": "头槌",
             "status": "partial",
-            "detail": "头槌 still has unimplemented clauses: 将你弃牌堆中的一张牌放到抽牌堆顶部"
+            "detail": "头槌 still has unimplemented clauses: Put a card from your Discard Pile on top of your Draw Pile"
           },
           {
             "entity_id": "heavenly-drill",
@@ -6302,16 +6122,10 @@
             "detail": "天际钻头 used number-only fallback resolution."
           },
           {
-            "entity_id": "hegemony",
-            "name": "霸权",
-            "status": "partial",
-            "detail": "霸权 still has unimplemented clauses: 在下个回合获得2 energy"
-          },
-          {
             "entity_id": "heirloom-hammer",
             "name": "传承之锤",
             "status": "partial",
-            "detail": "传承之锤 still has unimplemented clauses: 选择你手牌中的一张无色牌; 将这张牌的一张复制品放入你的手牌"
+            "detail": "传承之锤 still has unimplemented clauses: Choose a Colorless card in your Hand; Add a copy of that card into your Hand"
           },
           {
             "entity_id": "helix-drill",
@@ -6332,16 +6146,10 @@
             "detail": "地狱狂徒 has no executable script yet."
           },
           {
-            "entity_id": "hidden-cache",
-            "name": "隐秘藏品",
-            "status": "partial",
-            "detail": "隐秘藏品 still has unimplemented clauses: 在下个回合获得3 star"
-          },
-          {
             "entity_id": "hidden-daggers",
             "name": "隐秘匕首",
-            "status": "unresolved",
-            "detail": "隐秘匕首 has no executable script yet."
+            "status": "partial",
+            "detail": "隐秘匕首 still has unimplemented clauses: Add 2 Shivs into your Hand"
           },
           {
             "entity_id": "hidden-gem",
@@ -6359,19 +6167,13 @@
             "entity_id": "hologram",
             "name": "全息影像",
             "status": "partial",
-            "detail": "全息影像 still has unimplemented clauses: 将弃牌堆中的一张牌放入你的手牌"
-          },
-          {
-            "entity_id": "hotfix",
-            "name": "热修复",
-            "status": "unresolved",
-            "detail": "热修复 has no executable script yet."
+            "detail": "全息影像 still has unimplemented clauses: Put a card from your Discard Pile into your Hand"
           },
           {
             "entity_id": "howl-from-beyond",
             "name": "彼岸咆哮",
             "status": "partial",
-            "detail": "彼岸咆哮 still has unimplemented clauses: 在你的回合开始时，从消耗牌堆将此牌打出"
+            "detail": "彼岸咆哮 still has unimplemented clauses: At the start of your turn, plays from the Exhaust Pile"
           },
           {
             "entity_id": "huddle-up",
@@ -6383,13 +6185,7 @@
             "entity_id": "i-am-invincible",
             "name": "所向无敌",
             "status": "partial",
-            "detail": "所向无敌 still has unimplemented clauses: 在你的回合结束时，如果这张牌位于抽牌堆顶部，则将其打出"
-          },
-          {
-            "entity_id": "ice-lance",
-            "name": "冰之长枪",
-            "status": "partial",
-            "detail": "冰之长枪 still has unimplemented clauses: 生成3个冰霜充能球"
+            "detail": "所向无敌 still has unimplemented clauses: At the end of your turn, if this is on top of your Draw Pile, play it"
           },
           {
             "entity_id": "ignition",
@@ -6428,12 +6224,6 @@
             "detail": "无尽刀刃 has no executable script yet."
           },
           {
-            "entity_id": "inflame",
-            "name": "燃烧",
-            "status": "unresolved",
-            "detail": "燃烧 has no executable script yet."
-          },
-          {
             "entity_id": "injury",
             "name": "受伤",
             "status": "unresolved",
@@ -6443,7 +6233,7 @@
             "entity_id": "intercept",
             "name": "拦截",
             "status": "partial",
-            "detail": "拦截 still has unimplemented clauses: 将本回合所有要对另一名玩家发起的攻击转移到你的身上"
+            "detail": "拦截 still has unimplemented clauses: Redirect all incoming attacks that would be dealt to another player this turn to you"
           },
           {
             "entity_id": "invoke",
@@ -6467,7 +6257,7 @@
             "entity_id": "jackpot",
             "name": "大奖",
             "status": "partial",
-            "detail": "大奖 still has unimplemented clauses: 将3张随机01 energy的牌加入你的手牌"
+            "detail": "大奖 still has unimplemented clauses: Add 3 random 01 energy cards into your Hand"
           },
           {
             "entity_id": "juggernaut",
@@ -6485,13 +6275,13 @@
             "entity_id": "kingly-kick",
             "name": "王者之踢",
             "status": "partial",
-            "detail": "王者之踢 still has unimplemented clauses: 每当你抽到这张牌时，这张牌的耗能减少1"
+            "detail": "王者之踢 still has unimplemented clauses: Whenever you draw this card, reduce its cost by 1"
           },
           {
             "entity_id": "kingly-punch",
             "name": "王者之拳",
             "status": "partial",
-            "detail": "王者之拳 still has unimplemented clauses: 每当你抽到这张牌时，在这场战斗中其伤害增加3"
+            "detail": "王者之拳 still has unimplemented clauses: Whenever you draw this card, increase its damage by 3 this combat"
           },
           {
             "entity_id": "knife-trap",
@@ -6503,7 +6293,7 @@
             "entity_id": "knockdown",
             "name": "击倒",
             "status": "partial",
-            "detail": "击倒 still has unimplemented clauses: 该敌人在本回合受到的来自其他玩家的伤害翻倍"
+            "detail": "击倒 still has unimplemented clauses: The enemy takes double damage from other players this turn"
           },
           {
             "entity_id": "lantern-key",
@@ -6521,7 +6311,7 @@
             "entity_id": "leading-strike",
             "name": "先制打击",
             "status": "partial",
-            "detail": "先制打击 still has unimplemented clauses: 将1张小刀加入你的手牌"
+            "detail": "先制打击 still has unimplemented clauses: Add 1 Shiv into your Hand"
           },
           {
             "entity_id": "legion-of-bone",
@@ -6545,7 +6335,7 @@
             "entity_id": "lightning-rod",
             "name": "引雷针",
             "status": "partial",
-            "detail": "引雷针 still has unimplemented clauses: 在下2个回合开始时,生成1个闪电充能球"
+            "detail": "引雷针 still has unimplemented clauses: At the start of the next 2 turns, Channel 1 Lightning"
           },
           {
             "entity_id": "loop",
@@ -6566,16 +6356,10 @@
             "detail": "机器学习 has no executable script yet."
           },
           {
-            "entity_id": "mad-science",
-            "name": "疯狂科学",
-            "status": "partial",
-            "detail": "疯狂科学 still has unimplemented clauses: ？？？"
-          },
-          {
             "entity_id": "make-it-so",
             "name": "如此甚好",
             "status": "partial",
-            "detail": "如此甚好 still has unimplemented clauses: 你每在一回合内打出3张技能牌，就将这张牌放入你的手牌"
+            "detail": "如此甚好 still has unimplemented clauses: Every 3 Skills you play in a turn, put this into your Hand"
           },
           {
             "entity_id": "malaise",
@@ -6584,16 +6368,10 @@
             "detail": "萎靡 has no executable script yet."
           },
           {
-            "entity_id": "mangle",
-            "name": "凌虐",
-            "status": "partial",
-            "detail": "凌虐 still has unimplemented clauses: 敌人在本回合失去10点力量"
-          },
-          {
             "entity_id": "manifest-authority",
             "name": "君权自授",
             "status": "partial",
-            "detail": "君权自授 still has unimplemented clauses: 将一张随机无色牌加入你的手牌"
+            "detail": "君权自授 still has unimplemented clauses: Add 1 random Colorless card into your Hand"
           },
           {
             "entity_id": "master-planner",
@@ -6617,13 +6395,13 @@
             "entity_id": "melancholy",
             "name": "忧郁",
             "status": "partial",
-            "detail": "忧郁 still has unimplemented clauses: 每当有任何生物死亡时，这张牌的耗能减少1 energy"
+            "detail": "忧郁 still has unimplemented clauses: Reduce this card's cost by 1 energy whenever ANYONE dies"
           },
           {
             "entity_id": "memento-mori",
             "name": "铭记死亡",
             "status": "partial",
-            "detail": "铭记死亡 still has unimplemented clauses: 本回合每丢弃过一张牌，则增加4点额外伤害"
+            "detail": "铭记死亡 still has unimplemented clauses: Deals 4 additional damage for each card discarded this turn"
           },
           {
             "entity_id": "metamorphosis",
@@ -6635,13 +6413,7 @@
             "entity_id": "meteor-shower",
             "name": "流星雨",
             "status": "partial",
-            "detail": "流星雨 still has unimplemented clauses: 给予所有敌人2层虚弱和易伤"
-          },
-          {
-            "entity_id": "meteor-strike",
-            "name": "陨石打击",
-            "status": "partial",
-            "detail": "陨石打击 still has unimplemented clauses: 生成3个等离子充能球"
+            "detail": "流星雨 still has unimplemented clauses: Apply 2 Weak and Vulnerable to ALL enemies"
           },
           {
             "entity_id": "mimic",
@@ -6671,25 +6443,25 @@
             "entity_id": "misery",
             "name": "苦难",
             "status": "partial",
-            "detail": "苦难 still has unimplemented clauses: 给予其他敌人该名敌人身上的所有负面效果"
+            "detail": "苦难 still has unimplemented clauses: Apply any debuffs on the enemy to ALL other enemies"
           },
           {
             "entity_id": "modded",
             "name": "模组改造",
             "status": "partial",
-            "detail": "模组改造 still has unimplemented clauses: 获得1个充能球栏位; 这张牌的耗能加1"
+            "detail": "模组改造 still has unimplemented clauses: Gain 1 Orb Slot; Increase this card's cost by 1"
           },
           {
             "entity_id": "molten-fist",
             "name": "熔融之拳",
             "status": "partial",
-            "detail": "熔融之拳 still has unimplemented clauses: 将该敌人身上的易伤层数翻倍"
+            "detail": "熔融之拳 still has unimplemented clauses: Double the enemy's Vulnerable"
           },
           {
             "entity_id": "momentum-strike",
             "name": "趁势打击",
             "status": "partial",
-            "detail": "趁势打击 still has unimplemented clauses: 这张牌的耗能降为01 energy"
+            "detail": "趁势打击 still has unimplemented clauses: Reduce this card's cost to 0 1 energy"
           },
           {
             "entity_id": "monarchs-gaze",
@@ -6713,7 +6485,7 @@
             "entity_id": "murder",
             "name": "谋杀",
             "status": "partial",
-            "detail": "谋杀 still has unimplemented clauses: 你在本场战斗中每抽过一张牌，此牌就额外造成1点伤害"
+            "detail": "谋杀 still has unimplemented clauses: Deals 1 additional damage for each card drawn this combat"
           },
           {
             "entity_id": "necro-mastery",
@@ -6722,22 +6494,16 @@
             "detail": "亡灵精通 has no executable script yet."
           },
           {
-            "entity_id": "negative-pulse",
-            "name": "负能量脉冲",
-            "status": "partial",
-            "detail": "负能量脉冲 still has unimplemented clauses: 给予所有敌人7层灾厄"
-          },
-          {
             "entity_id": "neows-fury",
             "name": "涅奥之怒",
             "status": "partial",
-            "detail": "涅奥之怒 still has unimplemented clauses: 将你弃牌堆中的2张随机牌放入你的手牌"
+            "detail": "涅奥之怒 still has unimplemented clauses: Put 2 random cards from your Discard Pile into your Hand"
           },
           {
             "entity_id": "neurosurge",
             "name": "精神过载",
             "status": "partial",
-            "detail": "精神过载 still has unimplemented clauses: 在你的回合开始时，给予自身3层灾厄"
+            "detail": "精神过载 still has unimplemented clauses: At the start of your turn, apply 3 Doom to yourself"
           },
           {
             "entity_id": "neutron-aegis",
@@ -6779,7 +6545,7 @@
             "entity_id": "null",
             "name": "空无",
             "status": "partial",
-            "detail": "空无 still has unimplemented clauses: 生成1个黑暗充能球"
+            "detail": "空无 still has unimplemented clauses: Channel 1 Dark"
           },
           {
             "entity_id": "oblivion",
@@ -6791,7 +6557,7 @@
             "entity_id": "omnislice",
             "name": "万向斩",
             "status": "partial",
-            "detail": "万向斩 still has unimplemented clauses: 对所有其他敌人造成等量的伤害"
+            "detail": "万向斩 still has unimplemented clauses: Damage ALL other enemies equal to the damage dealt"
           },
           {
             "entity_id": "one-two-punch",
@@ -6821,7 +6587,7 @@
             "entity_id": "overclock",
             "name": "超频",
             "status": "partial",
-            "detail": "超频 still has unimplemented clauses: 将一张灼伤加入你的弃牌堆"
+            "detail": "超频 still has unimplemented clauses: Add a Burn into your Discard Pile"
           },
           {
             "entity_id": "pagestorm",
@@ -6845,7 +6611,7 @@
             "entity_id": "panic-button",
             "name": "应急按钮",
             "status": "partial",
-            "detail": "应急按钮 still has unimplemented clauses: 你在接下来的2回合内无法再从卡牌中获得格挡"
+            "detail": "应急按钮 still has unimplemented clauses: You cannot gain Block from cards for 2 turns"
           },
           {
             "entity_id": "parry",
@@ -6857,13 +6623,13 @@
             "entity_id": "particle-wall",
             "name": "粒子墙",
             "status": "partial",
-            "detail": "粒子墙 still has unimplemented clauses: 将此牌返回你的手牌"
+            "detail": "粒子墙 still has unimplemented clauses: Return this card to your Hand"
           },
           {
             "entity_id": "patter",
             "name": "星星点点",
             "status": "partial",
-            "detail": "星星点点 still has unimplemented clauses: 获得2点活力"
+            "detail": "星星点点 still has unimplemented clauses: Gain 2 Vigor"
           },
           {
             "entity_id": "peck",
@@ -6875,7 +6641,7 @@
             "entity_id": "perfected-strike",
             "name": "完美打击",
             "status": "partial",
-            "detail": "完美打击 still has unimplemented clauses: 你每有一张名字中含有“打击”的牌，伤害+2"
+            "detail": "完美打击 still has unimplemented clauses: Deals 2 additional damage for ALL your cards containing “Strike”"
           },
           {
             "entity_id": "phantom-blades",
@@ -6887,37 +6653,19 @@
             "entity_id": "photon-cut",
             "name": "光子切割",
             "status": "partial",
-            "detail": "光子切割 still has unimplemented clauses: 将手牌中的一张牌放到抽牌堆顶部"
-          },
-          {
-            "entity_id": "piercing-wail",
-            "name": "尖啸",
-            "status": "unresolved",
-            "detail": "尖啸 has no executable script yet."
+            "detail": "光子切割 still has unimplemented clauses: Put 1 card from your Hand on top of your Draw Pile"
           },
           {
             "entity_id": "pillage",
             "name": "劫掠",
             "status": "partial",
-            "detail": "劫掠 still has unimplemented clauses: 抽牌直到你抽到一张非攻击牌"
+            "detail": "劫掠 still has unimplemented clauses: Draw cards until you draw a non-Attack card"
           },
           {
             "entity_id": "pillar-of-creation",
             "name": "创世之柱",
             "status": "partial",
             "detail": "创世之柱 used number-only fallback resolution."
-          },
-          {
-            "entity_id": "poisoned-stab",
-            "name": "带毒刺击",
-            "status": "partial",
-            "detail": "带毒刺击 still has unimplemented clauses: 给予3层中毒"
-          },
-          {
-            "entity_id": "poke",
-            "name": "戳击",
-            "status": "partial",
-            "detail": "戳击 used number-only fallback resolution."
           },
           {
             "entity_id": "poor-sleep",
@@ -6929,19 +6677,13 @@
             "entity_id": "pounce",
             "name": "猛扑",
             "status": "partial",
-            "detail": "猛扑 still has unimplemented clauses: 你的下一张技能牌耗能变为01 energy"
+            "detail": "猛扑 still has unimplemented clauses: The next Skill you play costs 0 1 energy"
           },
           {
             "entity_id": "prep-time",
             "name": "准备时间",
             "status": "unresolved",
             "detail": "准备时间 has no executable script yet."
-          },
-          {
-            "entity_id": "prepared",
-            "name": "早有准备",
-            "status": "partial",
-            "detail": "早有准备 still has unimplemented clauses: 丢弃1张牌"
           },
           {
             "entity_id": "primal-force",
@@ -6959,19 +6701,13 @@
             "entity_id": "protector",
             "name": "守护者",
             "status": "partial",
-            "detail": "守护者 used number-only fallback resolution."
-          },
-          {
-            "entity_id": "prowess",
-            "name": "非凡技艺",
-            "status": "unresolved",
-            "detail": "非凡技艺 has no executable script yet."
+            "detail": "守护者 still has unimplemented clauses: Deals additional damage equal to Osty's Max HP"
           },
           {
             "entity_id": "pull-aggro",
             "name": "吸引仇恨",
             "status": "partial",
-            "detail": "吸引仇恨 still has unimplemented clauses: 召唤4"
+            "detail": "吸引仇恨 still has unimplemented clauses: Summon 4"
           },
           {
             "entity_id": "pull-from-below",
@@ -7018,8 +6754,8 @@
           {
             "entity_id": "rainbow",
             "name": "彩虹",
-            "status": "unresolved",
-            "detail": "彩虹 has no executable script yet."
+            "status": "partial",
+            "detail": "彩虹 still has unimplemented clauses: Channel 1 Dark"
           },
           {
             "entity_id": "rally",
@@ -7031,13 +6767,13 @@
             "entity_id": "rampage",
             "name": "暴走",
             "status": "partial",
-            "detail": "暴走 still has unimplemented clauses: 将这张牌在本场战斗中的伤害增加5"
+            "detail": "暴走 still has unimplemented clauses: Increase this card's damage by 5 this combat"
           },
           {
             "entity_id": "rattle",
             "name": "猛晃",
             "status": "partial",
-            "detail": "猛晃 used number-only fallback resolution."
+            "detail": "猛晃 still has unimplemented clauses: Hits an additional time for each other time he has attacked this turn"
           },
           {
             "entity_id": "reanimate",
@@ -7055,19 +6791,19 @@
             "entity_id": "reave",
             "name": "剥夺",
             "status": "partial",
-            "detail": "剥夺 still has unimplemented clauses: 将一张灵魂加入你的抽牌堆"
+            "detail": "剥夺 still has unimplemented clauses: Add a Soul into your Draw Pile"
           },
           {
             "entity_id": "reboot",
             "name": "重启",
             "status": "partial",
-            "detail": "重启 still has unimplemented clauses: 将你的所有未消耗的卡牌重新洗牌放入抽牌堆"
+            "detail": "重启 still has unimplemented clauses: Shuffle ALL your cards into your Draw Pile"
           },
           {
             "entity_id": "rebound",
             "name": "弹回",
             "status": "partial",
-            "detail": "弹回 still has unimplemented clauses: 将你在本回合打出的下一张牌放置到你的抽牌堆顶部"
+            "detail": "弹回 still has unimplemented clauses: Put the next card you play this turn on top of your Draw Pile"
           },
           {
             "entity_id": "refine-blade",
@@ -7079,7 +6815,7 @@
             "entity_id": "reflect",
             "name": "倒映",
             "status": "partial",
-            "detail": "倒映 still has unimplemented clauses: 在本回合将你格挡掉的攻击伤害反弹给攻击者"
+            "detail": "倒映 still has unimplemented clauses: Blocked attack damage is reflected to your attacker this turn"
           },
           {
             "entity_id": "refract",
@@ -7094,22 +6830,16 @@
             "detail": "悔恨 has no executable script yet."
           },
           {
-            "entity_id": "relax",
-            "name": "放松",
-            "status": "partial",
-            "detail": "放松 still has unimplemented clauses: 下个回合，抽2张牌并获得2 energy"
-          },
-          {
             "entity_id": "rend",
             "name": "撕碎",
             "status": "partial",
-            "detail": "撕碎 still has unimplemented clauses: 该名敌人身上每有一种负面效果，就额外造成5点伤害"
+            "detail": "撕碎 still has unimplemented clauses: Deals 5 additional damage for each unique debuff on the enemy"
           },
           {
             "entity_id": "resonance",
             "name": "共鸣",
-            "status": "unresolved",
-            "detail": "共鸣 has no executable script yet."
+            "status": "partial",
+            "detail": "共鸣 still has unimplemented clauses: ALL enemies lose 1 Strength"
           },
           {
             "entity_id": "restlessness",
@@ -7127,7 +6857,7 @@
             "entity_id": "right-hand-hand",
             "name": "得力助手",
             "status": "partial",
-            "detail": "得力助手 used number-only fallback resolution."
+            "detail": "得力助手 still has unimplemented clauses: Whenever you play a card that costs 2 energy or more, return this to your Hand from the Discard Pile"
           },
           {
             "entity_id": "rip-and-tear",
@@ -7139,13 +6869,19 @@
             "entity_id": "rocket-punch",
             "name": "火箭飞拳",
             "status": "partial",
-            "detail": "火箭飞拳 still has unimplemented clauses: 当有一张状态被生成时，将此牌的耗能在本回合降为01 energy"
+            "detail": "火箭飞拳 still has unimplemented clauses: When a Status card is created, reduce this card's cost to 0 1 energy this turn"
           },
           {
             "entity_id": "rolling-boulder",
             "name": "滚石",
             "status": "unresolved",
             "detail": "滚石 has no executable script yet."
+          },
+          {
+            "entity_id": "royal-gamble",
+            "name": "胜券在王",
+            "status": "unresolved",
+            "detail": "胜券在王 has no executable script yet."
           },
           {
             "entity_id": "royalties",
@@ -7166,28 +6902,16 @@
             "detail": "牺牲 has no executable script yet."
           },
           {
-            "entity_id": "salvo",
-            "name": "箭雨",
-            "status": "partial",
-            "detail": "箭雨 still has unimplemented clauses: 在本回合保留你的手牌"
-          },
-          {
             "entity_id": "scavenge",
             "name": "再利用",
             "status": "unresolved",
             "detail": "再利用 has no executable script yet."
           },
           {
-            "entity_id": "scourge",
-            "name": "鞭打",
-            "status": "partial",
-            "detail": "鞭打 still has unimplemented clauses: 给予13层灾厄"
-          },
-          {
             "entity_id": "scrape",
             "name": "刮削",
             "status": "partial",
-            "detail": "刮削 still has unimplemented clauses: 丢弃抽到的牌中耗能不为01 energy的牌"
+            "detail": "刮削 still has unimplemented clauses: Discard all cards drawn this way that do not cost 0 1 energy"
           },
           {
             "entity_id": "scrawl",
@@ -7199,7 +6923,7 @@
             "entity_id": "sculpting-strike",
             "name": "雕琢打击",
             "status": "partial",
-            "detail": "雕琢打击 still has unimplemented clauses: 为一张手牌添加虚无"
+            "detail": "雕琢打击 still has unimplemented clauses: Add Ethereal to a card in your Hand"
           },
           {
             "entity_id": "seance",
@@ -7229,7 +6953,7 @@
             "entity_id": "seeker-strike",
             "name": "探寻打击",
             "status": "partial",
-            "detail": "探寻打击 still has unimplemented clauses: 从抽牌堆的随机3张牌中选择一张加入你的手牌"
+            "detail": "探寻打击 still has unimplemented clauses: Choose 1 of 3 cards in your Draw Pile to add into your Hand"
           },
           {
             "entity_id": "seeking-edge",
@@ -7250,28 +6974,16 @@
             "detail": "群蛇形态 has no executable script yet."
           },
           {
-            "entity_id": "setup-strike",
-            "name": "预备打击",
-            "status": "partial",
-            "detail": "预备打击 still has unimplemented clauses: 在本回合内获得2点力量"
-          },
-          {
-            "entity_id": "seven-stars",
-            "name": "七星",
-            "status": "partial",
-            "detail": "七星 used number-only fallback resolution."
-          },
-          {
             "entity_id": "severance",
             "name": "切断",
             "status": "partial",
-            "detail": "切断 still has unimplemented clauses: 将一张灵魂分别加入你的抽牌堆，手牌和弃牌堆中"
+            "detail": "切断 still has unimplemented clauses: Add a Soul into your Draw Pile, Hand, and Discard Pile"
           },
           {
             "entity_id": "shadow-shield",
             "name": "暗影之盾",
             "status": "partial",
-            "detail": "暗影之盾 still has unimplemented clauses: 生成1个黑暗充能球"
+            "detail": "暗影之盾 still has unimplemented clauses: Channel 1 Dark"
           },
           {
             "entity_id": "shadow-step",
@@ -7301,13 +7013,13 @@
             "entity_id": "shatter",
             "name": "打碎",
             "status": "partial",
-            "detail": "打碎 still has unimplemented clauses: 激发所有充能球"
+            "detail": "打碎 still has unimplemented clauses: Evoke all of your Orbs"
           },
           {
             "entity_id": "shining-strike",
             "name": "明耀打击",
             "status": "partial",
-            "detail": "明耀打击 still has unimplemented clauses: 将这张牌放置于你的抽牌堆顶部"
+            "detail": "明耀打击 still has unimplemented clauses: Put this card on top of your Draw Pile"
           },
           {
             "entity_id": "shockwave",
@@ -7325,7 +7037,7 @@
             "entity_id": "sic-em",
             "name": "紧追不放",
             "status": "partial",
-            "detail": "紧追不放 used number-only fallback resolution."
+            "detail": "紧追不放 still has unimplemented clauses: Whenever Osty hits this enemy this turn, Summon 2"
           },
           {
             "entity_id": "signal-boost",
@@ -7358,16 +7070,10 @@
             "detail": "烟囱 has no executable script yet."
           },
           {
-            "entity_id": "snakebite",
-            "name": "蛇咬",
-            "status": "unresolved",
-            "detail": "蛇咬 has no executable script yet."
-          },
-          {
             "entity_id": "snap",
             "name": "响指",
             "status": "partial",
-            "detail": "响指 used number-only fallback resolution."
+            "detail": "响指 still has unimplemented clauses: Add Retain to a card in your Hand"
           },
           {
             "entity_id": "sneaky",
@@ -7385,7 +7091,7 @@
             "entity_id": "soul-storm",
             "name": "灵魂风暴",
             "status": "partial",
-            "detail": "灵魂风暴 still has unimplemented clauses: 你的消耗牌堆中每有一张灵魂，伤害增加2"
+            "detail": "灵魂风暴 still has unimplemented clauses: Deals 2 additional damage for each Soul in your Exhaust Pile"
           },
           {
             "entity_id": "spectrum-shift",
@@ -7415,7 +7121,7 @@
             "entity_id": "spite",
             "name": "怨恨",
             "status": "partial",
-            "detail": "怨恨 still has unimplemented clauses: 如果你在本回合失去过生命值，则抽1张牌"
+            "detail": "怨恨 still has unimplemented clauses: If you lost HP this turn, draw 1 card"
           },
           {
             "entity_id": "splash",
@@ -7472,12 +7178,6 @@
             "detail": "添柴 has no executable script yet."
           },
           {
-            "entity_id": "stomp",
-            "name": "踩踏",
-            "status": "partial",
-            "detail": "踩踏 still has unimplemented clauses: 你在本回合中每打出过一张攻击牌，其耗能减少11 energy"
-          },
-          {
             "entity_id": "stone-armor",
             "name": "岩石铠甲",
             "status": "unresolved",
@@ -7499,7 +7199,7 @@
             "entity_id": "strangle",
             "name": "紧勒",
             "status": "partial",
-            "detail": "紧勒 still has unimplemented clauses: 你在这个回合内每出一张牌，该名敌人都会失去2点生命"
+            "detail": "紧勒 still has unimplemented clauses: Whenever you play a card this turn, the enemy loses 2 HP"
           },
           {
             "entity_id": "stratagem",
@@ -7523,7 +7223,7 @@
             "entity_id": "supermassive",
             "name": "超质量体",
             "status": "partial",
-            "detail": "超质量体 still has unimplemented clauses: 你在本场战斗中每生成过一张牌，这张牌就额外造成3点伤害"
+            "detail": "超质量体 still has unimplemented clauses: Deals 3 additional damage for each card you created this combat"
           },
           {
             "entity_id": "sweeping-gaze",
@@ -7553,13 +7253,13 @@
             "entity_id": "synthesis",
             "name": "人工合成",
             "status": "partial",
-            "detail": "人工合成 still has unimplemented clauses: 你打出的下一张能力牌耗能变为01 energy"
+            "detail": "人工合成 still has unimplemented clauses: The next Power you play costs 0 1 energy"
           },
           {
             "entity_id": "tag-team",
             "name": "双打组合",
             "status": "partial",
-            "detail": "双打组合 still has unimplemented clauses: 其他玩家的下一张攻击牌将在该名敌人身上额外生效一次"
+            "detail": "双打组合 still has unimplemented clauses: The next Attack another player plays on the enemy is played an extra time"
           },
           {
             "entity_id": "tank",
@@ -7571,7 +7271,7 @@
             "entity_id": "tear-asunder",
             "name": "扯碎",
             "status": "partial",
-            "detail": "扯碎 still has unimplemented clauses: 在本场战斗中，你每失去过一次生命值，这张牌就额外造成一次伤害"
+            "detail": "扯碎 still has unimplemented clauses: Hits an additional time for each time you lost HP this combat"
           },
           {
             "entity_id": "tempest",
@@ -7589,7 +7289,7 @@
             "entity_id": "tesla-coil",
             "name": "特斯拉线圈",
             "status": "partial",
-            "detail": "特斯拉线圈 still has unimplemented clauses: 对该敌人触发你的所有闪电充能球的被动"
+            "detail": "特斯拉线圈 still has unimplemented clauses: Trigger all Lightning against the enemy"
           },
           {
             "entity_id": "the-bomb",
@@ -7601,19 +7301,19 @@
             "entity_id": "the-gambit",
             "name": "孤注一掷",
             "status": "partial",
-            "detail": "孤注一掷 still has unimplemented clauses: 如果你在本场战斗中受到未被格挡的伤害，则立刻死亡"
+            "detail": "孤注一掷 still has unimplemented clauses: If you take unblocked attack damage this combat, die"
           },
           {
             "entity_id": "the-hunt",
             "name": "狩猎",
             "status": "partial",
-            "detail": "狩猎 still has unimplemented clauses: 斩杀时，额外获得一组卡牌奖励"
+            "detail": "狩猎 still has unimplemented clauses: If Fatal, gain an additional card reward"
           },
           {
             "entity_id": "the-scythe",
             "name": "巨镰",
             "status": "partial",
-            "detail": "巨镰 still has unimplemented clauses: 这张牌在本局游戏中的伤害永久性增加3"
+            "detail": "巨镰 still has unimplemented clauses: Permanently increase this card's damage by 3"
           },
           {
             "entity_id": "the-sealed-throne",
@@ -7631,7 +7331,7 @@
             "entity_id": "thinking-ahead",
             "name": "深谋远虑",
             "status": "partial",
-            "detail": "深谋远虑 still has unimplemented clauses: 将手牌中的一张牌放到你的抽牌堆的顶端"
+            "detail": "深谋远虑 still has unimplemented clauses: Put 1 card from your Hand on top of your Draw Pile"
           },
           {
             "entity_id": "thrash",
@@ -7643,19 +7343,13 @@
             "entity_id": "thrumming-hatchet",
             "name": "无休手斧",
             "status": "partial",
-            "detail": "无休手斧 still has unimplemented clauses: 在你的下个回合开始时，将此卡返回你的手牌"
+            "detail": "无休手斧 still has unimplemented clauses: At the start of your next turn, return this to your Hand"
           },
           {
             "entity_id": "thunder",
             "name": "雷霆",
             "status": "unresolved",
             "detail": "雷霆 has no executable script yet."
-          },
-          {
-            "entity_id": "thunderclap",
-            "name": "闪电霹雳",
-            "status": "partial",
-            "detail": "闪电霹雳 used number-only fallback resolution."
           },
           {
             "entity_id": "times-up",
@@ -7673,7 +7367,7 @@
             "entity_id": "toric-toughness",
             "name": "坚韧之环",
             "status": "partial",
-            "detail": "坚韧之环 still has unimplemented clauses: 在接下来的2个回合开始时，获得5点格挡"
+            "detail": "坚韧之环 still has unimplemented clauses: Gain 5 Block at the start of the next 2 turns"
           },
           {
             "entity_id": "toxic",
@@ -7703,13 +7397,13 @@
             "entity_id": "true-grit",
             "name": "坚毅",
             "status": "partial",
-            "detail": "坚毅 still has unimplemented clauses: 随机消耗1张牌"
+            "detail": "坚毅 still has unimplemented clauses: Exhaust 1 card at random"
           },
           {
             "entity_id": "turbo",
             "name": "内核加速",
             "status": "partial",
-            "detail": "内核加速 still has unimplemented clauses: 将一张虚空加入你的弃牌堆"
+            "detail": "内核加速 still has unimplemented clauses: Add a Void into your Discard Pile"
           },
           {
             "entity_id": "twin-strike",
@@ -7727,7 +7421,7 @@
             "entity_id": "undeath",
             "name": "不死",
             "status": "partial",
-            "detail": "不死 still has unimplemented clauses: 在弃牌堆放入一张此牌的复制品"
+            "detail": "不死 still has unimplemented clauses: Add a copy of this card into your Discard Pile"
           },
           {
             "entity_id": "unmovable",
@@ -7739,7 +7433,7 @@
             "entity_id": "unrelenting",
             "name": "无情猛攻",
             "status": "partial",
-            "detail": "无情猛攻 still has unimplemented clauses: 你打出的下一张攻击牌耗能变为01 energy"
+            "detail": "无情猛攻 still has unimplemented clauses: The next Attack you play costs 0 1 energy"
           },
           {
             "entity_id": "up-my-sleeve",
@@ -7757,7 +7451,7 @@
             "entity_id": "veilpiercer",
             "name": "刺破帷幕",
             "status": "partial",
-            "detail": "刺破帷幕 still has unimplemented clauses: 你打出的下一张虚无牌耗能变为01 energy"
+            "detail": "刺破帷幕 still has unimplemented clauses: The next Ethereal card you play costs 0 1 energy"
           },
           {
             "entity_id": "vicious",
@@ -7811,7 +7505,7 @@
             "entity_id": "whistle",
             "name": "吹哨",
             "status": "partial",
-            "detail": "吹哨 still has unimplemented clauses: 击晕该敌人"
+            "detail": "吹哨 still has unimplemented clauses: Stun the enemy"
           },
           {
             "entity_id": "white-noise",
@@ -7847,7 +7541,7 @@
             "entity_id": "wrought-in-war",
             "name": "战火铸就",
             "status": "partial",
-            "detail": "战火铸就 still has unimplemented clauses: 铸造5"
+            "detail": "战火铸就 still has unimplemented clauses: Forge 5"
           }
         ]
       },
@@ -9561,11 +9255,11 @@
       },
       "potions": {
         "total": 63,
-        "resolved": 1,
+        "resolved": 20,
         "partial": 0,
-        "unresolved": 62,
+        "unresolved": 43,
         "error": 0,
-        "coverage_ratio": 0.015873015873015872,
+        "coverage_ratio": 0.31746031746031744,
         "entries": [
           {
             "entity_id": "ashwater",
@@ -9592,12 +9286,6 @@
             "detail": "在本场战斗中[gold]升级[/gold]你[gold]手牌[/gold]中的所有牌。"
           },
           {
-            "entity_id": "block-potion",
-            "name": "格挡药水",
-            "status": "unresolved",
-            "detail": "获得[blue]12[/blue]点[gold]格挡[/gold]。"
-          },
-          {
             "entity_id": "blood-potion",
             "name": "鲜血药水",
             "status": "unresolved",
@@ -9608,18 +9296,6 @@
             "name": "骨头酿",
             "status": "unresolved",
             "detail": "[gold]召唤[/gold][blue]15[/blue]。"
-          },
-          {
-            "entity_id": "bottled-potential",
-            "name": "瓶装潜能",
-            "status": "unresolved",
-            "detail": "将你的所有牌洗入你的[gold]抽牌堆[/gold]。抽[blue]5[/blue]张牌。"
-          },
-          {
-            "entity_id": "clarity",
-            "name": "明晰提取物",
-            "status": "unresolved",
-            "detail": "抽[blue]1[/blue]张牌。在你的下[blue]3[/blue]个回合开始时，额外抽[blue]1[/blue]张牌。"
           },
           {
             "entity_id": "colorless-potion",
@@ -9638,12 +9314,6 @@
             "name": "狡诈药水",
             "status": "unresolved",
             "detail": "将[blue]3[/blue]张[gold]小刀+[/gold]加入你的[gold]手牌[/gold]。"
-          },
-          {
-            "entity_id": "cure-all",
-            "name": "痊愈药水",
-            "status": "unresolved",
-            "detail": "获得[energy:1]。抽[blue]2[/blue]张牌。"
           },
           {
             "entity_id": "dexterity-potion",
@@ -9670,12 +9340,6 @@
             "detail": "本回合，你打出的下一张牌会额外打出一次。"
           },
           {
-            "entity_id": "energy-potion",
-            "name": "能量药水",
-            "status": "unresolved",
-            "detail": "获得[energy:2]。"
-          },
-          {
             "entity_id": "entropic-brew",
             "name": "混沌药水",
             "status": "unresolved",
@@ -9686,18 +9350,6 @@
             "name": "黑暗精华",
             "status": "unresolved",
             "detail": "[gold]生成[/gold]你[gold]充能球栏位[/gold]数量个[gold]黑暗[/gold]充能球。"
-          },
-          {
-            "entity_id": "explosive-ampoule",
-            "name": "爆炸安瓿",
-            "status": "unresolved",
-            "detail": "对所有敌人造成[blue]10[/blue]点伤害。"
-          },
-          {
-            "entity_id": "fire-potion",
-            "name": "火焰药水",
-            "status": "unresolved",
-            "detail": "造成[blue]20[/blue]点伤害。"
           },
           {
             "entity_id": "flex-potion",
@@ -9716,12 +9368,6 @@
             "name": "固化药水",
             "status": "unresolved",
             "detail": "将你的[gold]格挡[/gold]变为三倍。"
-          },
-          {
-            "entity_id": "foul-potion",
-            "name": "污浊药水",
-            "status": "unresolved",
-            "detail": "对所有人造成[blue]12[/blue]点伤害。\n也可以投掷给[gold]商人[/gold]换取[blue]100[/blue][gold]金币[/gold]。"
           },
           {
             "entity_id": "fruit-juice",
@@ -9752,12 +9398,6 @@
             "name": "超巨化药水",
             "status": "unresolved",
             "detail": "你打出的下一张攻击牌将会造成三倍伤害。"
-          },
-          {
-            "entity_id": "glowwater-potion",
-            "name": "发光水",
-            "status": "unresolved",
-            "detail": "[gold]消耗[/gold]你的[gold]手牌[/gold]。抽[blue]10[/blue]张牌。"
           },
           {
             "entity_id": "heart-of-iron",
@@ -9802,40 +9442,16 @@
             "detail": "往你的[gold]手牌[/gold]中加入一张随机攻击牌、一张随机技能牌和一张随机能力牌。这些牌在本回合免费。"
           },
           {
-            "entity_id": "poison-potion",
-            "name": "毒药水",
-            "status": "unresolved",
-            "detail": "给予[blue]6[/blue]层[gold]中毒[/gold]。"
-          },
-          {
             "entity_id": "pot-of-ghouls",
             "name": "尸鬼瓮",
             "status": "unresolved",
             "detail": "将[blue]2[/blue]张[gold]灵魂[/gold]加入你的[gold]手牌[/gold]。"
           },
           {
-            "entity_id": "potion-of-binding",
-            "name": "缚魂药水",
-            "status": "unresolved",
-            "detail": "给予所有敌人[blue]1[/blue]层[gold]虚弱[/gold]和[blue]1[/blue]层[gold]易伤[/gold]。"
-          },
-          {
             "entity_id": "potion-of-capacity",
             "name": "扩容药水",
             "status": "unresolved",
             "detail": "获得[blue]2[/blue]个[gold]充能球栏位[/gold]。"
-          },
-          {
-            "entity_id": "potion-of-doom",
-            "name": "灾厄药水",
-            "status": "unresolved",
-            "detail": "给予[blue]33[/blue]层[gold]灾厄[/gold]。"
-          },
-          {
-            "entity_id": "potion-shaped-rock",
-            "name": "药水形状的石头",
-            "status": "unresolved",
-            "detail": "造成[blue]15[/blue]点伤害。"
           },
           {
             "entity_id": "powdered-demise",
@@ -9850,12 +9466,6 @@
             "detail": "从[blue]3[/blue]张随机能力牌中选择[blue]1[/blue]张加入你的[gold]手牌[/gold]。这张牌在本回合可以免费打出。"
           },
           {
-            "entity_id": "radiant-tincture",
-            "name": "明耀酊剂",
-            "status": "unresolved",
-            "detail": "获得[energy:1]。在你的下[blue]3[/blue]个回合开始时，额外获得[energy:1]。"
-          },
-          {
             "entity_id": "regen-potion",
             "name": "再生药水",
             "status": "unresolved",
@@ -9868,22 +9478,10 @@
             "detail": "所有敌人在这个回合失去[blue]7[/blue]点[gold]力量[/gold]。"
           },
           {
-            "entity_id": "ship-in-a-bottle",
-            "name": "瓶中船",
-            "status": "unresolved",
-            "detail": "获得[blue]10[/blue]点[gold]格挡[/gold]。在下个回合开始时获得[blue]10[/blue]点[gold]格挡[/gold]。"
-          },
-          {
             "entity_id": "skill-potion",
             "name": "技能药水",
             "status": "unresolved",
             "detail": "从[blue]3[/blue]张随机技能牌中选择[blue]1[/blue]张加入你的[gold]手牌[/gold]。这张牌在本回合可以免费打出。"
-          },
-          {
-            "entity_id": "snecko-oil",
-            "name": "异蛇之油",
-            "status": "unresolved",
-            "detail": "抽[blue]7[/blue]张牌。在本回合随机化你[gold]手牌[/gold]中所有牌的耗能。"
           },
           {
             "entity_id": "soldiers-stew",
@@ -9916,86 +9514,26 @@
             "detail": "获得[blue]2[/blue]点[gold]力量[/gold]。"
           },
           {
-            "entity_id": "swift-potion",
-            "name": "迅捷药水",
-            "status": "unresolved",
-            "detail": "抽[blue]3[/blue]张牌。"
-          },
-          {
             "entity_id": "touch-of-insanity",
             "name": "癫狂之触",
             "status": "unresolved",
             "detail": "选择你[gold]手牌[/gold]中的一张牌，使其在本场战斗可以免费打出。"
-          },
-          {
-            "entity_id": "vulnerable-potion",
-            "name": "易伤药水",
-            "status": "unresolved",
-            "detail": "给予[blue]3[/blue]层[gold]易伤[/gold]。"
-          },
-          {
-            "entity_id": "weak-potion",
-            "name": "虚弱药水",
-            "status": "unresolved",
-            "detail": "给予[blue]3[/blue]层[gold]虚弱[/gold]。"
           }
         ]
       },
       "events": {
         "total": 66,
-        "resolved": 10,
-        "partial": 46,
-        "unresolved": 10,
+        "resolved": 34,
+        "partial": 14,
+        "unresolved": 18,
         "error": 0,
-        "coverage_ratio": 0.15151515151515152,
+        "coverage_ratio": 0.5151515151515151,
         "entries": [
           {
             "entity_id": "abyssal-baths",
             "name": "深渊浴场",
             "status": "partial",
-            "detail": "回复10点生命。"
-          },
-          {
-            "entity_id": "amalgamator",
-            "name": "熔合者",
-            "status": "partial",
-            "detail": "移除2张防御。并将一张究极防御添加至你的牌组。"
-          },
-          {
-            "entity_id": "aroma-of-chaos",
-            "name": "混沌芳香",
-            "status": "partial",
-            "detail": "升级你牌组中的一张牌。"
-          },
-          {
-            "entity_id": "brain-leech",
-            "name": "脑蛭",
-            "status": "partial",
-            "detail": "从5张随机牌中选择1张加入你的牌组。"
-          },
-          {
-            "entity_id": "bugslayer",
-            "name": "害虫杀手",
-            "status": "partial",
-            "detail": "将一张压扁添加至你的牌组"
-          },
-          {
-            "entity_id": "byrdonis-nest",
-            "name": "多尼斯异鸟巢",
-            "status": "partial",
-            "detail": "将一张多尼斯异鸟蛋加入你的牌组。"
-          },
-          {
-            "entity_id": "colorful-philosophers",
-            "name": "色彩哲学家",
-            "status": "partial",
-            "detail": "获得3张静默猎手的卡牌。"
-          },
-          {
-            "entity_id": "crystal-sphere",
-            "name": "水晶球",
-            "status": "partial",
-            "detail": "获得一张债务。占卜6次。"
+            "detail": "If you bathe any longer you will die."
           },
           {
             "entity_id": "darv",
@@ -10004,22 +9542,10 @@
             "detail": "event has no choices"
           },
           {
-            "entity_id": "doll-room",
-            "name": "玩偶室",
-            "status": "partial",
-            "detail": "获得a random Relic。"
-          },
-          {
-            "entity_id": "drowning-beacon",
-            "name": "淹水灯塔",
-            "status": "partial",
-            "detail": "获得一瓶发光水。"
-          },
-          {
             "entity_id": "endless-conveyor",
             "name": "无尽传送带",
-            "status": "partial",
-            "detail": "从牌组中随机升级一张牌。"
+            "status": "unresolved",
+            "detail": "你还能吃得下更多，但是兜里没[gold]金币[/gold]了。"
           },
           {
             "entity_id": "fake-merchant",
@@ -10028,34 +9554,16 @@
             "detail": "event has no choices"
           },
           {
-            "entity_id": "field-of-man-sized-holes",
-            "name": "人形洞穴之地",
-            "status": "partial",
-            "detail": "为一张牌附魔：完美契合。"
-          },
-          {
             "entity_id": "grave-of-the-forgotten",
             "name": "遗忘之墓",
             "status": "partial",
-            "detail": "获得遗忘之魂。"
-          },
-          {
-            "entity_id": "infested-automaton",
-            "name": "被寄生的自动机械",
-            "status": "partial",
-            "detail": "随机获得一张耗能为0的牌。"
-          },
-          {
-            "entity_id": "lost-wisp",
-            "name": "迷失鬼火",
-            "status": "partial",
-            "detail": "将一张腐朽添加到你的牌组。获得迷失鬼火。"
+            "detail": "You have no cards with Exhaust that can be Enchanted."
           },
           {
             "entity_id": "luminous-choir",
             "name": "冷光合唱团",
-            "status": "partial",
-            "detail": "需要100-149金币。"
+            "status": "unresolved",
+            "detail": "需要[blue]100-149[/blue][gold]金币[/gold]。"
           },
           {
             "entity_id": "neow",
@@ -10082,100 +9590,52 @@
             "detail": "event has no choices"
           },
           {
-            "entity_id": "potion-courier",
-            "name": "药水快递员",
-            "status": "partial",
-            "detail": "获得1瓶随机罕见药水。"
-          },
-          {
-            "entity_id": "punch-off",
-            "name": "重拳出击",
-            "status": "partial",
-            "detail": "将一张受伤加入到你的牌组。获得一件随机遗物。"
-          },
-          {
             "entity_id": "ranwid-the-elder",
             "name": "长者兰伟德",
-            "status": "partial",
-            "detail": "你没有任何可以给他的遗物。"
-          },
-          {
-            "entity_id": "reflections",
-            "name": "镜中倒影 影倒中镜",
-            "status": "partial",
-            "detail": "复制你的整个牌组。获得霉运。"
-          },
-          {
-            "entity_id": "relic-trader",
-            "name": "遗物交换商",
-            "status": "partial",
-            "detail": "用one of your Relics换a random Relic。"
+            "status": "unresolved",
+            "detail": "你没有任何可以给他的药水。"
           },
           {
             "entity_id": "room-full-of-cheese",
             "name": "满屋芝士",
             "status": "partial",
-            "detail": "从8张随机普通牌中选择2张加入到你的牌组。"
-          },
-          {
-            "entity_id": "round-tea-party",
-            "name": "圆桌茶会",
-            "status": "partial",
-            "detail": "获得王室猛毒。回复全部生命。"
-          },
-          {
-            "entity_id": "sapphire-seed",
-            "name": "蓝宝石种子",
-            "status": "partial",
-            "detail": "给一张牌附魔：播种。"
+            "detail": "Choose 2 of 8 random Common cards to add to your Deck."
           },
           {
             "entity_id": "self-help-book",
             "name": "自助指南",
-            "status": "partial",
-            "detail": "你没有任何可以附魔的牌。"
+            "status": "unresolved",
+            "detail": "你没有任何可以[gold]附魔[/gold]的攻击牌。"
           },
           {
             "entity_id": "slippery-bridge",
             "name": "滑脚木桥",
             "status": "partial",
-            "detail": "a random Card将从你的牌组中被移除。"
+            "detail": "a random Card is removed from your Deck."
           },
           {
             "entity_id": "spiraling-whirlpool",
             "name": "螺旋漩涡",
             "status": "partial",
-            "detail": "回复33% Max点生命。"
-          },
-          {
-            "entity_id": "spirit-grafter",
-            "name": "灵魂嫁接者",
-            "status": "partial",
-            "detail": "回复25点生命。将一张羽化添加到你的牌组。"
+            "detail": "Heal 33% Max HP."
           },
           {
             "entity_id": "stone-of-all-time",
             "name": "永恒之石",
-            "status": "partial",
-            "detail": "需要一张攻击牌。"
-          },
-          {
-            "entity_id": "sunken-statue",
-            "name": "沉没雕像",
-            "status": "partial",
-            "detail": "获得石之剑。"
+            "status": "unresolved",
+            "detail": "需要药水。"
           },
           {
             "entity_id": "symbiote",
             "name": "共生体",
             "status": "partial",
-            "detail": "选择一张牌变化。"
+            "detail": "Choose a card to Transform."
           },
           {
             "entity_id": "tablet-of-truth",
             "name": "真理石板",
             "status": "partial",
-            "detail": "回复20点生命。"
+            "detail": "Set Max HP to 1. Upgrade ALL cards."
           },
           {
             "entity_id": "tanx",
@@ -10186,8 +9646,8 @@
           {
             "entity_id": "tea-master",
             "name": "茶艺大师",
-            "status": "partial",
-            "detail": "需要150金币。"
+            "status": "unresolved",
+            "detail": "需要[blue]50[/blue][gold]金币[/gold]。"
           },
           {
             "entity_id": "tezcatara",
@@ -10205,43 +9665,25 @@
             "entity_id": "the-future-of-potions",
             "name": "药水的未来？",
             "status": "partial",
-            "detail": "失去a Potion。获得一张升级过的CommonSkill牌。"
+            "detail": "Lose a Potion. Obtain an Upgraded Common Skill."
           },
           {
             "entity_id": "the-lantern-key",
             "name": "灯火钥匙",
             "status": "partial",
-            "detail": "陌生人感谢了你的帮助，给了你许多奖赏。"
-          },
-          {
-            "entity_id": "the-legends-were-true",
-            "name": "传说是真的",
-            "status": "partial",
-            "detail": "获得藏宝图。"
-          },
-          {
-            "entity_id": "this-or-that",
-            "name": "这个还是那个？",
-            "status": "partial",
-            "detail": "将一张笨拙加入你的牌组。获得一件随机遗物。"
+            "detail": "The stranger thanks you for your help, and rewards you handsomely."
           },
           {
             "entity_id": "tinker-time",
             "name": "打造时间",
             "status": "partial",
-            "detail": "制作一张定制卡牌加入你的牌组。"
+            "detail": "Create a custom card to add to your Deck."
           },
           {
             "entity_id": "trial",
             "name": "审判",
             "status": "partial",
-            "detail": "直面致命的后果。"
-          },
-          {
-            "entity_id": "unrest-site",
-            "name": "无休之处",
-            "status": "partial",
-            "detail": "回复全部生命值。获得睡眠不佳。"
+            "detail": "Face lethal repercussions."
           },
           {
             "entity_id": "vakuu",
@@ -10250,40 +9692,34 @@
             "detail": "event has no choices"
           },
           {
-            "entity_id": "war-historian-repy",
-            "name": "战史学家 付袭",
-            "status": "partial",
-            "detail": "失去灯火钥匙。获得2瓶随机药水和2件随机遗物。"
-          },
-          {
             "entity_id": "waterlogged-scriptorium",
             "name": "水漫缮写室",
-            "status": "partial",
-            "detail": "需要155金币。"
+            "status": "unresolved",
+            "detail": "需要[blue]65[/blue][gold]金币[/gold]。"
           },
           {
             "entity_id": "welcome-to-wongos",
             "name": "欢迎来到旺购百货",
-            "status": "partial",
-            "detail": "随机降级一张牌。"
+            "status": "unresolved",
+            "detail": "需要[blue]100[/blue][gold]金币[/gold]。"
           },
           {
             "entity_id": "wellspring",
             "name": "泉水",
             "status": "partial",
-            "detail": "获得1瓶随机药水。"
+            "detail": "Procure 1 random Potion."
           },
           {
             "entity_id": "wood-carvings",
             "name": "木雕",
             "status": "partial",
-            "detail": "选择1张初始牌变化为坚韧之环。"
+            "detail": "Choose 1 starter card to Transform into Toric Toughness."
           },
           {
             "entity_id": "zen-weaver",
             "name": "修禅织网者",
             "status": "partial",
-            "detail": "金币不足。"
+            "detail": "Not enough Gold."
           }
         ]
       },

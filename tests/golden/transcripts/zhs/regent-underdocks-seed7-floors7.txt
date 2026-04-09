@@ -86,7 +86,7 @@ Turn 6: player turn started.
 Combat won.
 Floor 1: gained 20 gold.
 Reward: add devastate to the deck.
-Reward: obtain potion energy-potion.
+Reward: obtain potion liquid-memories.
 Floor 2: entering monster room.
 Encounter queued: 下水道蚌.
 储君 enters combat against 下水道蚌.
@@ -184,7 +184,7 @@ Turn 4: player turn started.
 Combat won.
 Floor 3: gained 20 gold.
 Reward: add kingly-kick to the deck.
-Reward: obtain potion vulnerable-potion.
+Reward: obtain potion ship-in-a-bottle.
 Floor 4: entering event room.
 Event: 光与暗的门扉
 一道门扉突然凭空出现了…
@@ -255,6 +255,6 @@ Turn 4: player turn started.
 Combat won.
 Floor 7: gained 35 gold.
 Reward: add comet to the deck.
-Reward: obtain relic sozu.
-Reward: obtain potion cure-all.
+Reward: obtain relic vexing-puzzlebox.
+Reward: obtain potion energy-potion.
 Completed underdocks run slice.

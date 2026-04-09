@@ -57,7 +57,7 @@ class KillTowerApp(App[None]):
     }
     """
     TITLE = "Kill Tower"
-    SUB_TITLE = "Chinese Single-Player Run"
+    SUB_TITLE = "Auto-Run Preview"
     BINDINGS = [Binding(item.key, item.action, item.description) for item in DEFAULT_BINDINGS]
 
     def __init__(self) -> None:
@@ -135,13 +135,13 @@ class KillTowerApp(App[None]):
 
     def _hero_text(self) -> str:
         if self._last_error is not None:
-            return f"Kill Tower 中文单人版\n运行失败: {self._last_error}"
+            return f"Kill Tower 中文单人版\n预览运行失败: {self._last_error}"
         if self._last_result is None:
-            return "Kill Tower 中文单人版\n按 r 开始当前配置跑局。"
+            return "Kill Tower 中文单人版\n按 r 运行自动预览，终端使用 kill-tower run play 进入手动模式。"
         record = self._last_result.record
         return (
-            "Kill Tower 中文单人版\n"
-            f"{record.player.name} | {'完整一局' if self.selection.full_act else '7层演示'} | "
+            "Kill Tower 中文自动预览\n"
+            f"{record.player.name} | {'完整一局预览' if self.selection.full_act else '7层预览'} | "
             f"胜利: {record.victory} | 楼层: {record.floor} | HP: {record.player.hp}/{record.player.max_hp}"
         )
 
@@ -155,7 +155,7 @@ class KillTowerApp(App[None]):
                 f"项目: {config.runtime.project_name}",
                 f"语言: {self.selection.lang}",
                 f"角色: {self.selection.character_id}",
-                f"模式: {'完整一局' if self.selection.full_act else '7层稳定演示'}",
+                f"模式: {'完整一局自动预览' if self.selection.full_act else '7层稳定预览'}",
                 f"seed: {self.selection.seed}",
                 f"snapshot: {config.runtime.default_snapshot_tag or '2026-04-09_build_unknown'}",
             ]
@@ -165,12 +165,13 @@ class KillTowerApp(App[None]):
         return "\n".join(
             [
                 "操作",
-                "r: 以当前配置重新开局",
+                "r: 以当前配置重新跑自动预览",
                 "c: 切换角色",
                 "l: 切换语言 zhs/eng",
                 "f: 切换 7层 / 完整一局",
                 "s: 查看运行状态",
                 "p: 查看路径",
+                "终端手动游玩: kill-tower run play",
             ]
         )
 

@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+import re
 from typing import Any, TYPE_CHECKING
 
+from kill_tower.data.event_outcomes import resolve_event_choice_execution_description
 from kill_tower.data.schemas import EventChoice, EventDefinition, EventOutcome, EventPage
 
 if TYPE_CHECKING:
@@ -38,7 +40,7 @@ class EventService:
             if not page.choices:
                 break
 
-            choice = self._choose_best_choice(page.choices, player_state)
+            choice = self._choose_best_choice(event, page, player_state)
             resolution.chosen_options.append(choice.id)
             resolution.transcript.append(f"Chosen option: {choice.label}.")
             resolution.applied_outcomes.extend(self._apply_outcomes(choice.outcomes, player_state))
@@ -49,12 +51,71 @@ class EventService:
             steps += 1
         return resolution
 
-    def _choose_best_choice(self, choices: list[EventChoice], player_state: Any) -> EventChoice:
-        return max(choices, key=lambda choice: (self._score_choice(choice, player_state), choice.id))
+    def apply_choice(
+        self,
+        event: EventDefinition,
+        page: EventPage,
+        choice_id: str,
+        player_state: Any,
+        visited_pages: set[str] | None = None,
+    ) -> tuple[EventChoice, list[str], EventPage | None]:
+        choice = next(choice for choice in page.choices if choice.id == choice_id)
+        messages = self._apply_outcomes(choice.outcomes, player_state)
+        next_page = self._find_followup_page(event, choice.id, visited_pages=visited_pages or {page.id})
+        return choice, messages, next_page
 
-    def _score_choice(self, choice: EventChoice, player_state: Any) -> float:
+    def choice_is_available(
+        self,
+        event: EventDefinition,
+        page: EventPage,
+        choice: EventChoice,
+        player_state: Any,
+    ) -> bool:
+        description = resolve_event_choice_execution_description(event, page, choice) or choice.description or ""
+        requirement = choice.requirement or ""
+        combined = f"{description} {requirement}"
+        lowered = combined.lower()
+
+        if match := re.search(r"requires (\d+)(?:-(\d+))? gold", lowered):
+            lower_bound = int(match.group(1))
+            upper_bound = int(match.group(2) or match.group(1))
+            if match.group(2) is not None:
+                return lower_bound <= getattr(player_state, "gold", 0) <= upper_bound
+            return getattr(player_state, "gold", 0) >= lower_bound
+        if match := re.search(r"需要(\d+)(?:-(\d+))?金币", combined):
+            lower_bound = int(match.group(1))
+            upper_bound = int(match.group(2) or match.group(1))
+            if match.group(2) is not None:
+                return lower_bound <= getattr(player_state, "gold", 0) <= upper_bound
+            return getattr(player_state, "gold", 0) >= lower_bound
+        if "requires a potion" in lowered or "requires potion" in lowered:
+            return bool(getattr(player_state, "potion_ids", []))
+        if "需要药水" in combined or "需要一瓶药水" in combined:
+            return bool(getattr(player_state, "potion_ids", []))
+        if any(token in lowered for token in ("you don't have", "out of gold", "not enough gold")):
+            return False
+        if any(token in combined for token in ("没有足够", "没有任何", "你没有", "金币不足")):
+            return False
+        return True
+
+    def _choose_best_choice(self, event: EventDefinition, page: EventPage, player_state: Any) -> EventChoice:
+        available_choices = [
+            choice
+            for choice in page.choices
+            if self.choice_is_available(event, page, choice, player_state)
+        ]
+        candidates = available_choices or page.choices
+        return max(candidates, key=lambda choice: (self._score_choice(event, page, choice, player_state), choice.id))
+
+    def _score_choice(
+        self,
+        event: EventDefinition,
+        page: EventPage,
+        choice: EventChoice,
+        player_state: Any,
+    ) -> float:
         score = 0.0
-        description = (choice.description or "").lower()
+        description = (resolve_event_choice_execution_description(event, page, choice) or choice.description or "").lower()
         if "locked" in choice.id or "requires" in description or "you don't have" in description:
             return -10_000
         missing_hp = max(0, getattr(player_state, "max_hp", 0) - getattr(player_state, "hp", 0))

@@ -1,6 +1,6 @@
 # Unresolved Coverage Report: 2026-04-09_build_unknown
 
-Generated at: 2026-04-09T09:14:49.628081+00:00
+Generated at: 2026-04-09T09:49:31.709170+00:00
 
 Status policy:
 - resolved: executed or structurally covered without unresolved markers
@@ -229,54 +229,54 @@ Status policy:
 
 | Entity | Total | Resolved | Partial | Unresolved | Error | Coverage |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| cards | 576 | 105 | 222 | 249 | 0 | 18.2% |
+| cards | 576 | 156 | 192 | 228 | 0 | 27.1% |
 | relics | 288 | 5 | 0 | 283 | 0 | 1.7% |
-| potions | 63 | 1 | 0 | 62 | 0 | 1.6% |
-| events | 66 | 10 | 46 | 10 | 0 | 15.2% |
+| potions | 63 | 20 | 0 | 43 | 0 | 31.7% |
+| events | 66 | 34 | 14 | 18 | 0 | 51.5% |
 | monsters | 116 | 68 | 48 | 0 | 0 | 58.6% |
 
 ### Cards Needing Attention
 
-- abrasive [unresolved]: 磨蚀 has no executable script yet.
+- abrasive [partial]: 磨蚀 still has unimplemented clauses: Gain 4 Thorns
 - accelerant [unresolved]: 触媒 has no executable script yet.
 - accuracy [unresolved]: 精准 has no executable script yet.
-- acrobatics [partial]: 杂技 still has unimplemented clauses: 丢弃1张牌
-- adaptive-strike [partial]: 适应打击 still has unimplemented clauses: 将这张牌的一张01 energy复制品添加到你的弃牌堆
+- adaptive-strike [partial]: 适应打击 still has unimplemented clauses: Add a 01 energy copy of this card into your Discard Pile
 - afterimage [unresolved]: 余像 has no executable script yet.
 - afterlife [unresolved]: 来生 has no executable script yet.
 - aggression [unresolved]: 好勇斗狠 has no executable script yet.
 - alchemize [unresolved]: 炼制药水 has no executable script yet.
-- all-for-one [partial]: 万物一心 still has unimplemented clauses: 将你弃牌堆中的所有01 energy牌放入你的手牌
-- anger [partial]: 愤怒 still has unimplemented clauses: 将一张此牌的复制品加入你的弃牌堆
+- all-for-one [partial]: 万物一心 still has unimplemented clauses: Put ALL 01 energy cards from your Discard Pile into your Hand
+- anger [partial]: 愤怒 still has unimplemented clauses: Add a copy of this card into your Discard Pile
 - anointed [unresolved]: 天选 has no executable script yet.
-- anticipate [unresolved]: 预判 has no executable script yet.
 - apotheosis [unresolved]: 神化 has no executable script yet.
 - apparition [unresolved]: 灵体 has no executable script yet.
-- armaments [partial]: 武装 still has unimplemented clauses: 升级你手牌中的一张牌
+- armaments [partial]: 武装 still has unimplemented clauses: Upgrade a card in your Hand
 - arsenal [unresolved]: 武器库 has no executable script yet.
 - ascenders-bane [unresolved]: 进阶之灾 has no executable script yet.
-- ashen-strike [partial]: 灰烬打击 still has unimplemented clauses: 你的消耗牌堆中每有一张牌，伤害增加3
+- ashen-strike [partial]: 灰烬打击 still has unimplemented clauses: Deals 3 additional damage for each card in your Exhaust Pile
 - automation [unresolved]: 自动化 has no executable script yet.
 - bad-luck [unresolved]: 霉运 has no executable script yet.
-- ball-lightning [partial]: 球状闪电 still has unimplemented clauses: 生成1个闪电充能球
-- banshees-cry [partial]: 女妖之嚎 still has unimplemented clauses: 本场战斗中每打出过一张虚无牌，此牌费用就减少2 energy
+- banshees-cry [partial]: 女妖之嚎 still has unimplemented clauses: Costs 2 energy less for each Ethereal card played this combat
 - barrage [partial]: 弹幕齐射 used number-only fallback resolution.
 - barricade [unresolved]: 壁垒 has no executable script yet.
-- battle-trance [partial]: 战斗专注 still has unimplemented clauses: 你在本回合内不能再抽任何牌
+- battle-trance [partial]: 战斗专注 still has unimplemented clauses: You cannot draw additional cards this turn
 - beacon-of-hope [unresolved]: 希望灯塔 has no executable script yet.
 - beat-down [unresolved]: 狠揍 has no executable script yet.
-- beat-into-shape [partial]: 锻打成型 still has unimplemented clauses: 铸造X; 本回合此前你每击中过该敌人一次，铸造值就上升5
+- beat-into-shape [partial]: 锻打成型 still has unimplemented clauses: Forge X; Forges an additional 5 for every other time you've hit the enemy this turn
 - beckon [unresolved]: 呼唤 has no executable script yet.
-- begone [partial]: 下去！ still has unimplemented clauses: 选择你手牌中的一张牌，将其变化为仆从俯冲
+- begone [partial]: 下去！ still has unimplemented clauses: Choose a card in your Hand to Transform into Minion Dive Bomb
 - believe-in-you [unresolved]: 相信着你 has no executable script yet.
-- biased-cognition [unresolved]: 偏差认知 has no executable script yet.
-- big-bang [partial]: 大爆炸 still has unimplemented clauses: 铸造5
+- biased-cognition [partial]: 偏差认知 still has unimplemented clauses: At the start of your turn, lose 1 Focus
+- big-bang [partial]: 大爆炸 still has unimplemented clauses: Forge 5
 - black-hole [unresolved]: 黑洞 has no executable script yet.
 - blade-dance [unresolved]: 刀刃之舞 has no executable script yet.
 - blade-of-ink [unresolved]: 墨之刃 has no executable script yet.
-- blight-strike [partial]: 荒疫打击 still has unimplemented clauses: 给予等量于所造成伤害的灾厄
-- blur [partial]: 残影 still has unimplemented clauses: 你的下一回合开始时格挡不会消失
+- blight-strike [partial]: 荒疫打击 still has unimplemented clauses: Apply Doom equal to damage dealt
+- blur [partial]: 残影 still has unimplemented clauses: Block is not removed at the start of your next turn
 - body-slam [partial]: 全身撞击 used number-only fallback resolution.
+- bolas [partial]: 流星锤 still has unimplemented clauses: At the start of your next turn, return this to your Hand
+- bombardment [partial]: 轰击 still has unimplemented clauses: At the start of your turn, plays from the Exhaust Pile
+- bone-shards [partial]: 碎骨 used number-only fallback resolution.
 
 ### Relics Needing Attention
 
@@ -327,35 +327,25 @@ Status policy:
 - attack-potion [unresolved]: 从[blue]3[/blue]张随机攻击牌中选择[blue]1[/blue]张加入你的[gold]手牌[/gold]。这张牌在本回合可以免费打出。
 - beetle-juice [unresolved]: 敌人的攻击在下[blue]4[/blue]个回合中造成的伤害减少[blue]30%[/blue]。
 - blessing-of-the-forge [unresolved]: 在本场战斗中[gold]升级[/gold]你[gold]手牌[/gold]中的所有牌。
-- block-potion [unresolved]: 获得[blue]12[/blue]点[gold]格挡[/gold]。
 - blood-potion [unresolved]: 回复你最大生命值的[green]20%[/green]。
 - bone-brew [unresolved]: [gold]召唤[/gold][blue]15[/blue]。
-- bottled-potential [unresolved]: 将你的所有牌洗入你的[gold]抽牌堆[/gold]。抽[blue]5[/blue]张牌。
-- clarity [unresolved]: 抽[blue]1[/blue]张牌。在你的下[blue]3[/blue]个回合开始时，额外抽[blue]1[/blue]张牌。
 - colorless-potion [unresolved]: 从[blue]3[/blue]张随机无色牌中选择[blue]1[/blue]张加入你的[gold]手牌[/gold]。这张牌在本回合可以免费打出。
 - cosmic-concoction [unresolved]: 将[blue]3[/blue]张[gold]升级[/gold]的无色牌加入你的[gold]手牌[/gold]。
 - cunning-potion [unresolved]: 将[blue]3[/blue]张[gold]小刀+[/gold]加入你的[gold]手牌[/gold]。
-- cure-all [unresolved]: 获得[energy:1]。抽[blue]2[/blue]张牌。
 - dexterity-potion [unresolved]: 获得[blue]2[/blue]点[gold]敏捷[/gold]。
 - distilled-chaos [unresolved]: 打出你[gold]抽牌堆[/gold]顶部的[blue]3[/blue]张牌。
 - droplet-of-precognition [unresolved]: 选择你[gold]抽牌堆[/gold]中的一张牌加入你的[gold]手牌[/gold]。
 - duplicator [unresolved]: 本回合，你打出的下一张牌会额外打出一次。
-- energy-potion [unresolved]: 获得[energy:2]。
 - entropic-brew [unresolved]: 在所有空药水栏位中获得随机药水。
 - essence-of-darkness [unresolved]: [gold]生成[/gold]你[gold]充能球栏位[/gold]数量个[gold]黑暗[/gold]充能球。
-- explosive-ampoule [unresolved]: 对所有敌人造成[blue]10[/blue]点伤害。
-- fire-potion [unresolved]: 造成[blue]20[/blue]点伤害。
 - flex-potion [unresolved]: 获得[blue]5[/blue]点[gold]力量[/gold]。在你的这个回合结束时，失去[blue]5[/blue]点[gold]力量[/gold]。
 - focus-potion [unresolved]: 获得[blue]2[/blue]点[gold]集中[/gold]。
 - fortifier [unresolved]: 将你的[gold]格挡[/gold]变为三倍。
-- foul-potion [unresolved]: 对所有人造成[blue]12[/blue]点伤害。
-也可以投掷给[gold]商人[/gold]换取[blue]100[/blue][gold]金币[/gold]。
 - fruit-juice [unresolved]: 获得[blue]5[/blue]点最大生命值。
 - fysh-oil [unresolved]: 获得[blue]1[/blue]点[gold]力量[/gold]和[blue]1[/blue]点[gold]敏捷[/gold]。
 - gamblers-brew [unresolved]: 丢弃任意张牌，然后抽相同数量的牌。
 - ghost-in-a-jar [unresolved]: 获得[blue]1[/blue]层[gold]无实体[/gold]。
 - gigantification-potion [unresolved]: 你打出的下一张攻击牌将会造成三倍伤害。
-- glowwater-potion [unresolved]: [gold]消耗[/gold]你的[gold]手牌[/gold]。抽[blue]10[/blue]张牌。
 - heart-of-iron [unresolved]: 获得[blue]7[/blue]层[gold]覆甲[/gold]。
 - kings-courage [unresolved]: [gold]铸造[/gold][blue]15[/blue]。
 - liquid-bronze [unresolved]: 获得[blue]3[/blue]点[gold]荆棘[/gold]。
@@ -363,50 +353,51 @@ Status policy:
 - lucky-tonic [unresolved]: 获得[blue]1[/blue]层[gold]缓冲[/gold]。
 - mazaleths-gift [unresolved]: 获得[blue]1[/blue]层[gold]仪式[/gold]。
 - orobic-acid [unresolved]: 往你的[gold]手牌[/gold]中加入一张随机攻击牌、一张随机技能牌和一张随机能力牌。这些牌在本回合免费。
-- poison-potion [unresolved]: 给予[blue]6[/blue]层[gold]中毒[/gold]。
+- pot-of-ghouls [unresolved]: 将[blue]2[/blue]张[gold]灵魂[/gold]加入你的[gold]手牌[/gold]。
+- potion-of-capacity [unresolved]: 获得[blue]2[/blue]个[gold]充能球栏位[/gold]。
+- powdered-demise [unresolved]: 敌人在自身的每个回合结束时，失去[blue]9[/blue]点生命。
+- power-potion [unresolved]: 从[blue]3[/blue]张随机能力牌中选择[blue]1[/blue]张加入你的[gold]手牌[/gold]。这张牌在本回合可以免费打出。
+- regen-potion [unresolved]: 获得[green]5[/green]层[gold]再生[/gold]。
+- shackling-potion [unresolved]: 所有敌人在这个回合失去[blue]7[/blue]点[gold]力量[/gold]。
+- skill-potion [unresolved]: 从[blue]3[/blue]张随机技能牌中选择[blue]1[/blue]张加入你的[gold]手牌[/gold]。这张牌在本回合可以免费打出。
+- soldiers-stew [unresolved]: 在本场战斗中，所有名字中有“[gold]打击[/gold]”的牌获得[gold]重放[/gold]：[blue]1[/blue]。
+- speed-potion [unresolved]: 获得[blue]5[/blue]点[gold]敏捷[/gold]。在你的这个回合结束时，失去[blue]5[/blue]点[gold]敏捷[/gold]。
+- stable-serum [unresolved]: [gold]保留[/gold]你的[gold]手牌[/gold][blue]2[/blue]回合。
 
 ### Events Needing Attention
 
-- abyssal-baths [partial]: 回复10点生命。
-- amalgamator [partial]: 移除2张防御。并将一张究极防御添加至你的牌组。
-- aroma-of-chaos [partial]: 升级你牌组中的一张牌。
-- brain-leech [partial]: 从5张随机牌中选择1张加入你的牌组。
-- bugslayer [partial]: 将一张压扁添加至你的牌组
-- byrdonis-nest [partial]: 将一张多尼斯异鸟蛋加入你的牌组。
-- colorful-philosophers [partial]: 获得3张静默猎手的卡牌。
-- crystal-sphere [partial]: 获得一张债务。占卜6次。
+- abyssal-baths [partial]: If you bathe any longer you will die.
 - darv [unresolved]: event has no choices
-- doll-room [partial]: 获得a random Relic。
-- drowning-beacon [partial]: 获得一瓶发光水。
-- endless-conveyor [partial]: 从牌组中随机升级一张牌。
+- endless-conveyor [unresolved]: 你还能吃得下更多，但是兜里没[gold]金币[/gold]了。
 - fake-merchant [unresolved]: event has no choices
-- field-of-man-sized-holes [partial]: 为一张牌附魔：完美契合。
-- grave-of-the-forgotten [partial]: 获得遗忘之魂。
-- infested-automaton [partial]: 随机获得一张耗能为0的牌。
-- lost-wisp [partial]: 将一张腐朽添加到你的牌组。获得迷失鬼火。
-- luminous-choir [partial]: 需要100-149金币。
+- grave-of-the-forgotten [partial]: You have no cards with Exhaust that can be Enchanted.
+- luminous-choir [unresolved]: 需要[blue]100-149[/blue][gold]金币[/gold]。
 - neow [unresolved]: event has no choices
 - nonupeipe [unresolved]: event has no choices
 - orobas [unresolved]: event has no choices
 - pael [unresolved]: event has no choices
-- potion-courier [partial]: 获得1瓶随机罕见药水。
-- punch-off [partial]: 将一张受伤加入到你的牌组。获得一件随机遗物。
-- ranwid-the-elder [partial]: 你没有任何可以给他的遗物。
-- reflections [partial]: 复制你的整个牌组。获得霉运。
-- relic-trader [partial]: 用one of your Relics换a random Relic。
-- room-full-of-cheese [partial]: 从8张随机普通牌中选择2张加入到你的牌组。
-- round-tea-party [partial]: 获得王室猛毒。回复全部生命。
-- sapphire-seed [partial]: 给一张牌附魔：播种。
-- self-help-book [partial]: 你没有任何可以附魔的牌。
-- slippery-bridge [partial]: a random Card将从你的牌组中被移除。
-- spiraling-whirlpool [partial]: 回复33% Max点生命。
-- spirit-grafter [partial]: 回复25点生命。将一张羽化添加到你的牌组。
-- stone-of-all-time [partial]: 需要一张攻击牌。
-- sunken-statue [partial]: 获得石之剑。
-- symbiote [partial]: 选择一张牌变化。
-- tablet-of-truth [partial]: 回复20点生命。
+- ranwid-the-elder [unresolved]: 你没有任何可以给他的药水。
+- room-full-of-cheese [partial]: Choose 2 of 8 random Common cards to add to your Deck.
+- self-help-book [unresolved]: 你没有任何可以[gold]附魔[/gold]的攻击牌。
+- slippery-bridge [partial]: a random Card is removed from your Deck.
+- spiraling-whirlpool [partial]: Heal 33% Max HP.
+- stone-of-all-time [unresolved]: 需要药水。
+- symbiote [partial]: Choose a card to Transform.
+- tablet-of-truth [partial]: Set Max HP to 1. Upgrade ALL cards.
 - tanx [unresolved]: event has no choices
-- tea-master [partial]: 需要150金币。
+- tea-master [unresolved]: 需要[blue]50[/blue][gold]金币[/gold]。
+- tezcatara [unresolved]: event has no choices
+- the-architect [unresolved]: event has no choices
+- the-future-of-potions [partial]: Lose a Potion. Obtain an Upgraded Common Skill.
+- the-lantern-key [partial]: The stranger thanks you for your help, and rewards you handsomely.
+- tinker-time [partial]: Create a custom card to add to your Deck.
+- trial [partial]: Face lethal repercussions.
+- vakuu [unresolved]: event has no choices
+- waterlogged-scriptorium [unresolved]: 需要[blue]65[/blue][gold]金币[/gold]。
+- welcome-to-wongos [unresolved]: 需要[blue]100[/blue][gold]金币[/gold]。
+- wellspring [partial]: Procure 1 random Potion.
+- wood-carvings [partial]: Choose 1 starter card to Transform into Toric Toughness.
+- zen-weaver [partial]: Not enough Gold.
 
 ### Monsters Needing Attention
 
@@ -450,4 +441,16 @@ Status policy:
 - soul-fysh [partial]: Beckon
 - terror-eel [partial]: Stun
 - the-insatiable [partial]: 液化地面
+
+## Language Parity
+
+zhs parity is treated as 100% when its resolved/partial/unresolved/error counts match eng.
+
+| Entity | eng Coverage | zhs Coverage | zhs Parity |
+| --- | ---: | ---: | ---: |
+| cards | 27.1% | 27.1% | 100% |
+| relics | 1.7% | 1.7% | 100% |
+| potions | 31.7% | 31.7% | 100% |
+| events | 51.5% | 51.5% | 100% |
+| monsters | 58.6% | 58.6% | 100% |
 

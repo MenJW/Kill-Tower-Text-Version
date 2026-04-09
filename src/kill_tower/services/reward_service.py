@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 from kill_tower.data.registry import ContentRegistry
+from kill_tower.data.event_outcomes import resolve_execution_description
 from kill_tower.data.schemas import CardDefinition, PotionDefinition, RelicDefinition
 from kill_tower.services.ascension_service import AscensionRules
 
@@ -142,7 +143,7 @@ class RewardService:
         return score - float(card.numbers.cost or 0) * 0.2
 
     def _relic_score(self, relic: RelicDefinition) -> float:
-        description = (relic.description or "").lower()
+        description = (resolve_execution_description(relic) or "").lower()
         score = 1.0
         for keyword, bonus in (("heal", 4), ("draw", 3), ("energy", 5), ("block", 2), ("strength", 3)):
             if keyword in description:
@@ -150,7 +151,7 @@ class RewardService:
         return score
 
     def _potion_score(self, potion: PotionDefinition) -> float:
-        description = (potion.description or "").lower()
+        description = (resolve_execution_description(potion) or "").lower()
         score = 1.0
         for keyword, bonus in (("heal", 5), ("damage", 3), ("block", 3), ("energy", 4)):
             if keyword in description:

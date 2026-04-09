@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from typing import TYPE_CHECKING
 
-from kill_tower.data.schemas import EventChoice, EventDefinition, EventOutcome
+from kill_tower.data.schemas import EventChoice, EventDefinition, EventOutcome, EventPage
 from kill_tower.utils.text import collapse_whitespace
 
 if TYPE_CHECKING:
@@ -25,6 +25,65 @@ def strip_markup(text: str) -> str:
     rendered = _MARKUP_TAG_RE.sub("", rendered)
     rendered = rendered.replace("\n", " ")
     return collapse_whitespace(rendered)
+
+
+def resolve_execution_description(entity: object) -> str | None:
+    localized_payloads = getattr(entity, "localized_payloads", None)
+    if isinstance(localized_payloads, dict):
+        english_payload = localized_payloads.get("eng")
+        if isinstance(english_payload, dict):
+            for key in ("description", "description_raw"):
+                description = english_payload.get(key)
+                if isinstance(description, str) and description.strip():
+                    return description
+
+    texts = getattr(entity, "texts", None)
+    if isinstance(texts, dict):
+        english_text = texts.get("eng")
+        description = getattr(english_text, "description", None)
+        if isinstance(description, str) and description.strip():
+            return description
+
+    description = getattr(entity, "description", None)
+    if isinstance(description, str) and description.strip():
+        return description
+    return None
+
+
+def resolve_event_choice_execution_description(
+    event: EventDefinition,
+    page: EventPage,
+    choice: EventChoice,
+) -> str | None:
+    localized_payloads = event.localized_payloads or {}
+    english_payload = localized_payloads.get("eng")
+    if not isinstance(english_payload, dict):
+        return choice.description
+
+    page_token = _normalize_event_token(page.id)
+    choice_token = _normalize_event_token(choice.id)
+
+    for raw_page in english_payload.get("pages") or []:
+        if not isinstance(raw_page, dict):
+            continue
+        if _normalize_event_token(raw_page.get("id")) != page_token:
+            continue
+        resolved = _match_event_choice_description(raw_page.get("options") or [], choice_token)
+        if resolved is not None:
+            return resolved
+
+    resolved = _match_event_choice_description(english_payload.get("options") or [], choice_token)
+    if resolved is not None:
+        return resolved
+
+    for raw_page in english_payload.get("pages") or []:
+        if not isinstance(raw_page, dict):
+            continue
+        resolved = _match_event_choice_description(raw_page.get("options") or [], choice_token)
+        if resolved is not None:
+            return resolved
+
+    return choice.description
 
 
 def parse_event_outcomes(
@@ -202,19 +261,24 @@ def _range_midpoint(start: str, end: str | None) -> int:
 def enrich_event_choice_outcomes(
     choice: EventChoice,
     registry: "ContentRegistry | None" = None,
+    description_override: str | None = None,
 ) -> None:
     if choice.outcomes:
         return
     choice.outcomes = [
         EventOutcome.model_validate(payload)
-        for payload in parse_event_outcomes(choice.description, registry=registry)
+        for payload in parse_event_outcomes(description_override or choice.description, registry=registry)
     ]
 
 
 def enrich_event_definition(event: EventDefinition, registry: "ContentRegistry | None" = None) -> None:
     for page in event.pages:
         for choice in page.choices:
-            enrich_event_choice_outcomes(choice, registry=registry)
+            enrich_event_choice_outcomes(
+                choice,
+                registry=registry,
+                description_override=resolve_event_choice_execution_description(event, page, choice),
+            )
 
 
 def enrich_registry_events(registry: "ContentRegistry") -> None:
@@ -290,3 +354,21 @@ def _normalize_item_name(value: str | None) -> tuple[str, int]:
     if not cleaned or cleaned[0].isdigit() or "choose" in cleaned.lower() or "divine" in cleaned.lower():
         return "", count
     return cleaned.lower(), count
+
+
+def _match_event_choice_description(options: list[object], choice_token: str) -> str | None:
+    for option in options:
+        if not isinstance(option, dict):
+            continue
+        if _normalize_event_token(option.get("id")) != choice_token:
+            continue
+        description = option.get("description")
+        if isinstance(description, str):
+            return description
+    return None
+
+
+def _normalize_event_token(value: object) -> str:
+    if value is None:
+        return ""
+    return re.sub(r"[^a-z0-9]+", "-", str(value).lower()).strip("-")

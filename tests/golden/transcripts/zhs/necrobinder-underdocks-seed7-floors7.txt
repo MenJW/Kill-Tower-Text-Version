@@ -86,7 +86,7 @@ Turn 7: player turn started.
 Combat won.
 Floor 1: gained 20 gold.
 Reward: add banshees-cry to the deck.
-Reward: obtain potion energy-potion.
+Reward: obtain potion liquid-memories.
 Floor 2: entering monster room.
 Encounter queued: 下水道蚌.
 亡灵契约师 enters combat against 下水道蚌.
@@ -236,7 +236,7 @@ Turn 6: player turn started.
 Combat won.
 Floor 3: gained 20 gold.
 Reward: add reap to the deck.
-Reward: obtain potion vulnerable-potion.
+Reward: obtain potion ship-in-a-bottle.
 Floor 4: entering event room.
 Event: 光与暗的门扉
 一道门扉突然凭空出现了…
@@ -298,12 +298,14 @@ Turn 3: player turn ended.
 Next intent for 鬼祟珊瑚群: Attack + Status.
 Turn 4: player turn started.
 亡灵契约师 gains 1 osty_hp from Bound Phylactery.
+亡灵契约师 gains 10 Block from 瓶中船.
+亡灵契约师 uses potion 瓶中船.
 亡灵契约师 plays 防御 for 1 energy.
 亡灵契约师 gains 5 Block from 防御.
-亡灵契约师 plays 防御 for 1 energy.
-亡灵契约师 gains 5 Block from 防御.
-亡灵契约师 plays 防御 for 1 energy.
-亡灵契约师 gains 5 Block from 防御.
+亡灵契约师 plays 出击 for 1 energy.
+亡灵契约师 uses 出击 on 鬼祟珊瑚群 for 15 damage x1 (15 HP lost).
+亡灵契约师 plays 打击 for 1 energy.
+亡灵契约师 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
 Turn 4: player turn ended.
 鬼祟珊瑚群 uses Smash.
 鬼祟珊瑚群 uses Smash on 亡灵契约师 for 12 damage x1 (0 HP lost).
@@ -312,19 +314,10 @@ Turn 5: player turn started.
 亡灵契约师 gains 1 osty_hp from Bound Phylactery.
 亡灵契约师 plays 收割 for 3 energy.
 亡灵契约师 uses 收割 on 鬼祟珊瑚群 for 27 damage x1 (27 HP lost).
-Turn 5: player turn ended.
-鬼祟珊瑚群 uses 惯性.
-鬼祟珊瑚群 gains 10 Block from 惯性.
-鬼祟珊瑚群 gains 3 strength from 惯性.
-Next intent for 鬼祟珊瑚群: Attack.
-Turn 6: player turn started.
-亡灵契约师 gains 1 osty_hp from Bound Phylactery.
-亡灵契约师 plays 出击 for 1 energy.
-亡灵契约师 uses 出击 on 鬼祟珊瑚群 for 17 damage x1 (7 HP lost).
 鬼祟珊瑚群 is defeated.
 Combat won.
 Floor 7: gained 35 gold.
 Reward: add bury to the deck.
-Reward: obtain relic sozu.
-Reward: obtain potion cure-all.
+Reward: obtain relic vexing-puzzlebox.
+Reward: obtain potion energy-potion.
 Completed underdocks run slice.
