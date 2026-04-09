@@ -1,0 +1,1 @@
+"""Monster behavior scripts live here."""

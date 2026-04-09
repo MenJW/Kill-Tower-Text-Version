@@ -1,0 +1,1 @@
+"""Campfire logic lives here."""
