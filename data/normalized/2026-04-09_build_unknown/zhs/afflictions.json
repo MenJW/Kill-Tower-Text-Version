@@ -1,0 +1,272 @@
+[
+  {
+    "beta_image_url": null,
+    "description": "每回合只能打出[blue]1[/blue]张[gold]魂缚[/gold]卡牌。卡牌会在回合结束时失去[gold]魂缚[/gold]。",
+    "extra_card_text": "魂缚",
+    "id": "bound",
+    "image_url": null,
+    "implemented": false,
+    "is_stackable": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "Only [blue]1[/blue] [gold]Bound[/gold] card can be played each turn. Cards are un-[gold]Bound[/gold] at end of turn.",
+        "extra_card_text": "Bound",
+        "id": "BOUND",
+        "is_stackable": false,
+        "name": "Bound"
+      },
+      "zhs": {
+        "description": "每回合只能打出[blue]1[/blue]张[gold]魂缚[/gold]卡牌。卡牌会在回合结束时失去[gold]魂缚[/gold]。",
+        "extra_card_text": "魂缚",
+        "id": "BOUND",
+        "is_stackable": false,
+        "name": "魂缚"
+      }
+    },
+    "name": "魂缚",
+    "scripted": false,
+    "source_id": "BOUND",
+    "source_meta": {
+      "endpoint": "afflictions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/afflictions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Only [blue]1[/blue] [gold]Bound[/gold] card can be played each turn. Cards are un-[gold]Bound[/gold] at end of turn.",
+        "name": "Bound"
+      },
+      "zhs": {
+        "description": "每回合只能打出[blue]1[/blue]张[gold]魂缚[/gold]卡牌。卡牌会在回合结束时失去[gold]魂缚[/gold]。",
+        "name": "魂缚"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "[energy:1]费用增加1。",
+    "extra_card_text": "缠身",
+    "id": "entangled",
+    "image_url": null,
+    "implemented": false,
+    "is_stackable": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "Costs an additional [energy:1].",
+        "extra_card_text": "Entangled",
+        "id": "ENTANGLED",
+        "is_stackable": false,
+        "name": "Entangled"
+      },
+      "zhs": {
+        "description": "[energy:1]费用增加1。",
+        "extra_card_text": "缠身",
+        "id": "ENTANGLED",
+        "is_stackable": false,
+        "name": "缠身"
+      }
+    },
+    "name": "缠身",
+    "scripted": false,
+    "source_id": "ENTANGLED",
+    "source_meta": {
+      "endpoint": "afflictions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/afflictions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Costs an additional [energy:1].",
+        "name": "Entangled"
+      },
+      "zhs": {
+        "description": "[energy:1]费用增加1。",
+        "name": "缠身"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "打出这张牌时受到[blue]X[/blue]点伤害。",
+    "extra_card_text": "受到X点伤害。",
+    "id": "galvanized",
+    "image_url": null,
+    "implemented": false,
+    "is_stackable": true,
+    "localized_payloads": {
+      "eng": {
+        "description": "Take [blue]X[/blue] damage when this card is played.",
+        "extra_card_text": "Take X damage.",
+        "id": "GALVANIZED",
+        "is_stackable": true,
+        "name": "Galvanized"
+      },
+      "zhs": {
+        "description": "打出这张牌时受到[blue]X[/blue]点伤害。",
+        "extra_card_text": "受到X点伤害。",
+        "id": "GALVANIZED",
+        "is_stackable": true,
+        "name": "流电"
+      }
+    },
+    "name": "流电",
+    "scripted": false,
+    "source_id": "GALVANIZED",
+    "source_meta": {
+      "endpoint": "afflictions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/afflictions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Take [blue]X[/blue] damage when this card is played.",
+        "name": "Galvanized"
+      },
+      "zhs": {
+        "description": "打出这张牌时受到[blue]X[/blue]点伤害。",
+        "name": "流电"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "这张牌获得[gold]虚无[/gold]。",
+    "extra_card_text": null,
+    "id": "hexed",
+    "image_url": null,
+    "implemented": false,
+    "is_stackable": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "Add [gold]Ethereal[/gold] to this card.",
+        "extra_card_text": null,
+        "id": "HEXED",
+        "is_stackable": false,
+        "name": "Hexed"
+      },
+      "zhs": {
+        "description": "这张牌获得[gold]虚无[/gold]。",
+        "extra_card_text": null,
+        "id": "HEXED",
+        "is_stackable": false,
+        "name": "邪咒"
+      }
+    },
+    "name": "邪咒",
+    "scripted": false,
+    "source_id": "HEXED",
+    "source_meta": {
+      "endpoint": "afflictions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/afflictions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Add [gold]Ethereal[/gold] to this card.",
+        "name": "Hexed"
+      },
+      "zhs": {
+        "description": "这张牌获得[gold]虚无[/gold]。",
+        "name": "邪咒"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "你在本回合只能打出[blue]1[/blue]张牌。",
+    "extra_card_text": "昏眩。",
+    "id": "ringing",
+    "image_url": null,
+    "implemented": false,
+    "is_stackable": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "You can only play [blue]1[/blue] card this turn.",
+        "extra_card_text": "Ringing.",
+        "id": "RINGING",
+        "is_stackable": false,
+        "name": "Ringing"
+      },
+      "zhs": {
+        "description": "你在本回合只能打出[blue]1[/blue]张牌。",
+        "extra_card_text": "昏眩。",
+        "id": "RINGING",
+        "is_stackable": false,
+        "name": "昏眩"
+      }
+    },
+    "name": "昏眩",
+    "scripted": false,
+    "source_id": "RINGING",
+    "source_meta": {
+      "endpoint": "afflictions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/afflictions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "You can only play [blue]1[/blue] card this turn.",
+        "name": "Ringing"
+      },
+      "zhs": {
+        "description": "你在本回合只能打出[blue]1[/blue]张牌。",
+        "name": "昏眩"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "你在本回合无法再打出更多[gold]技能[/gold]牌。回合结束时消除。",
+    "extra_card_text": null,
+    "id": "smog",
+    "image_url": null,
+    "implemented": false,
+    "is_stackable": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "You cannot play additional [gold]Skills[/gold] this turn. Clears at the end of the turn.",
+        "extra_card_text": null,
+        "id": "SMOG",
+        "is_stackable": false,
+        "name": "Smog"
+      },
+      "zhs": {
+        "description": "你在本回合无法再打出更多[gold]技能[/gold]牌。回合结束时消除。",
+        "extra_card_text": null,
+        "id": "SMOG",
+        "is_stackable": false,
+        "name": "烟雾"
+      }
+    },
+    "name": "烟雾",
+    "scripted": false,
+    "source_id": "SMOG",
+    "source_meta": {
+      "endpoint": "afflictions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/afflictions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "You cannot play additional [gold]Skills[/gold] this turn. Clears at the end of the turn.",
+        "name": "Smog"
+      },
+      "zhs": {
+        "description": "你在本回合无法再打出更多[gold]技能[/gold]牌。回合结束时消除。",
+        "name": "烟雾"
+      }
+    }
+  }
+]

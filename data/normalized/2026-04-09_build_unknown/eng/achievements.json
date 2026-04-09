@@ -1,0 +1,1685 @@
+[
+  {
+    "beta_image_url": null,
+    "category": "run",
+    "character": null,
+    "condition": "Win with a fully-upgraded deck",
+    "description": "Win a Run with a fully-upgraded deck.",
+    "id": "all-cards-upgraded",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "run",
+        "character": null,
+        "condition": "Win with a fully-upgraded deck",
+        "description": "Win a Run with a fully-upgraded deck.",
+        "id": "ALL_CARDS_UPGRADED",
+        "name": "The Perfect Deck",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "run",
+        "character": null,
+        "condition": "Win with a fully-upgraded deck",
+        "description": "以全部升级的牌组赢得一局游戏。",
+        "id": "ALL_CARDS_UPGRADED",
+        "name": "完美牌组",
+        "threshold": null
+      }
+    },
+    "name": "The Perfect Deck",
+    "scripted": false,
+    "source_id": "ALL_CARDS_UPGRADED",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Win a Run with a fully-upgraded deck.",
+        "name": "The Perfect Deck"
+      },
+      "zhs": {
+        "description": "以全部升级的牌组赢得一局游戏。",
+        "name": "完美牌组"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "meta",
+    "character": null,
+    "condition": "Complete all other achievements",
+    "description": "Complete all other Achievements.",
+    "id": "all-other-achievements",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "meta",
+        "character": null,
+        "condition": "Complete all other achievements",
+        "description": "Complete all other Achievements.",
+        "id": "ALL_OTHER_ACHIEVEMENTS",
+        "name": "Eternal One",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "meta",
+        "character": null,
+        "condition": "Complete all other achievements",
+        "description": "完成其他所有成就。",
+        "id": "ALL_OTHER_ACHIEVEMENTS",
+        "name": "永存者",
+        "threshold": null
+      }
+    },
+    "name": "Eternal One",
+    "scripted": false,
+    "source_id": "ALL_OTHER_ACHIEVEMENTS",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Complete all other Achievements.",
+        "name": "Eternal One"
+      },
+      "zhs": {
+        "description": "完成其他所有成就。",
+        "name": "永存者"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_skill",
+    "character": "ironclad",
+    "condition": "Exhaust 20 cards in a single combat",
+    "description": "Exhaust 20 cards in a single combat.",
+    "id": "character-skill-ironclad1",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_skill",
+        "character": "Ironclad",
+        "condition": "Exhaust 20 cards in a single combat",
+        "description": "Exhaust 20 cards in a single combat.",
+        "id": "CHARACTER_SKILL_IRONCLAD1",
+        "name": "Pact Fulfilled",
+        "threshold": 20
+      },
+      "zhs": {
+        "category": "character_skill",
+        "character": "Ironclad",
+        "condition": "Exhaust 20 cards in a single combat",
+        "description": "在一场战斗中消耗20张牌。",
+        "id": "CHARACTER_SKILL_IRONCLAD1",
+        "name": "契约完成",
+        "threshold": 20
+      }
+    },
+    "name": "Pact Fulfilled",
+    "scripted": false,
+    "source_id": "CHARACTER_SKILL_IRONCLAD1",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Exhaust 20 cards in a single combat.",
+        "name": "Pact Fulfilled"
+      },
+      "zhs": {
+        "description": "在一场战斗中消耗20张牌。",
+        "name": "契约完成"
+      }
+    },
+    "threshold": 20
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_skill",
+    "character": "ironclad",
+    "condition": "Deal 999+ damage in a single hit",
+    "description": "Deal 999 Damage in a single blow.",
+    "id": "character-skill-ironclad2",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_skill",
+        "character": "Ironclad",
+        "condition": "Deal 999+ damage in a single hit",
+        "description": "Deal 999 Damage in a single blow.",
+        "id": "CHARACTER_SKILL_IRONCLAD2",
+        "name": "Heaviest Blade",
+        "threshold": 999
+      },
+      "zhs": {
+        "category": "character_skill",
+        "character": "Ironclad",
+        "condition": "Deal 999+ damage in a single hit",
+        "description": "一击造成999点伤害。",
+        "id": "CHARACTER_SKILL_IRONCLAD2",
+        "name": "最重之刃",
+        "threshold": 999
+      }
+    },
+    "name": "Heaviest Blade",
+    "scripted": false,
+    "source_id": "CHARACTER_SKILL_IRONCLAD2",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Deal 999 Damage in a single blow.",
+        "name": "Heaviest Blade"
+      },
+      "zhs": {
+        "description": "一击造成999点伤害。",
+        "name": "最重之刃"
+      }
+    },
+    "threshold": 999
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_skill",
+    "character": "necrobinder",
+    "condition": "Apply 999+ Doom to a single enemy",
+    "description": "Apply 999 Doom to a single enemy.",
+    "id": "character-skill-necrobinder1",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_skill",
+        "character": "Necrobinder",
+        "condition": "Apply 999+ Doom to a single enemy",
+        "description": "Apply 999 Doom to a single enemy.",
+        "id": "CHARACTER_SKILL_NECROBINDER1",
+        "name": "Already Dead",
+        "threshold": 999
+      },
+      "zhs": {
+        "category": "character_skill",
+        "character": "Necrobinder",
+        "condition": "Apply 999+ Doom to a single enemy",
+        "description": "对单个敌人造成999点灾厄。",
+        "id": "CHARACTER_SKILL_NECROBINDER1",
+        "name": "已经死了",
+        "threshold": 999
+      }
+    },
+    "name": "Already Dead",
+    "scripted": false,
+    "source_id": "CHARACTER_SKILL_NECROBINDER1",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Apply 999 Doom to a single enemy.",
+        "name": "Already Dead"
+      },
+      "zhs": {
+        "description": "对单个敌人造成999点灾厄。",
+        "name": "已经死了"
+      }
+    },
+    "threshold": 999
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_skill",
+    "character": "necrobinder",
+    "condition": "Apply 50+ Strength to Osty",
+    "description": "Apply 50 Strength to Osty.",
+    "id": "character-skill-necrobinder2",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_skill",
+        "character": "Necrobinder",
+        "condition": "Apply 50+ Strength to Osty",
+        "description": "Apply 50 Strength to Osty.",
+        "id": "CHARACTER_SKILL_NECROBINDER2",
+        "name": "Milk",
+        "threshold": 50
+      },
+      "zhs": {
+        "category": "character_skill",
+        "character": "Necrobinder",
+        "condition": "Apply 50+ Strength to Osty",
+        "description": "对奥斯提施加50点力量。",
+        "id": "CHARACTER_SKILL_NECROBINDER2",
+        "name": "喝奶补钙",
+        "threshold": 50
+      }
+    },
+    "name": "Milk",
+    "scripted": false,
+    "source_id": "CHARACTER_SKILL_NECROBINDER2",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Apply 50 Strength to Osty.",
+        "name": "Milk"
+      },
+      "zhs": {
+        "description": "对奥斯提施加50点力量。",
+        "name": "喝奶补钙"
+      }
+    },
+    "threshold": 50
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_skill",
+    "character": "regent",
+    "condition": "Forge a Sovereign Blade with 999+ base damage",
+    "description": "Forge a Sovereign Blade that does at least 999 damage.",
+    "id": "character-skill-regent1",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_skill",
+        "character": "Regent",
+        "condition": "Forge a Sovereign Blade with 999+ base damage",
+        "description": "Forge a Sovereign Blade that does at least 999 damage.",
+        "id": "CHARACTER_SKILL_REGENT1",
+        "name": "Blade Fit for a Monarch",
+        "threshold": 999
+      },
+      "zhs": {
+        "category": "character_skill",
+        "character": "Regent",
+        "condition": "Forge a Sovereign Blade with 999+ base damage",
+        "description": "打造出一张至少999点伤害的君王之剑。",
+        "id": "CHARACTER_SKILL_REGENT1",
+        "name": "王者之刃",
+        "threshold": 999
+      }
+    },
+    "name": "Blade Fit for a Monarch",
+    "scripted": false,
+    "source_id": "CHARACTER_SKILL_REGENT1",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Forge a Sovereign Blade that does at least 999 damage.",
+        "name": "Blade Fit for a Monarch"
+      },
+      "zhs": {
+        "description": "打造出一张至少999点伤害的君王之剑。",
+        "name": "王者之刃"
+      }
+    },
+    "threshold": 999
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_skill",
+    "character": "regent",
+    "condition": "Have 20+ Stars at once",
+    "description": "Have 20 Stars at once.",
+    "id": "character-skill-regent2",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_skill",
+        "character": "Regent",
+        "condition": "Have 20+ Stars at once",
+        "description": "Have 20 Stars at once.",
+        "id": "CHARACTER_SKILL_REGENT2",
+        "name": "Suns in the Sky",
+        "threshold": 20
+      },
+      "zhs": {
+        "category": "character_skill",
+        "character": "Regent",
+        "condition": "Have 20+ Stars at once",
+        "description": "拥有20辉星。",
+        "id": "CHARACTER_SKILL_REGENT2",
+        "name": "群日凌空",
+        "threshold": 20
+      }
+    },
+    "name": "Suns in the Sky",
+    "scripted": false,
+    "source_id": "CHARACTER_SKILL_REGENT2",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Have 20 Stars at once.",
+        "name": "Suns in the Sky"
+      },
+      "zhs": {
+        "description": "拥有20辉星。",
+        "name": "群日凌空"
+      }
+    },
+    "threshold": 20
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_skill",
+    "character": "silent",
+    "condition": "Play 5 cards via Sly off a single card play",
+    "description": "Play 5 cards using Sly off a single card.",
+    "id": "character-skill-silent1",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_skill",
+        "character": "Silent",
+        "condition": "Play 5 cards via Sly off a single card play",
+        "description": "Play 5 cards using Sly off a single card.",
+        "id": "CHARACTER_SKILL_SILENT1",
+        "name": "Sneaky Sly",
+        "threshold": 5
+      },
+      "zhs": {
+        "category": "character_skill",
+        "character": "Silent",
+        "condition": "Play 5 cards via Sly off a single card play",
+        "description": "通过奇巧机制用一张牌打出5张牌。",
+        "id": "CHARACTER_SKILL_SILENT1",
+        "name": "安得奇巧",
+        "threshold": 5
+      }
+    },
+    "name": "Sneaky Sly",
+    "scripted": false,
+    "source_id": "CHARACTER_SKILL_SILENT1",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Play 5 cards using Sly off a single card.",
+        "name": "Sneaky Sly"
+      },
+      "zhs": {
+        "description": "通过奇巧机制用一张牌打出5张牌。",
+        "name": "安得奇巧"
+      }
+    },
+    "threshold": 5
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_skill",
+    "character": "silent",
+    "condition": "Apply 99+ Poison to a single enemy",
+    "description": "Apply 99 Poison to a single enemy.",
+    "id": "character-skill-silent2",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_skill",
+        "character": "Silent",
+        "condition": "Apply 99+ Poison to a single enemy",
+        "description": "Apply 99 Poison to a single enemy.",
+        "id": "CHARACTER_SKILL_SILENT2",
+        "name": "A Few Drops",
+        "threshold": 99
+      },
+      "zhs": {
+        "category": "character_skill",
+        "character": "Silent",
+        "condition": "Apply 99+ Poison to a single enemy",
+        "description": "对一个敌人施加99层中毒。",
+        "id": "CHARACTER_SKILL_SILENT2",
+        "name": "几滴就好",
+        "threshold": 99
+      }
+    },
+    "name": "A Few Drops",
+    "scripted": false,
+    "source_id": "CHARACTER_SKILL_SILENT2",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Apply 99 Poison to a single enemy.",
+        "name": "A Few Drops"
+      },
+      "zhs": {
+        "description": "对一个敌人施加99层中毒。",
+        "name": "几滴就好"
+      }
+    },
+    "threshold": 99
+  },
+  {
+    "beta_image_url": null,
+    "category": "run",
+    "character": null,
+    "condition": "Complete Act 4",
+    "description": "Complete Act 4.",
+    "id": "complete-act4",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "run",
+        "character": null,
+        "condition": "Complete Act 4",
+        "description": "Complete Act 4.",
+        "id": "COMPLETE_ACT4",
+        "name": "True Ending",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "run",
+        "character": null,
+        "condition": "Complete Act 4",
+        "description": "完成第四阶段。",
+        "id": "COMPLETE_ACT4",
+        "name": "真结局",
+        "threshold": null
+      }
+    },
+    "name": "True Ending",
+    "scripted": false,
+    "source_id": "COMPLETE_ACT4",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Complete Act 4.",
+        "name": "True Ending"
+      },
+      "zhs": {
+        "description": "完成第四阶段。",
+        "name": "真结局"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "collection",
+    "character": null,
+    "condition": "Complete the Timeline",
+    "description": "Complete the Timeline.",
+    "id": "complete-timeline",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "collection",
+        "character": null,
+        "condition": "Complete the Timeline",
+        "description": "Complete the Timeline.",
+        "id": "COMPLETE_TIMELINE",
+        "name": "Historian",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "collection",
+        "character": null,
+        "condition": "Complete the Timeline",
+        "description": "完成时间线。",
+        "id": "COMPLETE_TIMELINE",
+        "name": "历史学家",
+        "threshold": null
+      }
+    },
+    "name": "Historian",
+    "scripted": false,
+    "source_id": "COMPLETE_TIMELINE",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Complete the Timeline.",
+        "name": "Historian"
+      },
+      "zhs": {
+        "description": "完成时间线。",
+        "name": "历史学家"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat every enemy in the Glory",
+    "description": "Defeat every enemy in the Glory.",
+    "id": "defeat-glory-enemies",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat every enemy in the Glory",
+        "description": "Defeat every enemy in the Glory.",
+        "id": "DEFEAT_GLORY_ENEMIES",
+        "name": "The Glory",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat every enemy in the Glory",
+        "description": "打败荣耀的所有敌人。",
+        "id": "DEFEAT_GLORY_ENEMIES",
+        "name": "荣耀",
+        "threshold": null
+      }
+    },
+    "name": "The Glory",
+    "scripted": false,
+    "source_id": "DEFEAT_GLORY_ENEMIES",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Defeat every enemy in the Glory.",
+        "name": "The Glory"
+      },
+      "zhs": {
+        "description": "打败荣耀的所有敌人。",
+        "name": "荣耀"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat every enemy in the Hive",
+    "description": "Defeat every enemy in the Hive.",
+    "id": "defeat-hive-enemies",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat every enemy in the Hive",
+        "description": "Defeat every enemy in the Hive.",
+        "id": "DEFEAT_HIVE_ENEMIES",
+        "name": "The Hive",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat every enemy in the Hive",
+        "description": "打败巢穴的所有敌人。",
+        "id": "DEFEAT_HIVE_ENEMIES",
+        "name": "巢穴",
+        "threshold": null
+      }
+    },
+    "name": "The Hive",
+    "scripted": false,
+    "source_id": "DEFEAT_HIVE_ENEMIES",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Defeat every enemy in the Hive.",
+        "name": "The Hive"
+      },
+      "zhs": {
+        "description": "打败巢穴的所有敌人。",
+        "name": "巢穴"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat a boss",
+    "description": "Defeat a Boss.",
+    "id": "defeat-one-boss",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat a boss",
+        "description": "Defeat a Boss.",
+        "id": "DEFEAT_ONE_BOSS",
+        "name": "First of Many",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat a boss",
+        "description": "打败一名Boss。",
+        "id": "DEFEAT_ONE_BOSS",
+        "name": "小小开始",
+        "threshold": null
+      }
+    },
+    "name": "First of Many",
+    "scripted": false,
+    "source_id": "DEFEAT_ONE_BOSS",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Defeat a Boss.",
+        "name": "First of Many"
+      },
+      "zhs": {
+        "description": "打败一名Boss。",
+        "name": "小小开始"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat every enemy in the Overgrowth",
+    "description": "Defeat every enemy in the Overgrowth.",
+    "id": "defeat-overgrowth-enemies",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat every enemy in the Overgrowth",
+        "description": "Defeat every enemy in the Overgrowth.",
+        "id": "DEFEAT_OVERGROWTH_ENEMIES",
+        "name": "The Overgrowth",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat every enemy in the Overgrowth",
+        "description": "打败密林的所有敌人。",
+        "id": "DEFEAT_OVERGROWTH_ENEMIES",
+        "name": "密林",
+        "threshold": null
+      }
+    },
+    "name": "The Overgrowth",
+    "scripted": false,
+    "source_id": "DEFEAT_OVERGROWTH_ENEMIES",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Defeat every enemy in the Overgrowth.",
+        "name": "The Overgrowth"
+      },
+      "zhs": {
+        "description": "打败密林的所有敌人。",
+        "name": "密林"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat every enemy in the Underdocks",
+    "description": "Defeat every enemy in the Underdocks.",
+    "id": "defeat-underdocks-enemies",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat every enemy in the Underdocks",
+        "description": "Defeat every enemy in the Underdocks.",
+        "id": "DEFEAT_UNDERDOCKS_ENEMIES",
+        "name": "The Underdocks",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "combat",
+        "character": null,
+        "condition": "Defeat every enemy in the Underdocks",
+        "description": "打败暗港的所有敌人。",
+        "id": "DEFEAT_UNDERDOCKS_ENEMIES",
+        "name": "暗港",
+        "threshold": null
+      }
+    },
+    "name": "The Underdocks",
+    "scripted": false,
+    "source_id": "DEFEAT_UNDERDOCKS_ENEMIES",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Defeat every enemy in the Underdocks.",
+        "name": "The Underdocks"
+      },
+      "zhs": {
+        "description": "打败暗港的所有敌人。",
+        "name": "暗港"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_ascension",
+    "character": "defect",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Defect.",
+    "id": "defect-ascension10",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_ascension",
+        "character": "Defect",
+        "condition": null,
+        "description": "Beat Ascension 10 as the Defect.",
+        "id": "DEFECT_ASCENSION10",
+        "name": "Echo",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_ascension",
+        "character": "Defect",
+        "condition": null,
+        "description": "用故障机器人赢得一局进阶10的游戏。",
+        "id": "DEFECT_ASCENSION10",
+        "name": "回响",
+        "threshold": null
+      }
+    },
+    "name": "Echo",
+    "scripted": false,
+    "source_id": "DEFECT_ASCENSION10",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Beat Ascension 10 as the Defect.",
+        "name": "Echo"
+      },
+      "zhs": {
+        "description": "用故障机器人赢得一局进阶10的游戏。",
+        "name": "回响"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_win",
+    "character": "defect",
+    "condition": null,
+    "description": "Win as the Defect.",
+    "id": "defect-win",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_win",
+        "character": "Defect",
+        "condition": null,
+        "description": "Win as the Defect.",
+        "id": "DEFECT_WIN",
+        "name": "The Defect",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_win",
+        "character": "Defect",
+        "condition": null,
+        "description": "用故障机器人打通游戏。",
+        "id": "DEFECT_WIN",
+        "name": "故障机器人",
+        "threshold": null
+      }
+    },
+    "name": "The Defect",
+    "scripted": false,
+    "source_id": "DEFECT_WIN",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Win as the Defect.",
+        "name": "The Defect"
+      },
+      "zhs": {
+        "description": "用故障机器人打通游戏。",
+        "name": "故障机器人"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "collection",
+    "character": null,
+    "condition": "Discover all cards",
+    "description": "Discover all Cards.",
+    "id": "discover-all-cards",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "collection",
+        "character": null,
+        "condition": "Discover all cards",
+        "description": "Discover all Cards.",
+        "id": "DISCOVER_ALL_CARDS",
+        "name": "Collector",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "collection",
+        "character": null,
+        "condition": "Discover all cards",
+        "description": "发现所有卡牌。",
+        "id": "DISCOVER_ALL_CARDS",
+        "name": "收藏家",
+        "threshold": null
+      }
+    },
+    "name": "Collector",
+    "scripted": false,
+    "source_id": "DISCOVER_ALL_CARDS",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Discover all Cards.",
+        "name": "Collector"
+      },
+      "zhs": {
+        "description": "发现所有卡牌。",
+        "name": "收藏家"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "collection",
+    "character": null,
+    "condition": "Encounter all events",
+    "description": "Encounter all Events.",
+    "id": "discover-all-events",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "collection",
+        "character": null,
+        "condition": "Encounter all events",
+        "description": "Encounter all Events.",
+        "id": "DISCOVER_ALL_EVENTS",
+        "name": "Explorer",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "collection",
+        "character": null,
+        "condition": "Encounter all events",
+        "description": "遇到所有事件。",
+        "id": "DISCOVER_ALL_EVENTS",
+        "name": "探险家",
+        "threshold": null
+      }
+    },
+    "name": "Explorer",
+    "scripted": false,
+    "source_id": "DISCOVER_ALL_EVENTS",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Encounter all Events.",
+        "name": "Explorer"
+      },
+      "zhs": {
+        "description": "遇到所有事件。",
+        "name": "探险家"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "collection",
+    "character": null,
+    "condition": "Discover all relics",
+    "description": "Discover all Relics.",
+    "id": "discover-all-relics",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "collection",
+        "character": null,
+        "condition": "Discover all relics",
+        "description": "Discover all Relics.",
+        "id": "DISCOVER_ALL_RELICS",
+        "name": "Archaeologist",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "collection",
+        "character": null,
+        "condition": "Discover all relics",
+        "description": "发现所有遗物。",
+        "id": "DISCOVER_ALL_RELICS",
+        "name": "考古学家",
+        "threshold": null
+      }
+    },
+    "name": "Archaeologist",
+    "scripted": false,
+    "source_id": "DISCOVER_ALL_RELICS",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Discover all Relics.",
+        "name": "Archaeologist"
+      },
+      "zhs": {
+        "description": "发现所有遗物。",
+        "name": "考古学家"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "collection",
+    "character": null,
+    "condition": "Climb 10,000 floors total",
+    "description": "Climb 10,000 floors.",
+    "id": "floor-ten-thousand",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "collection",
+        "character": null,
+        "condition": "Climb 10,000 floors total",
+        "description": "Climb 10,000 floors.",
+        "id": "FLOOR_TEN_THOUSAND",
+        "name": "A Lot of Stairs",
+        "threshold": 10000
+      },
+      "zhs": {
+        "category": "collection",
+        "character": null,
+        "condition": "Climb 10,000 floors total",
+        "description": "在尖塔中攀登1万层。",
+        "id": "FLOOR_TEN_THOUSAND",
+        "name": "好多楼梯",
+        "threshold": 10000
+      }
+    },
+    "name": "A Lot of Stairs",
+    "scripted": false,
+    "source_id": "FLOOR_TEN_THOUSAND",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Climb 10,000 floors.",
+        "name": "A Lot of Stairs"
+      },
+      "zhs": {
+        "description": "在尖塔中攀登1万层。",
+        "name": "好多楼梯"
+      }
+    },
+    "threshold": 10000
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_ascension",
+    "character": "ironclad",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Ironclad.",
+    "id": "ironclad-ascension10",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_ascension",
+        "character": "Ironclad",
+        "condition": null,
+        "description": "Beat Ascension 10 as the Ironclad.",
+        "id": "IRONCLAD_ASCENSION10",
+        "name": "Demon",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_ascension",
+        "character": "Ironclad",
+        "condition": null,
+        "description": "用铁甲战士赢得一局进阶10的游戏。",
+        "id": "IRONCLAD_ASCENSION10",
+        "name": "恶魔",
+        "threshold": null
+      }
+    },
+    "name": "Demon",
+    "scripted": false,
+    "source_id": "IRONCLAD_ASCENSION10",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Beat Ascension 10 as the Ironclad.",
+        "name": "Demon"
+      },
+      "zhs": {
+        "description": "用铁甲战士赢得一局进阶10的游戏。",
+        "name": "恶魔"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_win",
+    "character": "ironclad",
+    "condition": null,
+    "description": "Win as the Ironclad.",
+    "id": "ironclad-win",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_win",
+        "character": "Ironclad",
+        "condition": null,
+        "description": "Win as the Ironclad.",
+        "id": "IRONCLAD_WIN",
+        "name": "The Ironclad",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_win",
+        "character": "Ironclad",
+        "condition": null,
+        "description": "用铁甲战士打通游戏。",
+        "id": "IRONCLAD_WIN",
+        "name": "铁甲战士",
+        "threshold": null
+      }
+    },
+    "name": "The Ironclad",
+    "scripted": false,
+    "source_id": "IRONCLAD_WIN",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Win as the Ironclad.",
+        "name": "The Ironclad"
+      },
+      "zhs": {
+        "description": "用铁甲战士打通游戏。",
+        "name": "铁甲战士"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_ascension",
+    "character": "necrobinder",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Necrobinder.",
+    "id": "necrobinder-ascension10",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_ascension",
+        "character": "Necrobinder",
+        "condition": null,
+        "description": "Beat Ascension 10 as the Necrobinder.",
+        "id": "NECROBINDER_ASCENSION10",
+        "name": "Lich",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_ascension",
+        "character": "Necrobinder",
+        "condition": null,
+        "description": "用亡灵契约师赢得一局进阶10的游戏。",
+        "id": "NECROBINDER_ASCENSION10",
+        "name": "巫妖",
+        "threshold": null
+      }
+    },
+    "name": "Lich",
+    "scripted": false,
+    "source_id": "NECROBINDER_ASCENSION10",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Beat Ascension 10 as the Necrobinder.",
+        "name": "Lich"
+      },
+      "zhs": {
+        "description": "用亡灵契约师赢得一局进阶10的游戏。",
+        "name": "巫妖"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_win",
+    "character": "necrobinder",
+    "condition": null,
+    "description": "Win as the Necrobinder.",
+    "id": "necrobinder-win",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_win",
+        "character": "Necrobinder",
+        "condition": null,
+        "description": "Win as the Necrobinder.",
+        "id": "NECROBINDER_WIN",
+        "name": "The Necrobinder",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_win",
+        "character": "Necrobinder",
+        "condition": null,
+        "description": "用亡灵契约师打通游戏。",
+        "id": "NECROBINDER_WIN",
+        "name": "亡灵契约师",
+        "threshold": null
+      }
+    },
+    "name": "The Necrobinder",
+    "scripted": false,
+    "source_id": "NECROBINDER_WIN",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Win as the Necrobinder.",
+        "name": "The Necrobinder"
+      },
+      "zhs": {
+        "description": "用亡灵契约师打通游戏。",
+        "name": "亡灵契约师"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "run",
+    "character": null,
+    "condition": "Win without obtaining any relics",
+    "description": "Win a Run without obtaining any relics.",
+    "id": "no-relic-win",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "run",
+        "character": null,
+        "condition": "Win without obtaining any relics",
+        "description": "Win a Run without obtaining any relics.",
+        "id": "NO_RELIC_WIN",
+        "name": "Unnecessary Clutter",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "run",
+        "character": null,
+        "condition": "Win without obtaining any relics",
+        "description": "不获得任何遗物打通游戏。",
+        "id": "NO_RELIC_WIN",
+        "name": "身无杂物",
+        "threshold": null
+      }
+    },
+    "name": "Unnecessary Clutter",
+    "scripted": false,
+    "source_id": "NO_RELIC_WIN",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Win a Run without obtaining any relics.",
+        "name": "Unnecessary Clutter"
+      },
+      "zhs": {
+        "description": "不获得任何遗物打通游戏。",
+        "name": "身无杂物"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "combat",
+    "character": null,
+    "condition": "Play 20 cards in a single turn",
+    "description": "Play 20 cards in a single turn.",
+    "id": "play20-cards-single-turn",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "combat",
+        "character": null,
+        "condition": "Play 20 cards in a single turn",
+        "description": "Play 20 cards in a single turn.",
+        "id": "PLAY20_CARDS_SINGLE_TURN",
+        "name": "Playing Cards Is Fun",
+        "threshold": 20
+      },
+      "zhs": {
+        "category": "combat",
+        "character": null,
+        "condition": "Play 20 cards in a single turn",
+        "description": "在一回合内打出20张牌。",
+        "id": "PLAY20_CARDS_SINGLE_TURN",
+        "name": "打牌真开心啊",
+        "threshold": 20
+      }
+    },
+    "name": "Playing Cards Is Fun",
+    "scripted": false,
+    "source_id": "PLAY20_CARDS_SINGLE_TURN",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Play 20 cards in a single turn.",
+        "name": "Playing Cards Is Fun"
+      },
+      "zhs": {
+        "description": "在一回合内打出20张牌。",
+        "name": "打牌真开心啊"
+      }
+    },
+    "threshold": 20
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_ascension",
+    "character": "regent",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Regent.",
+    "id": "regent-ascension10",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_ascension",
+        "character": "Regent",
+        "condition": null,
+        "description": "Beat Ascension 10 as the Regent.",
+        "id": "REGENT_ASCENSION10",
+        "name": "Monarch",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_ascension",
+        "character": "Regent",
+        "condition": null,
+        "description": "用储君赢得一局进阶10的游戏。",
+        "id": "REGENT_ASCENSION10",
+        "name": "帝王",
+        "threshold": null
+      }
+    },
+    "name": "Monarch",
+    "scripted": false,
+    "source_id": "REGENT_ASCENSION10",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Beat Ascension 10 as the Regent.",
+        "name": "Monarch"
+      },
+      "zhs": {
+        "description": "用储君赢得一局进阶10的游戏。",
+        "name": "帝王"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_win",
+    "character": "regent",
+    "condition": null,
+    "description": "Win as the Regent.",
+    "id": "regent-win",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_win",
+        "character": "Regent",
+        "condition": null,
+        "description": "Win as the Regent.",
+        "id": "REGENT_WIN",
+        "name": "The Regent",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_win",
+        "character": "Regent",
+        "condition": null,
+        "description": "用储君打通游戏。",
+        "id": "REGENT_WIN",
+        "name": "储君",
+        "threshold": null
+      }
+    },
+    "name": "The Regent",
+    "scripted": false,
+    "source_id": "REGENT_WIN",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Win as the Regent.",
+        "name": "The Regent"
+      },
+      "zhs": {
+        "description": "用储君打通游戏。",
+        "name": "储君"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_ascension",
+    "character": "silent",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Silent.",
+    "id": "silent-ascension10",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_ascension",
+        "character": "Silent",
+        "condition": null,
+        "description": "Beat Ascension 10 as the Silent.",
+        "id": "SILENT_ASCENSION10",
+        "name": "Wraith",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_ascension",
+        "character": "Silent",
+        "condition": null,
+        "description": "用静默猎手赢得一局进阶10的游戏。",
+        "id": "SILENT_ASCENSION10",
+        "name": "幽魂",
+        "threshold": null
+      }
+    },
+    "name": "Wraith",
+    "scripted": false,
+    "source_id": "SILENT_ASCENSION10",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Beat Ascension 10 as the Silent.",
+        "name": "Wraith"
+      },
+      "zhs": {
+        "description": "用静默猎手赢得一局进阶10的游戏。",
+        "name": "幽魂"
+      }
+    },
+    "threshold": null
+  },
+  {
+    "beta_image_url": null,
+    "category": "character_win",
+    "character": "silent",
+    "condition": null,
+    "description": "Win as the Silent.",
+    "id": "silent-win",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "category": "character_win",
+        "character": "Silent",
+        "condition": null,
+        "description": "Win as the Silent.",
+        "id": "SILENT_WIN",
+        "name": "The Silent",
+        "threshold": null
+      },
+      "zhs": {
+        "category": "character_win",
+        "character": "Silent",
+        "condition": null,
+        "description": "用静默猎手打通游戏。",
+        "id": "SILENT_WIN",
+        "name": "静默猎手",
+        "threshold": null
+      }
+    },
+    "name": "The Silent",
+    "scripted": false,
+    "source_id": "SILENT_WIN",
+    "source_meta": {
+      "endpoint": "achievements",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/achievements"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Win as the Silent.",
+        "name": "The Silent"
+      },
+      "zhs": {
+        "description": "用静默猎手打通游戏。",
+        "name": "静默猎手"
+      }
+    },
+    "threshold": null
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "beta_image_url": null,
+    "description": "Cannot be removed or transformed from your [gold]Deck[/gold].",
+    "id": "eternal",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "Cannot be removed or transformed from your [gold]Deck[/gold].",
+        "id": "ETERNAL",
+        "name": "Eternal"
+      },
+      "zhs": {
+        "description": "无法从你的[gold]牌组[/gold]中移除或变化。",
+        "id": "ETERNAL",
+        "name": "永恒"
+      }
+    },
+    "name": "Eternal",
+    "scripted": false,
+    "source_id": "ETERNAL",
+    "source_meta": {
+      "endpoint": "keywords",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/keywords"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Cannot be removed or transformed from your [gold]Deck[/gold].",
+        "name": "Eternal"
+      },
+      "zhs": {
+        "description": "无法从你的[gold]牌组[/gold]中移除或变化。",
+        "name": "永恒"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+    "id": "ethereal",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+        "id": "ETHEREAL",
+        "name": "Ethereal"
+      },
+      "zhs": {
+        "description": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。",
+        "id": "ETHEREAL",
+        "name": "虚无"
+      }
+    },
+    "name": "Ethereal",
+    "scripted": false,
+    "source_id": "ETHEREAL",
+    "source_meta": {
+      "endpoint": "keywords",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/keywords"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "If this card is in your [gold]Hand[/gold] at the end of this turn, it is [gold]Exhausted[/gold].",
+        "name": "Ethereal"
+      },
+      "zhs": {
+        "description": "如果这张牌在这个回合结束时留在你的[gold]手牌[/gold]中，则将其[gold]消耗[/gold]。",
+        "name": "虚无"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Removed until the end of combat.",
+    "id": "exhaust",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "Removed until the end of combat.",
+        "id": "EXHAUST",
+        "name": "Exhaust"
+      },
+      "zhs": {
+        "description": "在战斗结束前移除。",
+        "id": "EXHAUST",
+        "name": "消耗"
+      }
+    },
+    "name": "Exhaust",
+    "scripted": false,
+    "source_id": "EXHAUST",
+    "source_meta": {
+      "endpoint": "keywords",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/keywords"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Removed until the end of combat.",
+        "name": "Exhaust"
+      },
+      "zhs": {
+        "description": "在战斗结束前移除。",
+        "name": "消耗"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Start each combat with this card in your [gold]Hand[/gold].",
+    "id": "innate",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "Start each combat with this card in your [gold]Hand[/gold].",
+        "id": "INNATE",
+        "name": "Innate"
+      },
+      "zhs": {
+        "description": "每场战斗开始时这张牌会出现在你的[gold]手牌[/gold]。",
+        "id": "INNATE",
+        "name": "固有"
+      }
+    },
+    "name": "Innate",
+    "scripted": false,
+    "source_id": "INNATE",
+    "source_meta": {
+      "endpoint": "keywords",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/keywords"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Start each combat with this card in your [gold]Hand[/gold].",
+        "name": "Innate"
+      },
+      "zhs": {
+        "description": "每场战斗开始时这张牌会出现在你的[gold]手牌[/gold]。",
+        "name": "固有"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": null,
+    "id": "period",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "",
+        "id": "PERIOD",
+        "name": "Period"
+      },
+      "zhs": {
+        "description": "",
+        "id": "PERIOD",
+        "name": "Period"
+      }
+    },
+    "name": "Period",
+    "scripted": false,
+    "source_id": "PERIOD",
+    "source_meta": {
+      "endpoint": "keywords",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/keywords"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Period"
+      },
+      "zhs": {
+        "description": null,
+        "name": "Period"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Retained cards are not discarded at the end of turn.",
+    "id": "retain",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "Retained cards are not discarded at the end of turn.",
+        "id": "RETAIN",
+        "name": "Retain"
+      },
+      "zhs": {
+        "description": "保留的牌不会在回合结束时被弃掉。",
+        "id": "RETAIN",
+        "name": "保留"
+      }
+    },
+    "name": "Retain",
+    "scripted": false,
+    "source_id": "RETAIN",
+    "source_meta": {
+      "endpoint": "keywords",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/keywords"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Retained cards are not discarded at the end of turn.",
+        "name": "Retain"
+      },
+      "zhs": {
+        "description": "保留的牌不会在回合结束时被弃掉。",
+        "name": "保留"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "If this card is discarded from your [gold]Hand[/gold] before the end of your turn, play it for free.",
+    "id": "sly",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "If this card is discarded from your [gold]Hand[/gold] before the end of your turn, play it for free.",
+        "id": "SLY",
+        "name": "Sly"
+      },
+      "zhs": {
+        "description": "如果这张牌在你的回合结束前从你的[gold]手牌[/gold]中被丢弃，则免费将其打出。",
+        "id": "SLY",
+        "name": "奇巧"
+      }
+    },
+    "name": "Sly",
+    "scripted": false,
+    "source_id": "SLY",
+    "source_meta": {
+      "endpoint": "keywords",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/keywords"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "If this card is discarded from your [gold]Hand[/gold] before the end of your turn, play it for free.",
+        "name": "Sly"
+      },
+      "zhs": {
+        "description": "如果这张牌在你的回合结束前从你的[gold]手牌[/gold]中被丢弃，则免费将其打出。",
+        "name": "奇巧"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Unplayable cards cannot be played.",
+    "id": "unplayable",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "Unplayable cards cannot be played.",
+        "id": "UNPLAYABLE",
+        "name": "Unplayable"
+      },
+      "zhs": {
+        "description": "不能被打出的牌无法被打出。",
+        "id": "UNPLAYABLE",
+        "name": "不能被打出"
+      }
+    },
+    "name": "Unplayable",
+    "scripted": false,
+    "source_id": "UNPLAYABLE",
+    "source_meta": {
+      "endpoint": "keywords",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/keywords"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Unplayable cards cannot be played.",
+        "name": "Unplayable"
+      },
+      "zhs": {
+        "description": "不能被打出的牌无法被打出。",
+        "name": "不能被打出"
+      }
+    }
+  }
+]

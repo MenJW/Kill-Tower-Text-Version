@@ -1,0 +1,1222 @@
+[
+  {
+    "ancients": [
+      "nonupeipe",
+      "tanx",
+      "vakuu"
+    ],
+    "beta_image_url": null,
+    "bosses": [
+      {
+        "entity_id": "queen-boss",
+        "entity_type": "encounter",
+        "source_id": "QUEEN_BOSS"
+      },
+      {
+        "entity_id": "test-subject-boss",
+        "entity_type": "encounter",
+        "source_id": "TEST_SUBJECT_BOSS"
+      },
+      {
+        "entity_id": "doormaker-boss",
+        "entity_type": "encounter",
+        "source_id": "DOORMAKER_BOSS"
+      }
+    ],
+    "description": null,
+    "encounters": [
+      {
+        "entity_id": "axebots-normal",
+        "entity_type": "encounter",
+        "source_id": "AXEBOTS_NORMAL"
+      },
+      {
+        "entity_id": "construct-menagerie-normal",
+        "entity_type": "encounter",
+        "source_id": "CONSTRUCT_MENAGERIE_NORMAL"
+      },
+      {
+        "entity_id": "devoted-sculptor-weak",
+        "entity_type": "encounter",
+        "source_id": "DEVOTED_SCULPTOR_WEAK"
+      },
+      {
+        "entity_id": "doormaker-boss",
+        "entity_type": "encounter",
+        "source_id": "DOORMAKER_BOSS"
+      },
+      {
+        "entity_id": "fabricator-normal",
+        "entity_type": "encounter",
+        "source_id": "FABRICATOR_NORMAL"
+      },
+      {
+        "entity_id": "frog-knight-normal",
+        "entity_type": "encounter",
+        "source_id": "FROG_KNIGHT_NORMAL"
+      },
+      {
+        "entity_id": "globe-head-normal",
+        "entity_type": "encounter",
+        "source_id": "GLOBE_HEAD_NORMAL"
+      },
+      {
+        "entity_id": "knights-elite",
+        "entity_type": "encounter",
+        "source_id": "KNIGHTS_ELITE"
+      },
+      {
+        "entity_id": "mecha-knight-elite",
+        "entity_type": "encounter",
+        "source_id": "MECHA_KNIGHT_ELITE"
+      },
+      {
+        "entity_id": "owl-magistrate-normal",
+        "entity_type": "encounter",
+        "source_id": "OWL_MAGISTRATE_NORMAL"
+      },
+      {
+        "entity_id": "queen-boss",
+        "entity_type": "encounter",
+        "source_id": "QUEEN_BOSS"
+      },
+      {
+        "entity_id": "scrolls-of-biting-normal",
+        "entity_type": "encounter",
+        "source_id": "SCROLLS_OF_BITING_NORMAL"
+      },
+      {
+        "entity_id": "scrolls-of-biting-weak",
+        "entity_type": "encounter",
+        "source_id": "SCROLLS_OF_BITING_WEAK"
+      },
+      {
+        "entity_id": "slimed-berserker-normal",
+        "entity_type": "encounter",
+        "source_id": "SLIMED_BERSERKER_NORMAL"
+      },
+      {
+        "entity_id": "soul-nexus-elite",
+        "entity_type": "encounter",
+        "source_id": "SOUL_NEXUS_ELITE"
+      },
+      {
+        "entity_id": "test-subject-boss",
+        "entity_type": "encounter",
+        "source_id": "TEST_SUBJECT_BOSS"
+      },
+      {
+        "entity_id": "the-lost-and-forgotten-normal",
+        "entity_type": "encounter",
+        "source_id": "THE_LOST_AND_FORGOTTEN_NORMAL"
+      },
+      {
+        "entity_id": "turret-operator-weak",
+        "entity_type": "encounter",
+        "source_id": "TURRET_OPERATOR_WEAK"
+      }
+    ],
+    "events": [
+      {
+        "entity_id": "battleworn-dummy",
+        "entity_type": "event",
+        "source_id": "BATTLEWORN_DUMMY"
+      },
+      {
+        "entity_id": "grave-of-the-forgotten",
+        "entity_type": "event",
+        "source_id": "GRAVE_OF_THE_FORGOTTEN"
+      },
+      {
+        "entity_id": "hungry-for-mushrooms",
+        "entity_type": "event",
+        "source_id": "HUNGRY_FOR_MUSHROOMS"
+      },
+      {
+        "entity_id": "reflections",
+        "entity_type": "event",
+        "source_id": "REFLECTIONS"
+      },
+      {
+        "entity_id": "round-tea-party",
+        "entity_type": "event",
+        "source_id": "ROUND_TEA_PARTY"
+      },
+      {
+        "entity_id": "trial",
+        "entity_type": "event",
+        "source_id": "TRIAL"
+      },
+      {
+        "entity_id": "tinker-time",
+        "entity_type": "event",
+        "source_id": "TINKER_TIME"
+      }
+    ],
+    "id": "glory",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "ancients": [
+          "NONUPEIPE",
+          "TANX",
+          "VAKUU"
+        ],
+        "bosses": [
+          "QUEEN_BOSS",
+          "TEST_SUBJECT_BOSS",
+          "DOORMAKER_BOSS"
+        ],
+        "encounters": [
+          "AXEBOTS_NORMAL",
+          "CONSTRUCT_MENAGERIE_NORMAL",
+          "DEVOTED_SCULPTOR_WEAK",
+          "DOORMAKER_BOSS",
+          "FABRICATOR_NORMAL",
+          "FROG_KNIGHT_NORMAL",
+          "GLOBE_HEAD_NORMAL",
+          "KNIGHTS_ELITE",
+          "MECHA_KNIGHT_ELITE",
+          "OWL_MAGISTRATE_NORMAL",
+          "QUEEN_BOSS",
+          "SCROLLS_OF_BITING_NORMAL",
+          "SCROLLS_OF_BITING_WEAK",
+          "SLIMED_BERSERKER_NORMAL",
+          "SOUL_NEXUS_ELITE",
+          "TEST_SUBJECT_BOSS",
+          "THE_LOST_AND_FORGOTTEN_NORMAL",
+          "TURRET_OPERATOR_WEAK"
+        ],
+        "events": [
+          "BATTLEWORN_DUMMY",
+          "GRAVE_OF_THE_FORGOTTEN",
+          "HUNGRY_FOR_MUSHROOMS",
+          "REFLECTIONS",
+          "ROUND_TEA_PARTY",
+          "TRIAL",
+          "TINKER_TIME"
+        ],
+        "id": "GLORY",
+        "name": "Glory",
+        "num_rooms": 13
+      },
+      "zhs": {
+        "ancients": [
+          "NONUPEIPE",
+          "TANX",
+          "VAKUU"
+        ],
+        "bosses": [
+          "QUEEN_BOSS",
+          "TEST_SUBJECT_BOSS",
+          "DOORMAKER_BOSS"
+        ],
+        "encounters": [
+          "AXEBOTS_NORMAL",
+          "CONSTRUCT_MENAGERIE_NORMAL",
+          "DEVOTED_SCULPTOR_WEAK",
+          "DOORMAKER_BOSS",
+          "FABRICATOR_NORMAL",
+          "FROG_KNIGHT_NORMAL",
+          "GLOBE_HEAD_NORMAL",
+          "KNIGHTS_ELITE",
+          "MECHA_KNIGHT_ELITE",
+          "OWL_MAGISTRATE_NORMAL",
+          "QUEEN_BOSS",
+          "SCROLLS_OF_BITING_NORMAL",
+          "SCROLLS_OF_BITING_WEAK",
+          "SLIMED_BERSERKER_NORMAL",
+          "SOUL_NEXUS_ELITE",
+          "TEST_SUBJECT_BOSS",
+          "THE_LOST_AND_FORGOTTEN_NORMAL",
+          "TURRET_OPERATOR_WEAK"
+        ],
+        "events": [
+          "BATTLEWORN_DUMMY",
+          "GRAVE_OF_THE_FORGOTTEN",
+          "HUNGRY_FOR_MUSHROOMS",
+          "REFLECTIONS",
+          "ROUND_TEA_PARTY",
+          "TRIAL",
+          "TINKER_TIME"
+        ],
+        "id": "GLORY",
+        "name": "荣耀",
+        "num_rooms": 13
+      }
+    },
+    "name": "Glory",
+    "num_rooms": 13,
+    "scripted": false,
+    "source_id": "GLORY",
+    "source_meta": {
+      "endpoint": "acts",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/acts"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Glory"
+      },
+      "zhs": {
+        "description": null,
+        "name": "荣耀"
+      }
+    }
+  },
+  {
+    "ancients": [
+      "orobas",
+      "pael",
+      "tezcatara",
+      "orobas"
+    ],
+    "beta_image_url": null,
+    "bosses": [
+      {
+        "entity_id": "the-insatiable-boss",
+        "entity_type": "encounter",
+        "source_id": "THE_INSATIABLE_BOSS"
+      },
+      {
+        "entity_id": "knowledge-demon-boss",
+        "entity_type": "encounter",
+        "source_id": "KNOWLEDGE_DEMON_BOSS"
+      },
+      {
+        "entity_id": "kaiser-crab-boss",
+        "entity_type": "encounter",
+        "source_id": "KAISER_CRAB_BOSS"
+      }
+    ],
+    "description": null,
+    "encounters": [
+      {
+        "entity_id": "bowlbugs-normal",
+        "entity_type": "encounter",
+        "source_id": "BOWLBUGS_NORMAL"
+      },
+      {
+        "entity_id": "bowlbugs-weak",
+        "entity_type": "encounter",
+        "source_id": "BOWLBUGS_WEAK"
+      },
+      {
+        "entity_id": "chompers-normal",
+        "entity_type": "encounter",
+        "source_id": "CHOMPERS_NORMAL"
+      },
+      {
+        "entity_id": "decimillipede-elite",
+        "entity_type": "encounter",
+        "source_id": "DECIMILLIPEDE_ELITE"
+      },
+      {
+        "entity_id": "entomancer-elite",
+        "entity_type": "encounter",
+        "source_id": "ENTOMANCER_ELITE"
+      },
+      {
+        "entity_id": "exoskeletons-normal",
+        "entity_type": "encounter",
+        "source_id": "EXOSKELETONS_NORMAL"
+      },
+      {
+        "entity_id": "exoskeletons-weak",
+        "entity_type": "encounter",
+        "source_id": "EXOSKELETONS_WEAK"
+      },
+      {
+        "entity_id": "hunter-killer-normal",
+        "entity_type": "encounter",
+        "source_id": "HUNTER_KILLER_NORMAL"
+      },
+      {
+        "entity_id": "kaiser-crab-boss",
+        "entity_type": "encounter",
+        "source_id": "KAISER_CRAB_BOSS"
+      },
+      {
+        "entity_id": "infested-prisms-elite",
+        "entity_type": "encounter",
+        "source_id": "INFESTED_PRISMS_ELITE"
+      },
+      {
+        "entity_id": "knowledge-demon-boss",
+        "entity_type": "encounter",
+        "source_id": "KNOWLEDGE_DEMON_BOSS"
+      },
+      {
+        "entity_id": "louse-progenitor-normal",
+        "entity_type": "encounter",
+        "source_id": "LOUSE_PROGENITOR_NORMAL"
+      },
+      {
+        "entity_id": "mytes-normal",
+        "entity_type": "encounter",
+        "source_id": "MYTES_NORMAL"
+      },
+      {
+        "entity_id": "ovicopter-normal",
+        "entity_type": "encounter",
+        "source_id": "OVICOPTER_NORMAL"
+      },
+      {
+        "entity_id": "slumbering-beetle-normal",
+        "entity_type": "encounter",
+        "source_id": "SLUMBERING_BEETLE_NORMAL"
+      },
+      {
+        "entity_id": "spiny-toad-normal",
+        "entity_type": "encounter",
+        "source_id": "SPINY_TOAD_NORMAL"
+      },
+      {
+        "entity_id": "the-insatiable-boss",
+        "entity_type": "encounter",
+        "source_id": "THE_INSATIABLE_BOSS"
+      },
+      {
+        "entity_id": "the-obscura-normal",
+        "entity_type": "encounter",
+        "source_id": "THE_OBSCURA_NORMAL"
+      },
+      {
+        "entity_id": "thieving-hopper-weak",
+        "entity_type": "encounter",
+        "source_id": "THIEVING_HOPPER_WEAK"
+      },
+      {
+        "entity_id": "tunneler-normal",
+        "entity_type": "encounter",
+        "source_id": "TUNNELER_NORMAL"
+      },
+      {
+        "entity_id": "tunneler-weak",
+        "entity_type": "encounter",
+        "source_id": "TUNNELER_WEAK"
+      }
+    ],
+    "events": [
+      {
+        "entity_id": "amalgamator",
+        "entity_type": "event",
+        "source_id": "AMALGAMATOR"
+      },
+      {
+        "entity_id": "bugslayer",
+        "entity_type": "event",
+        "source_id": "BUGSLAYER"
+      },
+      {
+        "entity_id": "colorful-philosophers",
+        "entity_type": "event",
+        "source_id": "COLORFUL_PHILOSOPHERS"
+      },
+      {
+        "entity_id": "colossal-flower",
+        "entity_type": "event",
+        "source_id": "COLOSSAL_FLOWER"
+      },
+      {
+        "entity_id": "field-of-man-sized-holes",
+        "entity_type": "event",
+        "source_id": "FIELD_OF_MAN_SIZED_HOLES"
+      },
+      {
+        "entity_id": "infested-automaton",
+        "entity_type": "event",
+        "source_id": "INFESTED_AUTOMATON"
+      },
+      {
+        "entity_id": "lost-wisp",
+        "entity_type": "event",
+        "source_id": "LOST_WISP"
+      },
+      {
+        "entity_id": "spirit-grafter",
+        "entity_type": "event",
+        "source_id": "SPIRIT_GRAFTER"
+      },
+      {
+        "entity_id": "the-lantern-key",
+        "entity_type": "event",
+        "source_id": "THE_LANTERN_KEY"
+      },
+      {
+        "entity_id": "zen-weaver",
+        "entity_type": "event",
+        "source_id": "ZEN_WEAVER"
+      }
+    ],
+    "id": "hive",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "ancients": [
+          "OROBAS",
+          "PAEL",
+          "TEZCATARA",
+          "OROBAS"
+        ],
+        "bosses": [
+          "THE_INSATIABLE_BOSS",
+          "KNOWLEDGE_DEMON_BOSS",
+          "KAISER_CRAB_BOSS"
+        ],
+        "encounters": [
+          "BOWLBUGS_NORMAL",
+          "BOWLBUGS_WEAK",
+          "CHOMPERS_NORMAL",
+          "DECIMILLIPEDE_ELITE",
+          "ENTOMANCER_ELITE",
+          "EXOSKELETONS_NORMAL",
+          "EXOSKELETONS_WEAK",
+          "HUNTER_KILLER_NORMAL",
+          "KAISER_CRAB_BOSS",
+          "INFESTED_PRISMS_ELITE",
+          "KNOWLEDGE_DEMON_BOSS",
+          "LOUSE_PROGENITOR_NORMAL",
+          "MYTES_NORMAL",
+          "OVICOPTER_NORMAL",
+          "SLUMBERING_BEETLE_NORMAL",
+          "SPINY_TOAD_NORMAL",
+          "THE_INSATIABLE_BOSS",
+          "THE_OBSCURA_NORMAL",
+          "THIEVING_HOPPER_WEAK",
+          "TUNNELER_NORMAL",
+          "TUNNELER_WEAK"
+        ],
+        "events": [
+          "AMALGAMATOR",
+          "BUGSLAYER",
+          "COLORFUL_PHILOSOPHERS",
+          "COLOSSAL_FLOWER",
+          "FIELD_OF_MAN_SIZED_HOLES",
+          "INFESTED_AUTOMATON",
+          "LOST_WISP",
+          "SPIRIT_GRAFTER",
+          "THE_LANTERN_KEY",
+          "ZEN_WEAVER"
+        ],
+        "id": "HIVE",
+        "name": "Hive",
+        "num_rooms": 14
+      },
+      "zhs": {
+        "ancients": [
+          "OROBAS",
+          "PAEL",
+          "TEZCATARA",
+          "OROBAS"
+        ],
+        "bosses": [
+          "THE_INSATIABLE_BOSS",
+          "KNOWLEDGE_DEMON_BOSS",
+          "KAISER_CRAB_BOSS"
+        ],
+        "encounters": [
+          "BOWLBUGS_NORMAL",
+          "BOWLBUGS_WEAK",
+          "CHOMPERS_NORMAL",
+          "DECIMILLIPEDE_ELITE",
+          "ENTOMANCER_ELITE",
+          "EXOSKELETONS_NORMAL",
+          "EXOSKELETONS_WEAK",
+          "HUNTER_KILLER_NORMAL",
+          "KAISER_CRAB_BOSS",
+          "INFESTED_PRISMS_ELITE",
+          "KNOWLEDGE_DEMON_BOSS",
+          "LOUSE_PROGENITOR_NORMAL",
+          "MYTES_NORMAL",
+          "OVICOPTER_NORMAL",
+          "SLUMBERING_BEETLE_NORMAL",
+          "SPINY_TOAD_NORMAL",
+          "THE_INSATIABLE_BOSS",
+          "THE_OBSCURA_NORMAL",
+          "THIEVING_HOPPER_WEAK",
+          "TUNNELER_NORMAL",
+          "TUNNELER_WEAK"
+        ],
+        "events": [
+          "AMALGAMATOR",
+          "BUGSLAYER",
+          "COLORFUL_PHILOSOPHERS",
+          "COLOSSAL_FLOWER",
+          "FIELD_OF_MAN_SIZED_HOLES",
+          "INFESTED_AUTOMATON",
+          "LOST_WISP",
+          "SPIRIT_GRAFTER",
+          "THE_LANTERN_KEY",
+          "ZEN_WEAVER"
+        ],
+        "id": "HIVE",
+        "name": "巢穴",
+        "num_rooms": 14
+      }
+    },
+    "name": "Hive",
+    "num_rooms": 14,
+    "scripted": false,
+    "source_id": "HIVE",
+    "source_meta": {
+      "endpoint": "acts",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/acts"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Hive"
+      },
+      "zhs": {
+        "description": null,
+        "name": "巢穴"
+      }
+    }
+  },
+  {
+    "ancients": [
+      "neow",
+      "neow"
+    ],
+    "beta_image_url": null,
+    "bosses": [
+      {
+        "entity_id": "vantom-boss",
+        "entity_type": "encounter",
+        "source_id": "VANTOM_BOSS"
+      },
+      {
+        "entity_id": "ceremonial-beast-boss",
+        "entity_type": "encounter",
+        "source_id": "CEREMONIAL_BEAST_BOSS"
+      },
+      {
+        "entity_id": "the-kin-boss",
+        "entity_type": "encounter",
+        "source_id": "THE_KIN_BOSS"
+      }
+    ],
+    "description": null,
+    "encounters": [
+      {
+        "entity_id": "bygone-effigy-elite",
+        "entity_type": "encounter",
+        "source_id": "BYGONE_EFFIGY_ELITE"
+      },
+      {
+        "entity_id": "byrdonis-elite",
+        "entity_type": "encounter",
+        "source_id": "BYRDONIS_ELITE"
+      },
+      {
+        "entity_id": "ceremonial-beast-boss",
+        "entity_type": "encounter",
+        "source_id": "CEREMONIAL_BEAST_BOSS"
+      },
+      {
+        "entity_id": "cubex-construct-normal",
+        "entity_type": "encounter",
+        "source_id": "CUBEX_CONSTRUCT_NORMAL"
+      },
+      {
+        "entity_id": "flyconid-normal",
+        "entity_type": "encounter",
+        "source_id": "FLYCONID_NORMAL"
+      },
+      {
+        "entity_id": "fogmog-normal",
+        "entity_type": "encounter",
+        "source_id": "FOGMOG_NORMAL"
+      },
+      {
+        "entity_id": "fuzzy-wurm-crawler-weak",
+        "entity_type": "encounter",
+        "source_id": "FUZZY_WURM_CRAWLER_WEAK"
+      },
+      {
+        "entity_id": "inklets-normal",
+        "entity_type": "encounter",
+        "source_id": "INKLETS_NORMAL"
+      },
+      {
+        "entity_id": "mawler-normal",
+        "entity_type": "encounter",
+        "source_id": "MAWLER_NORMAL"
+      },
+      {
+        "entity_id": "nibbits-normal",
+        "entity_type": "encounter",
+        "source_id": "NIBBITS_NORMAL"
+      },
+      {
+        "entity_id": "nibbits-weak",
+        "entity_type": "encounter",
+        "source_id": "NIBBITS_WEAK"
+      },
+      {
+        "entity_id": "overgrowth-crawlers",
+        "entity_type": "encounter",
+        "source_id": "OVERGROWTH_CRAWLERS"
+      },
+      {
+        "entity_id": "phrog-parasite-elite",
+        "entity_type": "encounter",
+        "source_id": "PHROG_PARASITE_ELITE"
+      },
+      {
+        "entity_id": "ruby-raiders-normal",
+        "entity_type": "encounter",
+        "source_id": "RUBY_RAIDERS_NORMAL"
+      },
+      {
+        "entity_id": "shrinker-beetle-weak",
+        "entity_type": "encounter",
+        "source_id": "SHRINKER_BEETLE_WEAK"
+      },
+      {
+        "entity_id": "slimes-normal",
+        "entity_type": "encounter",
+        "source_id": "SLIMES_NORMAL"
+      },
+      {
+        "entity_id": "slimes-weak",
+        "entity_type": "encounter",
+        "source_id": "SLIMES_WEAK"
+      },
+      {
+        "entity_id": "slithering-strangler-normal",
+        "entity_type": "encounter",
+        "source_id": "SLITHERING_STRANGLER_NORMAL"
+      },
+      {
+        "entity_id": "snapping-jaxfruit-normal",
+        "entity_type": "encounter",
+        "source_id": "SNAPPING_JAXFRUIT_NORMAL"
+      },
+      {
+        "entity_id": "the-kin-boss",
+        "entity_type": "encounter",
+        "source_id": "THE_KIN_BOSS"
+      },
+      {
+        "entity_id": "vantom-boss",
+        "entity_type": "encounter",
+        "source_id": "VANTOM_BOSS"
+      },
+      {
+        "entity_id": "vine-shambler-normal",
+        "entity_type": "encounter",
+        "source_id": "VINE_SHAMBLER_NORMAL"
+      }
+    ],
+    "events": [
+      {
+        "entity_id": "aroma-of-chaos",
+        "entity_type": "event",
+        "source_id": "AROMA_OF_CHAOS"
+      },
+      {
+        "entity_id": "byrdonis-nest",
+        "entity_type": "event",
+        "source_id": "BYRDONIS_NEST"
+      },
+      {
+        "entity_id": "dense-vegetation",
+        "entity_type": "event",
+        "source_id": "DENSE_VEGETATION"
+      },
+      {
+        "entity_id": "jungle-maze-adventure",
+        "entity_type": "event",
+        "source_id": "JUNGLE_MAZE_ADVENTURE"
+      },
+      {
+        "entity_id": "luminous-choir",
+        "entity_type": "event",
+        "source_id": "LUMINOUS_CHOIR"
+      },
+      {
+        "entity_id": "morphic-grove",
+        "entity_type": "event",
+        "source_id": "MORPHIC_GROVE"
+      },
+      {
+        "entity_id": "sapphire-seed",
+        "entity_type": "event",
+        "source_id": "SAPPHIRE_SEED"
+      },
+      {
+        "entity_id": "sunken-statue",
+        "entity_type": "event",
+        "source_id": "SUNKEN_STATUE"
+      },
+      {
+        "entity_id": "tablet-of-truth",
+        "entity_type": "event",
+        "source_id": "TABLET_OF_TRUTH"
+      },
+      {
+        "entity_id": "unrest-site",
+        "entity_type": "event",
+        "source_id": "UNREST_SITE"
+      },
+      {
+        "entity_id": "wellspring",
+        "entity_type": "event",
+        "source_id": "WELLSPRING"
+      },
+      {
+        "entity_id": "whispering-hollow",
+        "entity_type": "event",
+        "source_id": "WHISPERING_HOLLOW"
+      },
+      {
+        "entity_id": "wood-carvings",
+        "entity_type": "event",
+        "source_id": "WOOD_CARVINGS"
+      }
+    ],
+    "id": "overgrowth",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "ancients": [
+          "NEOW",
+          "NEOW"
+        ],
+        "bosses": [
+          "VANTOM_BOSS",
+          "CEREMONIAL_BEAST_BOSS",
+          "THE_KIN_BOSS"
+        ],
+        "encounters": [
+          "BYGONE_EFFIGY_ELITE",
+          "BYRDONIS_ELITE",
+          "CEREMONIAL_BEAST_BOSS",
+          "CUBEX_CONSTRUCT_NORMAL",
+          "FLYCONID_NORMAL",
+          "FOGMOG_NORMAL",
+          "FUZZY_WURM_CRAWLER_WEAK",
+          "INKLETS_NORMAL",
+          "MAWLER_NORMAL",
+          "NIBBITS_NORMAL",
+          "NIBBITS_WEAK",
+          "OVERGROWTH_CRAWLERS",
+          "PHROG_PARASITE_ELITE",
+          "RUBY_RAIDERS_NORMAL",
+          "SHRINKER_BEETLE_WEAK",
+          "SLIMES_NORMAL",
+          "SLIMES_WEAK",
+          "SLITHERING_STRANGLER_NORMAL",
+          "SNAPPING_JAXFRUIT_NORMAL",
+          "THE_KIN_BOSS",
+          "VANTOM_BOSS",
+          "VINE_SHAMBLER_NORMAL"
+        ],
+        "events": [
+          "AROMA_OF_CHAOS",
+          "BYRDONIS_NEST",
+          "DENSE_VEGETATION",
+          "JUNGLE_MAZE_ADVENTURE",
+          "LUMINOUS_CHOIR",
+          "MORPHIC_GROVE",
+          "SAPPHIRE_SEED",
+          "SUNKEN_STATUE",
+          "TABLET_OF_TRUTH",
+          "UNREST_SITE",
+          "WELLSPRING",
+          "WHISPERING_HOLLOW",
+          "WOOD_CARVINGS"
+        ],
+        "id": "OVERGROWTH",
+        "name": "Overgrowth",
+        "num_rooms": 15
+      },
+      "zhs": {
+        "ancients": [
+          "NEOW",
+          "NEOW"
+        ],
+        "bosses": [
+          "VANTOM_BOSS",
+          "CEREMONIAL_BEAST_BOSS",
+          "THE_KIN_BOSS"
+        ],
+        "encounters": [
+          "BYGONE_EFFIGY_ELITE",
+          "BYRDONIS_ELITE",
+          "CEREMONIAL_BEAST_BOSS",
+          "CUBEX_CONSTRUCT_NORMAL",
+          "FLYCONID_NORMAL",
+          "FOGMOG_NORMAL",
+          "FUZZY_WURM_CRAWLER_WEAK",
+          "INKLETS_NORMAL",
+          "MAWLER_NORMAL",
+          "NIBBITS_NORMAL",
+          "NIBBITS_WEAK",
+          "OVERGROWTH_CRAWLERS",
+          "PHROG_PARASITE_ELITE",
+          "RUBY_RAIDERS_NORMAL",
+          "SHRINKER_BEETLE_WEAK",
+          "SLIMES_NORMAL",
+          "SLIMES_WEAK",
+          "SLITHERING_STRANGLER_NORMAL",
+          "SNAPPING_JAXFRUIT_NORMAL",
+          "THE_KIN_BOSS",
+          "VANTOM_BOSS",
+          "VINE_SHAMBLER_NORMAL"
+        ],
+        "events": [
+          "AROMA_OF_CHAOS",
+          "BYRDONIS_NEST",
+          "DENSE_VEGETATION",
+          "JUNGLE_MAZE_ADVENTURE",
+          "LUMINOUS_CHOIR",
+          "MORPHIC_GROVE",
+          "SAPPHIRE_SEED",
+          "SUNKEN_STATUE",
+          "TABLET_OF_TRUTH",
+          "UNREST_SITE",
+          "WELLSPRING",
+          "WHISPERING_HOLLOW",
+          "WOOD_CARVINGS"
+        ],
+        "id": "OVERGROWTH",
+        "name": "密林",
+        "num_rooms": 15
+      }
+    },
+    "name": "Overgrowth",
+    "num_rooms": 15,
+    "scripted": false,
+    "source_id": "OVERGROWTH",
+    "source_meta": {
+      "endpoint": "acts",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/acts"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Overgrowth"
+      },
+      "zhs": {
+        "description": null,
+        "name": "密林"
+      }
+    }
+  },
+  {
+    "ancients": [
+      "neow",
+      "neow"
+    ],
+    "beta_image_url": null,
+    "bosses": [
+      {
+        "entity_id": "waterfall-giant-boss",
+        "entity_type": "encounter",
+        "source_id": "WATERFALL_GIANT_BOSS"
+      },
+      {
+        "entity_id": "soul-fysh-boss",
+        "entity_type": "encounter",
+        "source_id": "SOUL_FYSH_BOSS"
+      },
+      {
+        "entity_id": "lagavulin-matriarch-boss",
+        "entity_type": "encounter",
+        "source_id": "LAGAVULIN_MATRIARCH_BOSS"
+      }
+    ],
+    "description": null,
+    "encounters": [
+      {
+        "entity_id": "corpse-slugs-normal",
+        "entity_type": "encounter",
+        "source_id": "CORPSE_SLUGS_NORMAL"
+      },
+      {
+        "entity_id": "corpse-slugs-weak",
+        "entity_type": "encounter",
+        "source_id": "CORPSE_SLUGS_WEAK"
+      },
+      {
+        "entity_id": "cultists-normal",
+        "entity_type": "encounter",
+        "source_id": "CULTISTS_NORMAL"
+      },
+      {
+        "entity_id": "living-fog-normal",
+        "entity_type": "encounter",
+        "source_id": "LIVING_FOG_NORMAL"
+      },
+      {
+        "entity_id": "fossil-stalker-normal",
+        "entity_type": "encounter",
+        "source_id": "FOSSIL_STALKER_NORMAL"
+      },
+      {
+        "entity_id": "gremlin-merc-normal",
+        "entity_type": "encounter",
+        "source_id": "GREMLIN_MERC_NORMAL"
+      },
+      {
+        "entity_id": "haunted-ship-normal",
+        "entity_type": "encounter",
+        "source_id": "HAUNTED_SHIP_NORMAL"
+      },
+      {
+        "entity_id": "lagavulin-matriarch-boss",
+        "entity_type": "encounter",
+        "source_id": "LAGAVULIN_MATRIARCH_BOSS"
+      },
+      {
+        "entity_id": "skulking-colony-elite",
+        "entity_type": "encounter",
+        "source_id": "SKULKING_COLONY_ELITE"
+      },
+      {
+        "entity_id": "phantasmal-gardeners-elite",
+        "entity_type": "encounter",
+        "source_id": "PHANTASMAL_GARDENERS_ELITE"
+      },
+      {
+        "entity_id": "punch-construct-normal",
+        "entity_type": "encounter",
+        "source_id": "PUNCH_CONSTRUCT_NORMAL"
+      },
+      {
+        "entity_id": "seapunk-weak",
+        "entity_type": "encounter",
+        "source_id": "SEAPUNK_WEAK"
+      },
+      {
+        "entity_id": "sewer-clam-normal",
+        "entity_type": "encounter",
+        "source_id": "SEWER_CLAM_NORMAL"
+      },
+      {
+        "entity_id": "sludge-spinner-weak",
+        "entity_type": "encounter",
+        "source_id": "SLUDGE_SPINNER_WEAK"
+      },
+      {
+        "entity_id": "soul-fysh-boss",
+        "entity_type": "encounter",
+        "source_id": "SOUL_FYSH_BOSS"
+      },
+      {
+        "entity_id": "terror-eel-elite",
+        "entity_type": "encounter",
+        "source_id": "TERROR_EEL_ELITE"
+      },
+      {
+        "entity_id": "toadpoles-normal",
+        "entity_type": "encounter",
+        "source_id": "TOADPOLES_NORMAL"
+      },
+      {
+        "entity_id": "toadpoles-weak",
+        "entity_type": "encounter",
+        "source_id": "TOADPOLES_WEAK"
+      },
+      {
+        "entity_id": "two-tailed-rats-normal",
+        "entity_type": "encounter",
+        "source_id": "TWO_TAILED_RATS_NORMAL"
+      },
+      {
+        "entity_id": "waterfall-giant-boss",
+        "entity_type": "encounter",
+        "source_id": "WATERFALL_GIANT_BOSS"
+      }
+    ],
+    "events": [
+      {
+        "entity_id": "abyssal-baths",
+        "entity_type": "event",
+        "source_id": "ABYSSAL_BATHS"
+      },
+      {
+        "entity_id": "drowning-beacon",
+        "entity_type": "event",
+        "source_id": "DROWNING_BEACON"
+      },
+      {
+        "entity_id": "endless-conveyor",
+        "entity_type": "event",
+        "source_id": "ENDLESS_CONVEYOR"
+      },
+      {
+        "entity_id": "punch-off",
+        "entity_type": "event",
+        "source_id": "PUNCH_OFF"
+      },
+      {
+        "entity_id": "spiraling-whirlpool",
+        "entity_type": "event",
+        "source_id": "SPIRALING_WHIRLPOOL"
+      },
+      {
+        "entity_id": "sunken-statue",
+        "entity_type": "event",
+        "source_id": "SUNKEN_STATUE"
+      },
+      {
+        "entity_id": "sunken-treasury",
+        "entity_type": "event",
+        "source_id": "SUNKEN_TREASURY"
+      },
+      {
+        "entity_id": "doors-of-light-and-dark",
+        "entity_type": "event",
+        "source_id": "DOORS_OF_LIGHT_AND_DARK"
+      },
+      {
+        "entity_id": "trash-heap",
+        "entity_type": "event",
+        "source_id": "TRASH_HEAP"
+      },
+      {
+        "entity_id": "waterlogged-scriptorium",
+        "entity_type": "event",
+        "source_id": "WATERLOGGED_SCRIPTORIUM"
+      }
+    ],
+    "id": "underdocks",
+    "image_url": null,
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "ancients": [
+          "NEOW",
+          "NEOW"
+        ],
+        "bosses": [
+          "WATERFALL_GIANT_BOSS",
+          "SOUL_FYSH_BOSS",
+          "LAGAVULIN_MATRIARCH_BOSS"
+        ],
+        "encounters": [
+          "CORPSE_SLUGS_NORMAL",
+          "CORPSE_SLUGS_WEAK",
+          "CULTISTS_NORMAL",
+          "LIVING_FOG_NORMAL",
+          "FOSSIL_STALKER_NORMAL",
+          "GREMLIN_MERC_NORMAL",
+          "HAUNTED_SHIP_NORMAL",
+          "LAGAVULIN_MATRIARCH_BOSS",
+          "SKULKING_COLONY_ELITE",
+          "PHANTASMAL_GARDENERS_ELITE",
+          "PUNCH_CONSTRUCT_NORMAL",
+          "SEAPUNK_WEAK",
+          "SEWER_CLAM_NORMAL",
+          "SLUDGE_SPINNER_WEAK",
+          "SOUL_FYSH_BOSS",
+          "TERROR_EEL_ELITE",
+          "TOADPOLES_NORMAL",
+          "TOADPOLES_WEAK",
+          "TWO_TAILED_RATS_NORMAL",
+          "WATERFALL_GIANT_BOSS"
+        ],
+        "events": [
+          "ABYSSAL_BATHS",
+          "DROWNING_BEACON",
+          "ENDLESS_CONVEYOR",
+          "PUNCH_OFF",
+          "SPIRALING_WHIRLPOOL",
+          "SUNKEN_STATUE",
+          "SUNKEN_TREASURY",
+          "DOORS_OF_LIGHT_AND_DARK",
+          "TRASH_HEAP",
+          "WATERLOGGED_SCRIPTORIUM"
+        ],
+        "id": "UNDERDOCKS",
+        "name": "Underdocks",
+        "num_rooms": 15
+      },
+      "zhs": {
+        "ancients": [
+          "NEOW",
+          "NEOW"
+        ],
+        "bosses": [
+          "WATERFALL_GIANT_BOSS",
+          "SOUL_FYSH_BOSS",
+          "LAGAVULIN_MATRIARCH_BOSS"
+        ],
+        "encounters": [
+          "CORPSE_SLUGS_NORMAL",
+          "CORPSE_SLUGS_WEAK",
+          "CULTISTS_NORMAL",
+          "LIVING_FOG_NORMAL",
+          "FOSSIL_STALKER_NORMAL",
+          "GREMLIN_MERC_NORMAL",
+          "HAUNTED_SHIP_NORMAL",
+          "LAGAVULIN_MATRIARCH_BOSS",
+          "SKULKING_COLONY_ELITE",
+          "PHANTASMAL_GARDENERS_ELITE",
+          "PUNCH_CONSTRUCT_NORMAL",
+          "SEAPUNK_WEAK",
+          "SEWER_CLAM_NORMAL",
+          "SLUDGE_SPINNER_WEAK",
+          "SOUL_FYSH_BOSS",
+          "TERROR_EEL_ELITE",
+          "TOADPOLES_NORMAL",
+          "TOADPOLES_WEAK",
+          "TWO_TAILED_RATS_NORMAL",
+          "WATERFALL_GIANT_BOSS"
+        ],
+        "events": [
+          "ABYSSAL_BATHS",
+          "DROWNING_BEACON",
+          "ENDLESS_CONVEYOR",
+          "PUNCH_OFF",
+          "SPIRALING_WHIRLPOOL",
+          "SUNKEN_STATUE",
+          "SUNKEN_TREASURY",
+          "DOORS_OF_LIGHT_AND_DARK",
+          "TRASH_HEAP",
+          "WATERLOGGED_SCRIPTORIUM"
+        ],
+        "id": "UNDERDOCKS",
+        "name": "暗港",
+        "num_rooms": 15
+      }
+    },
+    "name": "Underdocks",
+    "num_rooms": 15,
+    "scripted": false,
+    "source_id": "UNDERDOCKS",
+    "source_meta": {
+      "endpoint": "acts",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/acts"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Underdocks"
+      },
+      "zhs": {
+        "description": null,
+        "name": "暗港"
+      }
+    }
+  }
+]

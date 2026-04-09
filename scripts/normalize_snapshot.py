@@ -12,7 +12,7 @@ if str(SRC) not in sys.path:
 
 from kill_tower.app.config import get_config
 from kill_tower.data.loader import load_json, write_json
-from kill_tower.utils.text import collapse_whitespace
+from kill_tower.data.normalizers import build_language_index, normalize_entity, sort_normalized_records
 
 
 def parse_args() -> argparse.Namespace:
@@ -22,47 +22,44 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def normalize_record(record: dict[str, Any], lang: str) -> dict[str, Any]:
-    source_id = str(record.get("id") or record.get("source_id") or record.get("name") or "unknown")
-    name = collapse_whitespace(str(record.get("name") or source_id))
-    description = record.get("description")
-
-    normalized = dict(record)
-    normalized["id"] = source_id
-    normalized["source_id"] = source_id
-    normalized.setdefault(
-        "texts",
-        {
-            lang: {
-                "name": name,
-                "description": collapse_whitespace(str(description)) if description else None,
-            }
-        },
-    )
-    normalized.setdefault("scripted", False)
-    normalized.setdefault("implemented", False)
-    return normalized
-
-
-def normalize_collection(records: Any, lang: str) -> Any:
-    if isinstance(records, list):
-        return [normalize_record(record, lang) for record in records if isinstance(record, dict)]
-    return records
-
-
 def main() -> None:
     args = parse_args()
     config = get_config()
+    raw_root = config.paths.raw_data_dir / "spire_codex" / args.snapshot_tag
+    endpoints = sorted(
+        {
+            path.stem
+            for lang in tuple(dict.fromkeys(args.languages))
+            for path in (raw_root / lang).glob("*.json")
+        }
+    )
 
-    for lang in tuple(dict.fromkeys(args.languages)):
-        raw_dir = config.paths.raw_data_dir / "spire_codex" / args.snapshot_tag / lang
-        output_dir = config.paths.normalized_data_dir / args.snapshot_tag / lang
-        output_dir.mkdir(parents=True, exist_ok=True)
-        for raw_file in sorted(raw_dir.glob("*.json")):
-            payload = load_json(raw_file)
-            normalized = normalize_collection(payload, lang)
-            output_path = output_dir / raw_file.name
-            write_json(output_path, normalized)
+    for endpoint in endpoints:
+        payloads_by_lang: dict[str, Any] = {}
+        for lang in tuple(dict.fromkeys(args.languages)):
+            raw_file = raw_root / lang / f"{endpoint}.json"
+            if raw_file.exists():
+                payloads_by_lang[lang] = load_json(raw_file)
+
+        if not payloads_by_lang:
+            continue
+
+        entity_index = build_language_index(payloads_by_lang)
+        for lang in tuple(dict.fromkeys(args.languages)):
+            output_dir = config.paths.normalized_data_dir / args.snapshot_tag / lang
+            output_dir.mkdir(parents=True, exist_ok=True)
+            normalized_records = [
+                normalize_entity(
+                    endpoint=endpoint,
+                    records_by_lang=records,
+                    preferred_lang=lang,
+                    snapshot_tag=args.snapshot_tag,
+                    base_url=config.runtime.spire_codex_api_base,
+                )
+                for records in entity_index.values()
+            ]
+            output_path = output_dir / f"{endpoint}.json"
+            write_json(output_path, sort_normalized_records(normalized_records))
             print(f"saved {output_path}")
 
 

@@ -1,0 +1,86 @@
+[
+  {
+    "description": "这个敌人将要[gold]攻击[/gold]{IsMultiplayer:所有人|}造成[blue]{Damage}[/blue]点伤害{Repeat:choose(1):|[blue]{}[/blue]次}。",
+    "id": "ATTACK",
+    "image_url": "/static/images/intents/attack.png",
+    "name": "攻势"
+  },
+  {
+    "description": "这个敌人将要使用一个[gold]强化效果[/gold]。",
+    "id": "BUFF",
+    "image_url": "/static/images/intents/buff.png",
+    "name": "强化"
+  },
+  {
+    "description": "这个敌人将要对你的卡牌施加[gold]侵蚀[/gold]。",
+    "id": "CARD_DEBUFF",
+    "image_url": "/static/images/intents/card_debuff.png",
+    "name": "恶意"
+  },
+  {
+    "description": "这个生物试图拉你一起陪葬。它会在被摧毁前攻击你造成[blue]{Damage}[/blue]点伤害。",
+    "id": "DEATH_BLOW",
+    "image_url": "/static/images/intents/death_blow.png",
+    "name": "濒死一击"
+  },
+  {
+    "description": "这个敌人将要对你施加一个[gold]负面效果[/gold]。",
+    "id": "DEBUFF",
+    "image_url": "/static/images/intents/debuff.png",
+    "name": "策略"
+  },
+  {
+    "description": "这个敌人将要对你施加一个强大的[gold]负面效果[/gold]。",
+    "id": "DEBUFF_STRONG",
+    "image_url": "/static/images/intents/debuff_strong.png",
+    "name": "策略"
+  },
+  {
+    "description": "这个敌人将会在其回合获得[gold]格挡[/gold]。",
+    "id": "DEFEND",
+    "image_url": "/static/images/intents/defend.png",
+    "name": "守势"
+  },
+  {
+    "description": "这个敌人将会[gold]逃跑[/gold]。",
+    "id": "ESCAPE",
+    "image_url": "/static/images/intents/escape.png",
+    "name": "懦弱"
+  },
+  {
+    "description": "这个敌人将会[gold]回复[/gold]。",
+    "id": "HEAL",
+    "image_url": "/static/images/intents/heal.png",
+    "name": "回复"
+  },
+  {
+    "description": "这个敌人本回合不会采取任何行动。",
+    "id": "SLEEP",
+    "image_url": "/static/images/intents/sleep.png",
+    "name": "沉睡"
+  },
+  {
+    "description": "这个敌人将会给你[blue]{CardCount}[/blue]张[gold]状态[/gold]牌。",
+    "id": "STATUS",
+    "image_url": "/static/images/intents/status.png",
+    "name": "策略"
+  },
+  {
+    "description": "这个敌人在其下一回合无法行动。",
+    "id": "STUN",
+    "image_url": "/static/images/intents/stun.png",
+    "name": "击晕"
+  },
+  {
+    "description": "这个敌人将要召唤[gold]怪物[/gold]。",
+    "id": "SUMMON",
+    "image_url": "/static/images/intents/summon.png",
+    "name": "召唤"
+  },
+  {
+    "description": "这个敌人将要进行某种[gold]未知[/gold]行动。",
+    "id": "UNKNOWN",
+    "image_url": "/static/images/intents/unknown.png",
+    "name": "未知"
+  }
+]

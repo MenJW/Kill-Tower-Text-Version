@@ -1,0 +1,222 @@
+[
+  {
+    "beta_image_url": null,
+    "description": "[gold]被动：[/gold]回合结束时，将这个充能球的伤害增加[blue]6[/blue]。\n[gold]激发：[/gold]对生命值最少的敌人造成[blue]6[/blue]点伤害。",
+    "description_raw": "[gold]被动：[/gold]回合结束时，将这个充能球的伤害增加[blue]{Passive}[/blue]。\n[gold]激发：[/gold]对生命值最少的敌人造成[blue]{Evoke}[/blue]点伤害。",
+    "id": "dark-orb",
+    "image_url": "/static/images/orbs/dark_orb.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the end of turn, increase this Orb's damage by [blue]6[/blue].\n[gold]Evoke:[/gold] Deal [blue]6[/blue] damage to the enemy with the lowest HP.",
+        "description_raw": "[gold]Passive:[/gold] At the end of turn, increase this Orb's damage by [blue]{Passive}[/blue].\n[gold]Evoke:[/gold] Deal [blue]{Evoke}[/blue] damage to the enemy with the lowest HP.",
+        "id": "DARK_ORB",
+        "image_url": "/static/images/orbs/dark_orb.png",
+        "name": "Dark"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]回合结束时，将这个充能球的伤害增加[blue]6[/blue]。\n[gold]激发：[/gold]对生命值最少的敌人造成[blue]6[/blue]点伤害。",
+        "description_raw": "[gold]被动：[/gold]回合结束时，将这个充能球的伤害增加[blue]{Passive}[/blue]。\n[gold]激发：[/gold]对生命值最少的敌人造成[blue]{Evoke}[/blue]点伤害。",
+        "id": "DARK_ORB",
+        "image_url": "/static/images/orbs/dark_orb.png",
+        "name": "黑暗"
+      }
+    },
+    "name": "黑暗",
+    "scripted": false,
+    "source_id": "DARK_ORB",
+    "source_meta": {
+      "endpoint": "orbs",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/orbs"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the end of turn, increase this Orb's damage by [blue]6[/blue].\n[gold]Evoke:[/gold] Deal [blue]6[/blue] damage to the enemy with the lowest HP.",
+        "name": "Dark"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]回合结束时，将这个充能球的伤害增加[blue]6[/blue]。\n[gold]激发：[/gold]对生命值最少的敌人造成[blue]6[/blue]点伤害。",
+        "name": "黑暗"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "[gold]被动：[/gold]在回合结束时，获得[blue]2[/blue]点[gold]格挡[/gold]。\n[gold]激发：[/gold]获得[blue]5[/blue]点[gold]格挡[/gold]。",
+    "description_raw": "[gold]被动：[/gold]在回合结束时，获得[blue]{Passive}[/blue]点[gold]格挡[/gold]。\n[gold]激发：[/gold]获得[blue]{Evoke}[/blue]点[gold]格挡[/gold]。",
+    "id": "frost-orb",
+    "image_url": "/static/images/orbs/frost_orb.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the end of turn, gain [blue]2[/blue] [gold]Block[/gold].\n[gold]Evoke:[/gold] Gain [blue]5[/blue] [gold]Block[/gold].",
+        "description_raw": "[gold]Passive:[/gold] At the end of turn, gain [blue]{Passive}[/blue] [gold]Block[/gold].\n[gold]Evoke:[/gold] Gain [blue]{Evoke}[/blue] [gold]Block[/gold].",
+        "id": "FROST_ORB",
+        "image_url": "/static/images/orbs/frost_orb.png",
+        "name": "Frost"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]在回合结束时，获得[blue]2[/blue]点[gold]格挡[/gold]。\n[gold]激发：[/gold]获得[blue]5[/blue]点[gold]格挡[/gold]。",
+        "description_raw": "[gold]被动：[/gold]在回合结束时，获得[blue]{Passive}[/blue]点[gold]格挡[/gold]。\n[gold]激发：[/gold]获得[blue]{Evoke}[/blue]点[gold]格挡[/gold]。",
+        "id": "FROST_ORB",
+        "image_url": "/static/images/orbs/frost_orb.png",
+        "name": "冰霜"
+      }
+    },
+    "name": "冰霜",
+    "scripted": false,
+    "source_id": "FROST_ORB",
+    "source_meta": {
+      "endpoint": "orbs",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/orbs"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the end of turn, gain [blue]2[/blue] [gold]Block[/gold].\n[gold]Evoke:[/gold] Gain [blue]5[/blue] [gold]Block[/gold].",
+        "name": "Frost"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]在回合结束时，获得[blue]2[/blue]点[gold]格挡[/gold]。\n[gold]激发：[/gold]获得[blue]5[/blue]点[gold]格挡[/gold]。",
+        "name": "冰霜"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "[gold]被动：[/gold]在回合结束时，对所有敌人造成[blue]4[/blue]点伤害，然后将这个充能球的数值减少[blue]1[/blue]。\n[gold]激发：[/gold]对所有敌人造成[blue]8[/blue]点伤害。",
+    "description_raw": "[gold]被动：[/gold]在回合结束时，对所有敌人造成[blue]{Passive}[/blue]点伤害，然后将这个充能球的数值减少[blue]1[/blue]。\n[gold]激发：[/gold]对所有敌人造成[blue]{Evoke}[/blue]点伤害。",
+    "id": "glass-orb",
+    "image_url": "/static/images/orbs/glass_orb.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the end of turn, deal [blue]4[/blue] damage to ALL enemies and reduce this orb's value by [blue]1[/blue].\n[gold]Evoke:[/gold] Deal [blue]8[/blue] damage to ALL enemies.",
+        "description_raw": "[gold]Passive:[/gold] At the end of turn, deal [blue]{Passive}[/blue] damage to ALL enemies and reduce this orb's value by [blue]1[/blue].\n[gold]Evoke:[/gold] Deal [blue]{Evoke}[/blue] damage to ALL enemies.",
+        "id": "GLASS_ORB",
+        "image_url": "/static/images/orbs/glass_orb.png",
+        "name": "Glass"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]在回合结束时，对所有敌人造成[blue]4[/blue]点伤害，然后将这个充能球的数值减少[blue]1[/blue]。\n[gold]激发：[/gold]对所有敌人造成[blue]8[/blue]点伤害。",
+        "description_raw": "[gold]被动：[/gold]在回合结束时，对所有敌人造成[blue]{Passive}[/blue]点伤害，然后将这个充能球的数值减少[blue]1[/blue]。\n[gold]激发：[/gold]对所有敌人造成[blue]{Evoke}[/blue]点伤害。",
+        "id": "GLASS_ORB",
+        "image_url": "/static/images/orbs/glass_orb.png",
+        "name": "玻璃"
+      }
+    },
+    "name": "玻璃",
+    "scripted": false,
+    "source_id": "GLASS_ORB",
+    "source_meta": {
+      "endpoint": "orbs",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/orbs"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the end of turn, deal [blue]4[/blue] damage to ALL enemies and reduce this orb's value by [blue]1[/blue].\n[gold]Evoke:[/gold] Deal [blue]8[/blue] damage to ALL enemies.",
+        "name": "Glass"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]在回合结束时，对所有敌人造成[blue]4[/blue]点伤害，然后将这个充能球的数值减少[blue]1[/blue]。\n[gold]激发：[/gold]对所有敌人造成[blue]8[/blue]点伤害。",
+        "name": "玻璃"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "[gold]被动：[/gold]回合结束时，对一名随机敌人造成[blue]3[/blue]点伤害。\n[gold]激发：[/gold]对一名随机敌人造成[blue]8[/blue]点伤害。",
+    "description_raw": "[gold]被动：[/gold]回合结束时，对一名随机敌人造成[blue]{Passive}[/blue]点伤害。\n[gold]激发：[/gold]对一名随机敌人造成[blue]{Evoke}[/blue]点伤害。",
+    "id": "lightning-orb",
+    "image_url": "/static/images/orbs/lightning_orb.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the end of turn, deal [blue]3[/blue] damage to a random enemy.\n[gold]Evoke:[/gold] Deal [blue]8[/blue] damage to a random enemy.",
+        "description_raw": "[gold]Passive:[/gold] At the end of turn, deal [blue]{Passive}[/blue] damage to a random enemy.\n[gold]Evoke:[/gold] Deal [blue]{Evoke}[/blue] damage to a random enemy.",
+        "id": "LIGHTNING_ORB",
+        "image_url": "/static/images/orbs/lightning_orb.png",
+        "name": "Lightning"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]回合结束时，对一名随机敌人造成[blue]3[/blue]点伤害。\n[gold]激发：[/gold]对一名随机敌人造成[blue]8[/blue]点伤害。",
+        "description_raw": "[gold]被动：[/gold]回合结束时，对一名随机敌人造成[blue]{Passive}[/blue]点伤害。\n[gold]激发：[/gold]对一名随机敌人造成[blue]{Evoke}[/blue]点伤害。",
+        "id": "LIGHTNING_ORB",
+        "image_url": "/static/images/orbs/lightning_orb.png",
+        "name": "闪电"
+      }
+    },
+    "name": "闪电",
+    "scripted": false,
+    "source_id": "LIGHTNING_ORB",
+    "source_meta": {
+      "endpoint": "orbs",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/orbs"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the end of turn, deal [blue]3[/blue] damage to a random enemy.\n[gold]Evoke:[/gold] Deal [blue]8[/blue] damage to a random enemy.",
+        "name": "Lightning"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]回合结束时，对一名随机敌人造成[blue]3[/blue]点伤害。\n[gold]激发：[/gold]对一名随机敌人造成[blue]8[/blue]点伤害。",
+        "name": "闪电"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "[gold]被动：[/gold]回合开始时，\n获得[energy:1]。\n[gold]激发：[/gold]获得[energy:2]。\n等离子充能球不受[gold]集中[/gold]影响。",
+    "description_raw": "[gold]被动：[/gold]回合开始时，\n获得{energyPrefix:energyIcons(1)}。\n[gold]激发：[/gold]获得{energyPrefix:energyIcons(2)}。\n等离子充能球不受[gold]集中[/gold]影响。",
+    "id": "plasma-orb",
+    "image_url": "/static/images/orbs/plasma_orb.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the start of turn,\ngain [energy:1].\n[gold]Evoke:[/gold] Gain [energy:2].\nPlasma is unaffected by [gold]Focus[/gold].",
+        "description_raw": "[gold]Passive:[/gold] At the start of turn,\ngain {energyPrefix:energyIcons(1)}.\n[gold]Evoke:[/gold] Gain {energyPrefix:energyIcons(2)}.\nPlasma is unaffected by [gold]Focus[/gold].",
+        "id": "PLASMA_ORB",
+        "image_url": "/static/images/orbs/plasma_orb.png",
+        "name": "Plasma"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]回合开始时，\n获得[energy:1]。\n[gold]激发：[/gold]获得[energy:2]。\n等离子充能球不受[gold]集中[/gold]影响。",
+        "description_raw": "[gold]被动：[/gold]回合开始时，\n获得{energyPrefix:energyIcons(1)}。\n[gold]激发：[/gold]获得{energyPrefix:energyIcons(2)}。\n等离子充能球不受[gold]集中[/gold]影响。",
+        "id": "PLASMA_ORB",
+        "image_url": "/static/images/orbs/plasma_orb.png",
+        "name": "等离子"
+      }
+    },
+    "name": "等离子",
+    "scripted": false,
+    "source_id": "PLASMA_ORB",
+    "source_meta": {
+      "endpoint": "orbs",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/orbs"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "[gold]Passive:[/gold] At the start of turn,\ngain [energy:1].\n[gold]Evoke:[/gold] Gain [energy:2].\nPlasma is unaffected by [gold]Focus[/gold].",
+        "name": "Plasma"
+      },
+      "zhs": {
+        "description": "[gold]被动：[/gold]回合开始时，\n获得[energy:1]。\n[gold]激发：[/gold]获得[energy:2]。\n等离子充能球不受[gold]集中[/gold]影响。",
+        "name": "等离子"
+      }
+    }
+  }
+]

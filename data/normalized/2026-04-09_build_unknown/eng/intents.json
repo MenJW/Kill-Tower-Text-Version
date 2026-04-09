@@ -1,0 +1,576 @@
+[
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to [gold]Attack[/gold] {IsMultiplayer:everyone |}for [blue]{Damage}[/blue] damage{Repeat:plural:| [blue]{}[/blue] times}.",
+    "id": "attack",
+    "image_url": "/static/images/intents/attack.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to [gold]Attack[/gold] {IsMultiplayer:everyone |}for [blue]{Damage}[/blue] damage{Repeat:plural:| [blue]{}[/blue] times}.",
+        "id": "ATTACK",
+        "image_url": "/static/images/intents/attack.png",
+        "name": "Aggressive"
+      },
+      "zhs": {
+        "description": "这个敌人将要[gold]攻击[/gold]{IsMultiplayer:所有人|}造成[blue]{Damage}[/blue]点伤害{Repeat:choose(1):|[blue]{}[/blue]次}。",
+        "id": "ATTACK",
+        "image_url": "/static/images/intents/attack.png",
+        "name": "攻势"
+      }
+    },
+    "name": "Aggressive",
+    "scripted": false,
+    "source_id": "ATTACK",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to [gold]Attack[/gold] {IsMultiplayer:everyone |}for [blue]{Damage}[/blue] damage{Repeat:plural:| [blue]{}[/blue] times}.",
+        "name": "Aggressive"
+      },
+      "zhs": {
+        "description": "这个敌人将要[gold]攻击[/gold]{IsMultiplayer:所有人|}造成[blue]{Damage}[/blue]点伤害{Repeat:choose(1):|[blue]{}[/blue]次}。",
+        "name": "攻势"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to use a [gold]Buff[/gold].",
+    "id": "buff",
+    "image_url": "/static/images/intents/buff.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to use a [gold]Buff[/gold].",
+        "id": "BUFF",
+        "image_url": "/static/images/intents/buff.png",
+        "name": "Empower"
+      },
+      "zhs": {
+        "description": "这个敌人将要使用一个[gold]强化效果[/gold]。",
+        "id": "BUFF",
+        "image_url": "/static/images/intents/buff.png",
+        "name": "强化"
+      }
+    },
+    "name": "Empower",
+    "scripted": false,
+    "source_id": "BUFF",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to use a [gold]Buff[/gold].",
+        "name": "Empower"
+      },
+      "zhs": {
+        "description": "这个敌人将要使用一个[gold]强化效果[/gold]。",
+        "name": "强化"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to apply [gold]Afflictions[/gold] on your cards.",
+    "id": "card-debuff",
+    "image_url": "/static/images/intents/card_debuff.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to apply [gold]Afflictions[/gold] on your cards.",
+        "id": "CARD_DEBUFF",
+        "image_url": "/static/images/intents/card_debuff.png",
+        "name": "Malicious"
+      },
+      "zhs": {
+        "description": "这个敌人将要对你的卡牌施加[gold]侵蚀[/gold]。",
+        "id": "CARD_DEBUFF",
+        "image_url": "/static/images/intents/card_debuff.png",
+        "name": "恶意"
+      }
+    },
+    "name": "Malicious",
+    "scripted": false,
+    "source_id": "CARD_DEBUFF",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to apply [gold]Afflictions[/gold] on your cards.",
+        "name": "Malicious"
+      },
+      "zhs": {
+        "description": "这个敌人将要对你的卡牌施加[gold]侵蚀[/gold]。",
+        "name": "恶意"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This creature is trying to take you down with it. It will attack you for [blue]{Damage}[/blue] damage before being destroyed.",
+    "id": "death-blow",
+    "image_url": "/static/images/intents/death_blow.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This creature is trying to take you down with it. It will attack you for [blue]{Damage}[/blue] damage before being destroyed.",
+        "id": "DEATH_BLOW",
+        "image_url": "/static/images/intents/death_blow.png",
+        "name": "Death Blow"
+      },
+      "zhs": {
+        "description": "这个生物试图拉你一起陪葬。它会在被摧毁前攻击你造成[blue]{Damage}[/blue]点伤害。",
+        "id": "DEATH_BLOW",
+        "image_url": "/static/images/intents/death_blow.png",
+        "name": "濒死一击"
+      }
+    },
+    "name": "Death Blow",
+    "scripted": false,
+    "source_id": "DEATH_BLOW",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This creature is trying to take you down with it. It will attack you for [blue]{Damage}[/blue] damage before being destroyed.",
+        "name": "Death Blow"
+      },
+      "zhs": {
+        "description": "这个生物试图拉你一起陪葬。它会在被摧毁前攻击你造成[blue]{Damage}[/blue]点伤害。",
+        "name": "濒死一击"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to apply a [gold]Debuff[/gold] to you.",
+    "id": "debuff",
+    "image_url": "/static/images/intents/debuff.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to apply a [gold]Debuff[/gold] to you.",
+        "id": "DEBUFF",
+        "image_url": "/static/images/intents/debuff.png",
+        "name": "Strategic"
+      },
+      "zhs": {
+        "description": "这个敌人将要对你施加一个[gold]负面效果[/gold]。",
+        "id": "DEBUFF",
+        "image_url": "/static/images/intents/debuff.png",
+        "name": "策略"
+      }
+    },
+    "name": "Strategic",
+    "scripted": false,
+    "source_id": "DEBUFF",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to apply a [gold]Debuff[/gold] to you.",
+        "name": "Strategic"
+      },
+      "zhs": {
+        "description": "这个敌人将要对你施加一个[gold]负面效果[/gold]。",
+        "name": "策略"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to apply a powerful [gold]Debuff[/gold] to you.",
+    "id": "debuff-strong",
+    "image_url": "/static/images/intents/debuff_strong.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to apply a powerful [gold]Debuff[/gold] to you.",
+        "id": "DEBUFF_STRONG",
+        "image_url": "/static/images/intents/debuff_strong.png",
+        "name": "Strategic"
+      },
+      "zhs": {
+        "description": "这个敌人将要对你施加一个强大的[gold]负面效果[/gold]。",
+        "id": "DEBUFF_STRONG",
+        "image_url": "/static/images/intents/debuff_strong.png",
+        "name": "策略"
+      }
+    },
+    "name": "Strategic",
+    "scripted": false,
+    "source_id": "DEBUFF_STRONG",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to apply a powerful [gold]Debuff[/gold] to you.",
+        "name": "Strategic"
+      },
+      "zhs": {
+        "description": "这个敌人将要对你施加一个强大的[gold]负面效果[/gold]。",
+        "name": "策略"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to [gold]Block[/gold] on its turn.",
+    "id": "defend",
+    "image_url": "/static/images/intents/defend.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to [gold]Block[/gold] on its turn.",
+        "id": "DEFEND",
+        "image_url": "/static/images/intents/defend.png",
+        "name": "Defensive"
+      },
+      "zhs": {
+        "description": "这个敌人将会在其回合获得[gold]格挡[/gold]。",
+        "id": "DEFEND",
+        "image_url": "/static/images/intents/defend.png",
+        "name": "守势"
+      }
+    },
+    "name": "Defensive",
+    "scripted": false,
+    "source_id": "DEFEND",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to [gold]Block[/gold] on its turn.",
+        "name": "Defensive"
+      },
+      "zhs": {
+        "description": "这个敌人将会在其回合获得[gold]格挡[/gold]。",
+        "name": "守势"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to [gold]Escape[/gold].",
+    "id": "escape",
+    "image_url": "/static/images/intents/escape.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to [gold]Escape[/gold].",
+        "id": "ESCAPE",
+        "image_url": "/static/images/intents/escape.png",
+        "name": "Cowardly"
+      },
+      "zhs": {
+        "description": "这个敌人将会[gold]逃跑[/gold]。",
+        "id": "ESCAPE",
+        "image_url": "/static/images/intents/escape.png",
+        "name": "懦弱"
+      }
+    },
+    "name": "Cowardly",
+    "scripted": false,
+    "source_id": "ESCAPE",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to [gold]Escape[/gold].",
+        "name": "Cowardly"
+      },
+      "zhs": {
+        "description": "这个敌人将会[gold]逃跑[/gold]。",
+        "name": "懦弱"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to [gold]Heal[/gold].",
+    "id": "heal",
+    "image_url": "/static/images/intents/heal.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to [gold]Heal[/gold].",
+        "id": "HEAL",
+        "image_url": "/static/images/intents/heal.png",
+        "name": "Heal"
+      },
+      "zhs": {
+        "description": "这个敌人将会[gold]回复[/gold]。",
+        "id": "HEAL",
+        "image_url": "/static/images/intents/heal.png",
+        "name": "回复"
+      }
+    },
+    "name": "Heal",
+    "scripted": false,
+    "source_id": "HEAL",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to [gold]Heal[/gold].",
+        "name": "Heal"
+      },
+      "zhs": {
+        "description": "这个敌人将会[gold]回复[/gold]。",
+        "name": "回复"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy is doing nothing this turn.",
+    "id": "sleep",
+    "image_url": "/static/images/intents/sleep.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy is doing nothing this turn.",
+        "id": "SLEEP",
+        "image_url": "/static/images/intents/sleep.png",
+        "name": "Sleeping"
+      },
+      "zhs": {
+        "description": "这个敌人本回合不会采取任何行动。",
+        "id": "SLEEP",
+        "image_url": "/static/images/intents/sleep.png",
+        "name": "沉睡"
+      }
+    },
+    "name": "Sleeping",
+    "scripted": false,
+    "source_id": "SLEEP",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy is doing nothing this turn.",
+        "name": "Sleeping"
+      },
+      "zhs": {
+        "description": "这个敌人本回合不会采取任何行动。",
+        "name": "沉睡"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to give you [blue]{CardCount}[/blue] [gold]Status[/gold] {CardCount:plural:card|cards}.",
+    "id": "status",
+    "image_url": "/static/images/intents/status.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to give you [blue]{CardCount}[/blue] [gold]Status[/gold] {CardCount:plural:card|cards}.",
+        "id": "STATUS",
+        "image_url": "/static/images/intents/status.png",
+        "name": "Strategic"
+      },
+      "zhs": {
+        "description": "这个敌人将会给你[blue]{CardCount}[/blue]张[gold]状态[/gold]牌。",
+        "id": "STATUS",
+        "image_url": "/static/images/intents/status.png",
+        "name": "策略"
+      }
+    },
+    "name": "Strategic",
+    "scripted": false,
+    "source_id": "STATUS",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to give you [blue]{CardCount}[/blue] [gold]Status[/gold] {CardCount:plural:card|cards}.",
+        "name": "Strategic"
+      },
+      "zhs": {
+        "description": "这个敌人将会给你[blue]{CardCount}[/blue]张[gold]状态[/gold]牌。",
+        "name": "策略"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy can't act on its next turn.",
+    "id": "stun",
+    "image_url": "/static/images/intents/stun.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy can't act on its next turn.",
+        "id": "STUN",
+        "image_url": "/static/images/intents/stun.png",
+        "name": "Stunned"
+      },
+      "zhs": {
+        "description": "这个敌人在其下一回合无法行动。",
+        "id": "STUN",
+        "image_url": "/static/images/intents/stun.png",
+        "name": "击晕"
+      }
+    },
+    "name": "Stunned",
+    "scripted": false,
+    "source_id": "STUN",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy can't act on its next turn.",
+        "name": "Stunned"
+      },
+      "zhs": {
+        "description": "这个敌人在其下一回合无法行动。",
+        "name": "击晕"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy intends to summon [gold]Monsters[/gold].",
+    "id": "summon",
+    "image_url": "/static/images/intents/summon.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy intends to summon [gold]Monsters[/gold].",
+        "id": "SUMMON",
+        "image_url": "/static/images/intents/summon.png",
+        "name": "Summon"
+      },
+      "zhs": {
+        "description": "这个敌人将要召唤[gold]怪物[/gold]。",
+        "id": "SUMMON",
+        "image_url": "/static/images/intents/summon.png",
+        "name": "召唤"
+      }
+    },
+    "name": "Summon",
+    "scripted": false,
+    "source_id": "SUMMON",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy intends to summon [gold]Monsters[/gold].",
+        "name": "Summon"
+      },
+      "zhs": {
+        "description": "这个敌人将要召唤[gold]怪物[/gold]。",
+        "name": "召唤"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "This enemy's intentions are [gold]Unknown[/gold].",
+    "id": "unknown",
+    "image_url": "/static/images/intents/unknown.png",
+    "implemented": false,
+    "localized_payloads": {
+      "eng": {
+        "description": "This enemy's intentions are [gold]Unknown[/gold].",
+        "id": "UNKNOWN",
+        "image_url": "/static/images/intents/unknown.png",
+        "name": "Unknown"
+      },
+      "zhs": {
+        "description": "这个敌人将要进行某种[gold]未知[/gold]行动。",
+        "id": "UNKNOWN",
+        "image_url": "/static/images/intents/unknown.png",
+        "name": "未知"
+      }
+    },
+    "name": "Unknown",
+    "scripted": false,
+    "source_id": "UNKNOWN",
+    "source_meta": {
+      "endpoint": "intents",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/intents"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "This enemy's intentions are [gold]Unknown[/gold].",
+        "name": "Unknown"
+      },
+      "zhs": {
+        "description": "这个敌人将要进行某种[gold]未知[/gold]行动。",
+        "name": "未知"
+      }
+    }
+  }
+]

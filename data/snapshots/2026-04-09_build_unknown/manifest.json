@@ -1,0 +1,31 @@
+{
+  "app_id": 2868840,
+  "build_id": "unknown",
+  "counts": {
+    "achievements": 33,
+    "acts": 4,
+    "afflictions": 6,
+    "ascensions": 11,
+    "cards": 576,
+    "characters": 5,
+    "enchantments": 22,
+    "encounters": 87,
+    "events": 66,
+    "intents": 14,
+    "keywords": 8,
+    "modifiers": 16,
+    "monsters": 116,
+    "orbs": 5,
+    "potions": 63,
+    "powers": 257,
+    "relics": 288
+  },
+  "fetched_at": "2026-04-09T03:59:45.849958Z",
+  "game": "Slay the Spire 2",
+  "game_version": "1.0.17",
+  "snapshot_tag": "2026-04-09_build_unknown",
+  "source_tag": "1.0.17",
+  "sources": [
+    "https://spire-codex.com"
+  ]
+}

@@ -1,0 +1,299 @@
+[
+  {
+    "category": "run",
+    "character": null,
+    "condition": "Win with a fully-upgraded deck",
+    "description": "Win a Run with a fully-upgraded deck.",
+    "id": "ALL_CARDS_UPGRADED",
+    "name": "The Perfect Deck",
+    "threshold": null
+  },
+  {
+    "category": "meta",
+    "character": null,
+    "condition": "Complete all other achievements",
+    "description": "Complete all other Achievements.",
+    "id": "ALL_OTHER_ACHIEVEMENTS",
+    "name": "Eternal One",
+    "threshold": null
+  },
+  {
+    "category": "character_skill",
+    "character": "Ironclad",
+    "condition": "Exhaust 20 cards in a single combat",
+    "description": "Exhaust 20 cards in a single combat.",
+    "id": "CHARACTER_SKILL_IRONCLAD1",
+    "name": "Pact Fulfilled",
+    "threshold": 20
+  },
+  {
+    "category": "character_skill",
+    "character": "Ironclad",
+    "condition": "Deal 999+ damage in a single hit",
+    "description": "Deal 999 Damage in a single blow.",
+    "id": "CHARACTER_SKILL_IRONCLAD2",
+    "name": "Heaviest Blade",
+    "threshold": 999
+  },
+  {
+    "category": "character_skill",
+    "character": "Necrobinder",
+    "condition": "Apply 999+ Doom to a single enemy",
+    "description": "Apply 999 Doom to a single enemy.",
+    "id": "CHARACTER_SKILL_NECROBINDER1",
+    "name": "Already Dead",
+    "threshold": 999
+  },
+  {
+    "category": "character_skill",
+    "character": "Necrobinder",
+    "condition": "Apply 50+ Strength to Osty",
+    "description": "Apply 50 Strength to Osty.",
+    "id": "CHARACTER_SKILL_NECROBINDER2",
+    "name": "Milk",
+    "threshold": 50
+  },
+  {
+    "category": "character_skill",
+    "character": "Regent",
+    "condition": "Forge a Sovereign Blade with 999+ base damage",
+    "description": "Forge a Sovereign Blade that does at least 999 damage.",
+    "id": "CHARACTER_SKILL_REGENT1",
+    "name": "Blade Fit for a Monarch",
+    "threshold": 999
+  },
+  {
+    "category": "character_skill",
+    "character": "Regent",
+    "condition": "Have 20+ Stars at once",
+    "description": "Have 20 Stars at once.",
+    "id": "CHARACTER_SKILL_REGENT2",
+    "name": "Suns in the Sky",
+    "threshold": 20
+  },
+  {
+    "category": "character_skill",
+    "character": "Silent",
+    "condition": "Play 5 cards via Sly off a single card play",
+    "description": "Play 5 cards using Sly off a single card.",
+    "id": "CHARACTER_SKILL_SILENT1",
+    "name": "Sneaky Sly",
+    "threshold": 5
+  },
+  {
+    "category": "character_skill",
+    "character": "Silent",
+    "condition": "Apply 99+ Poison to a single enemy",
+    "description": "Apply 99 Poison to a single enemy.",
+    "id": "CHARACTER_SKILL_SILENT2",
+    "name": "A Few Drops",
+    "threshold": 99
+  },
+  {
+    "category": "run",
+    "character": null,
+    "condition": "Complete Act 4",
+    "description": "Complete Act 4.",
+    "id": "COMPLETE_ACT4",
+    "name": "True Ending",
+    "threshold": null
+  },
+  {
+    "category": "collection",
+    "character": null,
+    "condition": "Complete the Timeline",
+    "description": "Complete the Timeline.",
+    "id": "COMPLETE_TIMELINE",
+    "name": "Historian",
+    "threshold": null
+  },
+  {
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat every enemy in the Glory",
+    "description": "Defeat every enemy in the Glory.",
+    "id": "DEFEAT_GLORY_ENEMIES",
+    "name": "The Glory",
+    "threshold": null
+  },
+  {
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat every enemy in the Hive",
+    "description": "Defeat every enemy in the Hive.",
+    "id": "DEFEAT_HIVE_ENEMIES",
+    "name": "The Hive",
+    "threshold": null
+  },
+  {
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat a boss",
+    "description": "Defeat a Boss.",
+    "id": "DEFEAT_ONE_BOSS",
+    "name": "First of Many",
+    "threshold": null
+  },
+  {
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat every enemy in the Overgrowth",
+    "description": "Defeat every enemy in the Overgrowth.",
+    "id": "DEFEAT_OVERGROWTH_ENEMIES",
+    "name": "The Overgrowth",
+    "threshold": null
+  },
+  {
+    "category": "combat",
+    "character": null,
+    "condition": "Defeat every enemy in the Underdocks",
+    "description": "Defeat every enemy in the Underdocks.",
+    "id": "DEFEAT_UNDERDOCKS_ENEMIES",
+    "name": "The Underdocks",
+    "threshold": null
+  },
+  {
+    "category": "character_ascension",
+    "character": "Defect",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Defect.",
+    "id": "DEFECT_ASCENSION10",
+    "name": "Echo",
+    "threshold": null
+  },
+  {
+    "category": "character_win",
+    "character": "Defect",
+    "condition": null,
+    "description": "Win as the Defect.",
+    "id": "DEFECT_WIN",
+    "name": "The Defect",
+    "threshold": null
+  },
+  {
+    "category": "collection",
+    "character": null,
+    "condition": "Discover all cards",
+    "description": "Discover all Cards.",
+    "id": "DISCOVER_ALL_CARDS",
+    "name": "Collector",
+    "threshold": null
+  },
+  {
+    "category": "collection",
+    "character": null,
+    "condition": "Encounter all events",
+    "description": "Encounter all Events.",
+    "id": "DISCOVER_ALL_EVENTS",
+    "name": "Explorer",
+    "threshold": null
+  },
+  {
+    "category": "collection",
+    "character": null,
+    "condition": "Discover all relics",
+    "description": "Discover all Relics.",
+    "id": "DISCOVER_ALL_RELICS",
+    "name": "Archaeologist",
+    "threshold": null
+  },
+  {
+    "category": "collection",
+    "character": null,
+    "condition": "Climb 10,000 floors total",
+    "description": "Climb 10,000 floors.",
+    "id": "FLOOR_TEN_THOUSAND",
+    "name": "A Lot of Stairs",
+    "threshold": 10000
+  },
+  {
+    "category": "character_ascension",
+    "character": "Ironclad",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Ironclad.",
+    "id": "IRONCLAD_ASCENSION10",
+    "name": "Demon",
+    "threshold": null
+  },
+  {
+    "category": "character_win",
+    "character": "Ironclad",
+    "condition": null,
+    "description": "Win as the Ironclad.",
+    "id": "IRONCLAD_WIN",
+    "name": "The Ironclad",
+    "threshold": null
+  },
+  {
+    "category": "character_ascension",
+    "character": "Necrobinder",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Necrobinder.",
+    "id": "NECROBINDER_ASCENSION10",
+    "name": "Lich",
+    "threshold": null
+  },
+  {
+    "category": "character_win",
+    "character": "Necrobinder",
+    "condition": null,
+    "description": "Win as the Necrobinder.",
+    "id": "NECROBINDER_WIN",
+    "name": "The Necrobinder",
+    "threshold": null
+  },
+  {
+    "category": "run",
+    "character": null,
+    "condition": "Win without obtaining any relics",
+    "description": "Win a Run without obtaining any relics.",
+    "id": "NO_RELIC_WIN",
+    "name": "Unnecessary Clutter",
+    "threshold": null
+  },
+  {
+    "category": "combat",
+    "character": null,
+    "condition": "Play 20 cards in a single turn",
+    "description": "Play 20 cards in a single turn.",
+    "id": "PLAY20_CARDS_SINGLE_TURN",
+    "name": "Playing Cards Is Fun",
+    "threshold": 20
+  },
+  {
+    "category": "character_ascension",
+    "character": "Regent",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Regent.",
+    "id": "REGENT_ASCENSION10",
+    "name": "Monarch",
+    "threshold": null
+  },
+  {
+    "category": "character_win",
+    "character": "Regent",
+    "condition": null,
+    "description": "Win as the Regent.",
+    "id": "REGENT_WIN",
+    "name": "The Regent",
+    "threshold": null
+  },
+  {
+    "category": "character_ascension",
+    "character": "Silent",
+    "condition": null,
+    "description": "Beat Ascension 10 as the Silent.",
+    "id": "SILENT_ASCENSION10",
+    "name": "Wraith",
+    "threshold": null
+  },
+  {
+    "category": "character_win",
+    "character": "Silent",
+    "condition": null,
+    "description": "Win as the Silent.",
+    "id": "SILENT_WIN",
+    "name": "The Silent",
+    "threshold": null
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "description": "每回合只能打出[blue]1[/blue]张[gold]魂缚[/gold]卡牌。卡牌会在回合结束时失去[gold]魂缚[/gold]。",
+    "extra_card_text": "魂缚",
+    "id": "BOUND",
+    "is_stackable": false,
+    "name": "魂缚"
+  },
+  {
+    "description": "[energy:1]费用增加1。",
+    "extra_card_text": "缠身",
+    "id": "ENTANGLED",
+    "is_stackable": false,
+    "name": "缠身"
+  },
+  {
+    "description": "打出这张牌时受到[blue]X[/blue]点伤害。",
+    "extra_card_text": "受到X点伤害。",
+    "id": "GALVANIZED",
+    "is_stackable": true,
+    "name": "流电"
+  },
+  {
+    "description": "这张牌获得[gold]虚无[/gold]。",
+    "extra_card_text": null,
+    "id": "HEXED",
+    "is_stackable": false,
+    "name": "邪咒"
+  },
+  {
+    "description": "你在本回合只能打出[blue]1[/blue]张牌。",
+    "extra_card_text": "昏眩。",
+    "id": "RINGING",
+    "is_stackable": false,
+    "name": "昏眩"
+  },
+  {
+    "description": "你在本回合无法再打出更多[gold]技能[/gold]牌。回合结束时消除。",
+    "extra_card_text": null,
+    "id": "SMOG",
+    "is_stackable": false,
+    "name": "烟雾"
+  }
+]

@@ -1,0 +1,6876 @@
+[
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "axebots-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "AXEBOTS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was dismembered by some [gold]Bot Buddies[/gold].",
+        "monsters": [
+          {
+            "id": "AXEBOT",
+            "name": "Axebot"
+          }
+        ],
+        "name": "Bot Buddies",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "AXEBOTS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一些[gold]机械伙伴[/gold]肢解了。",
+        "monsters": [
+          {
+            "id": "AXEBOT",
+            "name": "巨斧机器人"
+          }
+        ],
+        "name": "机械伙伴",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一些[gold]机械伙伴[/gold]肢解了。",
+    "monsters": [
+      {
+        "entity_id": "axebot",
+        "entity_type": "monster",
+        "source_id": "AXEBOT"
+      }
+    ],
+    "name": "机械伙伴",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "AXEBOTS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Bot Buddies"
+      },
+      "zhs": {
+        "description": null,
+        "name": "机械伙伴"
+      }
+    }
+  },
+  {
+    "act": null,
+    "beta_image_url": null,
+    "description": null,
+    "id": "battleworn-dummy-event-encounter",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": null,
+        "id": "BATTLEWORN_DUMMY_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer was somehow killed by [gold]Battleworn Dummy[/gold]???",
+        "monsters": [
+          {
+            "id": "BATTLE_FRIEND_V1",
+            "name": "Battle Friend V1.0"
+          },
+          {
+            "id": "BATTLE_FRIEND_V2",
+            "name": "Battle Friend V2.0"
+          },
+          {
+            "id": "BATTLE_FRIEND_V3",
+            "name": "Battle Friend V3.0"
+          }
+        ],
+        "name": "Battleworn Dummy",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": null,
+        "id": "BATTLEWORN_DUMMY_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer被个[gold]历战假人[/gold]杀死了？？？",
+        "monsters": [
+          {
+            "id": "BATTLE_FRIEND_V1",
+            "name": "战斗好伙伴V1.0"
+          },
+          {
+            "id": "BATTLE_FRIEND_V2",
+            "name": "战斗好伙伴V2.0"
+          },
+          {
+            "id": "BATTLE_FRIEND_V3",
+            "name": "战斗好伙伴V3.0"
+          }
+        ],
+        "name": "历战假人",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被个[gold]历战假人[/gold]杀死了？？？",
+    "monsters": [
+      {
+        "entity_id": "battle-friend-v1",
+        "entity_type": "monster",
+        "source_id": "BATTLE_FRIEND_V1"
+      },
+      {
+        "entity_id": "battle-friend-v2",
+        "entity_type": "monster",
+        "source_id": "BATTLE_FRIEND_V2"
+      },
+      {
+        "entity_id": "battle-friend-v3",
+        "entity_type": "monster",
+        "source_id": "BATTLE_FRIEND_V3"
+      }
+    ],
+    "name": "历战假人",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "BATTLEWORN_DUMMY_EVENT_ENCOUNTER",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Battleworn Dummy"
+      },
+      "zhs": {
+        "description": null,
+        "name": "历战假人"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "bowlbugs-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "BOWLBUGS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer got in the way of a busy [gold]Bowlbug Swarm[/gold].",
+        "monsters": [
+          {
+            "id": "BOWLBUG_EGG",
+            "name": "Bowlbug (Egg)"
+          },
+          {
+            "id": "BOWLBUG_NECTAR",
+            "name": "Bowlbug (Nectar)"
+          },
+          {
+            "id": "BOWLBUG_ROCK",
+            "name": "Bowlbug (Rock)"
+          },
+          {
+            "id": "BOWLBUG_SILK",
+            "name": "Bowlbug (Silk)"
+          }
+        ],
+        "name": "Bowlbug Swarm",
+        "room_type": "Monster",
+        "tags": [
+          "Workers"
+        ]
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "BOWLBUGS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer遇上了一拨忙碌的[gold]盛碗虫群[/gold]。",
+        "monsters": [
+          {
+            "id": "BOWLBUG_EGG",
+            "name": "盛碗虫（卵）"
+          },
+          {
+            "id": "BOWLBUG_NECTAR",
+            "name": "盛碗虫（蜜）"
+          },
+          {
+            "id": "BOWLBUG_ROCK",
+            "name": "盛碗虫（石）"
+          },
+          {
+            "id": "BOWLBUG_SILK",
+            "name": "盛碗虫（丝）"
+          }
+        ],
+        "name": "盛碗虫群",
+        "room_type": "Monster",
+        "tags": [
+          "Workers"
+        ]
+      }
+    },
+    "loss_text": "The adventurer遇上了一拨忙碌的[gold]盛碗虫群[/gold]。",
+    "monsters": [
+      {
+        "entity_id": "bowlbug-egg",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_EGG"
+      },
+      {
+        "entity_id": "bowlbug-nectar",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_NECTAR"
+      },
+      {
+        "entity_id": "bowlbug-rock",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_ROCK"
+      },
+      {
+        "entity_id": "bowlbug-silk",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_SILK"
+      }
+    ],
+    "name": "盛碗虫群",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "BOWLBUGS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Workers"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Bowlbug Swarm"
+      },
+      "zhs": {
+        "description": null,
+        "name": "盛碗虫群"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "bowlbugs-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "BOWLBUGS_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer got in the way of some busy [gold]Bowlbugs[/gold].",
+        "monsters": [
+          {
+            "id": "BOWLBUG_EGG",
+            "name": "Bowlbug (Egg)"
+          },
+          {
+            "id": "BOWLBUG_NECTAR",
+            "name": "Bowlbug (Nectar)"
+          },
+          {
+            "id": "BOWLBUG_ROCK",
+            "name": "Bowlbug (Rock)"
+          }
+        ],
+        "name": "Bowlbugs",
+        "room_type": "Monster",
+        "tags": [
+          "Workers"
+        ]
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "BOWLBUGS_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer遇上了一些忙碌的[gold]盛碗虫[/gold]。",
+        "monsters": [
+          {
+            "id": "BOWLBUG_EGG",
+            "name": "盛碗虫（卵）"
+          },
+          {
+            "id": "BOWLBUG_NECTAR",
+            "name": "盛碗虫（蜜）"
+          },
+          {
+            "id": "BOWLBUG_ROCK",
+            "name": "盛碗虫（石）"
+          }
+        ],
+        "name": "盛碗虫",
+        "room_type": "Monster",
+        "tags": [
+          "Workers"
+        ]
+      }
+    },
+    "loss_text": "The adventurer遇上了一些忙碌的[gold]盛碗虫[/gold]。",
+    "monsters": [
+      {
+        "entity_id": "bowlbug-egg",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_EGG"
+      },
+      {
+        "entity_id": "bowlbug-nectar",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_NECTAR"
+      },
+      {
+        "entity_id": "bowlbug-rock",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_ROCK"
+      }
+    ],
+    "name": "盛碗虫",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "BOWLBUGS_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Workers"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Bowlbugs"
+      },
+      "zhs": {
+        "description": null,
+        "name": "盛碗虫"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "bygone-effigy-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "BYGONE_EFFIGY_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer was sliced in half by a [gold]Bygone Effigy[/gold].",
+        "monsters": [
+          {
+            "id": "BYGONE_EFFIGY",
+            "name": "Bygone Effigy"
+          }
+        ],
+        "name": "Bygone Effigy",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "BYGONE_EFFIGY_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer被一尊[gold]旧日雕像[/gold]斩成了两半。",
+        "monsters": [
+          {
+            "id": "BYGONE_EFFIGY",
+            "name": "旧日雕像"
+          }
+        ],
+        "name": "旧日雕像",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一尊[gold]旧日雕像[/gold]斩成了两半。",
+    "monsters": [
+      {
+        "entity_id": "bygone-effigy",
+        "entity_type": "monster",
+        "source_id": "BYGONE_EFFIGY"
+      }
+    ],
+    "name": "旧日雕像",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "BYGONE_EFFIGY_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Bygone Effigy"
+      },
+      "zhs": {
+        "description": null,
+        "name": "旧日雕像"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "byrdonis-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "BYRDONIS_ELITE",
+        "is_weak": false,
+        "loss_text": "[gold]Byrdonis[/gold] protected its children from The adventurer.",
+        "monsters": [
+          {
+            "id": "BYRDONIS",
+            "name": "Byrdonis"
+          }
+        ],
+        "name": "Byrdonis",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "BYRDONIS_ELITE",
+        "is_weak": false,
+        "loss_text": "[gold]多尼斯异鸟[/gold]从The adventurer手中保护了自己的幼崽们。",
+        "monsters": [
+          {
+            "id": "BYRDONIS",
+            "name": "多尼斯异鸟"
+          }
+        ],
+        "name": "多尼斯异鸟",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]多尼斯异鸟[/gold]从The adventurer手中保护了自己的幼崽们。",
+    "monsters": [
+      {
+        "entity_id": "byrdonis",
+        "entity_type": "monster",
+        "source_id": "BYRDONIS"
+      }
+    ],
+    "name": "多尼斯异鸟",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "BYRDONIS_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Byrdonis"
+      },
+      "zhs": {
+        "description": null,
+        "name": "多尼斯异鸟"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "ceremonial-beast-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "CEREMONIAL_BEAST_BOSS",
+        "is_weak": false,
+        "loss_text": "The adventurer was put to rest by the [gold]Ceremonial Beast[/gold].",
+        "monsters": [
+          {
+            "id": "CEREMONIAL_BEAST",
+            "name": "Ceremonial Beast"
+          }
+        ],
+        "name": "Ceremonial Beast",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "CEREMONIAL_BEAST_BOSS",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]仪式兽[/gold]所终结。",
+        "monsters": [
+          {
+            "id": "CEREMONIAL_BEAST",
+            "name": "仪式兽"
+          }
+        ],
+        "name": "仪式兽",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被[gold]仪式兽[/gold]所终结。",
+    "monsters": [
+      {
+        "entity_id": "ceremonial-beast",
+        "entity_type": "monster",
+        "source_id": "CEREMONIAL_BEAST"
+      }
+    ],
+    "name": "仪式兽",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "CEREMONIAL_BEAST_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Ceremonial Beast"
+      },
+      "zhs": {
+        "description": null,
+        "name": "仪式兽"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "chompers-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "CHOMPERS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was chomped to death by [gold]An Automaton Pair[/gold].",
+        "monsters": [
+          {
+            "id": "CHOMPER",
+            "name": "Chomper"
+          }
+        ],
+        "name": "An Automaton Pair",
+        "room_type": "Monster",
+        "tags": [
+          "Chomper"
+        ]
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "CHOMPERS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]一对自动机械[/gold]啃咬而死。",
+        "monsters": [
+          {
+            "id": "CHOMPER",
+            "name": "啃咬机"
+          }
+        ],
+        "name": "一对自动机械",
+        "room_type": "Monster",
+        "tags": [
+          "Chomper"
+        ]
+      }
+    },
+    "loss_text": "The adventurer被[gold]一对自动机械[/gold]啃咬而死。",
+    "monsters": [
+      {
+        "entity_id": "chomper",
+        "entity_type": "monster",
+        "source_id": "CHOMPER"
+      }
+    ],
+    "name": "一对自动机械",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "CHOMPERS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Chomper"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "An Automaton Pair"
+      },
+      "zhs": {
+        "description": null,
+        "name": "一对自动机械"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "construct-menagerie-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "CONSTRUCT_MENAGERIE_NORMAL",
+        "is_weak": false,
+        "loss_text": "The [gold]Construct Menagerie[/gold] crushed The adventurer.",
+        "monsters": [
+          {
+            "id": "CUBEX_CONSTRUCT",
+            "name": "Cubex Construct"
+          },
+          {
+            "id": "PUNCH_CONSTRUCT",
+            "name": "Punch Construct"
+          }
+        ],
+        "name": "Construct Menagerie",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "CONSTRUCT_MENAGERIE_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]一些构装体[/gold]碾碎了The adventurer。",
+        "monsters": [
+          {
+            "id": "CUBEX_CONSTRUCT",
+            "name": "立柱构造体"
+          },
+          {
+            "id": "PUNCH_CONSTRUCT",
+            "name": "拳击构装体"
+          }
+        ],
+        "name": "一些构装体",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]一些构装体[/gold]碾碎了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "cubex-construct",
+        "entity_type": "monster",
+        "source_id": "CUBEX_CONSTRUCT"
+      },
+      {
+        "entity_id": "punch-construct",
+        "entity_type": "monster",
+        "source_id": "PUNCH_CONSTRUCT"
+      }
+    ],
+    "name": "一些构装体",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "CONSTRUCT_MENAGERIE_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Construct Menagerie"
+      },
+      "zhs": {
+        "description": null,
+        "name": "一些构装体"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "corpse-slugs-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "CORPSE_SLUGS_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]Many Corpse Slugs[/gold] feasted on The adventurer.",
+        "monsters": [
+          {
+            "id": "CORPSE_SLUG",
+            "name": "Corpse Slug"
+          }
+        ],
+        "name": "Many Corpse Slugs",
+        "room_type": "Monster",
+        "tags": [
+          "Slugs"
+        ]
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "CORPSE_SLUGS_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]许多噬尸蛞蝓[/gold]享用了The adventurer。",
+        "monsters": [
+          {
+            "id": "CORPSE_SLUG",
+            "name": "噬尸蛞蝓"
+          }
+        ],
+        "name": "许多噬尸蛞蝓",
+        "room_type": "Monster",
+        "tags": [
+          "Slugs"
+        ]
+      }
+    },
+    "loss_text": "[gold]许多噬尸蛞蝓[/gold]享用了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "corpse-slug",
+        "entity_type": "monster",
+        "source_id": "CORPSE_SLUG"
+      }
+    ],
+    "name": "许多噬尸蛞蝓",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "CORPSE_SLUGS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Slugs"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Many Corpse Slugs"
+      },
+      "zhs": {
+        "description": null,
+        "name": "许多噬尸蛞蝓"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "corpse-slugs-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "CORPSE_SLUGS_WEAK",
+        "is_weak": true,
+        "loss_text": "[gold]Corpse Slugs[/gold] feasted on The adventurer.",
+        "monsters": [
+          {
+            "id": "CORPSE_SLUG",
+            "name": "Corpse Slug"
+          }
+        ],
+        "name": "Corpse Slugs",
+        "room_type": "Monster",
+        "tags": [
+          "Slugs"
+        ]
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "CORPSE_SLUGS_WEAK",
+        "is_weak": true,
+        "loss_text": "[gold]一些噬尸蛞蝓[/gold]享用了The adventurer。",
+        "monsters": [
+          {
+            "id": "CORPSE_SLUG",
+            "name": "噬尸蛞蝓"
+          }
+        ],
+        "name": "一些噬尸蛞蝓",
+        "room_type": "Monster",
+        "tags": [
+          "Slugs"
+        ]
+      }
+    },
+    "loss_text": "[gold]一些噬尸蛞蝓[/gold]享用了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "corpse-slug",
+        "entity_type": "monster",
+        "source_id": "CORPSE_SLUG"
+      }
+    ],
+    "name": "一些噬尸蛞蝓",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "CORPSE_SLUGS_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Slugs"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Corpse Slugs"
+      },
+      "zhs": {
+        "description": null,
+        "name": "一些噬尸蛞蝓"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "cubex-construct-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "CUBEX_CONSTRUCT_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was lasered to death by a [gold]Cubex Construct[/gold].",
+        "monsters": [
+          {
+            "id": "CUBEX_CONSTRUCT",
+            "name": "Cubex Construct"
+          }
+        ],
+        "name": "Cubex Construct",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "CUBEX_CONSTRUCT_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一具[gold]方柱构装体[/gold]的激光扫死。",
+        "monsters": [
+          {
+            "id": "CUBEX_CONSTRUCT",
+            "name": "立柱构造体"
+          }
+        ],
+        "name": "方柱构装体",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一具[gold]方柱构装体[/gold]的激光扫死。",
+    "monsters": [
+      {
+        "entity_id": "cubex-construct",
+        "entity_type": "monster",
+        "source_id": "CUBEX_CONSTRUCT"
+      }
+    ],
+    "name": "方柱构装体",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "CUBEX_CONSTRUCT_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Cubex Construct"
+      },
+      "zhs": {
+        "description": null,
+        "name": "方柱构装体"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "cultists-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "CULTISTS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was slain by some [gold]Cultists[/gold]. [sine]Caaaaw[/sine]...",
+        "monsters": [
+          {
+            "id": "CALCIFIED_CULTIST",
+            "name": "Calcified Cultist"
+          },
+          {
+            "id": "DAMP_CULTIST",
+            "name": "Damp Cultist"
+          }
+        ],
+        "name": "Cultists",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "CULTISTS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一些[gold]邪教徒们[/gold]杀害。[sine]咔咔[/sine]……",
+        "monsters": [
+          {
+            "id": "CALCIFIED_CULTIST",
+            "name": "钙化邪教徒"
+          },
+          {
+            "id": "DAMP_CULTIST",
+            "name": "潮湿邪教徒"
+          }
+        ],
+        "name": "邪教徒们",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一些[gold]邪教徒们[/gold]杀害。[sine]咔咔[/sine]……",
+    "monsters": [
+      {
+        "entity_id": "calcified-cultist",
+        "entity_type": "monster",
+        "source_id": "CALCIFIED_CULTIST"
+      },
+      {
+        "entity_id": "damp-cultist",
+        "entity_type": "monster",
+        "source_id": "DAMP_CULTIST"
+      }
+    ],
+    "name": "邪教徒们",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "CULTISTS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Cultists"
+      },
+      "zhs": {
+        "description": null,
+        "name": "邪教徒们"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "decimillipede-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "DECIMILLIPEDE_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer couldn't survive [gold]The Decimillipede[/gold]'s domain.",
+        "monsters": [
+          {
+            "id": "DECIMILLIPEDE_SEGMENT_BACK",
+            "name": "Decimillipede Segment Back"
+          },
+          {
+            "id": "DECIMILLIPEDE_SEGMENT_FRONT",
+            "name": "Decimillipede Segment Front"
+          },
+          {
+            "id": "DECIMILLIPEDE_SEGMENT_MIDDLE",
+            "name": "Decimillipede Segment Middle"
+          }
+        ],
+        "name": "The Decimillipede",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "DECIMILLIPEDE_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer未能逃出[gold]残杀千足虫[/gold]的地盘。",
+        "monsters": [
+          {
+            "id": "DECIMILLIPEDE_SEGMENT_BACK",
+            "name": "Decimillipede Segment Back"
+          },
+          {
+            "id": "DECIMILLIPEDE_SEGMENT_FRONT",
+            "name": "Decimillipede Segment Front"
+          },
+          {
+            "id": "DECIMILLIPEDE_SEGMENT_MIDDLE",
+            "name": "Decimillipede Segment Middle"
+          }
+        ],
+        "name": "残杀千足虫",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer未能逃出[gold]残杀千足虫[/gold]的地盘。",
+    "monsters": [
+      {
+        "entity_id": "decimillipede-segment-back",
+        "entity_type": "monster",
+        "source_id": "DECIMILLIPEDE_SEGMENT_BACK"
+      },
+      {
+        "entity_id": "decimillipede-segment-front",
+        "entity_type": "monster",
+        "source_id": "DECIMILLIPEDE_SEGMENT_FRONT"
+      },
+      {
+        "entity_id": "decimillipede-segment-middle",
+        "entity_type": "monster",
+        "source_id": "DECIMILLIPEDE_SEGMENT_MIDDLE"
+      }
+    ],
+    "name": "残杀千足虫",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "DECIMILLIPEDE_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "The Decimillipede"
+      },
+      "zhs": {
+        "description": null,
+        "name": "残杀千足虫"
+      }
+    }
+  },
+  {
+    "act": null,
+    "beta_image_url": null,
+    "description": null,
+    "id": "dense-vegetation-event-encounter",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": null,
+        "id": "DENSE_VEGETATION_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer was infested by [gold]Wrigglers[/gold].",
+        "monsters": [
+          {
+            "id": "WRIGGLER",
+            "name": "Wriggler"
+          }
+        ],
+        "name": "Wrigglers",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": null,
+        "id": "DENSE_VEGETATION_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer遭[gold]扭动虫[/gold]寄生而死。",
+        "monsters": [
+          {
+            "id": "WRIGGLER",
+            "name": "扭动虫"
+          }
+        ],
+        "name": "扭动虫",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer遭[gold]扭动虫[/gold]寄生而死。",
+    "monsters": [
+      {
+        "entity_id": "wriggler",
+        "entity_type": "monster",
+        "source_id": "WRIGGLER"
+      }
+    ],
+    "name": "扭动虫",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "DENSE_VEGETATION_EVENT_ENCOUNTER",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Wrigglers"
+      },
+      "zhs": {
+        "description": null,
+        "name": "扭动虫"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "devoted-sculptor-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "DEVOTED_SCULPTOR_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer was smashed to pieces by [gold]Devoted Sculptor[/gold].",
+        "monsters": [
+          {
+            "id": "DEVOTED_SCULPTOR",
+            "name": "Devoted Sculptor"
+          }
+        ],
+        "name": "Devoted Sculptor",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "DEVOTED_SCULPTOR_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer被[gold]虔诚雕刻师[/gold]凿得粉碎。",
+        "monsters": [
+          {
+            "id": "DEVOTED_SCULPTOR",
+            "name": "虔诚雕刻师"
+          }
+        ],
+        "name": "虔诚雕刻师",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被[gold]虔诚雕刻师[/gold]凿得粉碎。",
+    "monsters": [
+      {
+        "entity_id": "devoted-sculptor",
+        "entity_type": "monster",
+        "source_id": "DEVOTED_SCULPTOR"
+      }
+    ],
+    "name": "虔诚雕刻师",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "DEVOTED_SCULPTOR_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Devoted Sculptor"
+      },
+      "zhs": {
+        "description": null,
+        "name": "虔诚雕刻师"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "doormaker-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "DOORMAKER_BOSS",
+        "is_weak": false,
+        "loss_text": "[gold]The Doormaker[/gold] didn't take kindly to The adventurer's disturbance.",
+        "monsters": [
+          {
+            "id": "DOOR",
+            "name": "Door"
+          },
+          {
+            "id": "DOORMAKER",
+            "name": "Doormaker"
+          }
+        ],
+        "name": "The Doormaker",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "DOORMAKER_BOSS",
+        "is_weak": false,
+        "loss_text": "[gold]门扉缔造者[/gold]没有容忍The adventurer的烦扰。",
+        "monsters": [
+          {
+            "id": "DOOR",
+            "name": "门扉"
+          },
+          {
+            "id": "DOORMAKER",
+            "name": "门扉缔造者"
+          }
+        ],
+        "name": "门扉缔造者",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]门扉缔造者[/gold]没有容忍The adventurer的烦扰。",
+    "monsters": [
+      {
+        "entity_id": "door",
+        "entity_type": "monster",
+        "source_id": "DOOR"
+      },
+      {
+        "entity_id": "doormaker",
+        "entity_type": "monster",
+        "source_id": "DOORMAKER"
+      }
+    ],
+    "name": "门扉缔造者",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "DOORMAKER_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "The Doormaker"
+      },
+      "zhs": {
+        "description": null,
+        "name": "门扉缔造者"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "entomancer-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "ENTOMANCER_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer was stung to death by an [gold]Entomancer[/gold].",
+        "monsters": [
+          {
+            "id": "ENTOMANCER",
+            "name": "Entomancer"
+          }
+        ],
+        "name": "Entomancer",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "ENTOMANCER_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]蜂群术士[/gold]蜇刺身亡。",
+        "monsters": [
+          {
+            "id": "ENTOMANCER",
+            "name": "蜂群术士"
+          }
+        ],
+        "name": "蜂群术士",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被[gold]蜂群术士[/gold]蜇刺身亡。",
+    "monsters": [
+      {
+        "entity_id": "entomancer",
+        "entity_type": "monster",
+        "source_id": "ENTOMANCER"
+      }
+    ],
+    "name": "蜂群术士",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "ENTOMANCER_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Entomancer"
+      },
+      "zhs": {
+        "description": null,
+        "name": "蜂群术士"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "exoskeletons-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "EXOSKELETONS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was eviscerated by [gold]Many Exoskeletons[/gold].",
+        "monsters": [
+          {
+            "id": "EXOSKELETON",
+            "name": "Exoskeleton"
+          }
+        ],
+        "name": "Many Exoskeletons",
+        "room_type": "Monster",
+        "tags": [
+          "Exoskeletons"
+        ]
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "EXOSKELETONS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]许多外骨骼虫[/gold]开膛破肚。",
+        "monsters": [
+          {
+            "id": "EXOSKELETON",
+            "name": "外骨骼虫"
+          }
+        ],
+        "name": "许多外骨骼虫",
+        "room_type": "Monster",
+        "tags": [
+          "Exoskeletons"
+        ]
+      }
+    },
+    "loss_text": "The adventurer被[gold]许多外骨骼虫[/gold]开膛破肚。",
+    "monsters": [
+      {
+        "entity_id": "exoskeleton",
+        "entity_type": "monster",
+        "source_id": "EXOSKELETON"
+      }
+    ],
+    "name": "许多外骨骼虫",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "EXOSKELETONS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Exoskeletons"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Many Exoskeletons"
+      },
+      "zhs": {
+        "description": null,
+        "name": "许多外骨骼虫"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "exoskeletons-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "EXOSKELETONS_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer was eviscerated by some [gold]Exoskeletons[/gold].",
+        "monsters": [
+          {
+            "id": "EXOSKELETON",
+            "name": "Exoskeleton"
+          }
+        ],
+        "name": "Exoskeletons",
+        "room_type": "Monster",
+        "tags": [
+          "Exoskeletons"
+        ]
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "EXOSKELETONS_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer被一些[gold]外骨骼虫[/gold]撕成了碎片。",
+        "monsters": [
+          {
+            "id": "EXOSKELETON",
+            "name": "外骨骼虫"
+          }
+        ],
+        "name": "外骨骼虫",
+        "room_type": "Monster",
+        "tags": [
+          "Exoskeletons"
+        ]
+      }
+    },
+    "loss_text": "The adventurer被一些[gold]外骨骼虫[/gold]撕成了碎片。",
+    "monsters": [
+      {
+        "entity_id": "exoskeleton",
+        "entity_type": "monster",
+        "source_id": "EXOSKELETON"
+      }
+    ],
+    "name": "外骨骼虫",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "EXOSKELETONS_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Exoskeletons"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Exoskeletons"
+      },
+      "zhs": {
+        "description": null,
+        "name": "外骨骼虫"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "fabricator-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "FABRICATOR_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was zapped by a [gold]Fabricator[/gold]'s bots.",
+        "monsters": [
+          {
+            "id": "FABRICATOR",
+            "name": "Fabricator"
+          }
+        ],
+        "name": "Fabricator",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "FABRICATOR_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一名[gold]组装师[/gold]的机器人击杀了。",
+        "monsters": [
+          {
+            "id": "FABRICATOR",
+            "name": "组装师"
+          }
+        ],
+        "name": "组装师",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一名[gold]组装师[/gold]的机器人击杀了。",
+    "monsters": [
+      {
+        "entity_id": "fabricator",
+        "entity_type": "monster",
+        "source_id": "FABRICATOR"
+      }
+    ],
+    "name": "组装师",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "FABRICATOR_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Fabricator"
+      },
+      "zhs": {
+        "description": null,
+        "name": "组装师"
+      }
+    }
+  },
+  {
+    "act": null,
+    "beta_image_url": null,
+    "description": null,
+    "id": "fake-merchant-event-encounter",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": null,
+        "id": "FAKE_MERCHANT_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer faced the wrath of [gold]The Merchant???[/gold]",
+        "monsters": [
+          {
+            "id": "FAKE_MERCHANT_MONSTER",
+            "name": "The Merchant???"
+          }
+        ],
+        "name": "The Merchant???",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": null,
+        "id": "FAKE_MERCHANT_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer直面了[gold]商人？？？[/gold]的怒火。",
+        "monsters": [
+          {
+            "id": "FAKE_MERCHANT_MONSTER",
+            "name": "商人？？？"
+          }
+        ],
+        "name": "商人？？？",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer直面了[gold]商人？？？[/gold]的怒火。",
+    "monsters": [
+      {
+        "entity_id": "fake-merchant-monster",
+        "entity_type": "monster",
+        "source_id": "FAKE_MERCHANT_MONSTER"
+      }
+    ],
+    "name": "商人？？？",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "FAKE_MERCHANT_EVENT_ENCOUNTER",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "The Merchant???"
+      },
+      "zhs": {
+        "description": null,
+        "name": "商人？？？"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "flyconid-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "FLYCONID_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was absorbed by a [gold]Shroom and Slime[/gold].",
+        "monsters": [
+          {
+            "id": "FLYCONID",
+            "name": "Flyconid"
+          },
+          {
+            "id": "LEAF_SLIME_M",
+            "name": "Leaf Slime (M)"
+          },
+          {
+            "id": "TWIG_SLIME_M",
+            "name": "Twig Slime (M)"
+          }
+        ],
+        "name": "Shroom and Slime",
+        "room_type": "Monster",
+        "tags": [
+          "Mushroom",
+          "Slimes"
+        ]
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "FLYCONID_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]真菌与史莱姆[/gold]分解消化了。",
+        "monsters": [
+          {
+            "id": "FLYCONID",
+            "name": "飞蝇菌子"
+          },
+          {
+            "id": "LEAF_SLIME_M",
+            "name": "树叶史莱姆（中）"
+          },
+          {
+            "id": "TWIG_SLIME_M",
+            "name": "树枝史莱姆（中）"
+          }
+        ],
+        "name": "真菌与史莱姆",
+        "room_type": "Monster",
+        "tags": [
+          "Mushroom",
+          "Slimes"
+        ]
+      }
+    },
+    "loss_text": "The adventurer被[gold]真菌与史莱姆[/gold]分解消化了。",
+    "monsters": [
+      {
+        "entity_id": "flyconid",
+        "entity_type": "monster",
+        "source_id": "FLYCONID"
+      },
+      {
+        "entity_id": "leaf-slime-m",
+        "entity_type": "monster",
+        "source_id": "LEAF_SLIME_M"
+      },
+      {
+        "entity_id": "twig-slime-m",
+        "entity_type": "monster",
+        "source_id": "TWIG_SLIME_M"
+      }
+    ],
+    "name": "真菌与史莱姆",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "FLYCONID_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Mushroom",
+      "Slimes"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Shroom and Slime"
+      },
+      "zhs": {
+        "description": null,
+        "name": "真菌与史莱姆"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "fogmog-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "FOGMOG_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was distracted by a [gold]Fogmog[/gold]'s illusions.",
+        "monsters": [
+          {
+            "id": "EYE_WITH_TEETH",
+            "name": "Eye With Teeth"
+          },
+          {
+            "id": "FOGMOG",
+            "name": "Fogmog"
+          }
+        ],
+        "name": "Fogmog",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "FOGMOG_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]雾菇[/gold]的幻象迷惑了心智。",
+        "monsters": [
+          {
+            "id": "EYE_WITH_TEETH",
+            "name": "利齿之眼"
+          },
+          {
+            "id": "FOGMOG",
+            "name": "雾菇"
+          }
+        ],
+        "name": "雾菇",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被[gold]雾菇[/gold]的幻象迷惑了心智。",
+    "monsters": [
+      {
+        "entity_id": "eye-with-teeth",
+        "entity_type": "monster",
+        "source_id": "EYE_WITH_TEETH"
+      },
+      {
+        "entity_id": "fogmog",
+        "entity_type": "monster",
+        "source_id": "FOGMOG"
+      }
+    ],
+    "name": "雾菇",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "FOGMOG_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Fogmog"
+      },
+      "zhs": {
+        "description": null,
+        "name": "雾菇"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "fossil-stalker-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "FOSSIL_STALKER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was ambushed by a [gold]Fossil Stalker[/gold].",
+        "monsters": [
+          {
+            "id": "FOSSIL_STALKER",
+            "name": "Fossil Stalker"
+          }
+        ],
+        "name": "Fossil Stalker",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "FOSSIL_STALKER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一只[gold]化石追踪者[/gold]伏击杀害。",
+        "monsters": [
+          {
+            "id": "FOSSIL_STALKER",
+            "name": "化石追踪者"
+          }
+        ],
+        "name": "化石追踪者",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一只[gold]化石追踪者[/gold]伏击杀害。",
+    "monsters": [
+      {
+        "entity_id": "fossil-stalker",
+        "entity_type": "monster",
+        "source_id": "FOSSIL_STALKER"
+      }
+    ],
+    "name": "化石追踪者",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "FOSSIL_STALKER_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Fossil Stalker"
+      },
+      "zhs": {
+        "description": null,
+        "name": "化石追踪者"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "frog-knight-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "FROG_KNIGHT_NORMAL",
+        "is_weak": false,
+        "loss_text": "A valiant [gold]Frog Knight[/gold] triumphed over The adventurer.",
+        "monsters": [
+          {
+            "id": "FROG_KNIGHT",
+            "name": "Frog Knight"
+          }
+        ],
+        "name": "Frog Knight",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "FROG_KNIGHT_NORMAL",
+        "is_weak": false,
+        "loss_text": "一位英勇的[gold]青蛙骑士[/gold]战胜了The adventurer。",
+        "monsters": [
+          {
+            "id": "FROG_KNIGHT",
+            "name": "青蛙骑士"
+          }
+        ],
+        "name": "青蛙骑士",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "一位英勇的[gold]青蛙骑士[/gold]战胜了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "frog-knight",
+        "entity_type": "monster",
+        "source_id": "FROG_KNIGHT"
+      }
+    ],
+    "name": "青蛙骑士",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "FROG_KNIGHT_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Frog Knight"
+      },
+      "zhs": {
+        "description": null,
+        "name": "青蛙骑士"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "fuzzy-wurm-crawler-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "FUZZY_WURM_CRAWLER_WEAK",
+        "is_weak": true,
+        "loss_text": "A [gold]Fuzzy Wurm Crawler[/gold] spat on The adventurer.",
+        "monsters": [
+          {
+            "id": "FUZZY_WURM_CRAWLER",
+            "name": "Fuzzy Wurm Crawler"
+          }
+        ],
+        "name": "Fuzzy Wurm Crawler",
+        "room_type": "Monster",
+        "tags": [
+          "Crawler"
+        ]
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "FUZZY_WURM_CRAWLER_WEAK",
+        "is_weak": true,
+        "loss_text": "一只[gold]毛绒伏地虫[/gold]将The adventurer喷吐至死。",
+        "monsters": [
+          {
+            "id": "FUZZY_WURM_CRAWLER",
+            "name": "毛绒伏地虫"
+          }
+        ],
+        "name": "毛绒伏地虫",
+        "room_type": "Monster",
+        "tags": [
+          "Crawler"
+        ]
+      }
+    },
+    "loss_text": "一只[gold]毛绒伏地虫[/gold]将The adventurer喷吐至死。",
+    "monsters": [
+      {
+        "entity_id": "fuzzy-wurm-crawler",
+        "entity_type": "monster",
+        "source_id": "FUZZY_WURM_CRAWLER"
+      }
+    ],
+    "name": "毛绒伏地虫",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "FUZZY_WURM_CRAWLER_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Crawler"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Fuzzy Wurm Crawler"
+      },
+      "zhs": {
+        "description": null,
+        "name": "毛绒伏地虫"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "globe-head-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "GLOBE_HEAD_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]A Lone Globe Head[/gold] zapped The adventurer.",
+        "monsters": [
+          {
+            "id": "GLOBE_HEAD",
+            "name": "Globe Head"
+          }
+        ],
+        "name": "A Lone Globe Head",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "GLOBE_HEAD_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]一个孤单的电球头[/gold]电死了The adventurer。",
+        "monsters": [
+          {
+            "id": "GLOBE_HEAD",
+            "name": "电球头"
+          }
+        ],
+        "name": "一个孤单的电球头",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]一个孤单的电球头[/gold]电死了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "globe-head",
+        "entity_type": "monster",
+        "source_id": "GLOBE_HEAD"
+      }
+    ],
+    "name": "一个孤单的电球头",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "GLOBE_HEAD_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "A Lone Globe Head"
+      },
+      "zhs": {
+        "description": null,
+        "name": "一个孤单的电球头"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "gremlin-merc-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "GREMLIN_MERC_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer got mugged by [gold]Two Gremlins in a Trenchcoat[/gold].",
+        "monsters": [
+          {
+            "id": "FAT_GREMLIN",
+            "name": "Fat Gremlin"
+          },
+          {
+            "id": "GREMLIN_MERC",
+            "name": "Gremlin Merc"
+          },
+          {
+            "id": "SNEAKY_GREMLIN",
+            "name": "Sneaky Gremlin"
+          }
+        ],
+        "name": "Two Gremlins in a Trenchcoat",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "GREMLIN_MERC_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]穿着一件大衣的两只地精[/gold]打劫了。",
+        "monsters": [
+          {
+            "id": "FAT_GREMLIN",
+            "name": "胖地精"
+          },
+          {
+            "id": "GREMLIN_MERC",
+            "name": "地精佣兵"
+          },
+          {
+            "id": "SNEAKY_GREMLIN",
+            "name": "卑鄙地精"
+          }
+        ],
+        "name": "穿着一件大衣的两只地精",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被[gold]穿着一件大衣的两只地精[/gold]打劫了。",
+    "monsters": [
+      {
+        "entity_id": "fat-gremlin",
+        "entity_type": "monster",
+        "source_id": "FAT_GREMLIN"
+      },
+      {
+        "entity_id": "gremlin-merc",
+        "entity_type": "monster",
+        "source_id": "GREMLIN_MERC"
+      },
+      {
+        "entity_id": "sneaky-gremlin",
+        "entity_type": "monster",
+        "source_id": "SNEAKY_GREMLIN"
+      }
+    ],
+    "name": "穿着一件大衣的两只地精",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "GREMLIN_MERC_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Two Gremlins in a Trenchcoat"
+      },
+      "zhs": {
+        "description": null,
+        "name": "穿着一件大衣的两只地精"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "haunted-ship-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "HAUNTED_SHIP_NORMAL",
+        "is_weak": false,
+        "loss_text": "A [gold]Haunted Ship[/gold] stomped all over The adventurer.",
+        "monsters": [
+          {
+            "id": "HAUNTED_SHIP",
+            "name": "Haunted Ship"
+          }
+        ],
+        "name": "Haunted Ship",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "HAUNTED_SHIP_NORMAL",
+        "is_weak": false,
+        "loss_text": "一艘[gold]幽灵船[/gold]碾过了The adventurer。",
+        "monsters": [
+          {
+            "id": "HAUNTED_SHIP",
+            "name": "幽灵船"
+          }
+        ],
+        "name": "幽灵船",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "一艘[gold]幽灵船[/gold]碾过了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "haunted-ship",
+        "entity_type": "monster",
+        "source_id": "HAUNTED_SHIP"
+      }
+    ],
+    "name": "幽灵船",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "HAUNTED_SHIP_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Haunted Ship"
+      },
+      "zhs": {
+        "description": null,
+        "name": "幽灵船"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "hunter-killer-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "HUNTER_KILLER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was disemboweled by a [gold]Hunter Killer[/gold].",
+        "monsters": [
+          {
+            "id": "HUNTER_KILLER",
+            "name": "Hunter Killer"
+          }
+        ],
+        "name": "Hunter Killer",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "HUNTER_KILLER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一只[gold]猎人杀手[/gold]开膛破肚。",
+        "monsters": [
+          {
+            "id": "HUNTER_KILLER",
+            "name": "猎人杀手"
+          }
+        ],
+        "name": "猎人杀手",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一只[gold]猎人杀手[/gold]开膛破肚。",
+    "monsters": [
+      {
+        "entity_id": "hunter-killer",
+        "entity_type": "monster",
+        "source_id": "HUNTER_KILLER"
+      }
+    ],
+    "name": "猎人杀手",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "HUNTER_KILLER_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Hunter Killer"
+      },
+      "zhs": {
+        "description": null,
+        "name": "猎人杀手"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "infested-prisms-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "INFESTED_PRISMS_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer was stopped by an [gold]Infested Prism[/gold].",
+        "monsters": [
+          {
+            "id": "INFESTED_PRISM",
+            "name": "Infested Prism"
+          }
+        ],
+        "name": "Infested Prism",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "INFESTED_PRISMS_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer被一个[gold]感染棱柱[/gold]拦下了道路。",
+        "monsters": [
+          {
+            "id": "INFESTED_PRISM",
+            "name": "感染棱柱"
+          }
+        ],
+        "name": "感染棱柱",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一个[gold]感染棱柱[/gold]拦下了道路。",
+    "monsters": [
+      {
+        "entity_id": "infested-prism",
+        "entity_type": "monster",
+        "source_id": "INFESTED_PRISM"
+      }
+    ],
+    "name": "感染棱柱",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "INFESTED_PRISMS_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Infested Prism"
+      },
+      "zhs": {
+        "description": null,
+        "name": "感染棱柱"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "inklets-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "INKLETS_NORMAL",
+        "is_weak": false,
+        "loss_text": "Some [gold]Inklets[/gold] wouldn't let The adventurer pass.",
+        "monsters": [
+          {
+            "id": "INKLET",
+            "name": "Inklet"
+          }
+        ],
+        "name": "Inklets",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "INKLETS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被几只[gold]墨宝[/gold]拦住了去路。",
+        "monsters": [
+          {
+            "id": "INKLET",
+            "name": "墨宝"
+          }
+        ],
+        "name": "墨宝",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被几只[gold]墨宝[/gold]拦住了去路。",
+    "monsters": [
+      {
+        "entity_id": "inklet",
+        "entity_type": "monster",
+        "source_id": "INKLET"
+      }
+    ],
+    "name": "墨宝",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "INKLETS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Inklets"
+      },
+      "zhs": {
+        "description": null,
+        "name": "墨宝"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "kaiser-crab-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "KAISER_CRAB_BOSS",
+        "is_weak": false,
+        "loss_text": "The [gold]Kaiser Crab[/gold] struck The adventurer from all sides.",
+        "monsters": [
+          {
+            "id": "CRUSHER",
+            "name": "Crusher"
+          },
+          {
+            "id": "ROCKET",
+            "name": "Rocket"
+          }
+        ],
+        "name": "Kaiser Crab",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "KAISER_CRAB_BOSS",
+        "is_weak": false,
+        "loss_text": "[gold]帝皇蟹[/gold]从各个方向攻击，让The adventurer无从招架。",
+        "monsters": [
+          {
+            "id": "CRUSHER",
+            "name": "碾碎爪"
+          },
+          {
+            "id": "ROCKET",
+            "name": "火箭"
+          }
+        ],
+        "name": "帝皇蟹",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]帝皇蟹[/gold]从各个方向攻击，让The adventurer无从招架。",
+    "monsters": [
+      {
+        "entity_id": "crusher",
+        "entity_type": "monster",
+        "source_id": "CRUSHER"
+      },
+      {
+        "entity_id": "rocket",
+        "entity_type": "monster",
+        "source_id": "ROCKET"
+      }
+    ],
+    "name": "帝皇蟹",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "KAISER_CRAB_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Kaiser Crab"
+      },
+      "zhs": {
+        "description": null,
+        "name": "帝皇蟹"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "knights-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "KNIGHTS_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer was slain by a [gold]Knight Gang[/gold].",
+        "monsters": [
+          {
+            "id": "FLAIL_KNIGHT",
+            "name": "Flail Knight"
+          },
+          {
+            "id": "MAGI_KNIGHT",
+            "name": "Magi Knight"
+          },
+          {
+            "id": "SPECTRAL_KNIGHT",
+            "name": "Spectral Knight"
+          }
+        ],
+        "name": "Knight Gang",
+        "room_type": "Elite",
+        "tags": [
+          "Knights"
+        ]
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "KNIGHTS_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer被一帮[gold]骑士团伙[/gold]所杀。",
+        "monsters": [
+          {
+            "id": "FLAIL_KNIGHT",
+            "name": "连枷骑士"
+          },
+          {
+            "id": "MAGI_KNIGHT",
+            "name": "魔法骑士"
+          },
+          {
+            "id": "SPECTRAL_KNIGHT",
+            "name": "幽灵骑士"
+          }
+        ],
+        "name": "骑士团伙",
+        "room_type": "Elite",
+        "tags": [
+          "Knights"
+        ]
+      }
+    },
+    "loss_text": "The adventurer被一帮[gold]骑士团伙[/gold]所杀。",
+    "monsters": [
+      {
+        "entity_id": "flail-knight",
+        "entity_type": "monster",
+        "source_id": "FLAIL_KNIGHT"
+      },
+      {
+        "entity_id": "magi-knight",
+        "entity_type": "monster",
+        "source_id": "MAGI_KNIGHT"
+      },
+      {
+        "entity_id": "spectral-knight",
+        "entity_type": "monster",
+        "source_id": "SPECTRAL_KNIGHT"
+      }
+    ],
+    "name": "骑士团伙",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "KNIGHTS_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Knights"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Knight Gang"
+      },
+      "zhs": {
+        "description": null,
+        "name": "骑士团伙"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "knowledge-demon-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "KNOWLEDGE_DEMON_BOSS",
+        "is_weak": false,
+        "loss_text": "The [gold]Knowledge Demon[/gold] cursed The adventurer with overwhelming knowledge.",
+        "monsters": [
+          {
+            "id": "KNOWLEDGE_DEMON",
+            "name": "Knowledge Demon"
+          }
+        ],
+        "name": "Knowledge Demon",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "KNOWLEDGE_DEMON_BOSS",
+        "is_weak": false,
+        "loss_text": "[gold]知识恶魔[/gold]让The adventurer堕入了无尽知识的诅咒。",
+        "monsters": [
+          {
+            "id": "KNOWLEDGE_DEMON",
+            "name": "知识恶魔"
+          }
+        ],
+        "name": "知识恶魔",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]知识恶魔[/gold]让The adventurer堕入了无尽知识的诅咒。",
+    "monsters": [
+      {
+        "entity_id": "knowledge-demon",
+        "entity_type": "monster",
+        "source_id": "KNOWLEDGE_DEMON"
+      }
+    ],
+    "name": "知识恶魔",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "KNOWLEDGE_DEMON_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Knowledge Demon"
+      },
+      "zhs": {
+        "description": null,
+        "name": "知识恶魔"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "lagavulin-matriarch-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "LAGAVULIN_MATRIARCH_BOSS",
+        "is_weak": false,
+        "loss_text": "The adventurer was cut in half by the [gold]Lagavulin Matriarch[/gold].",
+        "monsters": [
+          {
+            "id": "LAGAVULIN_MATRIARCH",
+            "name": "Lagavulin Matriarch"
+          }
+        ],
+        "name": "Lagavulin Matriarch",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "LAGAVULIN_MATRIARCH_BOSS",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]乐加维林族母[/gold]切成了两半。",
+        "monsters": [
+          {
+            "id": "LAGAVULIN_MATRIARCH",
+            "name": "乐加维林族母"
+          }
+        ],
+        "name": "乐加维林族母",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被[gold]乐加维林族母[/gold]切成了两半。",
+    "monsters": [
+      {
+        "entity_id": "lagavulin-matriarch",
+        "entity_type": "monster",
+        "source_id": "LAGAVULIN_MATRIARCH"
+      }
+    ],
+    "name": "乐加维林族母",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "LAGAVULIN_MATRIARCH_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Lagavulin Matriarch"
+      },
+      "zhs": {
+        "description": null,
+        "name": "乐加维林族母"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "living-fog-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "LIVING_FOG_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer couldn't bear the stench of some [gold]Evil Gas[/gold].",
+        "monsters": [
+          {
+            "id": "GAS_BOMB",
+            "name": "Gas Bomb"
+          },
+          {
+            "id": "LIVING_FOG",
+            "name": "Living Fog"
+          }
+        ],
+        "name": "Evil Gas",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "LIVING_FOG_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer无法承受[gold]邪恶气体[/gold]的臭气。",
+        "monsters": [
+          {
+            "id": "GAS_BOMB",
+            "name": "气态炸弹"
+          },
+          {
+            "id": "LIVING_FOG",
+            "name": "活雾"
+          }
+        ],
+        "name": "邪恶气体",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer无法承受[gold]邪恶气体[/gold]的臭气。",
+    "monsters": [
+      {
+        "entity_id": "gas-bomb",
+        "entity_type": "monster",
+        "source_id": "GAS_BOMB"
+      },
+      {
+        "entity_id": "living-fog",
+        "entity_type": "monster",
+        "source_id": "LIVING_FOG"
+      }
+    ],
+    "name": "邪恶气体",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "LIVING_FOG_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Evil Gas"
+      },
+      "zhs": {
+        "description": null,
+        "name": "邪恶气体"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "louse-progenitor-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "LOUSE_PROGENITOR_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was paralyzed by a [gold]Louse Progenitor[/gold].",
+        "monsters": [
+          {
+            "id": "LOUSE_PROGENITOR",
+            "name": "Louse Progenitor"
+          }
+        ],
+        "name": "Louse Progenitor",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "LOUSE_PROGENITOR_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer遭到[gold]虱虫之祖[/gold]的麻痹而死。",
+        "monsters": [
+          {
+            "id": "LOUSE_PROGENITOR",
+            "name": "虱虫之祖"
+          }
+        ],
+        "name": "虱虫之祖",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer遭到[gold]虱虫之祖[/gold]的麻痹而死。",
+    "monsters": [
+      {
+        "entity_id": "louse-progenitor",
+        "entity_type": "monster",
+        "source_id": "LOUSE_PROGENITOR"
+      }
+    ],
+    "name": "虱虫之祖",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "LOUSE_PROGENITOR_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Louse Progenitor"
+      },
+      "zhs": {
+        "description": null,
+        "name": "虱虫之祖"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "mawler-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "MAWLER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer became a delicious meal for a [gold]Mawler[/gold].",
+        "monsters": [
+          {
+            "id": "MAWLER",
+            "name": "Mawler"
+          }
+        ],
+        "name": "Mawler",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "MAWLER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer成为了[gold]蛮兽[/gold]的一顿美餐。",
+        "monsters": [
+          {
+            "id": "MAWLER",
+            "name": "蛮兽"
+          }
+        ],
+        "name": "蛮兽",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer成为了[gold]蛮兽[/gold]的一顿美餐。",
+    "monsters": [
+      {
+        "entity_id": "mawler",
+        "entity_type": "monster",
+        "source_id": "MAWLER"
+      }
+    ],
+    "name": "蛮兽",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "MAWLER_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Mawler"
+      },
+      "zhs": {
+        "description": null,
+        "name": "蛮兽"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "mecha-knight-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "MECHA_KNIGHT_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer was stabbed and burned by a [gold]Mecha Knight[/gold].",
+        "monsters": [
+          {
+            "id": "MECHA_KNIGHT",
+            "name": "Mecha Knight"
+          }
+        ],
+        "name": "Mecha Knight",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "MECHA_KNIGHT_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer被一位[gold]机甲骑士[/gold]火烧剑斩。",
+        "monsters": [
+          {
+            "id": "MECHA_KNIGHT",
+            "name": "机甲骑士"
+          }
+        ],
+        "name": "机甲骑士",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一位[gold]机甲骑士[/gold]火烧剑斩。",
+    "monsters": [
+      {
+        "entity_id": "mecha-knight",
+        "entity_type": "monster",
+        "source_id": "MECHA_KNIGHT"
+      }
+    ],
+    "name": "机甲骑士",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "MECHA_KNIGHT_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Mecha Knight"
+      },
+      "zhs": {
+        "description": null,
+        "name": "机甲骑士"
+      }
+    }
+  },
+  {
+    "act": null,
+    "beta_image_url": null,
+    "description": null,
+    "id": "mysterious-knight-event-encounter",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": null,
+        "id": "MYSTERIOUS_KNIGHT_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer tried to take a [gold]Mysterious Knight[/gold]'s key.",
+        "monsters": [
+          {
+            "id": "MYSTERIOUS_KNIGHT",
+            "name": "Mysterious Knight"
+          }
+        ],
+        "name": "Mysterious Knight",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": null,
+        "id": "MYSTERIOUS_KNIGHT_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer试图抢夺[gold]神秘骑士[/gold]的钥匙，却铩羽而归。",
+        "monsters": [
+          {
+            "id": "MYSTERIOUS_KNIGHT",
+            "name": "神秘骑士"
+          }
+        ],
+        "name": "神秘骑士",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer试图抢夺[gold]神秘骑士[/gold]的钥匙，却铩羽而归。",
+    "monsters": [
+      {
+        "entity_id": "mysterious-knight",
+        "entity_type": "monster",
+        "source_id": "MYSTERIOUS_KNIGHT"
+      }
+    ],
+    "name": "神秘骑士",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "MYSTERIOUS_KNIGHT_EVENT_ENCOUNTER",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Mysterious Knight"
+      },
+      "zhs": {
+        "description": null,
+        "name": "神秘骑士"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "mytes-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "MYTES_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was swarmed by a [gold]Mass of Mytes[/gold].",
+        "monsters": [
+          {
+            "id": "MYTE",
+            "name": "Myte"
+          }
+        ],
+        "name": "Mass of Mytes",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "MYTES_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]一群异螨[/gold]围杀。",
+        "monsters": [
+          {
+            "id": "MYTE",
+            "name": "异螨"
+          }
+        ],
+        "name": "一群异螨",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被[gold]一群异螨[/gold]围杀。",
+    "monsters": [
+      {
+        "entity_id": "myte",
+        "entity_type": "monster",
+        "source_id": "MYTE"
+      }
+    ],
+    "name": "一群异螨",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "MYTES_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Mass of Mytes"
+      },
+      "zhs": {
+        "description": null,
+        "name": "一群异螨"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "nibbits-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "NIBBITS_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]A Pair of Nibbits[/gold] beat up The adventurer.",
+        "monsters": [
+          {
+            "id": "NIBBIT",
+            "name": "Nibbit"
+          }
+        ],
+        "name": "A Pair of Nibbits",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "NIBBITS_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]两只小啃兽[/gold]打死了The adventurer。",
+        "monsters": [
+          {
+            "id": "NIBBIT",
+            "name": "小啃兽"
+          }
+        ],
+        "name": "两只小啃兽",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]两只小啃兽[/gold]打死了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "nibbit",
+        "entity_type": "monster",
+        "source_id": "NIBBIT"
+      }
+    ],
+    "name": "两只小啃兽",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "NIBBITS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "A Pair of Nibbits"
+      },
+      "zhs": {
+        "description": null,
+        "name": "两只小啃兽"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "nibbits-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "NIBBITS_WEAK",
+        "is_weak": true,
+        "loss_text": "[gold]A Lone Nibbit[/gold] beat up The adventurer.",
+        "monsters": [
+          {
+            "id": "NIBBIT",
+            "name": "Nibbit"
+          }
+        ],
+        "name": "A Lone Nibbit",
+        "room_type": "Monster",
+        "tags": [
+          "Nibbit"
+        ]
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "NIBBITS_WEAK",
+        "is_weak": true,
+        "loss_text": "[gold]一只落单的小啃兽[/gold]打死了The adventurer。",
+        "monsters": [
+          {
+            "id": "NIBBIT",
+            "name": "小啃兽"
+          }
+        ],
+        "name": "一只落单的小啃兽",
+        "room_type": "Monster",
+        "tags": [
+          "Nibbit"
+        ]
+      }
+    },
+    "loss_text": "[gold]一只落单的小啃兽[/gold]打死了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "nibbit",
+        "entity_type": "monster",
+        "source_id": "NIBBIT"
+      }
+    ],
+    "name": "一只落单的小啃兽",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "NIBBITS_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Nibbit"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "A Lone Nibbit"
+      },
+      "zhs": {
+        "description": null,
+        "name": "一只落单的小啃兽"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "overgrowth-crawlers",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "OVERGROWTH_CRAWLERS",
+        "is_weak": false,
+        "loss_text": "Some [gold]Overgrowth Crawlers[/gold] feasted on The adventurer.",
+        "monsters": [
+          {
+            "id": "FUZZY_WURM_CRAWLER",
+            "name": "Fuzzy Wurm Crawler"
+          },
+          {
+            "id": "SHRINKER_BEETLE",
+            "name": "Shrinker Beetle"
+          }
+        ],
+        "name": "Overgrowth Crawlers",
+        "room_type": "Monster",
+        "tags": [
+          "Shrinker",
+          "Crawler"
+        ]
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "OVERGROWTH_CRAWLERS",
+        "is_weak": false,
+        "loss_text": "一些[gold]密林爬虫[/gold]美餐了一顿The adventurer的尸体。",
+        "monsters": [
+          {
+            "id": "FUZZY_WURM_CRAWLER",
+            "name": "毛绒伏地虫"
+          },
+          {
+            "id": "SHRINKER_BEETLE",
+            "name": "缩小甲虫"
+          }
+        ],
+        "name": "密林爬虫",
+        "room_type": "Monster",
+        "tags": [
+          "Shrinker",
+          "Crawler"
+        ]
+      }
+    },
+    "loss_text": "一些[gold]密林爬虫[/gold]美餐了一顿The adventurer的尸体。",
+    "monsters": [
+      {
+        "entity_id": "fuzzy-wurm-crawler",
+        "entity_type": "monster",
+        "source_id": "FUZZY_WURM_CRAWLER"
+      },
+      {
+        "entity_id": "shrinker-beetle",
+        "entity_type": "monster",
+        "source_id": "SHRINKER_BEETLE"
+      }
+    ],
+    "name": "密林爬虫",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "OVERGROWTH_CRAWLERS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Shrinker",
+      "Crawler"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Overgrowth Crawlers"
+      },
+      "zhs": {
+        "description": null,
+        "name": "密林爬虫"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "ovicopter-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "OVICOPTER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer became food for an [gold]Ovicopter[/gold]'s children.",
+        "monsters": [
+          {
+            "id": "OVICOPTER",
+            "name": "Ovicopter"
+          },
+          {
+            "id": "TOUGH_EGG",
+            "name": "Tough Egg"
+          }
+        ],
+        "name": "Ovicopter",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "OVICOPTER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer成为了一只[gold]直飞产卵虫[/gold]为孩子们准备的食粮。",
+        "monsters": [
+          {
+            "id": "OVICOPTER",
+            "name": "直飞产卵虫"
+          },
+          {
+            "id": "TOUGH_EGG",
+            "name": "结实的卵"
+          }
+        ],
+        "name": "直飞产卵虫",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer成为了一只[gold]直飞产卵虫[/gold]为孩子们准备的食粮。",
+    "monsters": [
+      {
+        "entity_id": "ovicopter",
+        "entity_type": "monster",
+        "source_id": "OVICOPTER"
+      },
+      {
+        "entity_id": "tough-egg",
+        "entity_type": "monster",
+        "source_id": "TOUGH_EGG"
+      }
+    ],
+    "name": "直飞产卵虫",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "OVICOPTER_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Ovicopter"
+      },
+      "zhs": {
+        "description": null,
+        "name": "直飞产卵虫"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "owl-magistrate-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "OWL_MAGISTRATE_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was sentenced to death by an [gold]Owl Magistrate[/gold].",
+        "monsters": [
+          {
+            "id": "OWL_MAGISTRATE",
+            "name": "Owl Magistrate"
+          }
+        ],
+        "name": "Owl Magistrate",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "OWL_MAGISTRATE_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一名[gold]猫头鹰法官[/gold]宣判了死刑。",
+        "monsters": [
+          {
+            "id": "OWL_MAGISTRATE",
+            "name": "猫头鹰法官"
+          }
+        ],
+        "name": "猫头鹰法官",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一名[gold]猫头鹰法官[/gold]宣判了死刑。",
+    "monsters": [
+      {
+        "entity_id": "owl-magistrate",
+        "entity_type": "monster",
+        "source_id": "OWL_MAGISTRATE"
+      }
+    ],
+    "name": "猫头鹰法官",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "OWL_MAGISTRATE_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Owl Magistrate"
+      },
+      "zhs": {
+        "description": null,
+        "name": "猫头鹰法官"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "phantasmal-gardeners-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "PHANTASMAL_GARDENERS_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer was put to rest by the [gold]Phantasmal Gardeners[/gold].",
+        "monsters": [
+          {
+            "id": "PHANTASMAL_GARDENER",
+            "name": "Phantasmal Gardener"
+          }
+        ],
+        "name": "Phantasmal Gardeners",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "PHANTASMAL_GARDENERS_ELITE",
+        "is_weak": false,
+        "loss_text": "一些[gold]花园幽灵鳗[/gold]赐予了The adventurer永恒的安眠。",
+        "monsters": [
+          {
+            "id": "PHANTASMAL_GARDENER",
+            "name": "花园幽灵鳗"
+          }
+        ],
+        "name": "花园幽灵鳗",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "一些[gold]花园幽灵鳗[/gold]赐予了The adventurer永恒的安眠。",
+    "monsters": [
+      {
+        "entity_id": "phantasmal-gardener",
+        "entity_type": "monster",
+        "source_id": "PHANTASMAL_GARDENER"
+      }
+    ],
+    "name": "花园幽灵鳗",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "PHANTASMAL_GARDENERS_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Phantasmal Gardeners"
+      },
+      "zhs": {
+        "description": null,
+        "name": "花园幽灵鳗"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "phrog-parasite-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "PHROG_PARASITE_ELITE",
+        "is_weak": false,
+        "loss_text": "A [gold]Phrog Parasite[/gold] spread its colony to The adventurer.",
+        "monsters": [
+          {
+            "id": "PHROG_PARASITE",
+            "name": "Phrog Parasite"
+          },
+          {
+            "id": "WRIGGLER",
+            "name": "Wriggler"
+          }
+        ],
+        "name": "Phrog Parasite",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "PHROG_PARASITE_ELITE",
+        "is_weak": false,
+        "loss_text": "一只[gold]异蛙寄生虫[/gold]将感染传播到了The adventurer身上。",
+        "monsters": [
+          {
+            "id": "PHROG_PARASITE",
+            "name": "异蛙寄生虫"
+          },
+          {
+            "id": "WRIGGLER",
+            "name": "扭动虫"
+          }
+        ],
+        "name": "异蛙寄生虫",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "一只[gold]异蛙寄生虫[/gold]将感染传播到了The adventurer身上。",
+    "monsters": [
+      {
+        "entity_id": "phrog-parasite",
+        "entity_type": "monster",
+        "source_id": "PHROG_PARASITE"
+      },
+      {
+        "entity_id": "wriggler",
+        "entity_type": "monster",
+        "source_id": "WRIGGLER"
+      }
+    ],
+    "name": "异蛙寄生虫",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "PHROG_PARASITE_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Phrog Parasite"
+      },
+      "zhs": {
+        "description": null,
+        "name": "异蛙寄生虫"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "punch-construct-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "PUNCH_CONSTRUCT_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer engaged in fisticuffs with a [gold]Punch Construct[/gold].",
+        "monsters": [
+          {
+            "id": "PUNCH_CONSTRUCT",
+            "name": "Punch Construct"
+          }
+        ],
+        "name": "Punch Construct",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "PUNCH_CONSTRUCT_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer和[gold]拳击构装体[/gold]打了一架。",
+        "monsters": [
+          {
+            "id": "PUNCH_CONSTRUCT",
+            "name": "拳击构装体"
+          }
+        ],
+        "name": "拳击构装体",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer和[gold]拳击构装体[/gold]打了一架。",
+    "monsters": [
+      {
+        "entity_id": "punch-construct",
+        "entity_type": "monster",
+        "source_id": "PUNCH_CONSTRUCT"
+      }
+    ],
+    "name": "拳击构装体",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "PUNCH_CONSTRUCT_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Punch Construct"
+      },
+      "zhs": {
+        "description": null,
+        "name": "拳击构装体"
+      }
+    }
+  },
+  {
+    "act": null,
+    "beta_image_url": null,
+    "description": null,
+    "id": "punch-off-event-encounter",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": null,
+        "id": "PUNCH_OFF_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer interrupted a bout between two [gold]Punch Constructs[/gold].",
+        "monsters": [
+          {
+            "id": "PUNCH_CONSTRUCT",
+            "name": "Punch Construct"
+          }
+        ],
+        "name": "Punch Constructs",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": null,
+        "id": "PUNCH_OFF_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "The adventurer干涉了两只[gold]拳击构装体[/gold]的互殴。",
+        "monsters": [
+          {
+            "id": "PUNCH_CONSTRUCT",
+            "name": "拳击构装体"
+          }
+        ],
+        "name": "拳击构装体",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer干涉了两只[gold]拳击构装体[/gold]的互殴。",
+    "monsters": [
+      {
+        "entity_id": "punch-construct",
+        "entity_type": "monster",
+        "source_id": "PUNCH_CONSTRUCT"
+      }
+    ],
+    "name": "拳击构装体",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "PUNCH_OFF_EVENT_ENCOUNTER",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Punch Constructs"
+      },
+      "zhs": {
+        "description": null,
+        "name": "拳击构装体"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "queen-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "QUEEN_BOSS",
+        "is_weak": false,
+        "loss_text": "The [gold]Queen[/gold] added a piece of The adventurer to her collection.",
+        "monsters": [
+          {
+            "id": "QUEEN",
+            "name": "Queen"
+          },
+          {
+            "id": "TORCH_HEAD_AMALGAM",
+            "name": "Torch Head Amalgam"
+          }
+        ],
+        "name": "Queen",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "QUEEN_BOSS",
+        "is_weak": false,
+        "loss_text": "[gold]女王[/gold]的藏品中，又多了一位The adventurer。",
+        "monsters": [
+          {
+            "id": "QUEEN",
+            "name": "女王"
+          },
+          {
+            "id": "TORCH_HEAD_AMALGAM",
+            "name": "火炬头聚合体"
+          }
+        ],
+        "name": "女王",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]女王[/gold]的藏品中，又多了一位The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "queen",
+        "entity_type": "monster",
+        "source_id": "QUEEN"
+      },
+      {
+        "entity_id": "torch-head-amalgam",
+        "entity_type": "monster",
+        "source_id": "TORCH_HEAD_AMALGAM"
+      }
+    ],
+    "name": "女王",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "QUEEN_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Queen"
+      },
+      "zhs": {
+        "description": null,
+        "name": "女王"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "ruby-raiders-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "RUBY_RAIDERS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer got jumped by a group of [gold]Ruby Raiders[/gold].",
+        "monsters": [
+          {
+            "id": "ASSASSIN_RUBY_RAIDER",
+            "name": "Assassin Raider"
+          },
+          {
+            "id": "AXE_RUBY_RAIDER",
+            "name": "Axe Raider"
+          },
+          {
+            "id": "BRUTE_RUBY_RAIDER",
+            "name": "Brute Raider"
+          },
+          {
+            "id": "CROSSBOW_RUBY_RAIDER",
+            "name": "Crossbow Raider"
+          },
+          {
+            "id": "TRACKER_RUBY_RAIDER",
+            "name": "Tracker Raider"
+          }
+        ],
+        "name": "Ruby Raiders",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "RUBY_RAIDERS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一群[gold]红宝石劫掠者[/gold]伏击了。",
+        "monsters": [
+          {
+            "id": "ASSASSIN_RUBY_RAIDER",
+            "name": "劫掠者刺客"
+          },
+          {
+            "id": "AXE_RUBY_RAIDER",
+            "name": "劫掠者斧手"
+          },
+          {
+            "id": "BRUTE_RUBY_RAIDER",
+            "name": "劫掠者暴徒"
+          },
+          {
+            "id": "CROSSBOW_RUBY_RAIDER",
+            "name": "劫掠者弩手"
+          },
+          {
+            "id": "TRACKER_RUBY_RAIDER",
+            "name": "劫掠者追踪手"
+          }
+        ],
+        "name": "红宝石劫掠者",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一群[gold]红宝石劫掠者[/gold]伏击了。",
+    "monsters": [
+      {
+        "entity_id": "assassin-ruby-raider",
+        "entity_type": "monster",
+        "source_id": "ASSASSIN_RUBY_RAIDER"
+      },
+      {
+        "entity_id": "axe-ruby-raider",
+        "entity_type": "monster",
+        "source_id": "AXE_RUBY_RAIDER"
+      },
+      {
+        "entity_id": "brute-ruby-raider",
+        "entity_type": "monster",
+        "source_id": "BRUTE_RUBY_RAIDER"
+      },
+      {
+        "entity_id": "crossbow-ruby-raider",
+        "entity_type": "monster",
+        "source_id": "CROSSBOW_RUBY_RAIDER"
+      },
+      {
+        "entity_id": "tracker-ruby-raider",
+        "entity_type": "monster",
+        "source_id": "TRACKER_RUBY_RAIDER"
+      }
+    ],
+    "name": "红宝石劫掠者",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "RUBY_RAIDERS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Ruby Raiders"
+      },
+      "zhs": {
+        "description": null,
+        "name": "红宝石劫掠者"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "scrolls-of-biting-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "SCROLLS_OF_BITING_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]Many Scrolls of Biting[/gold] tore The adventurer to shreds.",
+        "monsters": [
+          {
+            "id": "SCROLL_OF_BITING",
+            "name": "Scroll of Biting"
+          }
+        ],
+        "name": "Many Scrolls of Biting",
+        "room_type": "Monster",
+        "tags": [
+          "Scrolls"
+        ]
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "SCROLLS_OF_BITING_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]许多咬人卷轴[/gold]将The adventurer撕成了碎片。",
+        "monsters": [
+          {
+            "id": "SCROLL_OF_BITING",
+            "name": "咬人卷轴"
+          }
+        ],
+        "name": "许多咬人卷轴",
+        "room_type": "Monster",
+        "tags": [
+          "Scrolls"
+        ]
+      }
+    },
+    "loss_text": "[gold]许多咬人卷轴[/gold]将The adventurer撕成了碎片。",
+    "monsters": [
+      {
+        "entity_id": "scroll-of-biting",
+        "entity_type": "monster",
+        "source_id": "SCROLL_OF_BITING"
+      }
+    ],
+    "name": "许多咬人卷轴",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SCROLLS_OF_BITING_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Scrolls"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Many Scrolls of Biting"
+      },
+      "zhs": {
+        "description": null,
+        "name": "许多咬人卷轴"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "scrolls-of-biting-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "SCROLLS_OF_BITING_WEAK",
+        "is_weak": true,
+        "loss_text": "Some [gold]Scrolls of Biting[/gold] tore The adventurer to shreds.",
+        "monsters": [
+          {
+            "id": "SCROLL_OF_BITING",
+            "name": "Scroll of Biting"
+          }
+        ],
+        "name": "Scrolls of Biting",
+        "room_type": "Monster",
+        "tags": [
+          "Scrolls"
+        ]
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "SCROLLS_OF_BITING_WEAK",
+        "is_weak": true,
+        "loss_text": "一些[gold]咬人卷轴[/gold]将The adventurer撕成了碎片。",
+        "monsters": [
+          {
+            "id": "SCROLL_OF_BITING",
+            "name": "咬人卷轴"
+          }
+        ],
+        "name": "咬人卷轴",
+        "room_type": "Monster",
+        "tags": [
+          "Scrolls"
+        ]
+      }
+    },
+    "loss_text": "一些[gold]咬人卷轴[/gold]将The adventurer撕成了碎片。",
+    "monsters": [
+      {
+        "entity_id": "scroll-of-biting",
+        "entity_type": "monster",
+        "source_id": "SCROLL_OF_BITING"
+      }
+    ],
+    "name": "咬人卷轴",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SCROLLS_OF_BITING_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Scrolls"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Scrolls of Biting"
+      },
+      "zhs": {
+        "description": null,
+        "name": "咬人卷轴"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "seapunk-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "SEAPUNK_WEAK",
+        "is_weak": true,
+        "loss_text": "A [gold]Seapunk[/gold] clobbered The adventurer.",
+        "monsters": [
+          {
+            "id": "SEAPUNK",
+            "name": "Seapunk"
+          }
+        ],
+        "name": "Seapunk",
+        "room_type": "Monster",
+        "tags": [
+          "Seapunk"
+        ]
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "SEAPUNK_WEAK",
+        "is_weak": true,
+        "loss_text": "一只[gold]海洋混混[/gold]将The adventurer痛殴了一顿。",
+        "monsters": [
+          {
+            "id": "SEAPUNK",
+            "name": "海洋混混"
+          }
+        ],
+        "name": "海洋混混",
+        "room_type": "Monster",
+        "tags": [
+          "Seapunk"
+        ]
+      }
+    },
+    "loss_text": "一只[gold]海洋混混[/gold]将The adventurer痛殴了一顿。",
+    "monsters": [
+      {
+        "entity_id": "seapunk",
+        "entity_type": "monster",
+        "source_id": "SEAPUNK"
+      }
+    ],
+    "name": "海洋混混",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SEAPUNK_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Seapunk"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Seapunk"
+      },
+      "zhs": {
+        "description": null,
+        "name": "海洋混混"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "sewer-clam-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "SEWER_CLAM_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was gobbled up by a [gold]Sewer Clam[/gold].",
+        "monsters": [
+          {
+            "id": "SEWER_CLAM",
+            "name": "Sewer Clam"
+          }
+        ],
+        "name": "Sewer Clam",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "SEWER_CLAM_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一只[gold]下水道蚌[/gold]吞了下去。",
+        "monsters": [
+          {
+            "id": "SEWER_CLAM",
+            "name": "下水道蚌"
+          }
+        ],
+        "name": "下水道蚌",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一只[gold]下水道蚌[/gold]吞了下去。",
+    "monsters": [
+      {
+        "entity_id": "sewer-clam",
+        "entity_type": "monster",
+        "source_id": "SEWER_CLAM"
+      }
+    ],
+    "name": "下水道蚌",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SEWER_CLAM_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Sewer Clam"
+      },
+      "zhs": {
+        "description": null,
+        "name": "下水道蚌"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "shrinker-beetle-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SHRINKER_BEETLE_WEAK",
+        "is_weak": true,
+        "loss_text": "A [gold]Shrinker Beetle[/gold] snacked on The adventurer.",
+        "monsters": [
+          {
+            "id": "SHRINKER_BEETLE",
+            "name": "Shrinker Beetle"
+          }
+        ],
+        "name": "Shrinker Beetle",
+        "room_type": "Monster",
+        "tags": [
+          "Shrinker"
+        ]
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SHRINKER_BEETLE_WEAK",
+        "is_weak": true,
+        "loss_text": "[gold]缩小甲虫[/gold]吃到了The adventurer的尸体。",
+        "monsters": [
+          {
+            "id": "SHRINKER_BEETLE",
+            "name": "缩小甲虫"
+          }
+        ],
+        "name": "缩小甲虫",
+        "room_type": "Monster",
+        "tags": [
+          "Shrinker"
+        ]
+      }
+    },
+    "loss_text": "[gold]缩小甲虫[/gold]吃到了The adventurer的尸体。",
+    "monsters": [
+      {
+        "entity_id": "shrinker-beetle",
+        "entity_type": "monster",
+        "source_id": "SHRINKER_BEETLE"
+      }
+    ],
+    "name": "缩小甲虫",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SHRINKER_BEETLE_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Shrinker"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Shrinker Beetle"
+      },
+      "zhs": {
+        "description": null,
+        "name": "缩小甲虫"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "skulking-colony-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "SKULKING_COLONY_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer was absorbed by a [gold]Skulking Colony[/gold]",
+        "monsters": [
+          {
+            "id": "SKULKING_COLONY",
+            "name": "Skulking Colony"
+          }
+        ],
+        "name": "Skulking Colony",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "SKULKING_COLONY_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer被一个[gold]鬼祟珊瑚群[/gold]吸收消化了。",
+        "monsters": [
+          {
+            "id": "SKULKING_COLONY",
+            "name": "鬼祟珊瑚群"
+          }
+        ],
+        "name": "鬼祟珊瑚群",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一个[gold]鬼祟珊瑚群[/gold]吸收消化了。",
+    "monsters": [
+      {
+        "entity_id": "skulking-colony",
+        "entity_type": "monster",
+        "source_id": "SKULKING_COLONY"
+      }
+    ],
+    "name": "鬼祟珊瑚群",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "SKULKING_COLONY_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Skulking Colony"
+      },
+      "zhs": {
+        "description": null,
+        "name": "鬼祟珊瑚群"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "slimed-berserker-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "SLIMED_BERSERKER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was absorbed into a [gold]Slimed Berserker[/gold].",
+        "monsters": [
+          {
+            "id": "SLIMED_BERSERKER",
+            "name": "Slimed Berserker"
+          }
+        ],
+        "name": "Slimed Berserker",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "SLIMED_BERSERKER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一只[gold]史莱姆狂战士[/gold]吞下了。",
+        "monsters": [
+          {
+            "id": "SLIMED_BERSERKER",
+            "name": "史莱姆狂战士"
+          }
+        ],
+        "name": "史莱姆狂战士",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一只[gold]史莱姆狂战士[/gold]吞下了。",
+    "monsters": [
+      {
+        "entity_id": "slimed-berserker",
+        "entity_type": "monster",
+        "source_id": "SLIMED_BERSERKER"
+      }
+    ],
+    "name": "史莱姆狂战士",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SLIMED_BERSERKER_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Slimed Berserker"
+      },
+      "zhs": {
+        "description": null,
+        "name": "史莱姆狂战士"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "slimes-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SLIMES_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was felled by a [gold]Swarm of Slimes[/gold].",
+        "monsters": [
+          {
+            "id": "LEAF_SLIME_M",
+            "name": "Leaf Slime (M)"
+          },
+          {
+            "id": "LEAF_SLIME_S",
+            "name": "Leaf Slime (S)"
+          },
+          {
+            "id": "TWIG_SLIME_M",
+            "name": "Twig Slime (M)"
+          },
+          {
+            "id": "TWIG_SLIME_S",
+            "name": "Twig Slime (S)"
+          }
+        ],
+        "name": "Swarm of Slimes",
+        "room_type": "Monster",
+        "tags": [
+          "Slimes"
+        ]
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SLIMES_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]一大群史莱姆[/gold]打倒了。",
+        "monsters": [
+          {
+            "id": "LEAF_SLIME_M",
+            "name": "树叶史莱姆（中）"
+          },
+          {
+            "id": "LEAF_SLIME_S",
+            "name": "树叶史莱姆（小）"
+          },
+          {
+            "id": "TWIG_SLIME_M",
+            "name": "树枝史莱姆（中）"
+          },
+          {
+            "id": "TWIG_SLIME_S",
+            "name": "树枝史莱姆（小）"
+          }
+        ],
+        "name": "一大群史莱姆",
+        "room_type": "Monster",
+        "tags": [
+          "Slimes"
+        ]
+      }
+    },
+    "loss_text": "The adventurer被[gold]一大群史莱姆[/gold]打倒了。",
+    "monsters": [
+      {
+        "entity_id": "leaf-slime-m",
+        "entity_type": "monster",
+        "source_id": "LEAF_SLIME_M"
+      },
+      {
+        "entity_id": "leaf-slime-s",
+        "entity_type": "monster",
+        "source_id": "LEAF_SLIME_S"
+      },
+      {
+        "entity_id": "twig-slime-m",
+        "entity_type": "monster",
+        "source_id": "TWIG_SLIME_M"
+      },
+      {
+        "entity_id": "twig-slime-s",
+        "entity_type": "monster",
+        "source_id": "TWIG_SLIME_S"
+      }
+    ],
+    "name": "一大群史莱姆",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SLIMES_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Slimes"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Swarm of Slimes"
+      },
+      "zhs": {
+        "description": null,
+        "name": "一大群史莱姆"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "slimes-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SLIMES_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer was felled by a [gold]Group of Slimes[/gold].",
+        "monsters": [
+          {
+            "id": "LEAF_SLIME_M",
+            "name": "Leaf Slime (M)"
+          },
+          {
+            "id": "LEAF_SLIME_S",
+            "name": "Leaf Slime (S)"
+          },
+          {
+            "id": "TWIG_SLIME_M",
+            "name": "Twig Slime (M)"
+          },
+          {
+            "id": "TWIG_SLIME_S",
+            "name": "Twig Slime (S)"
+          }
+        ],
+        "name": "Group of Slimes",
+        "room_type": "Monster",
+        "tags": [
+          "Slimes"
+        ]
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SLIMES_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer被[gold]一群史莱姆[/gold]打倒了。",
+        "monsters": [
+          {
+            "id": "LEAF_SLIME_M",
+            "name": "树叶史莱姆（中）"
+          },
+          {
+            "id": "LEAF_SLIME_S",
+            "name": "树叶史莱姆（小）"
+          },
+          {
+            "id": "TWIG_SLIME_M",
+            "name": "树枝史莱姆（中）"
+          },
+          {
+            "id": "TWIG_SLIME_S",
+            "name": "树枝史莱姆（小）"
+          }
+        ],
+        "name": "一群史莱姆",
+        "room_type": "Monster",
+        "tags": [
+          "Slimes"
+        ]
+      }
+    },
+    "loss_text": "The adventurer被[gold]一群史莱姆[/gold]打倒了。",
+    "monsters": [
+      {
+        "entity_id": "leaf-slime-m",
+        "entity_type": "monster",
+        "source_id": "LEAF_SLIME_M"
+      },
+      {
+        "entity_id": "leaf-slime-s",
+        "entity_type": "monster",
+        "source_id": "LEAF_SLIME_S"
+      },
+      {
+        "entity_id": "twig-slime-m",
+        "entity_type": "monster",
+        "source_id": "TWIG_SLIME_M"
+      },
+      {
+        "entity_id": "twig-slime-s",
+        "entity_type": "monster",
+        "source_id": "TWIG_SLIME_S"
+      }
+    ],
+    "name": "一群史莱姆",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SLIMES_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Slimes"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Group of Slimes"
+      },
+      "zhs": {
+        "description": null,
+        "name": "一群史莱姆"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "slithering-strangler-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SLITHERING_STRANGLER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was suffocated by a [gold]Strangler and Friend[/gold].",
+        "monsters": [
+          {
+            "id": "LEAF_SLIME_M",
+            "name": "Leaf Slime (M)"
+          },
+          {
+            "id": "LEAF_SLIME_S",
+            "name": "Leaf Slime (S)"
+          },
+          {
+            "id": "SLITHERING_STRANGLER",
+            "name": "Slithering Strangler"
+          },
+          {
+            "id": "SNAPPING_JAXFRUIT",
+            "name": "Snapping Jaxfruit"
+          },
+          {
+            "id": "TWIG_SLIME_M",
+            "name": "Twig Slime (M)"
+          },
+          {
+            "id": "TWIG_SLIME_S",
+            "name": "Twig Slime (S)"
+          }
+        ],
+        "name": "Strangler and Friend",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SLITHERING_STRANGLER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]扼杀者与伙伴[/gold]所闷杀。",
+        "monsters": [
+          {
+            "id": "LEAF_SLIME_M",
+            "name": "树叶史莱姆（中）"
+          },
+          {
+            "id": "LEAF_SLIME_S",
+            "name": "树叶史莱姆（小）"
+          },
+          {
+            "id": "SLITHERING_STRANGLER",
+            "name": "蛇行扼杀者"
+          },
+          {
+            "id": "SNAPPING_JAXFRUIT",
+            "name": "闪光贾克斯果"
+          },
+          {
+            "id": "TWIG_SLIME_M",
+            "name": "树枝史莱姆（中）"
+          },
+          {
+            "id": "TWIG_SLIME_S",
+            "name": "树枝史莱姆（小）"
+          }
+        ],
+        "name": "扼杀者与伙伴",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被[gold]扼杀者与伙伴[/gold]所闷杀。",
+    "monsters": [
+      {
+        "entity_id": "leaf-slime-m",
+        "entity_type": "monster",
+        "source_id": "LEAF_SLIME_M"
+      },
+      {
+        "entity_id": "leaf-slime-s",
+        "entity_type": "monster",
+        "source_id": "LEAF_SLIME_S"
+      },
+      {
+        "entity_id": "slithering-strangler",
+        "entity_type": "monster",
+        "source_id": "SLITHERING_STRANGLER"
+      },
+      {
+        "entity_id": "snapping-jaxfruit",
+        "entity_type": "monster",
+        "source_id": "SNAPPING_JAXFRUIT"
+      },
+      {
+        "entity_id": "twig-slime-m",
+        "entity_type": "monster",
+        "source_id": "TWIG_SLIME_M"
+      },
+      {
+        "entity_id": "twig-slime-s",
+        "entity_type": "monster",
+        "source_id": "TWIG_SLIME_S"
+      }
+    ],
+    "name": "扼杀者与伙伴",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SLITHERING_STRANGLER_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Strangler and Friend"
+      },
+      "zhs": {
+        "description": null,
+        "name": "扼杀者与伙伴"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "sludge-spinner-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "SLUDGE_SPINNER_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer couldn't defeat a [gold]Sludge Spinner[/gold].",
+        "monsters": [
+          {
+            "id": "SLUDGE_SPINNER",
+            "name": "Sludge Spinner"
+          }
+        ],
+        "name": "Sludge Spinner",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "SLUDGE_SPINNER_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer未能打败一只[gold]淤泥旋螺[/gold]。",
+        "monsters": [
+          {
+            "id": "SLUDGE_SPINNER",
+            "name": "淤泥旋螺"
+          }
+        ],
+        "name": "淤泥旋螺",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer未能打败一只[gold]淤泥旋螺[/gold]。",
+    "monsters": [
+      {
+        "entity_id": "sludge-spinner",
+        "entity_type": "monster",
+        "source_id": "SLUDGE_SPINNER"
+      }
+    ],
+    "name": "淤泥旋螺",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SLUDGE_SPINNER_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Sludge Spinner"
+      },
+      "zhs": {
+        "description": null,
+        "name": "淤泥旋螺"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "slumbering-beetle-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "SLUMBERING_BEETLE_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer interrupted a [gold]Slumber Party[/gold].",
+        "monsters": [
+          {
+            "id": "BOWLBUG_ROCK",
+            "name": "Bowlbug (Rock)"
+          },
+          {
+            "id": "BOWLBUG_SILK",
+            "name": "Bowlbug (Silk)"
+          },
+          {
+            "id": "SLUMBERING_BEETLE",
+            "name": "Slumbering Beetle"
+          }
+        ],
+        "name": "Slumber Party",
+        "room_type": "Monster",
+        "tags": [
+          "Workers"
+        ]
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "SLUMBERING_BEETLE_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer打断了一场[gold]熟睡派对[/gold]。",
+        "monsters": [
+          {
+            "id": "BOWLBUG_ROCK",
+            "name": "盛碗虫（石）"
+          },
+          {
+            "id": "BOWLBUG_SILK",
+            "name": "盛碗虫（丝）"
+          },
+          {
+            "id": "SLUMBERING_BEETLE",
+            "name": "熟睡甲虫"
+          }
+        ],
+        "name": "熟睡派对",
+        "room_type": "Monster",
+        "tags": [
+          "Workers"
+        ]
+      }
+    },
+    "loss_text": "The adventurer打断了一场[gold]熟睡派对[/gold]。",
+    "monsters": [
+      {
+        "entity_id": "bowlbug-rock",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_ROCK"
+      },
+      {
+        "entity_id": "bowlbug-silk",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_SILK"
+      },
+      {
+        "entity_id": "slumbering-beetle",
+        "entity_type": "monster",
+        "source_id": "SLUMBERING_BEETLE"
+      }
+    ],
+    "name": "熟睡派对",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SLUMBERING_BEETLE_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Workers"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Slumber Party"
+      },
+      "zhs": {
+        "description": null,
+        "name": "熟睡派对"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "snapping-jaxfruit-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SNAPPING_JAXFRUIT_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer ran afoul of some [gold]Overgrowth Flora[/gold].",
+        "monsters": [
+          {
+            "id": "FLYCONID",
+            "name": "Flyconid"
+          },
+          {
+            "id": "SNAPPING_JAXFRUIT",
+            "name": "Snapping Jaxfruit"
+          }
+        ],
+        "name": "Overgrowth Flora",
+        "room_type": "Monster",
+        "tags": [
+          "Mushroom"
+        ]
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "SNAPPING_JAXFRUIT_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer惹上了一群[gold]密林植物[/gold]。",
+        "monsters": [
+          {
+            "id": "FLYCONID",
+            "name": "飞蝇菌子"
+          },
+          {
+            "id": "SNAPPING_JAXFRUIT",
+            "name": "闪光贾克斯果"
+          }
+        ],
+        "name": "密林植物",
+        "room_type": "Monster",
+        "tags": [
+          "Mushroom"
+        ]
+      }
+    },
+    "loss_text": "The adventurer惹上了一群[gold]密林植物[/gold]。",
+    "monsters": [
+      {
+        "entity_id": "flyconid",
+        "entity_type": "monster",
+        "source_id": "FLYCONID"
+      },
+      {
+        "entity_id": "snapping-jaxfruit",
+        "entity_type": "monster",
+        "source_id": "SNAPPING_JAXFRUIT"
+      }
+    ],
+    "name": "密林植物",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SNAPPING_JAXFRUIT_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Mushroom"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Overgrowth Flora"
+      },
+      "zhs": {
+        "description": null,
+        "name": "密林植物"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "soul-fysh-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "SOUL_FYSH_BOSS",
+        "is_weak": false,
+        "loss_text": "A [gold]Soul Fysh[/gold] beckoned The adventurer to their doom.",
+        "monsters": [
+          {
+            "id": "SOUL_FYSH",
+            "name": "Soul Fysh"
+          }
+        ],
+        "name": "Soul Fysh",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "SOUL_FYSH_BOSS",
+        "is_weak": false,
+        "loss_text": "一只[gold]灵魂异鱼[/gold]将The adventurer召唤到了灾厄的末路。",
+        "monsters": [
+          {
+            "id": "SOUL_FYSH",
+            "name": "灵魂异鱼"
+          }
+        ],
+        "name": "灵魂异鱼",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "一只[gold]灵魂异鱼[/gold]将The adventurer召唤到了灾厄的末路。",
+    "monsters": [
+      {
+        "entity_id": "soul-fysh",
+        "entity_type": "monster",
+        "source_id": "SOUL_FYSH"
+      }
+    ],
+    "name": "灵魂异鱼",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "SOUL_FYSH_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Soul Fysh"
+      },
+      "zhs": {
+        "description": null,
+        "name": "灵魂异鱼"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "soul-nexus-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "SOUL_NEXUS_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer died to a [gold]Soul Nexus[/gold] on a forgotten battlefield.",
+        "monsters": [
+          {
+            "id": "SOUL_NEXUS",
+            "name": "Soul Nexus"
+          }
+        ],
+        "name": "Soul Nexus",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "SOUL_NEXUS_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer在一片被遗忘的战场上被一个[gold]灵魂枢纽[/gold]击杀。",
+        "monsters": [
+          {
+            "id": "SOUL_NEXUS",
+            "name": "灵魂枢纽"
+          }
+        ],
+        "name": "灵魂枢纽",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer在一片被遗忘的战场上被一个[gold]灵魂枢纽[/gold]击杀。",
+    "monsters": [
+      {
+        "entity_id": "soul-nexus",
+        "entity_type": "monster",
+        "source_id": "SOUL_NEXUS"
+      }
+    ],
+    "name": "灵魂枢纽",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "SOUL_NEXUS_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Soul Nexus"
+      },
+      "zhs": {
+        "description": null,
+        "name": "灵魂枢纽"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "spiny-toad-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "SPINY_TOAD_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer couldn't pierce the [gold]Spiny Toad[/gold]'s spikes.",
+        "monsters": [
+          {
+            "id": "SPINY_TOAD",
+            "name": "Spiny Toad"
+          }
+        ],
+        "name": "Spiny Toad",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "SPINY_TOAD_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer未能穿透[gold]棘刺蟾蜍[/gold]的硬棘。",
+        "monsters": [
+          {
+            "id": "SPINY_TOAD",
+            "name": "棘刺蟾蜍"
+          }
+        ],
+        "name": "棘刺蟾蜍",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer未能穿透[gold]棘刺蟾蜍[/gold]的硬棘。",
+    "monsters": [
+      {
+        "entity_id": "spiny-toad",
+        "entity_type": "monster",
+        "source_id": "SPINY_TOAD"
+      }
+    ],
+    "name": "棘刺蟾蜍",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "SPINY_TOAD_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Spiny Toad"
+      },
+      "zhs": {
+        "description": null,
+        "name": "棘刺蟾蜍"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "terror-eel-elite",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "TERROR_EEL_ELITE",
+        "is_weak": false,
+        "loss_text": "A [gold]Terror Eel[/gold] was too terrifying for The adventurer.",
+        "monsters": [
+          {
+            "id": "TERROR_EEL",
+            "name": "Terror Eel"
+          }
+        ],
+        "name": "Terror Eel",
+        "room_type": "Elite",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "TERROR_EEL_ELITE",
+        "is_weak": false,
+        "loss_text": "The adventurer未能克服[gold]骇鳗[/gold]的恐怖。",
+        "monsters": [
+          {
+            "id": "TERROR_EEL",
+            "name": "骇鳗"
+          }
+        ],
+        "name": "骇鳗",
+        "room_type": "Elite",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer未能克服[gold]骇鳗[/gold]的恐怖。",
+    "monsters": [
+      {
+        "entity_id": "terror-eel",
+        "entity_type": "monster",
+        "source_id": "TERROR_EEL"
+      }
+    ],
+    "name": "骇鳗",
+    "room_type": "Elite",
+    "scripted": false,
+    "source_id": "TERROR_EEL_ELITE",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Terror Eel"
+      },
+      "zhs": {
+        "description": null,
+        "name": "骇鳗"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "test-subject-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "TEST_SUBJECT_BOSS",
+        "is_weak": false,
+        "loss_text": "A [gold]Test Subject[/gold] loyally guarded its masters from The adventurer.",
+        "monsters": [
+          {
+            "id": "TEST_SUBJECT",
+            "name": "Test Subject #C{Count}"
+          }
+        ],
+        "name": "Test Subject",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "TEST_SUBJECT_BOSS",
+        "is_weak": false,
+        "loss_text": "一个[gold]实验体[/gold]忠诚地将The adventurer挡在了它主人的门外。",
+        "monsters": [
+          {
+            "id": "TEST_SUBJECT",
+            "name": "实验体 #C{Count}"
+          }
+        ],
+        "name": "实验体",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "一个[gold]实验体[/gold]忠诚地将The adventurer挡在了它主人的门外。",
+    "monsters": [
+      {
+        "entity_id": "test-subject",
+        "entity_type": "monster",
+        "source_id": "TEST_SUBJECT"
+      }
+    ],
+    "name": "实验体",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "TEST_SUBJECT_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Test Subject"
+      },
+      "zhs": {
+        "description": null,
+        "name": "实验体"
+      }
+    }
+  },
+  {
+    "act": null,
+    "beta_image_url": null,
+    "description": null,
+    "id": "the-architect-event-encounter",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": null,
+        "id": "THE_ARCHITECT_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "You shouldn't be seeing this.",
+        "monsters": [
+          {
+            "id": "ARCHITECT",
+            "name": "The Architect"
+          }
+        ],
+        "name": "The Architect",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": null,
+        "id": "THE_ARCHITECT_EVENT_ENCOUNTER",
+        "is_weak": false,
+        "loss_text": "你不应该看到这个。",
+        "monsters": [
+          {
+            "id": "ARCHITECT",
+            "name": "建筑师"
+          }
+        ],
+        "name": "建筑师",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "你不应该看到这个。",
+    "monsters": [
+      {
+        "entity_id": "architect",
+        "entity_type": "monster",
+        "source_id": "ARCHITECT"
+      }
+    ],
+    "name": "建筑师",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "THE_ARCHITECT_EVENT_ENCOUNTER",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "The Architect"
+      },
+      "zhs": {
+        "description": null,
+        "name": "建筑师"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "the-insatiable-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "THE_INSATIABLE_BOSS",
+        "is_weak": false,
+        "loss_text": "[gold]The Insatiable[/gold] devoured The adventurer. And yet, it still hungers...",
+        "monsters": [
+          {
+            "id": "THE_INSATIABLE",
+            "name": "The Insatiable"
+          }
+        ],
+        "name": "The Insatiable",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "THE_INSATIABLE_BOSS",
+        "is_weak": false,
+        "loss_text": "[gold]无厌沙虫[/gold]吞下了The adventurer，可是它却依然饥肠辘辘……",
+        "monsters": [
+          {
+            "id": "THE_INSATIABLE",
+            "name": "无厌沙虫"
+          }
+        ],
+        "name": "无厌沙虫",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]无厌沙虫[/gold]吞下了The adventurer，可是它却依然饥肠辘辘……",
+    "monsters": [
+      {
+        "entity_id": "the-insatiable",
+        "entity_type": "monster",
+        "source_id": "THE_INSATIABLE"
+      }
+    ],
+    "name": "无厌沙虫",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "THE_INSATIABLE_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "The Insatiable"
+      },
+      "zhs": {
+        "description": null,
+        "name": "无厌沙虫"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "the-kin-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "THE_KIN_BOSS",
+        "is_weak": false,
+        "loss_text": "The adventurer was annihilated by [gold]The Kin[/gold]'s superior strategy.",
+        "monsters": [
+          {
+            "id": "KIN_FOLLOWER",
+            "name": "Kin Follower"
+          },
+          {
+            "id": "KIN_PRIEST",
+            "name": "Kin Priest"
+          }
+        ],
+        "name": "The Kin",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "THE_KIN_BOSS",
+        "is_weak": false,
+        "loss_text": "[gold]同族小队[/gold]的优越战术彻底击败了The adventurer。",
+        "monsters": [
+          {
+            "id": "KIN_FOLLOWER",
+            "name": "同族信徒"
+          },
+          {
+            "id": "KIN_PRIEST",
+            "name": "同族神官"
+          }
+        ],
+        "name": "同族小队",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]同族小队[/gold]的优越战术彻底击败了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "kin-follower",
+        "entity_type": "monster",
+        "source_id": "KIN_FOLLOWER"
+      },
+      {
+        "entity_id": "kin-priest",
+        "entity_type": "monster",
+        "source_id": "KIN_PRIEST"
+      }
+    ],
+    "name": "同族小队",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "THE_KIN_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "The Kin"
+      },
+      "zhs": {
+        "description": null,
+        "name": "同族小队"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "the-lost-and-forgotten-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "THE_LOST_AND_FORGOTTEN_NORMAL",
+        "is_weak": false,
+        "loss_text": "The [gold]Lost and Forgotten[/gold] stole The adventurer's will to live.",
+        "monsters": [
+          {
+            "id": "THE_FORGOTTEN",
+            "name": "The Forgotten"
+          },
+          {
+            "id": "THE_LOST",
+            "name": "The Lost"
+          }
+        ],
+        "name": "Lost and Forgotten",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "THE_LOST_AND_FORGOTTEN_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]失落与遗忘之物[/gold] 夺走了The adventurer生存的意志。",
+        "monsters": [
+          {
+            "id": "THE_FORGOTTEN",
+            "name": "遗忘之物"
+          },
+          {
+            "id": "THE_LOST",
+            "name": "失落之物"
+          }
+        ],
+        "name": "失落与遗忘之物",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]失落与遗忘之物[/gold] 夺走了The adventurer生存的意志。",
+    "monsters": [
+      {
+        "entity_id": "the-forgotten",
+        "entity_type": "monster",
+        "source_id": "THE_FORGOTTEN"
+      },
+      {
+        "entity_id": "the-lost",
+        "entity_type": "monster",
+        "source_id": "THE_LOST"
+      }
+    ],
+    "name": "失落与遗忘之物",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "THE_LOST_AND_FORGOTTEN_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Lost and Forgotten"
+      },
+      "zhs": {
+        "description": null,
+        "name": "失落与遗忘之物"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "the-obscura-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "THE_OBSCURA_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]The Obscura[/gold] and its illusion smashed The adventurer.",
+        "monsters": [
+          {
+            "id": "THE_OBSCURA",
+            "name": "The Obscura"
+          }
+        ],
+        "name": "The Obscura",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "THE_OBSCURA_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]胧光怪[/gold]和其幻象将The adventurer击杀了。",
+        "monsters": [
+          {
+            "id": "THE_OBSCURA",
+            "name": "胧光怪"
+          }
+        ],
+        "name": "胧光怪",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]胧光怪[/gold]和其幻象将The adventurer击杀了。",
+    "monsters": [
+      {
+        "entity_id": "the-obscura",
+        "entity_type": "monster",
+        "source_id": "THE_OBSCURA"
+      }
+    ],
+    "name": "胧光怪",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "THE_OBSCURA_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "The Obscura"
+      },
+      "zhs": {
+        "description": null,
+        "name": "胧光怪"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "thieving-hopper-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "THIEVING_HOPPER_WEAK",
+        "is_weak": true,
+        "loss_text": "A [gold]Thieving Hopper[/gold] mugged The adventurer.",
+        "monsters": [
+          {
+            "id": "THIEVING_HOPPER",
+            "name": "Thieving Hopper"
+          }
+        ],
+        "name": "Thieving Hopper",
+        "room_type": "Monster",
+        "tags": [
+          "Thieves"
+        ]
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "THIEVING_HOPPER_WEAK",
+        "is_weak": true,
+        "loss_text": "一只[gold]偷窃草蜢[/gold]抢走了The adventurer的生命。",
+        "monsters": [
+          {
+            "id": "THIEVING_HOPPER",
+            "name": "偷窃草蜢"
+          }
+        ],
+        "name": "偷窃草蜢",
+        "room_type": "Monster",
+        "tags": [
+          "Thieves"
+        ]
+      }
+    },
+    "loss_text": "一只[gold]偷窃草蜢[/gold]抢走了The adventurer的生命。",
+    "monsters": [
+      {
+        "entity_id": "thieving-hopper",
+        "entity_type": "monster",
+        "source_id": "THIEVING_HOPPER"
+      }
+    ],
+    "name": "偷窃草蜢",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "THIEVING_HOPPER_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Thieves"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Thieving Hopper"
+      },
+      "zhs": {
+        "description": null,
+        "name": "偷窃草蜢"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "toadpoles-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "TOADPOLES_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was defeated by some [gold]Underdocks Wildlife[/gold].",
+        "monsters": [
+          {
+            "id": "CALCIFIED_CULTIST",
+            "name": "Calcified Cultist"
+          },
+          {
+            "id": "TOADPOLE",
+            "name": "Toadpole"
+          }
+        ],
+        "name": "Underdocks Wildlife",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "TOADPOLES_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一些[gold]暗港野生动物[/gold]打败。",
+        "monsters": [
+          {
+            "id": "CALCIFIED_CULTIST",
+            "name": "钙化邪教徒"
+          },
+          {
+            "id": "TOADPOLE",
+            "name": "蟾蜍蝌蚪"
+          }
+        ],
+        "name": "暗港野生动物",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一些[gold]暗港野生动物[/gold]打败。",
+    "monsters": [
+      {
+        "entity_id": "calcified-cultist",
+        "entity_type": "monster",
+        "source_id": "CALCIFIED_CULTIST"
+      },
+      {
+        "entity_id": "toadpole",
+        "entity_type": "monster",
+        "source_id": "TOADPOLE"
+      }
+    ],
+    "name": "暗港野生动物",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "TOADPOLES_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Underdocks Wildlife"
+      },
+      "zhs": {
+        "description": null,
+        "name": "暗港野生动物"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "toadpoles-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "TOADPOLES_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer couldn't deal with some [gold]Toadpoles[/gold].",
+        "monsters": [
+          {
+            "id": "TOADPOLE",
+            "name": "Toadpole"
+          }
+        ],
+        "name": "Toadpoles",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "TOADPOLES_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer没能突破几只[gold]蟾蜍蝌蚪[/gold]。",
+        "monsters": [
+          {
+            "id": "TOADPOLE",
+            "name": "蟾蜍蝌蚪"
+          }
+        ],
+        "name": "蟾蜍蝌蚪",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer没能突破几只[gold]蟾蜍蝌蚪[/gold]。",
+    "monsters": [
+      {
+        "entity_id": "toadpole",
+        "entity_type": "monster",
+        "source_id": "TOADPOLE"
+      }
+    ],
+    "name": "蟾蜍蝌蚪",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "TOADPOLES_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Toadpoles"
+      },
+      "zhs": {
+        "description": null,
+        "name": "蟾蜍蝌蚪"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "tunneler-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "TUNNELER_NORMAL",
+        "is_weak": false,
+        "loss_text": "A [gold]Tunneling Twosome[/gold] finished off The adventurer.",
+        "monsters": [
+          {
+            "id": "BOWLBUG_EGG",
+            "name": "Bowlbug (Egg)"
+          },
+          {
+            "id": "BOWLBUG_SILK",
+            "name": "Bowlbug (Silk)"
+          },
+          {
+            "id": "TUNNELER",
+            "name": "Tunneler"
+          }
+        ],
+        "name": "Tunneling Twosome",
+        "room_type": "Monster",
+        "tags": [
+          "Burrower",
+          "Workers"
+        ]
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "TUNNELER_NORMAL",
+        "is_weak": false,
+        "loss_text": "[gold]地道组合[/gold]解决掉了The adventurer。",
+        "monsters": [
+          {
+            "id": "BOWLBUG_EGG",
+            "name": "盛碗虫（卵）"
+          },
+          {
+            "id": "BOWLBUG_SILK",
+            "name": "盛碗虫（丝）"
+          },
+          {
+            "id": "TUNNELER",
+            "name": "地道虫"
+          }
+        ],
+        "name": "地道组合",
+        "room_type": "Monster",
+        "tags": [
+          "Burrower",
+          "Workers"
+        ]
+      }
+    },
+    "loss_text": "[gold]地道组合[/gold]解决掉了The adventurer。",
+    "monsters": [
+      {
+        "entity_id": "bowlbug-egg",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_EGG"
+      },
+      {
+        "entity_id": "bowlbug-silk",
+        "entity_type": "monster",
+        "source_id": "BOWLBUG_SILK"
+      },
+      {
+        "entity_id": "tunneler",
+        "entity_type": "monster",
+        "source_id": "TUNNELER"
+      }
+    ],
+    "name": "地道组合",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "TUNNELER_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Burrower",
+      "Workers"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Tunneling Twosome"
+      },
+      "zhs": {
+        "description": null,
+        "name": "地道组合"
+      }
+    }
+  },
+  {
+    "act": "act-2-hive",
+    "beta_image_url": null,
+    "description": null,
+    "id": "tunneler-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 2 - Hive",
+        "id": "TUNNELER_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer got whacked by a [gold]Tunneler[/gold].",
+        "monsters": [
+          {
+            "id": "TUNNELER",
+            "name": "Tunneler"
+          }
+        ],
+        "name": "Tunneler",
+        "room_type": "Monster",
+        "tags": [
+          "Burrower"
+        ]
+      },
+      "zhs": {
+        "act": "Act 2 - Hive",
+        "id": "TUNNELER_WEAK",
+        "is_weak": true,
+        "loss_text": "The adventurer被一只[gold]地道虫[/gold]锤死了。",
+        "monsters": [
+          {
+            "id": "TUNNELER",
+            "name": "地道虫"
+          }
+        ],
+        "name": "地道虫",
+        "room_type": "Monster",
+        "tags": [
+          "Burrower"
+        ]
+      }
+    },
+    "loss_text": "The adventurer被一只[gold]地道虫[/gold]锤死了。",
+    "monsters": [
+      {
+        "entity_id": "tunneler",
+        "entity_type": "monster",
+        "source_id": "TUNNELER"
+      }
+    ],
+    "name": "地道虫",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "TUNNELER_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [
+      "Burrower"
+    ],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Tunneler"
+      },
+      "zhs": {
+        "description": null,
+        "name": "地道虫"
+      }
+    }
+  },
+  {
+    "act": "act-3-glory",
+    "beta_image_url": null,
+    "description": null,
+    "id": "turret-operator-weak",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": true,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 3 - Glory",
+        "id": "TURRET_OPERATOR_WEAK",
+        "is_weak": true,
+        "loss_text": "A [gold]Turret Operator[/gold] riddled The adventurer full of holes.",
+        "monsters": [
+          {
+            "id": "LIVING_SHIELD",
+            "name": "Living Shield"
+          },
+          {
+            "id": "TURRET_OPERATOR",
+            "name": "Turret Operator"
+          }
+        ],
+        "name": "Turret Operator",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 3 - Glory",
+        "id": "TURRET_OPERATOR_WEAK",
+        "is_weak": true,
+        "loss_text": "一个[gold]高塔炮手[/gold]将The adventurer打成了马蜂窝。",
+        "monsters": [
+          {
+            "id": "LIVING_SHIELD",
+            "name": "活体盾"
+          },
+          {
+            "id": "TURRET_OPERATOR",
+            "name": "高塔炮手"
+          }
+        ],
+        "name": "高塔炮手",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "一个[gold]高塔炮手[/gold]将The adventurer打成了马蜂窝。",
+    "monsters": [
+      {
+        "entity_id": "living-shield",
+        "entity_type": "monster",
+        "source_id": "LIVING_SHIELD"
+      },
+      {
+        "entity_id": "turret-operator",
+        "entity_type": "monster",
+        "source_id": "TURRET_OPERATOR"
+      }
+    ],
+    "name": "高塔炮手",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "TURRET_OPERATOR_WEAK",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Turret Operator"
+      },
+      "zhs": {
+        "description": null,
+        "name": "高塔炮手"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "two-tailed-rats-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "TWO_TAILED_RATS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer was swarmed by some [gold]Two-Tailed Rats[/gold].",
+        "monsters": [
+          {
+            "id": "TWO_TAILED_RAT",
+            "name": "Two-Tailed Rat"
+          }
+        ],
+        "name": "Two-Tailed Rats",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "TWO_TAILED_RATS_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer被一些[gold]双尾鼠[/gold]围杀了。",
+        "monsters": [
+          {
+            "id": "TWO_TAILED_RAT",
+            "name": "双尾鼠"
+          }
+        ],
+        "name": "双尾鼠",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被一些[gold]双尾鼠[/gold]围杀了。",
+    "monsters": [
+      {
+        "entity_id": "two-tailed-rat",
+        "entity_type": "monster",
+        "source_id": "TWO_TAILED_RAT"
+      }
+    ],
+    "name": "双尾鼠",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "TWO_TAILED_RATS_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Two-Tailed Rats"
+      },
+      "zhs": {
+        "description": null,
+        "name": "双尾鼠"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "vantom-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "VANTOM_BOSS",
+        "is_weak": false,
+        "loss_text": "The adventurer was turned into an Inklet by the [gold]Vantom[/gold].",
+        "monsters": [
+          {
+            "id": "VANTOM",
+            "name": "Vantom"
+          }
+        ],
+        "name": "Vantom",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "VANTOM_BOSS",
+        "is_weak": false,
+        "loss_text": "The adventurer被[gold]墨影幻灵[/gold]变成了一只墨宝。",
+        "monsters": [
+          {
+            "id": "VANTOM",
+            "name": "墨影幻灵"
+          }
+        ],
+        "name": "墨影幻灵",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer被[gold]墨影幻灵[/gold]变成了一只墨宝。",
+    "monsters": [
+      {
+        "entity_id": "vantom",
+        "entity_type": "monster",
+        "source_id": "VANTOM"
+      }
+    ],
+    "name": "墨影幻灵",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "VANTOM_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Vantom"
+      },
+      "zhs": {
+        "description": null,
+        "name": "墨影幻灵"
+      }
+    }
+  },
+  {
+    "act": "act-1-overgrowth",
+    "beta_image_url": null,
+    "description": null,
+    "id": "vine-shambler-normal",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Act 1 - Overgrowth",
+        "id": "VINE_SHAMBLER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer couldn't escape a [gold]Vine Shambler[/gold].",
+        "monsters": [
+          {
+            "id": "VINE_SHAMBLER",
+            "name": "Vine Shambler"
+          }
+        ],
+        "name": "Vine Shambler",
+        "room_type": "Monster",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Act 1 - Overgrowth",
+        "id": "VINE_SHAMBLER_NORMAL",
+        "is_weak": false,
+        "loss_text": "The adventurer未能逃脱[gold]藤蔓蹒跚者[/gold]。",
+        "monsters": [
+          {
+            "id": "VINE_SHAMBLER",
+            "name": "藤蔓蹒跚者"
+          }
+        ],
+        "name": "藤蔓蹒跚者",
+        "room_type": "Monster",
+        "tags": null
+      }
+    },
+    "loss_text": "The adventurer未能逃脱[gold]藤蔓蹒跚者[/gold]。",
+    "monsters": [
+      {
+        "entity_id": "vine-shambler",
+        "entity_type": "monster",
+        "source_id": "VINE_SHAMBLER"
+      }
+    ],
+    "name": "藤蔓蹒跚者",
+    "room_type": "Monster",
+    "scripted": false,
+    "source_id": "VINE_SHAMBLER_NORMAL",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Vine Shambler"
+      },
+      "zhs": {
+        "description": null,
+        "name": "藤蔓蹒跚者"
+      }
+    }
+  },
+  {
+    "act": "underdocks",
+    "beta_image_url": null,
+    "description": null,
+    "id": "waterfall-giant-boss",
+    "image_url": null,
+    "implemented": false,
+    "is_weak": false,
+    "localized_payloads": {
+      "eng": {
+        "act": "Underdocks",
+        "id": "WATERFALL_GIANT_BOSS",
+        "is_weak": false,
+        "loss_text": "The [gold]Waterfall Giant[/gold] cleansed the Underdocks of The adventurer.",
+        "monsters": [
+          {
+            "id": "WATERFALL_GIANT",
+            "name": "Waterfall Giant"
+          }
+        ],
+        "name": "Waterfall Giant",
+        "room_type": "Boss",
+        "tags": null
+      },
+      "zhs": {
+        "act": "Underdocks",
+        "id": "WATERFALL_GIANT_BOSS",
+        "is_weak": false,
+        "loss_text": "[gold]瀑布巨兽[/gold]将The adventurer从暗港清除了。",
+        "monsters": [
+          {
+            "id": "WATERFALL_GIANT",
+            "name": "瀑布巨兽"
+          }
+        ],
+        "name": "瀑布巨兽",
+        "room_type": "Boss",
+        "tags": null
+      }
+    },
+    "loss_text": "[gold]瀑布巨兽[/gold]将The adventurer从暗港清除了。",
+    "monsters": [
+      {
+        "entity_id": "waterfall-giant",
+        "entity_type": "monster",
+        "source_id": "WATERFALL_GIANT"
+      }
+    ],
+    "name": "瀑布巨兽",
+    "room_type": "Boss",
+    "scripted": false,
+    "source_id": "WATERFALL_GIANT_BOSS",
+    "source_meta": {
+      "endpoint": "encounters",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/encounters"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": null,
+        "name": "Waterfall Giant"
+      },
+      "zhs": {
+        "description": null,
+        "name": "瀑布巨兽"
+      }
+    }
+  }
+]

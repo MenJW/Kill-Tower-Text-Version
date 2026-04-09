@@ -1,0 +1,464 @@
+[
+  {
+    "beta_image_url": null,
+    "description": "Play without any Ascension modifiers.",
+    "id": "level-00",
+    "image_url": null,
+    "implemented": false,
+    "level": 0,
+    "localized_payloads": {
+      "eng": {
+        "description": "Play without any Ascension modifiers.",
+        "id": "LEVEL_00",
+        "level": 0,
+        "name": "No Ascension"
+      },
+      "zhs": {
+        "description": "在没有任何进阶调整的影响下游玩。",
+        "id": "LEVEL_00",
+        "level": 0,
+        "name": "无进阶"
+      }
+    },
+    "name": "No Ascension",
+    "scripted": false,
+    "source_id": "LEVEL_00",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Play without any Ascension modifiers.",
+        "name": "No Ascension"
+      },
+      "zhs": {
+        "description": "在没有任何进阶调整的影响下游玩。",
+        "name": "无进阶"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "[gold]Elites[/gold] spawn more often.",
+    "id": "level-01",
+    "image_url": null,
+    "implemented": false,
+    "level": 1,
+    "localized_payloads": {
+      "eng": {
+        "description": "[gold]Elites[/gold] spawn more often.",
+        "id": "LEVEL_01",
+        "level": 1,
+        "name": "Swarming Elites"
+      },
+      "zhs": {
+        "description": "[gold]精英[/gold]敌人出现更加频繁。",
+        "id": "LEVEL_01",
+        "level": 1,
+        "name": "精英蜂拥"
+      }
+    },
+    "name": "Swarming Elites",
+    "scripted": false,
+    "source_id": "LEVEL_01",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "[gold]Elites[/gold] spawn more often.",
+        "name": "Swarming Elites"
+      },
+      "zhs": {
+        "description": "[gold]精英[/gold]敌人出现更加频繁。",
+        "name": "精英蜂拥"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Ancients only heal [blue]80%[/blue] of your missing HP.",
+    "id": "level-02",
+    "image_url": null,
+    "implemented": false,
+    "level": 2,
+    "localized_payloads": {
+      "eng": {
+        "description": "Ancients only heal [blue]80%[/blue] of your missing HP.",
+        "id": "LEVEL_02",
+        "level": 2,
+        "name": "Weary Traveler"
+      },
+      "zhs": {
+        "description": "先古之民只会回复你已损失生命值的[blue]80%[/blue]。",
+        "id": "LEVEL_02",
+        "level": 2,
+        "name": "旅途劳顿"
+      }
+    },
+    "name": "Weary Traveler",
+    "scripted": false,
+    "source_id": "LEVEL_02",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Ancients only heal [blue]80%[/blue] of your missing HP.",
+        "name": "Weary Traveler"
+      },
+      "zhs": {
+        "description": "先古之民只会回复你已损失生命值的[blue]80%[/blue]。",
+        "name": "旅途劳顿"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Enemies and Treasure Chests drop [blue]25%[/blue] less [gold]Gold[/gold].",
+    "id": "level-03",
+    "image_url": null,
+    "implemented": false,
+    "level": 3,
+    "localized_payloads": {
+      "eng": {
+        "description": "Enemies and Treasure Chests drop [blue]25%[/blue] less [gold]Gold[/gold].",
+        "id": "LEVEL_03",
+        "level": 3,
+        "name": "Poverty"
+      },
+      "zhs": {
+        "description": "敌人和宝箱掉落的[gold]金币[/gold]减少[blue]25%[/blue]。",
+        "id": "LEVEL_03",
+        "level": 3,
+        "name": "贫穷"
+      }
+    },
+    "name": "Poverty",
+    "scripted": false,
+    "source_id": "LEVEL_03",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Enemies and Treasure Chests drop [blue]25%[/blue] less [gold]Gold[/gold].",
+        "name": "Poverty"
+      },
+      "zhs": {
+        "description": "敌人和宝箱掉落的[gold]金币[/gold]减少[blue]25%[/blue]。",
+        "name": "贫穷"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Start each run with 1 less potion slot.",
+    "id": "level-04",
+    "image_url": null,
+    "implemented": false,
+    "level": 4,
+    "localized_payloads": {
+      "eng": {
+        "description": "Start each run with 1 less potion slot.",
+        "id": "LEVEL_04",
+        "level": 4,
+        "name": "Tight Belt"
+      },
+      "zhs": {
+        "description": "游戏开始时药水栏位减少1。",
+        "id": "LEVEL_04",
+        "level": 4,
+        "name": "收紧腰带"
+      }
+    },
+    "name": "Tight Belt",
+    "scripted": false,
+    "source_id": "LEVEL_04",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Start each run with 1 less potion slot.",
+        "name": "Tight Belt"
+      },
+      "zhs": {
+        "description": "游戏开始时药水栏位减少1。",
+        "name": "收紧腰带"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Start each run [red]Cursed[/red].",
+    "id": "level-05",
+    "image_url": null,
+    "implemented": false,
+    "level": 5,
+    "localized_payloads": {
+      "eng": {
+        "description": "Start each run [red]Cursed[/red].",
+        "id": "LEVEL_05",
+        "level": 5,
+        "name": "Ascender's Bane"
+      },
+      "zhs": {
+        "description": "游戏开始时被[red]诅咒[/red]。",
+        "id": "LEVEL_05",
+        "level": 5,
+        "name": "进阶之灾"
+      }
+    },
+    "name": "Ascender's Bane",
+    "scripted": false,
+    "source_id": "LEVEL_05",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Start each run [red]Cursed[/red].",
+        "name": "Ascender's Bane"
+      },
+      "zhs": {
+        "description": "游戏开始时被[red]诅咒[/red]。",
+        "name": "进阶之灾"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Less Rest Sites.",
+    "id": "level-06",
+    "image_url": null,
+    "implemented": false,
+    "level": 6,
+    "localized_payloads": {
+      "eng": {
+        "description": "Less Rest Sites.",
+        "id": "LEVEL_06",
+        "level": 6,
+        "name": "Gloom"
+      },
+      "zhs": {
+        "description": "休息处变少。",
+        "id": "LEVEL_06",
+        "level": 6,
+        "name": "阴郁"
+      }
+    },
+    "name": "Gloom",
+    "scripted": false,
+    "source_id": "LEVEL_06",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Less Rest Sites.",
+        "name": "Gloom"
+      },
+      "zhs": {
+        "description": "休息处变少。",
+        "name": "阴郁"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Rare and Upgraded cards appear less often.",
+    "id": "level-07",
+    "image_url": null,
+    "implemented": false,
+    "level": 7,
+    "localized_payloads": {
+      "eng": {
+        "description": "Rare and Upgraded cards appear less often.",
+        "id": "LEVEL_07",
+        "level": 7,
+        "name": "Scarcity"
+      },
+      "zhs": {
+        "description": "稀有和已升级卡牌更少出现。",
+        "id": "LEVEL_07",
+        "level": 7,
+        "name": "稀缺"
+      }
+    },
+    "name": "Scarcity",
+    "scripted": false,
+    "source_id": "LEVEL_07",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Rare and Upgraded cards appear less often.",
+        "name": "Scarcity"
+      },
+      "zhs": {
+        "description": "稀有和已升级卡牌更少出现。",
+        "name": "稀缺"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "All enemies are harder to kill.",
+    "id": "level-08",
+    "image_url": null,
+    "implemented": false,
+    "level": 8,
+    "localized_payloads": {
+      "eng": {
+        "description": "All enemies are harder to kill.",
+        "id": "LEVEL_08",
+        "level": 8,
+        "name": "Tough Enemies"
+      },
+      "zhs": {
+        "description": "所有的敌人变得更难杀死。",
+        "id": "LEVEL_08",
+        "level": 8,
+        "name": "强韧敌人"
+      }
+    },
+    "name": "Tough Enemies",
+    "scripted": false,
+    "source_id": "LEVEL_08",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "All enemies are harder to kill.",
+        "name": "Tough Enemies"
+      },
+      "zhs": {
+        "description": "所有的敌人变得更难杀死。",
+        "name": "强韧敌人"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "All enemies have deadlier attacks.",
+    "id": "level-09",
+    "image_url": null,
+    "implemented": false,
+    "level": 9,
+    "localized_payloads": {
+      "eng": {
+        "description": "All enemies have deadlier attacks.",
+        "id": "LEVEL_09",
+        "level": 9,
+        "name": "Deadly Enemies"
+      },
+      "zhs": {
+        "description": "所有的敌人变得更加致命。",
+        "id": "LEVEL_09",
+        "level": 9,
+        "name": "致命敌人"
+      }
+    },
+    "name": "Deadly Enemies",
+    "scripted": false,
+    "source_id": "LEVEL_09",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "All enemies have deadlier attacks.",
+        "name": "Deadly Enemies"
+      },
+      "zhs": {
+        "description": "所有的敌人变得更加致命。",
+        "name": "致命敌人"
+      }
+    }
+  },
+  {
+    "beta_image_url": null,
+    "description": "Fight two bosses at the end of Act 3.",
+    "id": "level-10",
+    "image_url": null,
+    "implemented": false,
+    "level": 10,
+    "localized_payloads": {
+      "eng": {
+        "description": "Fight two bosses at the end of Act 3.",
+        "id": "LEVEL_10",
+        "level": 10,
+        "name": "Double Boss"
+      },
+      "zhs": {
+        "description": "在第3幕末尾与两名首领战斗。",
+        "id": "LEVEL_10",
+        "level": 10,
+        "name": "双重Boss"
+      }
+    },
+    "name": "Double Boss",
+    "scripted": false,
+    "source_id": "LEVEL_10",
+    "source_meta": {
+      "endpoint": "ascensions",
+      "snapshot_tag": "2026-04-09_build_unknown",
+      "source_name": "spire_codex",
+      "source_url": "https://spire-codex.com/api/ascensions"
+    },
+    "tags": [],
+    "texts": {
+      "eng": {
+        "description": "Fight two bosses at the end of Act 3.",
+        "name": "Double Boss"
+      },
+      "zhs": {
+        "description": "在第3幕末尾与两名首领战斗。",
+        "name": "双重Boss"
+      }
+    }
+  }
+]

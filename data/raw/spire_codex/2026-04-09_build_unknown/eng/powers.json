@@ -1,0 +1,2572 @@
+[
+  {
+    "allow_negative": null,
+    "description": "[gold]Poison[/gold] is triggered an additional time.",
+    "description_raw": null,
+    "id": "ACCELERANT",
+    "image_url": "/static/images/powers/accelerant_power.png",
+    "name": "Accelerant",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Shivs[/gold] deal additional damage.",
+    "description_raw": null,
+    "id": "ACCURACY",
+    "image_url": "/static/images/powers/accuracy_power.png",
+    "name": "Accuracy",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When [gold]this creature[/gold] would be defeated, it instead revives even stronger.",
+    "description_raw": "When [gold]{OwnerName}[/gold] would be defeated, it instead revives even stronger.",
+    "id": "ADAPTABLE",
+    "image_url": "/static/images/powers/adaptable_power.png",
+    "name": "Adaptable",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card, gain [blue]1[/blue] [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "AFTERIMAGE",
+    "image_url": "/static/images/powers/afterimage_power.png",
+    "name": "Afterimage",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, put a random Attack from your [gold]Discard Pile[/gold] into your [gold]Hand[/gold] and [gold]Upgrade[/gold] it for the rest of combat.",
+    "description_raw": null,
+    "id": "AGGRESSION",
+    "image_url": "/static/images/powers/aggression_power.png",
+    "name": "Aggression",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Dexterity[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "ANTICIPATE",
+    "image_url": "/static/images/powers/anticipate_power.png",
+    "name": "Temporary Dexterity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a Colorless card, gain [blue]1[/blue] [gold]Strength[/gold].",
+    "description_raw": null,
+    "id": "ARSENAL",
+    "image_url": "/static/images/powers/arsenal_power.png",
+    "name": "Arsenal",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Negates[/gold] debuffs.",
+    "description_raw": null,
+    "id": "ARTIFACT",
+    "image_url": "/static/images/powers/artifact_power.png",
+    "name": "Artifact",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Awakens upon losing HP or after [blue]2[/blue] turns.",
+    "description_raw": "Awakens upon losing HP or {Amount:plural:next turn|after [blue]{}[/blue] turns}.",
+    "id": "ASLEEP",
+    "image_url": "/static/images/powers/asleep_power.png",
+    "name": "Asleep",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Every [blue]10[/blue] cards you draw, gain [energy:1].",
+    "description_raw": "Every [blue]{BaseCards}[/blue] cards you draw, gain {Amount:energyIcons()}.",
+    "id": "AUTOMATION",
+    "image_url": "/static/images/powers/automation_power.png",
+    "name": "Automation",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Deals [blue]50%[/blue] more damage when it is attacking you from behind.",
+    "description_raw": null,
+    "id": "BACK_ATTACK_LEFT",
+    "image_url": "/static/images/powers/back_attack_left_power.png",
+    "name": "Back Attack",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Deals [blue]50%[/blue] more damage when it is attacking you from behind.",
+    "description_raw": null,
+    "id": "BACK_ATTACK_RIGHT",
+    "image_url": "/static/images/powers/back_attack_right_power.png",
+    "name": "Back Attack",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Block[/gold] is not removed at the start of your turn.",
+    "description_raw": "[gold]Block[/gold] is not removed at the start of {ApplierName.StringValue:cond:[gold]{OwnerName}'s[/gold]|your} turn.",
+    "id": "BARRICADE",
+    "image_url": "/static/images/powers/barricade_power.png",
+    "name": "Barricade",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "You have [blue]3[/blue] more turns to defeat the Battleworn Dummy.",
+    "description_raw": null,
+    "id": "BATTLEWORN_DUMMY_TIME_LIMIT",
+    "image_url": "/static/images/powers/battleworn_dummy_time_limit_power.png",
+    "name": "Time Limit",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you gain [gold]Block[/gold] on your turn, other players gain half that much [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "BEACON_OF_HOPE",
+    "image_url": "/static/images/powers/beacon_of_hope_power.png",
+    "name": "Beacon of Hope",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, lose [blue]1[/blue] [gold]Focus[/gold].",
+    "description_raw": null,
+    "id": "BIASED_COGNITION",
+    "image_url": "/static/images/powers/biased_cognition_power.png",
+    "name": "Biased Cognition",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you spend or gain [star:1], deal [blue]3[/blue] damage to ALL enemies.",
+    "description_raw": "Whenever you spend or gain {singleStarIcon}, deal [blue]3[/blue] damage to ALL enemies.",
+    "id": "BLACK_HOLE",
+    "image_url": "/static/images/powers/black_hole_power.png",
+    "name": "Black Hole",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play an Attack this turn, gain [blue]2[/blue] [gold]Strength[/gold] this turn.",
+    "description_raw": null,
+    "id": "BLADE_OF_INK",
+    "image_url": "/static/images/powers/blade_of_ink_power.png",
+    "name": "Blade of Ink",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your next turn, gain [blue]4[/blue] [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "BLOCK_NEXT_TURN",
+    "image_url": "/static/images/powers/block_next_turn_power.png",
+    "name": "Block Next Turn",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Block[/gold] is not removed at the start of your next turn.",
+    "description_raw": null,
+    "id": "BLUR",
+    "image_url": "/static/images/powers/blur_power.png",
+    "name": "Blur",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Prevent the next time you would lose HP.",
+    "description_raw": null,
+    "id": "BUFFER",
+    "image_url": "/static/images/powers/buffer_power.png",
+    "name": "Buffer",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Block[/gold] is not removed at the start of [gold]this creature[/gold]'s turn. [gold]Stunned[/gold] if all [gold]Block[/gold] is removed.",
+    "description_raw": "[gold]Block[/gold] is not removed at the start of [gold]{OwnerName}[/gold]'s turn. [gold]Stunned[/gold] if all [gold]Block[/gold] is removed.",
+    "id": "BURROWED",
+    "image_url": "/static/images/powers/burrowed_power.png",
+    "name": "Burrowed",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "This turn, your next Skill is played an extra time.",
+    "description_raw": null,
+    "id": "BURST",
+    "image_url": "/static/images/powers/burst_power.png",
+    "name": "Burst",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play an Attack, add a random Attack into your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "CALAMITY",
+    "image_url": "/static/images/powers/calamity_power.png",
+    "name": "Calamity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Osty's[/gold] attacks deal additional damage.",
+    "description_raw": null,
+    "id": "CALCIFY",
+    "image_url": "/static/images/powers/calcify_power.png",
+    "name": "Calcify",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, add [blue]1[/blue] random card into your [gold]Hand[/gold] and apply [gold]Ethereal[/gold] to it.",
+    "description_raw": null,
+    "id": "CALL_OF_THE_VOID",
+    "image_url": "/static/images/powers/call_of_the_void_power.png",
+    "name": "Call of the Void",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first [blue]3[/blue] cards drawn each turn are Afflicted with [gold]Bound[/gold].",
+    "description_raw": null,
+    "id": "CHAINS_OF_BINDING",
+    "image_url": "/static/images/powers/chains_of_binding_power.png",
+    "name": "Chains of Binding",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [blue]1[/blue] [gold]Block[/gold] for each [star:1] spent.",
+    "description_raw": "Gain [blue]1[/blue] [gold]Block[/gold] for each {singleStarIcon} spent.",
+    "id": "CHILD_OF_THE_STARS",
+    "image_url": "/static/images/powers/child_of_the_stars_power.png",
+    "name": "Child of the Stars",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your next turn, draw [blue]1[/blue] additional card.",
+    "description_raw": null,
+    "id": "CLARITY",
+    "image_url": "/static/images/powers/clarity_power.png",
+    "name": "Clarity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "You receive [blue]50%[/blue] less damage from [gold]Vulnerable[/gold] enemies this turn.",
+    "description_raw": null,
+    "id": "COLOSSUS",
+    "image_url": "/static/images/powers/colossus_power.png",
+    "name": "Colossus",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The costs of your cards are randomized on draw, from [blue]0[/blue] to [blue]3[/blue].",
+    "description_raw": null,
+    "id": "CONFUSED",
+    "image_url": "/static/images/powers/confused_power.png",
+    "name": "Confused",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Sovereign Blade[/gold] deals double damage to [gold]this creature[/gold] for the next [blue]2[/blue] turns.",
+    "description_raw": "[gold]Sovereign Blade[/gold] deals double damage to [gold]{OwnerName}[/gold] {Amount:plural:this turn|for the next [blue]{}[/blue] turns}.",
+    "id": "CONQUEROR",
+    "image_url": "/static/images/powers/conqueror_power.png",
+    "name": "Conqueror",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "While the Slithering Strangler is alive, at the end of your turn, take [blue]1[/blue] damage.",
+    "description_raw": null,
+    "id": "CONSTRICT",
+    "image_url": "/static/images/powers/constrict_power.png",
+    "name": "Constrict",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of your turn, [gold]Evoke[/gold] your leftmost Orb.",
+    "description_raw": null,
+    "id": "CONSUMING_SHADOW",
+    "image_url": "/static/images/powers/consuming_shadow_power.png",
+    "name": "Consuming Shadow",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, gain [blue]3[/blue] [gold]Block[/gold] for each unique Orb you have.",
+    "description_raw": null,
+    "id": "COOLANT",
+    "image_url": "/static/images/powers/coolant_power.png",
+    "name": "Coolant",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "COORDINATE",
+    "image_url": "/static/images/powers/coordinate_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you draw a card this turn, apply [blue]2[/blue] [gold]Poison[/gold] to ALL enemies.",
+    "description_raw": null,
+    "id": "CORROSIVE_WAVE",
+    "image_url": "/static/images/powers/corrosive_wave_power.png",
+    "name": "Corrosive Wave",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Skills cost [blue]0[/blue].\nWhenever you play a Skill, [gold]Exhaust[/gold] it.",
+    "description_raw": null,
+    "id": "CORRUPTION",
+    "image_url": "/static/images/powers/corruption_power.png",
+    "name": "Corruption",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, apply [blue]6[/blue] [gold]Doom[/gold] to a random enemy.",
+    "description_raw": null,
+    "id": "COUNTDOWN",
+    "image_url": "/static/images/powers/countdown_power.png",
+    "name": "Countdown",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "An ally is covering you. All attacks that would be directed to you are redirected to them instead.",
+    "description_raw": null,
+    "id": "COVERED",
+    "image_url": "/static/images/powers/covered_power.png",
+    "name": "Covered",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When an ally dies, [gold]this creature[/gold] gains [blue]5[/blue] [gold]Strength[/gold] and [blue]99[/blue] [gold]Block[/gold].",
+    "description_raw": "When an ally dies, [gold]{OwnerName}[/gold] gains [blue]{StrengthPower}[/blue] [gold]Strength[/gold] and [blue]{Block}[/blue] [gold]Block[/gold].",
+    "id": "CRAB_RAGE",
+    "image_url": "/static/images/powers/crab_rage_power.png",
+    "name": "Crab Rage",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, add a random Power into your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "CREATIVE_AI",
+    "image_url": "/static/images/powers/creative_ai_power.png",
+    "name": "Creative AI",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, lose [blue]0[/blue] HP and gain [blue][Amount][/blue] [gold]Block[/gold].",
+    "description_raw": "At the start of your turn, lose [blue]{SelfDamage}[/blue] HP and gain [blue]{Amount}[/blue] [gold]Block[/gold].",
+    "id": "CRIMSON_MANTLE",
+    "image_url": "/static/images/powers/crimson_mantle_power.png",
+    "name": "Crimson Mantle",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Vulnerable enemies take additional damage.",
+    "description_raw": null,
+    "id": "CRUELTY",
+    "image_url": "/static/images/powers/cruelty_power.png",
+    "name": "Cruelty",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Lose [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "CRUSH_UNDER",
+    "image_url": "/static/images/powers/crush_under_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Powers cost [blue]1[/blue] [energy:1] less.",
+    "description_raw": "Powers cost [blue]1[/blue] {energyPrefix:energyIcons(1)} less.",
+    "id": "CURIOUS",
+    "image_url": "/static/images/powers/curious_power.png",
+    "name": "Curious",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When damaged, rolls up and gains block. (Once per combat)",
+    "description_raw": null,
+    "id": "CURL_UP",
+    "image_url": "/static/images/powers/curl_up_power.png",
+    "name": "Curl Up",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "While Magi Knight is alive, ALL your cards are [gold]Downgraded[/gold].",
+    "description_raw": null,
+    "id": "DAMPEN",
+    "image_url": "/static/images/powers/dampen_power.png",
+    "name": "Dampen",
+    "stack_type": "None",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card that costs [energy:2] or more, gain [blue][Amount][/blue] [gold]Block[/gold].",
+    "description_raw": "Whenever you play a card that costs {Energy:energyIcons()} or more, gain [blue]{Amount}[/blue] [gold]Block[/gold].",
+    "id": "DANSE_MACABRE",
+    "image_url": "/static/images/powers/danse_macabre_power.png",
+    "name": "Danse Macabre",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever a card is [gold]Exhausted[/gold], draw [blue]1[/blue] card.",
+    "description_raw": null,
+    "id": "DARK_EMBRACE",
+    "image_url": "/static/images/powers/dark_embrace_power.png",
+    "name": "Dark Embrace",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Lose [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "DARK_SHACKLES",
+    "image_url": "/static/images/powers/dark_shackles_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Vulnerable[/gold] and [gold]Weak[/gold] are twice as effective for the next [blue]2[/blue] turns.",
+    "description_raw": null,
+    "id": "DEBILITATE",
+    "image_url": "/static/images/powers/debilitate_power.png",
+    "name": "Debilitate",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, gain [blue]1[/blue] [gold]Energy[/gold] and draw [blue]1[/blue] additional card.",
+    "description_raw": null,
+    "id": "DEMESNE",
+    "image_url": "/static/images/powers/demesne_power.png",
+    "name": "Demesne",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of [gold]this creature[/gold]'s turn, it loses [blue][Amount][/blue] HP.",
+    "description_raw": "At the end of [gold]{OwnerName}[/gold]'s turn, it loses [blue]{Amount}[/blue] HP.",
+    "id": "DEMISE",
+    "image_url": "/static/images/powers/demise_power.png",
+    "name": "Demise",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, gain [blue]2[/blue] [gold]Strength[/gold].",
+    "description_raw": null,
+    "id": "DEMON_FORM",
+    "image_url": "/static/images/powers/demon_form_power.png",
+    "name": "Demon Form",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a [gold]Soul[/gold], [gold]Summon[/gold] [blue]1[/blue].",
+    "description_raw": null,
+    "id": "DEVOUR_LIFE",
+    "image_url": "/static/images/powers/devour_life_power.png",
+    "name": "Devour Life",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": true,
+    "description": "Dexterity improves [gold]Block[/gold] gained from cards.",
+    "description_raw": null,
+    "id": "DEXTERITY",
+    "image_url": "/static/images/powers/dexterity_power.png",
+    "name": "Dexterity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Enemies deal [blue]50%[/blue] less damage this turn.",
+    "description_raw": null,
+    "id": "DIAMOND_DIADEM",
+    "image_url": "/static/images/powers/diamond_diadem_power.png",
+    "name": "Diamond Diadem",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Osty[/gold] absorbs all unblocked attack damage.",
+    "description_raw": null,
+    "id": "DIE_FOR_YOU",
+    "image_url": "/static/images/powers/die_for_you_power.png",
+    "name": "Die for You",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of your turn, take [blue]5[/blue] damage.",
+    "description_raw": null,
+    "id": "DISINTEGRATION",
+    "image_url": "/static/images/powers/disintegration_power.png",
+    "name": "Disintegration",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of the enemy turn, if [gold]this creature[/gold] has [blue][Amount][/blue] or less HP, it dies.",
+    "description_raw": "At the end of the {OnPlayer:player|enemy} turn, if [gold]{OwnerName}[/gold] has [blue]{Amount}[/blue] or less HP, it dies.",
+    "id": "DOOM",
+    "image_url": "/static/images/powers/doom_power.png",
+    "name": "Doom",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Internal power for Door revival mechanics.",
+    "description_raw": null,
+    "id": "DOOR_REVIVAL",
+    "image_url": null,
+    "name": "Door Revival",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "This turn, Attacks deal double damage.",
+    "description_raw": null,
+    "id": "DOUBLE_DAMAGE",
+    "image_url": "/static/images/powers/double_damage_power.png",
+    "name": "Double Damage",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your next turn, draw [blue]1[/blue] additional card.",
+    "description_raw": null,
+    "id": "DRAW_CARDS_NEXT_TURN",
+    "image_url": "/static/images/powers/draw_cards_next_turn_power.png",
+    "name": "Draw Cards Next Turn",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, [gold]Exhaust[/gold] the top [blue]2[/blue] cards of your [gold]Draw Pile[/gold].",
+    "description_raw": "At the start of your turn, [gold]Exhaust[/gold] the top {Amount:plural:card|[blue]{}[/blue] cards} of your [gold]Draw Pile[/gold].",
+    "id": "DRUM_OF_BATTLE",
+    "image_url": "/static/images/powers/drum_of_battle_power.png",
+    "name": "Drum of Battle",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Your next card is played an extra time.",
+    "description_raw": null,
+    "id": "DUPLICATION",
+    "image_url": "/static/images/powers/duplication_power.png",
+    "name": "Duplication",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Lose [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "DYING_STAR",
+    "image_url": "/static/images/powers/dying_star_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first card you play each turn is played an extra time.",
+    "description_raw": null,
+    "id": "ECHO_FORM",
+    "image_url": "/static/images/powers/echo_form_power.png",
+    "name": "Echo Form",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain additional [gold]Energy[/gold] next turn.",
+    "description_raw": null,
+    "id": "ENERGY_NEXT_TURN",
+    "image_url": "/static/images/powers/energy_next_turn_power.png",
+    "name": "Energy Next Turn",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Lose [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "ENFEEBLING_TOUCH",
+    "image_url": "/static/images/powers/enfeebling_touch_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a Skill, gains [blue]2[/blue] [gold]Strength[/gold].",
+    "description_raw": null,
+    "id": "ENRAGE",
+    "image_url": "/static/images/powers/enrage_power.png",
+    "name": "Enrage",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, [gold]Transform[/gold] [blue]1[/blue] card in your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "ENTROPY",
+    "image_url": "/static/images/powers/entropy_power.png",
+    "name": "Entropy",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you deal unblocked attack damage, apply [blue]1[/blue] [gold]Poison[/gold].",
+    "description_raw": null,
+    "id": "ENVENOM",
+    "image_url": "/static/images/powers/envenom_power.png",
+    "name": "Envenom",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Exits the combat after 4 turns.",
+    "description_raw": null,
+    "id": "ESCAPE_ARTIST",
+    "image_url": "/static/images/powers/escape_artist_power.png",
+    "name": "Escape Artist",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Shivs[/gold] hit ALL enemies.",
+    "description_raw": null,
+    "id": "FAN_OF_KNIVES",
+    "image_url": "/static/images/powers/fan_of_knives_power.png",
+    "name": "Fan of Knives",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain an additional [blue]4[/blue] [gold]Block[/gold] from Defend cards.",
+    "description_raw": null,
+    "id": "FASTEN",
+    "image_url": "/static/images/powers/fasten_power.png",
+    "name": "Fasten",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "FEEDING_FRENZY",
+    "image_url": "/static/images/powers/feeding_frenzy_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever a card is Exhausted, gain [blue]3[/blue] [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "FEEL_NO_PAIN",
+    "image_url": "/static/images/powers/feel_no_pain_power.png",
+    "name": "Feel No Pain",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first time you play a 0[energy:1] Attack each turn, return it to your [gold]Hand[/gold].",
+    "description_raw": "The first time you play a 0{energyPrefix:energyIcons(1)} Attack each turn, return it to your [gold]Hand[/gold].",
+    "id": "FERAL",
+    "image_url": "/static/images/powers/feral_power.png",
+    "name": "Feral",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you are attacked this turn, deal [blue]4[/blue] damage back.",
+    "description_raw": null,
+    "id": "FLAME_BARRIER",
+    "image_url": "/static/images/powers/flame_barrier_power.png",
+    "name": "Flame Barrier",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Other allies deal [blue]2x[/blue] more damage to this enemy this turn.",
+    "description_raw": null,
+    "id": "FLANKING",
+    "image_url": "/static/images/powers/flanking_power.png",
+    "name": "Flanking",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "FLEX_POTION",
+    "image_url": "/static/images/powers/flex_potion_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Receives [blue]50%[/blue] less damage from Attacks. Deal attack damage [blue][Amount][/blue] times to [gold]Stun[/gold] it.",
+    "description_raw": "Receives [blue]{DamageDecrease}%[/blue] less damage from Attacks. Deal attack damage [blue]{Amount}[/blue] {Amount:plural:time|times} to [gold]Stun[/gold] it.",
+    "id": "FLUTTER",
+    "image_url": "/static/images/powers/flutter_power.png",
+    "name": "Flutter",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": true,
+    "description": "Increases the effectiveness of Orbs.",
+    "description_raw": null,
+    "id": "FOCUS",
+    "image_url": "/static/images/powers/focus_power.png",
+    "name": "Focus",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Focus[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "FOCUSED_STRIKE",
+    "image_url": "/static/images/powers/focused_strike_power.png",
+    "name": "Temporary Focus",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of combat, remove a card from your [gold]Deck[/gold].",
+    "description_raw": null,
+    "id": "FORBIDDEN_GRIMOIRE",
+    "image_url": "/static/images/powers/forbidden_grimoire_power.png",
+    "name": "Forbidden Grimoire",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Next turn, put [blue]3[/blue] cards from your [gold]Draw Pile[/gold] into your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "FOREGONE_CONCLUSION",
+    "image_url": "/static/images/powers/foregone_conclusion_power.png",
+    "name": "Foregone Conclusion",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "While Frail, gain [blue]25%[/blue] less [gold]Block[/gold] from cards.",
+    "description_raw": null,
+    "id": "FRAIL",
+    "image_url": "/static/images/powers/frail_power.png",
+    "name": "Frail",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Your next Attack costs [blue]0[/blue] [energy:1].",
+    "description_raw": "Your next Attack costs [blue]0[/blue] {energyPrefix:energyIcons(1)}.",
+    "id": "FREE_ATTACK",
+    "image_url": "/static/images/powers/free_attack_power.png",
+    "name": "Free Attack",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The next Power you play costs [blue]0[/blue] [energy:1].",
+    "description_raw": "The next Power you play costs [blue]0[/blue] {energyPrefix:energyIcons(1)}.",
+    "id": "FREE_POWER",
+    "image_url": "/static/images/powers/free_power_power.png",
+    "name": "Free Power",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The next Skill you play costs [blue]0[/blue] [energy:1].",
+    "description_raw": "The next Skill you play costs [blue]0[/blue] {energyPrefix:energyIcons(1)}.",
+    "id": "FREE_SKILL",
+    "image_url": "/static/images/powers/free_skill_power.png",
+    "name": "Free Skill",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [blue]1[/blue] [gold]Energy[/gold] at the start of each turn.",
+    "description_raw": null,
+    "id": "FRIENDSHIP",
+    "image_url": "/static/images/powers/friendship_power.png",
+    "name": "Friendship",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, [gold]Forge[/gold] [blue]5[/blue].",
+    "description_raw": null,
+    "id": "FURNACE",
+    "image_url": "/static/images/powers/furnace_power.png",
+    "name": "Furnace",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Powers are afflicted with [gold]Galvanized[/gold].",
+    "description_raw": null,
+    "id": "GALVANIC",
+    "image_url": "/static/images/powers/galvanic_power.png",
+    "name": "Galvanic",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, gain [star:1].",
+    "description_raw": "At the start of your turn, gain {singleStarIcon}.",
+    "id": "GENESIS",
+    "image_url": "/static/images/powers/genesis_power.png",
+    "name": "Genesis",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The next Attack you play deals triple damage.",
+    "description_raw": null,
+    "id": "GIGANTIFICATION",
+    "image_url": "/static/images/powers/gigantification_power.png",
+    "name": "Gigantification",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you gain [gold]Block[/gold] this turn, deal [blue][Amount][/blue] damage to [gold]this creature[/gold].",
+    "description_raw": "Whenever you gain [gold]Block[/gold] this turn, deal [blue]{Amount}[/blue] damage to [gold]{OwnerName}[/gold].",
+    "id": "GRAPPLE",
+    "image_url": "/static/images/powers/grapple_power.png",
+    "name": "Grapple",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card this turn, deal [blue]2[/blue] damage to ALL enemies.",
+    "description_raw": null,
+    "id": "GRAVITY",
+    "image_url": "/static/images/powers/gravity_power.png",
+    "name": "Gravity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Take half damage from enemies.",
+    "description_raw": null,
+    "id": "GUARDED",
+    "image_url": "/static/images/powers/guarded_power.png",
+    "name": "Guarded",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of your turn, if you have [gold]Frost[/gold], deal [blue]6[/blue] damage to ALL enemies.",
+    "description_raw": null,
+    "id": "HAILSTORM",
+    "image_url": "/static/images/powers/hailstorm_power.png",
+    "name": "Hailstorm",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you [gold]Forge[/gold], all allies [gold]Forge[/gold] as well.",
+    "description_raw": null,
+    "id": "HAMMER_TIME",
+    "image_url": "/static/images/powers/hammer_time_power.png",
+    "name": "Hammer Time",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "All [gold]Hangs[/gold] deal [blue]2[/blue] times more damage to this enemy.",
+    "description_raw": null,
+    "id": "HANG",
+    "image_url": "/static/images/powers/hang_power.png",
+    "name": "Hang",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Reduce all damage taken and HP lost by [gold]this creature[/gold] to [blue]9[/blue].",
+    "description_raw": "Reduce all damage taken and HP lost by [gold]{OwnerName}[/gold] to [blue]9[/blue].",
+    "id": "HARD_TO_KILL",
+    "image_url": "/static/images/powers/hard_to_kill_power.png",
+    "name": "Hard to Kill",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold] cannot lose more than [blue][Amount][/blue] HP each turn.",
+    "description_raw": "[gold]{OwnerName}[/gold] cannot lose more than [blue]{Amount}[/blue] HP each turn.",
+    "id": "HARDENED_SHELL",
+    "image_url": "/static/images/powers/hardened_shell_power.png",
+    "name": "Hardened Shell",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Hatches after X turns.",
+    "description_raw": null,
+    "id": "HATCH",
+    "image_url": "/static/images/powers/hatch_power.png",
+    "name": "Hatch",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a [gold]Soul[/gold], a random enemy loses [blue]3[/blue] HP.",
+    "description_raw": null,
+    "id": "HAUNT",
+    "image_url": "/static/images/powers/haunt_power.png",
+    "name": "Haunt",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When killed, returns all the stolen [gold]Gold[/gold].",
+    "description_raw": null,
+    "id": "HEIST",
+    "image_url": "/static/images/powers/heist_power.png",
+    "name": "Heist",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Dexterity[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "HELICAL_DART",
+    "image_url": "/static/images/powers/helical_dart_power.png",
+    "name": "Temporary Dexterity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, add [blue]1[/blue] random Common card into your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "HELLO_WORLD",
+    "image_url": "/static/images/powers/hello_world_power.png",
+    "name": "Hello World",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you draw a card containing \"Strike\", it is played against a random enemy.",
+    "description_raw": null,
+    "id": "HELLRAISER",
+    "image_url": "/static/images/powers/hellraiser_power.png",
+    "name": "Hellraiser",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "While Spectral Knight is alive, ALL your cards are [gold]Ethereal[/gold].",
+    "description_raw": null,
+    "id": "HEX",
+    "image_url": "/static/images/powers/hex_power.png",
+    "name": "Hex",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of [gold]this creature's[/gold] turn, it gains [blue][Amount][/blue] [gold]Strength[/gold].",
+    "description_raw": "At the start of [gold]{OwnerName}'s[/gold] turn, it gains [blue]{Amount}[/blue] [gold]Strength[/gold].",
+    "id": "HIGH_VOLTAGE",
+    "image_url": "/static/images/powers/high_voltage_power.png",
+    "name": "High Voltage",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Focus[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "HOTFIX",
+    "image_url": "/static/images/powers/hotfix_power.png",
+    "name": "Temporary Focus",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When this dies, it revives next turn at full HP.",
+    "description_raw": null,
+    "id": "ILLUSION",
+    "image_url": "/static/images/powers/illusion_power.png",
+    "name": "Illusion",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "If [gold]this creature's[/gold] attacks are fully blocked, it becomes [gold]Stunned[/gold].",
+    "description_raw": "If [gold]{OwnerName}'s[/gold] attacks are fully blocked{IsMultiplayer: by any player|}, it becomes [gold]Stunned[/gold].",
+    "id": "IMBALANCED",
+    "image_url": "/static/images/powers/imbalanced_power.png",
+    "name": "Imbalanced",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of combat, [gold]Upgrade[/gold] a random card.",
+    "description_raw": null,
+    "id": "IMPROVEMENT",
+    "image_url": "/static/images/powers/improvement_power.png",
+    "name": "Improvement",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, lose [blue]0[/blue] HP. Whenever you lose HP on your turn, deal [blue][Amount][/blue] damage to ALL enemies.",
+    "description_raw": "At the start of your turn, lose [blue]{SelfDamage}[/blue] HP. Whenever you lose HP on your turn, deal [blue]{Amount}[/blue] damage to ALL enemies.",
+    "id": "INFERNO",
+    "image_url": "/static/images/powers/inferno_power.png",
+    "name": "Inferno",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Upon dying, summons... something.",
+    "description_raw": null,
+    "id": "INFESTED",
+    "image_url": "/static/images/powers/infested_power.png",
+    "name": "Infested",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, add a [gold]Shiv[/gold] into your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "INFINITE_BLADES",
+    "image_url": "/static/images/powers/infinite_blades_power.png",
+    "name": "Infinite Blades",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Reduce all damage taken and HP loss to [blue]1[/blue] this turn.",
+    "description_raw": null,
+    "id": "INTANGIBLE",
+    "image_url": "/static/images/powers/intangible_power.png",
+    "name": "Intangible",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "You are covering another player. All attacks that would be directed towards them are redirected towards you.",
+    "description_raw": null,
+    "id": "INTERCEPT",
+    "image_url": "/static/images/powers/intercept_power.png",
+    "name": "Intercept",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first time you draw a [gold]Status[/gold] card each turn, draw more cards.",
+    "description_raw": null,
+    "id": "ITERATION",
+    "image_url": "/static/images/powers/iteration_power.png",
+    "name": "Iteration",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you gain [gold]Block[/gold], deal [blue]5[/blue] damage to a random enemy.",
+    "description_raw": null,
+    "id": "JUGGERNAUT",
+    "image_url": "/static/images/powers/juggernaut_power.png",
+    "name": "Juggernaut",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Add a copy of the third Attack you play each turn into your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "JUGGLING",
+    "image_url": "/static/images/powers/juggling_power.png",
+    "name": "Juggling",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "This creature takes [blue][Amount][/blue] times the damage from other players this turn.",
+    "description_raw": "This creature takes [blue]{Amount}[/blue] times the damage from other players this turn.",
+    "id": "KNOCKDOWN",
+    "image_url": "/static/images/powers/knockdown_power.png",
+    "name": "Knockdown",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "All other allies deal [blue]1[/blue] additional damage.",
+    "description_raw": null,
+    "id": "LEADERSHIP",
+    "image_url": "/static/images/powers/leadership_power.png",
+    "name": "Leadership",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first Attack each turn deals 50% additional damage.",
+    "description_raw": null,
+    "id": "LETHALITY",
+    "image_url": "/static/images/powers/lethality_power.png",
+    "name": "Lethality",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of the next [blue]2[/blue] turns, [gold]Channel[/gold] [blue]1[/blue] [gold]Lightning[/gold].",
+    "description_raw": null,
+    "id": "LIGHTNING_ROD",
+    "image_url": "/static/images/powers/lightning_rod_power.png",
+    "name": "Lightning Rod",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, trigger the passive ability of your next Orb.",
+    "description_raw": null,
+    "id": "LOOP",
+    "image_url": "/static/images/powers/loop_power.png",
+    "name": "Loop",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, draw [blue]1[/blue] additional card.",
+    "description_raw": null,
+    "id": "MACHINE_LEARNING",
+    "image_url": "/static/images/powers/machine_learning_power.png",
+    "name": "Machine Learning",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Take [blue]20[/blue] damage at the end of your turn. Is cleared if the Magi Knight dies.",
+    "description_raw": null,
+    "id": "MAGIC_BOMB",
+    "image_url": "/static/images/powers/magic_bomb_power.png",
+    "name": "Magic Bomb",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Lose [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "MANGLE",
+    "image_url": "/static/images/powers/mangle_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When you play a Skill, it gains [gold]Sly[/gold].",
+    "description_raw": null,
+    "id": "MASTER_PLANNER",
+    "image_url": "/static/images/powers/master_planner_power.png",
+    "name": "Master Planner",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, play the top card of your [gold]Draw Pile[/gold].",
+    "description_raw": null,
+    "id": "MAYHEM",
+    "image_url": "/static/images/powers/mayhem_power.png",
+    "name": "Mayhem",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Draw [blue]1[/blue] fewer card each turn.",
+    "description_raw": null,
+    "id": "MIND_ROT",
+    "image_url": "/static/images/powers/mind_rot_power.png",
+    "name": "Mind Rot",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Minions abandon combat without their leader.",
+    "description_raw": null,
+    "id": "MINION",
+    "image_url": "/static/images/powers/minion_power.png",
+    "name": "Minion",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you attack an enemy, it loses [blue]1[/blue] [gold]Strength[/gold] this turn.",
+    "description_raw": null,
+    "id": "MONARCHS_GAZE",
+    "image_url": "/static/images/powers/monarchs_gaze_power.png",
+    "name": "Monarch's Gaze",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Lose [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "MONARCHS_GAZE_STRENGTH_DOWN",
+    "image_url": "/static/images/powers/monarchs_gaze_strength_down_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card this turn, gain [blue]1[/blue] [gold]Strength[/gold] this turn.\nCurrently granting [blue]0[/blue] [gold]Strength[/gold].",
+    "description_raw": "Whenever you play a card this turn, gain [blue]{StrengthPower}[/blue] [gold]Strength[/gold] this turn.\nCurrently granting [blue]{StrengthApplied}[/blue] [gold]Strength[/gold].",
+    "id": "MONOLOGUE",
+    "image_url": "/static/images/powers/monologue_power.png",
+    "name": "Monologue",
+    "stack_type": "None",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever [gold]Osty[/gold] loses HP, ALL enemies lose that much HP as well.",
+    "description_raw": null,
+    "id": "NECRO_MASTERY",
+    "image_url": "/static/images/powers/necro_mastery_power.png",
+    "name": "Necro Mastery",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of every other turn, gains [gold]Intangible[/gold] [blue]1[/blue].",
+    "description_raw": null,
+    "id": "NEMESIS",
+    "image_url": "/static/images/powers/nemesis_power.png",
+    "name": "Nemesis",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, apply [blue]3[/blue] [gold]Doom[/gold] to yourself.",
+    "description_raw": null,
+    "id": "NEUROSURGE",
+    "image_url": "/static/images/powers/neurosurge_power.png",
+    "name": "Neurosurge",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Add [blue]3[/blue] of a chosen card into your [gold]Hand[/gold] next turn.",
+    "description_raw": null,
+    "id": "NIGHTMARE",
+    "image_url": "/static/images/powers/nightmare_power.png",
+    "name": "Nightmare",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "You cannot gain [gold]Block[/gold] from cards.",
+    "description_raw": null,
+    "id": "NO_BLOCK",
+    "image_url": "/static/images/powers/no_block_power.png",
+    "name": "No Block",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "You may not draw any more cards this turn.",
+    "description_raw": null,
+    "id": "NO_DRAW",
+    "image_url": "/static/images/powers/no_draw_power.png",
+    "name": "No Draw",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first Attack or Skill you play each turn is placed on top of your [gold]Draw Pile[/gold].",
+    "description_raw": null,
+    "id": "NOSTALGIA",
+    "image_url": "/static/images/powers/nostalgia_power.png",
+    "name": "Nostalgia",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, apply [blue]2[/blue] [gold]Poison[/gold] to ALL enemies.",
+    "description_raw": null,
+    "id": "NOXIOUS_FUMES",
+    "image_url": "/static/images/powers/noxious_fumes_power.png",
+    "name": "Noxious Fumes",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card, this enemy gains [blue]1[/blue] [gold]Doom[/gold].",
+    "description_raw": null,
+    "id": "OBLIVION",
+    "image_url": "/static/images/powers/oblivion_power.png",
+    "name": "Oblivion",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Your next Attack is played an extra time this turn.",
+    "description_raw": null,
+    "id": "ONE_TWO_PUNCH",
+    "image_url": "/static/images/powers/one_two_punch_power.png",
+    "name": "One-Two Punch",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Every [energy:4] you spend, gain [energy:1].",
+    "description_raw": "Every {Energy:energyIcons()} you spend, gain {Amount:energyIcons()}.",
+    "id": "ORBIT",
+    "image_url": "/static/images/powers/orbit_power.png",
+    "name": "Orbit",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Every [blue]3[/blue] times you apply [gold]Poison[/gold], deal [blue][Amount][/blue] damage to ALL enemies.",
+    "description_raw": "Every [blue]{Repeat}[/blue] times you apply [gold]Poison[/gold], deal [blue]{Amount}[/blue] damage to ALL enemies.",
+    "id": "OUTBREAK",
+    "image_url": "/static/images/powers/outbreak_power.png",
+    "name": "Outbreak",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you draw an [gold]Ethereal[/gold] card, draw [blue]1[/blue] card.",
+    "description_raw": null,
+    "id": "PAGESTORM",
+    "image_url": "/static/images/powers/pagestorm_power.png",
+    "name": "Pagestorm",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Shuffle [blue]1[/blue] [gold]Wound[/gold] into your [gold]Discard Pile[/gold] each time you receive unblocked attack damage.",
+    "description_raw": null,
+    "id": "PAINFUL_STABS",
+    "image_url": "/static/images/powers/painful_stabs_power.png",
+    "name": "Painful Stabs",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "If you play [blue]5[/blue] or more cards in a turn, draw [blue][Amount][/blue] additional cards at the start of your next turn.",
+    "description_raw": "If you play [blue]{CardPlay}[/blue] or more cards in a turn, draw [blue]{Amount}[/blue] additional {Amount:plural:card|cards} at the start of your next turn.",
+    "id": "PALE_BLUE_DOT",
+    "image_url": "/static/images/powers/pale_blue_dot_power.png",
+    "name": "Pale Blue Dot",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "If you play [blue]5[/blue] more cards this turn, deal [blue][Amount][/blue] damage to ALL enemies.",
+    "description_raw": "If you play [blue]{CardsLeft}[/blue] more {CardsLeft:plural:card|cards} this turn, deal [blue]{Amount}[/blue] damage to ALL enemies.",
+    "id": "PANACHE",
+    "image_url": "/static/images/powers/panache_power.png",
+    "name": "Panache",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever [gold]this creature[/gold] deals unblocked attack damage to you, you lose [blue][Amount][/blue] [gold]Max HP[/gold].",
+    "description_raw": "Whenever [gold]{OwnerName}[/gold] deals unblocked attack damage to you, you lose [blue]{Amount}[/blue] [gold]Max HP[/gold].",
+    "id": "PAPER_CUTS",
+    "image_url": "/static/images/powers/paper_cuts_power.png",
+    "name": "Paper Cuts",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play [gold]Sovereign Blade[/gold], gain [blue]8[/blue] [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "PARRY",
+    "image_url": "/static/images/powers/parry_power.png",
+    "name": "Parry",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever this enemy is hit by an Attack, add [gold]Dazed[/gold] into your [gold]Draw Pile[/gold].",
+    "description_raw": null,
+    "id": "PERSONAL_HIVE",
+    "image_url": "/static/images/powers/personal_hive_power.png",
+    "name": "Personal Hive",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Shivs[/gold] gain [gold]Retain[/gold].\nThe first [gold]Shiv[/gold] you play each turn deals [blue]9[/blue] additional damage.",
+    "description_raw": null,
+    "id": "PHANTOM_BLADES",
+    "image_url": "/static/images/powers/phantom_blades_power.png",
+    "name": "Phantom Blades",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Lose [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "PIERCING_WAIL",
+    "image_url": "/static/images/powers/piercing_wail_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you create a card, gain [blue]5[/blue] [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "PILLAR_OF_CREATION",
+    "image_url": "/static/images/powers/pillar_of_creation_power.png",
+    "name": "Pillar of Creation",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of your turn, gain [blue][Amount][/blue] [gold]Block[/gold]. [gold]Plating[/gold] is reduced by [blue]1[/blue] at the start of your turn.",
+    "description_raw": "At the end of your turn, gain [blue]{Amount}[/blue] [gold]Block[/gold]. [gold]Plating[/gold] is reduced by [blue]{Decrement}[/blue] at the start of your turn.",
+    "id": "PLATING",
+    "image_url": "/static/images/powers/plating_power.png",
+    "name": "Plating",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first time [gold]this creature's[/gold] HP reaches [blue][Amount][/blue] or below, it becomes [gold]Stunned[/gold] and loses all its [gold]Strength[/gold].",
+    "description_raw": "The first time [gold]{OwnerName}'s[/gold] HP reaches [blue]{Amount}[/blue] or below, it becomes [gold]Stunned[/gold] and loses all its [gold]Strength[/gold].",
+    "id": "PLOW",
+    "image_url": "/static/images/powers/plow_power.png",
+    "name": "Plow",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Poisoned creatures lose HP at the start of their turn. Each turn, Poison is reduced by [blue]1[/blue].",
+    "description_raw": null,
+    "id": "POISON",
+    "image_url": "/static/images/powers/poison_power.png",
+    "name": "Poison",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When killed, return all stolen [gold]Dexterity[/gold] to the player.",
+    "description_raw": null,
+    "id": "POSSESS_SPEED",
+    "image_url": "/static/images/powers/possess_speed_power.png",
+    "name": "Possess Speed",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When killed, return all stolen [gold]Strength[/gold] to the player.",
+    "description_raw": null,
+    "id": "POSSESS_STRENGTH",
+    "image_url": "/static/images/powers/possess_strength_power.png",
+    "name": "Possess Strength",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, gain [blue]4[/blue] [gold]Vigor[/gold].",
+    "description_raw": null,
+    "id": "PREP_TIME",
+    "image_url": "/static/images/powers/prep_time_power.png",
+    "name": "Prep Time",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [blue]1[/blue] [gold]Energy[/gold] at the start of each turn.",
+    "description_raw": null,
+    "id": "PYRE",
+    "image_url": "/static/images/powers/pyre_power.png",
+    "name": "Pyre",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain additional [energy:1] for the next [blue]2[/blue] turns.",
+    "description_raw": "Gain additional {Energy:energyIcons()} {Amount:plural:next turn|for the next [blue]{}[/blue] turns}.",
+    "id": "RADIANCE",
+    "image_url": "/static/images/powers/radiance_power.png",
+    "name": "Radiance",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play an Attack this turn, gain [blue]3[/blue] [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "RAGE",
+    "image_url": "/static/images/powers/rage_power.png",
+    "name": "Rage",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of the player's turn, Turret Operator gains [blue]25[/blue] [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "RAMPART",
+    "image_url": "/static/images/powers/rampart_power.png",
+    "name": "Rampart",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When an enemy dies, Corpse Slug immediately eats it, becoming [gold]Stunned[/gold] and gaining [blue]1[/blue] [gold]Strength[/gold].",
+    "description_raw": null,
+    "id": "RAVENOUS",
+    "image_url": "/static/images/powers/ravenous_power.png",
+    "name": "Ravenous",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever Attacks deal damage, they also apply that much [gold]Doom[/gold].",
+    "description_raw": null,
+    "id": "REAPER_FORM",
+    "image_url": "/static/images/powers/reaper_form_power.png",
+    "name": "Reaper Form",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "If other segments are still alive, revives in [blue]2[/blue] turns with [blue]25[/blue] HP.",
+    "description_raw": null,
+    "id": "REATTACH",
+    "image_url": "/static/images/powers/reattach_power.png",
+    "name": "Reattach",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The next card you play this turn is placed on the top of your [gold]Draw Pile[/gold].",
+    "description_raw": null,
+    "id": "REBOUND",
+    "image_url": "/static/images/powers/rebound_power.png",
+    "name": "Rebound",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Blocked damage is reflected to your attacker.",
+    "description_raw": null,
+    "id": "REFLECT",
+    "image_url": "/static/images/powers/reflect_power.png",
+    "name": "Reflect",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Regen[/gold] heals HP at the end of your turn. Each turn, [gold]Regen[/gold] is reduced by [blue]1[/blue].",
+    "description_raw": null,
+    "id": "REGEN",
+    "image_url": "/static/images/powers/regen_power.png",
+    "name": "Regen",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "REPTILE_TRINKET",
+    "image_url": "/static/images/powers/reptile_trinket_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Retain[/gold] your [gold]Hand[/gold] for the next [blue]2[/blue] turns.",
+    "description_raw": null,
+    "id": "RETAIN_HAND",
+    "image_url": "/static/images/powers/retain_hand_power.png",
+    "name": "Retain Hand",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "You can only play [blue]1[/blue] card this turn.",
+    "description_raw": null,
+    "id": "RINGING",
+    "image_url": "/static/images/powers/ringing_power.png",
+    "name": "Ringing",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Strength[/gold] at the end of your turn.",
+    "description_raw": null,
+    "id": "RITUAL",
+    "image_url": "/static/images/powers/ritual_power.png",
+    "name": "Ritual",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, deal [blue][Amount][/blue] damage to ALL enemies and increase this damage by [blue]5[/blue].",
+    "description_raw": "At the start of your turn, deal [blue]{Amount}[/blue] damage to ALL enemies and increase this damage by [blue]{Damage}[/blue].",
+    "id": "ROLLING_BOULDER",
+    "image_url": "/static/images/powers/rolling_boulder_power.png",
+    "name": "Rolling Boulder",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of combat, gain [blue]25[/blue] [gold]Gold[/gold].",
+    "description_raw": null,
+    "id": "ROYALTIES",
+    "image_url": "/static/images/powers/royalties_power.png",
+    "name": "Royalties",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you lose HP on your turn, gain [blue]1[/blue] [gold]Strength[/gold].",
+    "description_raw": null,
+    "id": "RUPTURE",
+    "image_url": "/static/images/powers/rupture_power.png",
+    "name": "Rupture",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "A power used by The Insatiable.",
+    "description_raw": null,
+    "id": "SANDPIT",
+    "image_url": "/static/images/powers/sandpit_power.png",
+    "name": "Sandpit",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Sovereign Blade[/gold] now hits ALL enemies.",
+    "description_raw": null,
+    "id": "SEEKING_EDGE",
+    "image_url": "/static/images/powers/seeking_edge_power.png",
+    "name": "Seeking Edge",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [blue]3[/blue] [gold]Block[/gold] next turn.",
+    "description_raw": null,
+    "id": "SELF_FORMING_CLAY",
+    "image_url": "/static/images/powers/self_forming_clay_power.png",
+    "name": "Self-Forming Clay",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, add [blue]1[/blue] [gold]Sweeping Gaze[/gold] into your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "SENTRY_MODE",
+    "image_url": "/static/images/powers/sentry_mode_power.png",
+    "name": "Sentry Mode",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card, deal [blue]4[/blue] damage to a random enemy.",
+    "description_raw": null,
+    "id": "SERPENT_FORM",
+    "image_url": "/static/images/powers/serpent_form_power.png",
+    "name": "Serpent Form",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "SETUP_STRIKE",
+    "image_url": "/static/images/powers/setup_strike_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Lose [gold]Strength[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "SHACKLING_POTION",
+    "image_url": "/static/images/powers/shackling_potion_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Next turn, Attacks deal double damage.",
+    "description_raw": null,
+    "id": "SHADOW_STEP",
+    "image_url": "/static/images/powers/shadow_step_power.png",
+    "name": "Shadow Step",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Double your [gold]Block[/gold] gain this turn.",
+    "description_raw": null,
+    "id": "SHADOWMELD",
+    "image_url": "/static/images/powers/shadowmeld_power.png",
+    "name": "Shadowmeld",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": true,
+    "description": "The first time [gold]this creature's[/gold] HP reaches [blue][Amount][/blue] or below, it becomes [gold]Stunned[/gold].",
+    "description_raw": "The first time [gold]{OwnerName}'s[/gold] HP reaches [blue]{Amount}[/blue] or below, it becomes [gold]Stunned[/gold].",
+    "id": "SHRIEK",
+    "image_url": "/static/images/powers/shriek_power.png",
+    "name": "Shriek",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": true,
+    "description": "[gold]this creature's[/gold] Attacks deal [blue]30%[/blue] less damage.",
+    "description_raw": "{ApplierName.StringValue:cond:While {} is alive, your|[gold]{OwnerName}'s[/gold]} Attacks deal [blue]{DamageDecrease}%[/blue] less damage{Amount:cond:==1? next turn|>1? for the next [blue]{}[/blue] turns|}.",
+    "id": "SHRINK",
+    "image_url": "/static/images/powers/shrink_power.png",
+    "name": "Shrink",
+    "stack_type": "None",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you apply [gold]Doom[/gold], gain [blue]3[/blue] [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "SHROUD",
+    "image_url": "/static/images/powers/shroud_power.png",
+    "name": "Shroud",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever [gold]Osty[/gold] hits this enemy this turn, [gold]Summon[/gold] [blue]3[/blue].",
+    "description_raw": null,
+    "id": "SIC_EM",
+    "image_url": "/static/images/powers/sic_em_power.png",
+    "name": "Sic 'Em",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Your next Power is played an extra time.",
+    "description_raw": null,
+    "id": "SIGNAL_BOOST",
+    "image_url": "/static/images/powers/signal_boost_power.png",
+    "name": "Signal Boost",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first time [gold]this creature[/gold] is hit each turn, it gains [blue][Amount][/blue] [gold]Block[/gold].",
+    "description_raw": "The first time [gold]{OwnerName}[/gold] is hit each turn, it gains [blue]{Amount}[/blue] [gold]Block[/gold].",
+    "id": "SKITTISH",
+    "image_url": "/static/images/powers/skittish_power.png",
+    "name": "Skittish",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you apply a debuff to an enemy, they take [blue]13[/blue] damage.",
+    "description_raw": null,
+    "id": "SLEIGHT_OF_FLESH",
+    "image_url": "/static/images/powers/sleight_of_flesh_power.png",
+    "name": "Sleight of Flesh",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The next [blue]2[/blue] times [gold]this creature[/gold] loses HP, it only loses [blue]1[/blue] HP instead.",
+    "description_raw": "The next {Amount:plural:time|[blue]{}[/blue] times} [gold]{OwnerName}[/gold] loses HP, it only loses [blue]1[/blue] HP instead.",
+    "id": "SLIPPERY",
+    "image_url": "/static/images/powers/slippery_power.png",
+    "name": "Slippery",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "You cannot play more than [blue]3[/blue] cards each turn.",
+    "description_raw": null,
+    "id": "SLOTH",
+    "image_url": "/static/images/powers/sloth_power.png",
+    "name": "Sloth",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card, this enemy receives [blue]10%[/blue] more damage from Attacks this turn.",
+    "description_raw": null,
+    "id": "SLOW",
+    "image_url": "/static/images/powers/slow_power.png",
+    "name": "Slow",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Awakens upon taking turns or losing HP 3 times.",
+    "description_raw": null,
+    "id": "SLUMBER",
+    "image_url": "/static/images/powers/slumber_power.png",
+    "name": "Slumber",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "You can only play [blue]1[/blue] Skill per turn.",
+    "description_raw": null,
+    "id": "SMOGGY",
+    "image_url": "/static/images/powers/smoggy_power.png",
+    "name": "Smoggy",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you create a Status, deal damage to ALL enemies.",
+    "description_raw": null,
+    "id": "SMOKESTACK",
+    "image_url": "/static/images/powers/smokestack_power.png",
+    "name": "Smokestack",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever another player attacks an enemy, gain [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "SNEAKY",
+    "image_url": "/static/images/powers/sneaky_power.png",
+    "name": "Sneaky",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Receives [blue]50%[/blue] less attack damage until it lands.",
+    "description_raw": "Receives [blue]{DamageDecrease}%[/blue] less attack damage until it lands.",
+    "id": "SOAR",
+    "image_url": "/static/images/powers/soar_power.png",
+    "name": "Soar",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, add [blue]1[/blue] random Colorless card into your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "SPECTRUM_SHIFT",
+    "image_url": "/static/images/powers/spectrum_shift_power.png",
+    "name": "Spectrum Shift",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Dexterity[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "SPEED_POTION",
+    "image_url": "/static/images/powers/speed_potion_power.png",
+    "name": "Temporary Dexterity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you draw a card during your turn, deal [blue]1[/blue] damage to ALL enemies.",
+    "description_raw": null,
+    "id": "SPEEDSTER",
+    "image_url": "/static/images/powers/speedster_power.png",
+    "name": "Speedster",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, [gold]Channel[/gold] [blue]1[/blue] [gold]Glass[/gold].",
+    "description_raw": null,
+    "id": "SPINNER",
+    "image_url": "/static/images/powers/spinner_power.png",
+    "name": "Spinner",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play an [gold]Ethereal[/gold] card, gain [blue]4[/blue] [gold]Block[/gold].",
+    "description_raw": null,
+    "id": "SPIRIT_OF_ASH",
+    "image_url": "/static/images/powers/spirit_of_ash_power.png",
+    "name": "Spirit of Ash",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of your turn, [blue]1[/blue] random Attack in your [gold]Hand[/gold] is played against a random enemy.",
+    "description_raw": null,
+    "id": "STAMPEDE",
+    "image_url": "/static/images/powers/stampede_power.png",
+    "name": "Stampede",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain 1 [star:1] next turn.",
+    "description_raw": "Gain 1 {singleStarIcon} next turn.",
+    "id": "STAR_NEXT_TURN",
+    "image_url": "/static/images/powers/star_next_turn_power.png",
+    "name": "Star Next Turn",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When killed, deals damage at the end of your next turn.",
+    "description_raw": null,
+    "id": "STEAM_ERUPTION",
+    "image_url": "/static/images/powers/steam_eruption_power.png",
+    "name": "Steam Eruption",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When killed, a new Axebot is summoned in its place.",
+    "description_raw": null,
+    "id": "STOCK",
+    "image_url": "/static/images/powers/stock_power.png",
+    "name": "Stock",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a Power, [gold]Channel[/gold] [blue]1[/blue] [gold]Lightning[/gold].",
+    "description_raw": null,
+    "id": "STORM",
+    "image_url": "/static/images/powers/storm_power.png",
+    "name": "Storm",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card this turn, this enemy loses [blue]2[/blue] HP.",
+    "description_raw": null,
+    "id": "STRANGLE",
+    "image_url": "/static/images/powers/strangle_power.png",
+    "name": "Strangle",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you shuffle your [gold]Draw Pile[/gold], choose [blue]1[/blue] card from it to put into your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "STRATAGEM",
+    "image_url": "/static/images/powers/stratagem_power.png",
+    "name": "Stratagem",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": true,
+    "description": "Strength adds additional damage to Attacks.",
+    "description_raw": null,
+    "id": "STRENGTH",
+    "image_url": "/static/images/powers/strength_power.png",
+    "name": "Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a Power, gain [blue]1[/blue] [energy:1].",
+    "description_raw": "Whenever you play a Power, gain [blue]1[/blue] {energyPrefix:energyIcons(1)}.",
+    "id": "SUBROUTINE",
+    "image_url": "/static/images/powers/subroutine_power.png",
+    "name": "Subroutine",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever [gold]this creature[/gold] deals unblocked attack damage, it gains [blue][Amount][/blue] [gold]Strength[/gold].",
+    "description_raw": "Whenever [gold]{OwnerName}[/gold] deals unblocked attack damage, it gains [blue]{Amount}[/blue] [gold]Strength[/gold].",
+    "id": "SUCK",
+    "image_url": "/static/images/powers/suck_power.png",
+    "name": "Suck",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your next turn, [gold]Summon[/gold] [blue]2[/blue].",
+    "description_raw": null,
+    "id": "SUMMON_NEXT_TURN",
+    "image_url": "/static/images/powers/summon_next_turn_power.png",
+    "name": "Summon Next Turn",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Something is off about this creature...",
+    "description_raw": null,
+    "id": "SURPRISE",
+    "image_url": "/static/images/powers/surprise_power.png",
+    "name": "Surprise",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Receive [blue]50%[/blue] more damage if attacked from behind. Use targeting cards or potions to change your orientation.",
+    "description_raw": null,
+    "id": "SURROUNDED",
+    "image_url": "/static/images/powers/surrounded_power.png",
+    "name": "Surrounded",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Upon killing this enemy, the stolen card is returned.",
+    "description_raw": null,
+    "id": "SWIPE",
+    "image_url": "/static/images/powers/swipe_power.png",
+    "name": "Swipe",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Increase the cost of [gold]Sovereign Blade[/gold] by [blue]1[/blue]. [gold]Sovereign Blade[/gold] now hits [blue]1[/blue] additional time.",
+    "description_raw": null,
+    "id": "SWORD_SAGE",
+    "image_url": "/static/images/powers/sword_sage_power.png",
+    "name": "Sword Sage",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [gold]Focus[/gold] until the end of this turn.",
+    "description_raw": null,
+    "id": "SYNCHRONIZE",
+    "image_url": "/static/images/powers/synchronize_power.png",
+    "name": "Temporary Focus",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The next Attack another player plays on the enemy is played an extra time.",
+    "description_raw": null,
+    "id": "TAG_TEAM",
+    "image_url": "/static/images/powers/tag_team_power.png",
+    "name": "Tag Team",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Attacks cost [blue]1[/blue] additional [gold]Energy[/gold] this turn.",
+    "description_raw": null,
+    "id": "TANGLED",
+    "image_url": "/static/images/powers/tangled_power.png",
+    "name": "Tangled",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Take double damage from enemies. Allies take half damage from enemies.",
+    "description_raw": null,
+    "id": "TANK",
+    "image_url": "/static/images/powers/tank_power.png",
+    "name": "Tank",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card, lose [blue]1[/blue] [gold]Strength[/gold] and [blue]1[/blue] [gold]Dexterity[/gold] this turn.",
+    "description_raw": null,
+    "id": "TENDER",
+    "image_url": "/static/images/powers/tender_power.png",
+    "name": "Tender",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of its turn, gains [blue]1[/blue] [gold]Strength[/gold].",
+    "description_raw": null,
+    "id": "TERRITORIAL",
+    "image_url": "/static/images/powers/territorial_power.png",
+    "name": "Territorial",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of [blue]2[/blue] turns, deal [blue]40[/blue] damage to ALL enemies.",
+    "description_raw": "At the end of {Amount:plural:this turn|[blue]{}[/blue] turns}, deal [blue]{Damage}[/blue] damage to ALL enemies.",
+    "id": "THE_BOMB",
+    "image_url": "/static/images/powers/the_bomb_power.png",
+    "name": "The Bomb",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "If you take unblocked attack damage this combat, die.",
+    "description_raw": null,
+    "id": "THE_GAMBIT",
+    "image_url": "/static/images/powers/the_gambit_power.png",
+    "name": "The Gambit",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [blue]1[/blue] additional card reward at the end of combat.",
+    "description_raw": null,
+    "id": "THE_HUNT",
+    "image_url": "/static/images/powers/the_hunt_power.png",
+    "name": "The Hunt",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you play a card, gain [star:1].",
+    "description_raw": "Whenever you play a card, gain {singleStarIcon}.",
+    "id": "THE_SEALED_THRONE",
+    "image_url": "/static/images/powers/the_sealed_throne_power.png",
+    "name": "The Sealed Throne",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Steals [gold]Gold[/gold] when Attacking.",
+    "description_raw": null,
+    "id": "THIEVERY",
+    "image_url": "/static/images/powers/thievery_power.png",
+    "name": "Thievery",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "When hit by an attack, deal damage back.",
+    "description_raw": null,
+    "id": "THORNS",
+    "image_url": "/static/images/powers/thorns_power.png",
+    "name": "Thorns",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you [gold]Evoke Lightning[/gold], deal [blue]8[/blue] damage to each enemy hit.",
+    "description_raw": null,
+    "id": "THUNDER",
+    "image_url": "/static/images/powers/thunder_power.png",
+    "name": "Thunder",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, draw [blue]1[/blue] card and discard [blue]1[/blue] card.",
+    "description_raw": null,
+    "id": "TOOLS_OF_THE_TRADE",
+    "image_url": "/static/images/powers/tools_of_the_trade_power.png",
+    "name": "Tools of the Trade",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [blue]0[/blue] [gold]Block[/gold] at the start of the next [blue][Amount][/blue] turns.",
+    "description_raw": "Gain [blue]{Block:diff()}[/blue] [gold]Block[/gold] at the start of the next [blue]{Amount}[/blue] {Amount:plural:turn|turns}.",
+    "id": "TORIC_TOUGHNESS",
+    "image_url": "/static/images/powers/toric_toughness_power.png",
+    "name": "Toric Toughness",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]Weak[/gold] enemies take [blue]2[/blue] times more damage from Attacks.",
+    "description_raw": null,
+    "id": "TRACKING",
+    "image_url": "/static/images/powers/tracking_power.png",
+    "name": "Tracking",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you create a Status, [gold]Channel[/gold] [blue]1[/blue] random Orb.",
+    "description_raw": null,
+    "id": "TRASH_TO_TREASURE",
+    "image_url": "/static/images/powers/trash_to_treasure_power.png",
+    "name": "Trash to Treasure",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, draw a card and [gold]Exhaust[/gold] a card from your [gold]Hand[/gold].",
+    "description_raw": null,
+    "id": "TYRANNY",
+    "image_url": "/static/images/powers/tyranny_power.png",
+    "name": "Tyranny",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first time you gain [gold]Block[/gold] from a card each turn, double the amount gained.",
+    "description_raw": null,
+    "id": "UNMOVABLE",
+    "image_url": "/static/images/powers/unmovable_power.png",
+    "name": "Unmovable",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The next [gold]Ethereal card[/gold] you play costs [blue]0[/blue].",
+    "description_raw": null,
+    "id": "VEILPIERCER",
+    "image_url": "/static/images/powers/veilpiercer_power.png",
+    "name": "Veilpiercer",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Whenever you apply [gold]Vulnerable[/gold], draw [blue]1[/blue] card.",
+    "description_raw": null,
+    "id": "VICIOUS",
+    "image_url": "/static/images/powers/vicious_power.png",
+    "name": "Vicious",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature's[/gold] next Attack deals [blue][Amount][/blue] additional damage.",
+    "description_raw": "{OnPlayer:Your|[gold]{OwnerName}'s[/gold]} next Attack deals [blue]{Amount}[/blue] additional damage.",
+    "id": "VIGOR",
+    "image_url": "/static/images/powers/vigor_power.png",
+    "name": "Vigor",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first time [gold]this creature[/gold] takes Attack damage each turn, the attacker gains [energy:1].",
+    "description_raw": "The first time [gold]{OwnerName}[/gold] takes Attack damage each turn, the attacker gains {Energy:energyIcons()}.",
+    "id": "VITAL_SPARK",
+    "image_url": "/static/images/powers/vital_spark_power.png",
+    "name": "Vital Spark",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "The first [blue]2[/blue] cards you play each turn are free to play.",
+    "description_raw": null,
+    "id": "VOID_FORM",
+    "image_url": "/static/images/powers/void_form_power.png",
+    "name": "Void Form",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Vulnerable creatures take [blue]50%[/blue] more damage from Attacks.",
+    "description_raw": null,
+    "id": "VULNERABLE",
+    "image_url": "/static/images/powers/vulnerable_power.png",
+    "name": "Vulnerable",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Gain [blue]1[/blue] less [gold]Energy[/gold] per turn.",
+    "description_raw": null,
+    "id": "WASTE_AWAY",
+    "image_url": "/static/images/powers/waste_away_power.png",
+    "name": "Waste Away",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "Weakened creatures deal [blue]25%[/blue] less damage with Attacks.",
+    "description_raw": null,
+    "id": "WEAK",
+    "image_url": "/static/images/powers/weak_power.png",
+    "name": "Weak",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the end of your turn, [gold]Retain[/gold] up to [blue]1[/blue] card.",
+    "description_raw": null,
+    "id": "WELL_LAID_PLANS",
+    "image_url": "/static/images/powers/well_laid_plans_power.png",
+    "name": "Well-Laid Plans",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "At the start of your turn, lose [blue]1[/blue] [gold]Dexterity[/gold].",
+    "description_raw": null,
+    "id": "WRAITH_FORM",
+    "image_url": "/static/images/powers/wraith_form_power.png",
+    "name": "Wraith Form",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  }
+]

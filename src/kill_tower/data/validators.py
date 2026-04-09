@@ -26,10 +26,19 @@ def validate_registry(registry: ContentRegistry, required_languages: set[str] | 
         registry.cards,
         registry.relics,
         registry.potions,
+        registry.enchantments,
         registry.monsters,
         registry.events,
         registry.encounters,
         registry.powers,
+        registry.keywords,
+        registry.intents,
+        registry.orbs,
+        registry.afflictions,
+        registry.modifiers,
+        registry.acts,
+        registry.ascensions,
+        registry.achievements,
     ]:
         for entity in entity_group.values():
             missing_languages = required_languages - set(entity.texts)

@@ -1,0 +1,2572 @@
+[
+  {
+    "allow_negative": null,
+    "description": "[gold]中毒[/gold]会多触发一次。",
+    "description_raw": null,
+    "id": "ACCELERANT",
+    "image_url": "/static/images/powers/accelerant_power.png",
+    "name": "触媒",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]小刀[/gold]造成额外伤害。",
+    "description_raw": null,
+    "id": "ACCURACY",
+    "image_url": "/static/images/powers/accuracy_power.png",
+    "name": "精准",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "当[gold]this creature[/gold]将要被击败时，它会复活变得更加强大。",
+    "description_raw": "当[gold]{OwnerName}[/gold]将要被击败时，它会复活变得更加强大。",
+    "id": "ADAPTABLE",
+    "image_url": "/static/images/powers/adaptable_power.png",
+    "name": "适者生存",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每打出一张牌，都获得[blue]1[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "AFTERIMAGE",
+    "image_url": "/static/images/powers/afterimage_power.png",
+    "name": "余像",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，将你[gold]弃牌堆[/gold]的一张随机攻击牌放入你的[gold]手牌[/gold]并将其在本场战斗中[gold]升级[/gold]。",
+    "description_raw": null,
+    "id": "AGGRESSION",
+    "image_url": "/static/images/powers/aggression_power.png",
+    "name": "好勇斗狠",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]敏捷[/gold]。",
+    "description_raw": null,
+    "id": "ANTICIPATE",
+    "image_url": "/static/images/powers/anticipate_power.png",
+    "name": "Temporary Dexterity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每打出一张无色牌，都获得[blue]1[/blue]点[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "ARSENAL",
+    "image_url": "/static/images/powers/arsenal_power.png",
+    "name": "武器库",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]免疫[/gold]负面效果。",
+    "description_raw": null,
+    "id": "ARTIFACT",
+    "image_url": "/static/images/powers/artifact_power.png",
+    "name": "人工制品",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在失去生命时或在[blue][Amount][/blue]回合后苏醒。",
+    "description_raw": "在失去生命时或在[blue]{Amount}[/blue]回合后苏醒。",
+    "id": "ASLEEP",
+    "image_url": "/static/images/powers/asleep_power.png",
+    "name": "沉睡",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每抽[blue]10[/blue]张牌时，获得[energy:1]。",
+    "description_raw": "你每抽[blue]{BaseCards}[/blue]张牌时，获得{Amount:energyIcons()}。",
+    "id": "AUTOMATION",
+    "image_url": "/static/images/powers/automation_power.png",
+    "name": "自动化",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "从后方对你攻击时，造成的伤害增加[blue]50%[/blue]。",
+    "description_raw": null,
+    "id": "BACK_ATTACK_LEFT",
+    "image_url": "/static/images/powers/back_attack_left_power.png",
+    "name": "后方攻击",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "从后方对你攻击时，造成的伤害增加[blue]50%[/blue]。",
+    "description_raw": null,
+    "id": "BACK_ATTACK_RIGHT",
+    "image_url": "/static/images/powers/back_attack_right_power.png",
+    "name": "后方攻击",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]格挡[/gold]不会在你的回合开始时被移除。",
+    "description_raw": "[gold]格挡[/gold]不会在{ApplierName.StringValue:cond:[gold]{OwnerName}的[/gold]|你的}回合开始时被移除。",
+    "id": "BARRICADE",
+    "image_url": "/static/images/powers/barricade_power.png",
+    "name": "壁垒",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你还有[blue]3[/blue]个回合来击败战斗好伙伴。",
+    "description_raw": null,
+    "id": "BATTLEWORN_DUMMY_TIME_LIMIT",
+    "image_url": "/static/images/powers/battleworn_dummy_time_limit_power.png",
+    "name": "时间限制",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你在你的回合获得[gold]格挡[/gold]时，其他玩家获得相应一半的[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "BEACON_OF_HOPE",
+    "image_url": "/static/images/powers/beacon_of_hope_power.png",
+    "name": "希望灯塔",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，失去[blue]1[/blue]点[gold]集中[/gold]。",
+    "description_raw": null,
+    "id": "BIASED_COGNITION",
+    "image_url": "/static/images/powers/biased_cognition_power.png",
+    "name": "偏差认知",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你花费或获得[star:1]时，对所有敌人造成[blue]3[/blue]点伤害。",
+    "description_raw": "每当你花费或获得{singleStarIcon}时，对所有敌人造成[blue]3[/blue]点伤害。",
+    "id": "BLACK_HOLE",
+    "image_url": "/static/images/powers/black_hole_power.png",
+    "name": "黑洞",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你在本回合打出一张攻击牌时，本回合获得[blue]2[/blue]点[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "BLADE_OF_INK",
+    "image_url": "/static/images/powers/blade_of_ink_power.png",
+    "name": "墨之刃",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的下个回合开始时，获得[blue]4[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "BLOCK_NEXT_TURN",
+    "image_url": "/static/images/powers/block_next_turn_power.png",
+    "name": "下回合格挡",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你的下一回合开始时[gold]格挡[/gold]不会消失。",
+    "description_raw": null,
+    "id": "BLUR",
+    "image_url": "/static/images/powers/blur_power.png",
+    "name": "残影",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "阻止下一次你受到的生命值损伤。",
+    "description_raw": null,
+    "id": "BUFFER",
+    "image_url": "/static/images/powers/buffer_power.png",
+    "name": "缓冲",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]格挡[/gold]不会在[gold]this creature[/gold]的回合开始时移除。如果所有[gold]格挡[/gold]被移除，则将其[gold]击晕[/gold]。",
+    "description_raw": "[gold]格挡[/gold]不会在[gold]{OwnerName}[/gold]的回合开始时移除。如果所有[gold]格挡[/gold]被移除，则将其[gold]击晕[/gold]。",
+    "id": "BURROWED",
+    "image_url": "/static/images/powers/burrowed_power.png",
+    "name": "埋地",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，你的下一张技能牌会多打出一次。",
+    "description_raw": null,
+    "id": "BURST",
+    "image_url": "/static/images/powers/burst_power.png",
+    "name": "爆发",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你打出一张攻击牌时，将一张随机攻击牌添加到你的[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "CALAMITY",
+    "image_url": "/static/images/powers/calamity_power.png",
+    "name": "灾祸",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]奥斯提[/gold]的攻击造成额外伤害。",
+    "description_raw": null,
+    "id": "CALCIFY",
+    "image_url": "/static/images/powers/calcify_power.png",
+    "name": "钙化",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，将[blue]1[/blue]张随机牌添加到你的[gold]手牌[/gold]并给予其[gold]虚无[/gold]。",
+    "description_raw": null,
+    "id": "CALL_OF_THE_VOID",
+    "image_url": "/static/images/powers/call_of_the_void_power.png",
+    "name": "虚空之唤",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合抽到的前[blue]3[/blue]张牌将会被侵蚀为[gold]魂缚[/gold]。",
+    "description_raw": null,
+    "id": "CHAINS_OF_BINDING",
+    "image_url": "/static/images/powers/chains_of_binding_power.png",
+    "name": "魂缚锁链",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每花费一点[star:1]，获得[blue]1[/blue]点[gold]格挡[/gold]。",
+    "description_raw": "每花费一点{singleStarIcon}，获得[blue]1[/blue]点[gold]格挡[/gold]。",
+    "id": "CHILD_OF_THE_STARS",
+    "image_url": "/static/images/powers/child_of_the_stars_power.png",
+    "name": "群星之子",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的下一个回合开始时，额外抽[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "CLARITY",
+    "image_url": "/static/images/powers/clarity_power.png",
+    "name": "明晰",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，你从[gold]易伤[/gold]敌人处受到的伤害减少[blue]50%[/blue]。",
+    "description_raw": null,
+    "id": "COLOSSUS",
+    "image_url": "/static/images/powers/colossus_power.png",
+    "name": "巨像",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你的卡牌耗能会在抽取时变化，范围为[blue]0[/blue]到[blue]3[/blue]。",
+    "description_raw": null,
+    "id": "CONFUSED",
+    "image_url": "/static/images/powers/confused_power.png",
+    "name": "混乱",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]君王之剑[/gold]在[blue][Amount][/blue]回合内对[gold]this creature[/gold]造成双倍伤害。",
+    "description_raw": "[gold]君王之剑[/gold]在[blue]{Amount}[/blue]回合内对[gold]{OwnerName}[/gold]造成双倍伤害。",
+    "id": "CONQUEROR",
+    "image_url": "/static/images/powers/conqueror_power.png",
+    "name": "征服者",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "蛇行扼杀者存活时，在你的回合结束时受到[blue]1[/blue]点伤害。",
+    "description_raw": null,
+    "id": "CONSTRICT",
+    "image_url": "/static/images/powers/constrict_power.png",
+    "name": "紧缠",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合结束时，[gold]激发[/gold]你最左侧的充能球。",
+    "description_raw": null,
+    "id": "CONSUMING_SHADOW",
+    "image_url": "/static/images/powers/consuming_shadow_power.png",
+    "name": "吞噬暗影",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，每有一种不同的充能球获得[blue]3[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "COOLANT",
+    "image_url": "/static/images/powers/coolant_power.png",
+    "name": "冷却剂",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "COORDINATE",
+    "image_url": "/static/images/powers/coordinate_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你在本回合每抽到一张牌，就给予所有敌人[blue]2[/blue]点[gold]中毒[/gold]。",
+    "description_raw": null,
+    "id": "CORROSIVE_WAVE",
+    "image_url": "/static/images/powers/corrosive_wave_power.png",
+    "name": "腐蚀波",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "所有技能牌耗能变为[blue]0[/blue]。\n所有技能牌在打出时被[gold]消耗[/gold]。",
+    "description_raw": null,
+    "id": "CORRUPTION",
+    "image_url": "/static/images/powers/corruption_power.png",
+    "name": "腐化",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，给予随机敌人[blue]6[/blue]层[gold]灾厄[/gold]。",
+    "description_raw": null,
+    "id": "COUNTDOWN",
+    "image_url": "/static/images/powers/countdown_power.png",
+    "name": "倒数计时",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "有盟友在掩护你。所有朝向你的攻击会被改为瞄准对方。",
+    "description_raw": null,
+    "id": "COVERED",
+    "image_url": "/static/images/powers/covered_power.png",
+    "name": "掩护",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "当有盟友死亡时，[gold]this creature[/gold]获得[blue]5[/blue]点[gold]力量[/gold]和[blue]99[/blue]点[gold]格挡[/gold]。",
+    "description_raw": "当有盟友死亡时，[gold]{OwnerName}[/gold]获得[blue]{StrengthPower}[/blue]点[gold]力量[/gold]和[blue]{Block}[/blue]点[gold]格挡[/gold]。",
+    "id": "CRAB_RAGE",
+    "image_url": "/static/images/powers/crab_rage_power.png",
+    "name": "蟹之怒",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，将一张随机能力牌添加到你的[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "CREATIVE_AI",
+    "image_url": "/static/images/powers/creative_ai_power.png",
+    "name": "创造性AI",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，失去[blue]0[/blue]点生命并获得[blue][Amount][/blue]点[gold]格挡[/gold]。",
+    "description_raw": "在你的回合开始时，失去[blue]{SelfDamage}[/blue]点生命并获得[blue]{Amount}[/blue]点[gold]格挡[/gold]。",
+    "id": "CRIMSON_MANTLE",
+    "image_url": "/static/images/powers/crimson_mantle_power.png",
+    "name": "绯红披风",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "以上敌人受到额外伤害。",
+    "description_raw": null,
+    "id": "CRUELTY",
+    "image_url": "/static/images/powers/cruelty_power.png",
+    "name": "残酷",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前失去[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "CRUSH_UNDER",
+    "image_url": "/static/images/powers/crush_under_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "能力牌的耗能减少[blue]1[/blue][energy:1]。",
+    "description_raw": "能力牌的耗能减少[blue]1[/blue]{energyPrefix:energyIcons(1)}。",
+    "id": "CURIOUS",
+    "image_url": "/static/images/powers/curious_power.png",
+    "name": "好奇",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "受到伤害时，蜷起身子并获得格挡。（每场战斗一次）",
+    "description_raw": null,
+    "id": "CURL_UP",
+    "image_url": "/static/images/powers/curl_up_power.png",
+    "name": "蜷身",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "魔法骑士存活时，你的所有卡牌被[gold]降级[/gold]。",
+    "description_raw": null,
+    "id": "DAMPEN",
+    "image_url": "/static/images/powers/dampen_power.png",
+    "name": "抑制",
+    "stack_type": "None",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你打出一张耗能为[energy:2]或更高的牌时，获得[blue][Amount][/blue]点[gold]格挡[/gold]。",
+    "description_raw": "每当你打出一张耗能为{Energy:energyIcons()}或更高的牌时，获得[blue]{Amount}[/blue]点[gold]格挡[/gold]。",
+    "id": "DANSE_MACABRE",
+    "image_url": "/static/images/powers/danse_macabre_power.png",
+    "name": "死亡之舞",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当有一张牌被[gold]消耗[/gold]时，抽[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "DARK_EMBRACE",
+    "image_url": "/static/images/powers/dark_embrace_power.png",
+    "name": "黑暗之拥",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前失去[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "DARK_SHACKLES",
+    "image_url": "/static/images/powers/dark_shackles_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[blue]2[/blue]回合内，[gold]易伤[/gold]和[gold]虚弱[/gold]的效果变为两倍。",
+    "description_raw": null,
+    "id": "DEBILITATE",
+    "image_url": "/static/images/powers/debilitate_power.png",
+    "name": "摧残",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，获得[blue]1[/blue]点[gold]能量[/gold]并额外抽[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "DEMESNE",
+    "image_url": "/static/images/powers/demesne_power.png",
+    "name": "领域",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold]的回合结束时，[gold]this creature[/gold]失去[blue][Amount][/blue]点生命。",
+    "description_raw": "[gold]{OwnerName}[/gold]的回合结束时，[gold]{OwnerName}[/gold]失去[blue]{Amount}[/blue]点生命。",
+    "id": "DEMISE",
+    "image_url": "/static/images/powers/demise_power.png",
+    "name": "消亡",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，获得[blue]2[/blue]点[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "DEMON_FORM",
+    "image_url": "/static/images/powers/demon_form_power.png",
+    "name": "恶魔形态",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你打出一张[gold]灵魂[/gold]时，[gold]召唤[/gold][blue]1[/blue]。",
+    "description_raw": null,
+    "id": "DEVOUR_LIFE",
+    "image_url": "/static/images/powers/devour_life_power.png",
+    "name": "吞噬生命",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": true,
+    "description": "敏捷会增加从卡牌中获得的[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "DEXTERITY",
+    "image_url": "/static/images/powers/dexterity_power.png",
+    "name": "敏捷",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "敌人在本回合造成的伤害减少[blue]50%[/blue]。",
+    "description_raw": null,
+    "id": "DIAMOND_DIADEM",
+    "image_url": "/static/images/powers/diamond_diadem_power.png",
+    "name": "钻石头冠",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]奥斯提[/gold]会吸收所有未被格挡的攻击伤害。",
+    "description_raw": null,
+    "id": "DIE_FOR_YOU",
+    "image_url": "/static/images/powers/die_for_you_power.png",
+    "name": "为你而死",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合结束时，受到[blue]5[/blue]点伤害。",
+    "description_raw": null,
+    "id": "DISINTEGRATION",
+    "image_url": "/static/images/powers/disintegration_power.png",
+    "name": "瓦解",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在敌人的回合结束时，如果[gold]this creature[/gold]的生命值不高于[blue][Amount][/blue]，则[gold]this creature[/gold]立即死亡。",
+    "description_raw": "在{OnPlayer:玩家|敌人}的回合结束时，如果[gold]{OwnerName}[/gold]的生命值不高于[blue]{Amount}[/blue]，则[gold]{OwnerName}[/gold]立即死亡。",
+    "id": "DOOM",
+    "image_url": "/static/images/powers/doom_power.png",
+    "name": "灾厄",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "门扉复活机制的内置能力。",
+    "description_raw": null,
+    "id": "DOOR_REVIVAL",
+    "image_url": null,
+    "name": "门扉复活",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，攻击造成双倍伤害。",
+    "description_raw": null,
+    "id": "DOUBLE_DAMAGE",
+    "image_url": "/static/images/powers/double_damage_power.png",
+    "name": "双倍伤害",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的下回合开始时，额外抽[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "DRAW_CARDS_NEXT_TURN",
+    "image_url": "/static/images/powers/draw_cards_next_turn_power.png",
+    "name": "下回合抽牌",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，[gold]消耗[/gold]你[gold]抽牌堆[/gold]顶部的[blue][Amount][/blue]张牌。",
+    "description_raw": "在你的回合开始时，[gold]消耗[/gold]你[gold]抽牌堆[/gold]顶部的[blue]{Amount}[/blue]张牌。",
+    "id": "DRUM_OF_BATTLE",
+    "image_url": "/static/images/powers/drum_of_battle_power.png",
+    "name": "战鼓",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你下一张打出的牌会多打出一次。",
+    "description_raw": null,
+    "id": "DUPLICATION",
+    "image_url": "/static/images/powers/duplication_power.png",
+    "name": "复制",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前失去[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "DYING_STAR",
+    "image_url": "/static/images/powers/dying_star_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每回合打出的第一张牌会多打出一次。",
+    "description_raw": null,
+    "id": "ECHO_FORM",
+    "image_url": "/static/images/powers/echo_form_power.png",
+    "name": "回响形态",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在下回合额外获得[gold]能量[/gold]。",
+    "description_raw": null,
+    "id": "ENERGY_NEXT_TURN",
+    "image_url": "/static/images/powers/energy_next_turn_power.png",
+    "name": "下回合能量",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前失去[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "ENFEEBLING_TOUCH",
+    "image_url": "/static/images/powers/enfeebling_touch_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你打出一张技能牌时，获得[blue]2[/blue]点[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "ENRAGE",
+    "image_url": "/static/images/powers/enrage_power.png",
+    "name": "激怒",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，[gold]变化[/gold]你[gold]手牌[/gold]中的[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "ENTROPY",
+    "image_url": "/static/images/powers/entropy_power.png",
+    "name": "熵",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你造成未被格挡的伤害时，给予[blue]1[/blue]层[gold]中毒[/gold]。",
+    "description_raw": null,
+    "id": "ENVENOM",
+    "image_url": "/static/images/powers/envenom_power.png",
+    "name": "涂毒",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在4回合后离开战斗。",
+    "description_raw": null,
+    "id": "ESCAPE_ARTIST",
+    "image_url": "/static/images/powers/escape_artist_power.png",
+    "name": "逃脱大师",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]小刀[/gold]会命中所有敌人。",
+    "description_raw": null,
+    "id": "FAN_OF_KNIVES",
+    "image_url": "/static/images/powers/fan_of_knives_power.png",
+    "name": "刀扇",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "从“防御”牌中额外获得[blue]4[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "FASTEN",
+    "image_url": "/static/images/powers/fasten_power.png",
+    "name": "勒紧",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "FEEDING_FRENZY",
+    "image_url": "/static/images/powers/feeding_frenzy_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当有一张牌被消耗时，获得[blue]3[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "FEEL_NO_PAIN",
+    "image_url": "/static/images/powers/feel_no_pain_power.png",
+    "name": "无惧疼痛",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合你第一次打出0[energy:1]攻击牌时，将其放回你的[gold]手牌[/gold]中。",
+    "description_raw": "每回合你第一次打出0{energyPrefix:energyIcons(1)}攻击牌时，将其放回你的[gold]手牌[/gold]中。",
+    "id": "FERAL",
+    "image_url": "/static/images/powers/feral_power.png",
+    "name": "野性",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合你每次受到攻击时，反击造成[blue]4[/blue]点伤害。",
+    "description_raw": null,
+    "id": "FLAME_BARRIER",
+    "image_url": "/static/images/powers/flame_barrier_power.png",
+    "name": "火焰屏障",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "其他盟友在本回合对这名敌人造成[blue]2倍[/blue]伤害。",
+    "description_raw": null,
+    "id": "FLANKING",
+    "image_url": "/static/images/powers/flanking_power.png",
+    "name": "夹击",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "FLEX_POTION",
+    "image_url": "/static/images/powers/flex_potion_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "从攻击牌中受到的伤害减少[gold]50%[/gold]。对其造成[blue][Amount][/blue]次攻击伤害可以将其[gold]击晕[/gold]。",
+    "description_raw": "从攻击牌中受到的伤害减少[gold]{DamageDecrease}%[/gold]。对其造成[blue]{Amount}[/blue]次攻击伤害可以将其[gold]击晕[/gold]。",
+    "id": "FLUTTER",
+    "image_url": "/static/images/powers/flutter_power.png",
+    "name": "振翅",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": true,
+    "description": "提升充能球的效力。",
+    "description_raw": null,
+    "id": "FOCUS",
+    "image_url": "/static/images/powers/focus_power.png",
+    "name": "集中",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]集中[/gold]。",
+    "description_raw": null,
+    "id": "FOCUSED_STRIKE",
+    "image_url": "/static/images/powers/focused_strike_power.png",
+    "name": "Temporary Focus",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在战斗结束时，从你的[gold]牌组[/gold]中移除一张牌。",
+    "description_raw": null,
+    "id": "FORBIDDEN_GRIMOIRE",
+    "image_url": "/static/images/powers/forbidden_grimoire_power.png",
+    "name": "禁忌魔典",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "下回合，将你[gold]抽牌堆[/gold]中的[blue]3[/blue]张牌放入你的[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "FOREGONE_CONCLUSION",
+    "image_url": "/static/images/powers/foregone_conclusion_power.png",
+    "name": "既定事项",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "脆弱时，从卡牌中获得的[gold]格挡[/gold]值减少[blue]25%[/blue]。",
+    "description_raw": null,
+    "id": "FRAIL",
+    "image_url": "/static/images/powers/frail_power.png",
+    "name": "脆弱",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你的下一张攻击牌耗能为[blue]0[/blue][energy:1]。",
+    "description_raw": "你的下一张攻击牌耗能为[blue]0[/blue]{energyPrefix:energyIcons(1)}。",
+    "id": "FREE_ATTACK",
+    "image_url": "/static/images/powers/free_attack_power.png",
+    "name": "免费攻击",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你的下一张能力牌耗能为[blue]0[/blue] [energy:1]。",
+    "description_raw": "你的下一张能力牌耗能为[blue]0[/blue] {energyPrefix:energyIcons(1)}。",
+    "id": "FREE_POWER",
+    "image_url": "/static/images/powers/free_power_power.png",
+    "name": "免费能力",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你的下一张技能牌耗能为[blue]0[/blue][energy:1]。",
+    "description_raw": "你的下一张技能牌耗能为[blue]0[/blue]{energyPrefix:energyIcons(1)}。",
+    "id": "FREE_SKILL",
+    "image_url": "/static/images/powers/free_skill_power.png",
+    "name": "免费技能",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合开始时获得[blue]1[/blue]点[gold]能量[/gold]。",
+    "description_raw": null,
+    "id": "FRIENDSHIP",
+    "image_url": "/static/images/powers/friendship_power.png",
+    "name": "友谊",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，[gold]铸造[/gold][blue]5[/blue]。",
+    "description_raw": null,
+    "id": "FURNACE",
+    "image_url": "/static/images/powers/furnace_power.png",
+    "name": "熔炉",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "能力牌被侵蚀为[gold]流电[/gold]。",
+    "description_raw": null,
+    "id": "GALVANIC",
+    "image_url": "/static/images/powers/galvanic_power.png",
+    "name": "流电",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，获得[star:1]。",
+    "description_raw": "在你的回合开始时，获得{singleStarIcon}。",
+    "id": "GENESIS",
+    "image_url": "/static/images/powers/genesis_power.png",
+    "name": "创世纪",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你打出的下一张攻击牌造成三倍伤害。",
+    "description_raw": null,
+    "id": "GIGANTIFICATION",
+    "image_url": "/static/images/powers/gigantification_power.png",
+    "name": "超巨化",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，每当你获得[gold]格挡[/gold]时，对[gold]this creature[/gold]造成[blue][Amount][/blue]点伤害。",
+    "description_raw": "本回合，每当你获得[gold]格挡[/gold]时，对[gold]{OwnerName}[/gold]造成[blue]{Amount}[/blue]点伤害。",
+    "id": "GRAPPLE",
+    "image_url": "/static/images/powers/grapple_power.png",
+    "name": "擒拿",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，你每打出一张牌，对所有敌人造成[blue]2[/blue]点伤害。",
+    "description_raw": null,
+    "id": "GRAVITY",
+    "image_url": "/static/images/powers/gravity_power.png",
+    "name": "引力",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "从敌人处受到的伤害减半。",
+    "description_raw": null,
+    "id": "GUARDED",
+    "image_url": "/static/images/powers/guarded_power.png",
+    "name": "护卫",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合结束时，如果你有[gold]冰霜[/gold]充能球，则对所有敌人造成[blue]6[/blue]点伤害。",
+    "description_raw": null,
+    "id": "HAILSTORM",
+    "image_url": "/static/images/powers/hailstorm_power.png",
+    "name": "冰雹风暴",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你[gold]铸造[/gold]时，所有盟友也[gold]铸造[/gold]相同数值。",
+    "description_raw": null,
+    "id": "HAMMER_TIME",
+    "image_url": "/static/images/powers/hammer_time_power.png",
+    "name": "锤子时间",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "所有[gold]吊杀[/gold]牌对这名敌人造成[blue]2[/blue]倍伤害。",
+    "description_raw": null,
+    "id": "HANG",
+    "image_url": "/static/images/powers/hang_power.png",
+    "name": "吊杀",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold]受到的所有伤害和生命减少效果不会超过[blue]9[/blue]点。",
+    "description_raw": "[gold]{OwnerName}[/gold]受到的所有伤害和生命减少效果不会超过[blue]9[/blue]点。",
+    "id": "HARD_TO_KILL",
+    "image_url": "/static/images/powers/hard_to_kill_power.png",
+    "name": "难以杀灭",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold]每回合失去的生命值不会超过[blue][Amount][/blue]点。",
+    "description_raw": "[gold]{OwnerName}[/gold]每回合失去的生命值不会超过[blue]{Amount}[/blue]点。",
+    "id": "HARDENED_SHELL",
+    "image_url": "/static/images/powers/hardened_shell_power.png",
+    "name": "硬化外壳",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "X回合后孵化。",
+    "description_raw": null,
+    "id": "HATCH",
+    "image_url": "/static/images/powers/hatch_power.png",
+    "name": "孵化",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你打出一张[gold]灵魂[/gold]时，一个随机敌人失去[blue]3[/blue]点生命。",
+    "description_raw": null,
+    "id": "HAUNT",
+    "image_url": "/static/images/powers/haunt_power.png",
+    "name": "纠缠",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "被击杀时，返还所有偷走的[gold]金币[/gold]。",
+    "description_raw": null,
+    "id": "HEIST",
+    "image_url": "/static/images/powers/heist_power.png",
+    "name": "盗窃",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]敏捷[/gold]。",
+    "description_raw": null,
+    "id": "HELICAL_DART",
+    "image_url": "/static/images/powers/helical_dart_power.png",
+    "name": "Temporary Dexterity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，将[blue]1[/blue]张随机普通牌加入你的[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "HELLO_WORLD",
+    "image_url": "/static/images/powers/hello_world_power.png",
+    "name": "你好世界",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你抽到名字中有“打击”的牌时，对一名随机敌人打出这张牌。",
+    "description_raw": null,
+    "id": "HELLRAISER",
+    "image_url": "/static/images/powers/hellraiser_power.png",
+    "name": "地狱狂徒",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "幽灵骑士存活时，你的所有卡牌都拥有[gold]虚无[/gold]。",
+    "description_raw": null,
+    "id": "HEX",
+    "image_url": "/static/images/powers/hex_power.png",
+    "name": "恶咒",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold]的回合开始时，会获得[blue][Amount][/blue]点[gold]力量[/gold]。",
+    "description_raw": "[gold]{OwnerName}[/gold]的回合开始时，会获得[blue]{Amount}[/blue]点[gold]力量[/gold]。",
+    "id": "HIGH_VOLTAGE",
+    "image_url": "/static/images/powers/high_voltage_power.png",
+    "name": "高电压",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]集中[/gold]。",
+    "description_raw": null,
+    "id": "HOTFIX",
+    "image_url": "/static/images/powers/hotfix_power.png",
+    "name": "Temporary Focus",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "死亡时，下回合会以完整生命值复活。",
+    "description_raw": null,
+    "id": "ILLUSION",
+    "image_url": "/static/images/powers/illusion_power.png",
+    "name": "幻象",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "如果[gold]this creature[/gold]的攻击被完全格挡，则它将被[gold]击晕[/gold]。",
+    "description_raw": "如果[gold]{OwnerName}[/gold]的攻击被{IsMultiplayer:任意玩家|}完全格挡，则它将被[gold]击晕[/gold]。",
+    "id": "IMBALANCED",
+    "image_url": "/static/images/powers/imbalanced_power.png",
+    "name": "失衡",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在战斗结束时，随机[gold]升级[/gold]一张牌。",
+    "description_raw": null,
+    "id": "IMPROVEMENT",
+    "image_url": "/static/images/powers/improvement_power.png",
+    "name": "改善",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，失去[blue]0[/blue]点生命。每当你在自己的回合中失去生命时，对所有敌人造成[blue][Amount][/blue]点伤害。",
+    "description_raw": "在你的回合开始时，失去[blue]{SelfDamage}[/blue]点生命。每当你在自己的回合中失去生命时，对所有敌人造成[blue]{Amount}[/blue]点伤害。",
+    "id": "INFERNO",
+    "image_url": "/static/images/powers/inferno_power.png",
+    "name": "狱火",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "死亡时，召唤……某种东西。",
+    "description_raw": null,
+    "id": "INFESTED",
+    "image_url": "/static/images/powers/infested_power.png",
+    "name": "寄生物",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，在你的[gold]手牌[/gold]中加入一张[gold]小刀[/gold]。",
+    "description_raw": null,
+    "id": "INFINITE_BLADES",
+    "image_url": "/static/images/powers/infinite_blades_power.png",
+    "name": "无尽刀刃",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "将本回合受到的所有伤害和生命减少效果降低为[blue]1[/blue]。",
+    "description_raw": null,
+    "id": "INTANGIBLE",
+    "image_url": "/static/images/powers/intangible_power.png",
+    "name": "无实体",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你正在掩护另一名玩家。本回合所有对其发起的攻击都会转移到你的身上。",
+    "description_raw": null,
+    "id": "INTERCEPT",
+    "image_url": "/static/images/powers/intercept_power.png",
+    "name": "拦截",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合你第一次抽到[gold]状态[/gold]牌时，抽更多牌。",
+    "description_raw": null,
+    "id": "ITERATION",
+    "image_url": "/static/images/powers/iteration_power.png",
+    "name": "迭代",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你获得[gold]格挡[/gold]时，对随机敌人造成[blue]5[/blue]点伤害。",
+    "description_raw": null,
+    "id": "JUGGERNAUT",
+    "image_url": "/static/images/powers/juggernaut_power.png",
+    "name": "势不可当",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "将你在每回合打出的第三张攻击牌的复制品加入你的[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "JUGGLING",
+    "image_url": "/static/images/powers/juggling_power.png",
+    "name": "杂耍",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "该敌人在本回合受到的来自其他玩家的伤害变为[blue][Amount][/blue]倍。",
+    "description_raw": "该敌人在本回合受到的来自其他玩家的伤害变为[blue]{Amount}[/blue]倍。",
+    "id": "KNOCKDOWN",
+    "image_url": "/static/images/powers/knockdown_power.png",
+    "name": "击倒",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "所有其他盟友造成[blue]1[/blue]点额外伤害。",
+    "description_raw": null,
+    "id": "LEADERSHIP",
+    "image_url": "/static/images/powers/leadership_power.png",
+    "name": "领袖气质",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合的第一张攻击牌会造成50%额外伤害。",
+    "description_raw": null,
+    "id": "LETHALITY",
+    "image_url": "/static/images/powers/lethality_power.png",
+    "name": "致死性",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在下[blue]2[/blue]个回合开始时，[gold]生成[/gold][blue]1[/blue]个[gold]闪电[/gold]充能球。",
+    "description_raw": null,
+    "id": "LIGHTNING_ROD",
+    "image_url": "/static/images/powers/lightning_rod_power.png",
+    "name": "引雷针",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，触发你最右侧充能球的被动能力。",
+    "description_raw": null,
+    "id": "LOOP",
+    "image_url": "/static/images/powers/loop_power.png",
+    "name": "循环",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，额外抽[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "MACHINE_LEARNING",
+    "image_url": "/static/images/powers/machine_learning_power.png",
+    "name": "机器学习",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合结束时受到[blue]20[/blue]点伤害。如果魔法骑士死亡，消除这一效果。",
+    "description_raw": null,
+    "id": "MAGIC_BOMB",
+    "image_url": "/static/images/powers/magic_bomb_power.png",
+    "name": "魔法炸弹",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前失去[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "MANGLE",
+    "image_url": "/static/images/powers/mangle_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "当你打出技能牌时，该牌获得[gold]奇巧[/gold]。",
+    "description_raw": null,
+    "id": "MASTER_PLANNER",
+    "image_url": "/static/images/powers/master_planner_power.png",
+    "name": "谋划专家",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，打出你[gold]抽牌堆[/gold]顶部的牌。",
+    "description_raw": null,
+    "id": "MAYHEM",
+    "image_url": "/static/images/powers/mayhem_power.png",
+    "name": "乱战",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合少抽[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "MIND_ROT",
+    "image_url": "/static/images/powers/mind_rot_power.png",
+    "name": "心灵腐化",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "爪牙会在他们的领导者死亡时放弃战斗。",
+    "description_raw": null,
+    "id": "MINION",
+    "image_url": "/static/images/powers/minion_power.png",
+    "name": "爪牙",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你攻击敌人时，这名敌人在本回合失去[blue]1[/blue]点[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "MONARCHS_GAZE",
+    "image_url": "/static/images/powers/monarchs_gaze_power.png",
+    "name": "王之凝视",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前失去[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "MONARCHS_GAZE_STRENGTH_DOWN",
+    "image_url": "/static/images/powers/monarchs_gaze_strength_down_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你在本回合打出卡牌时，在本回合获得[blue]1[/blue]点[gold]力量[/gold]。\n当前已经获得[blue]0[/blue]点[gold]力量[/gold]。",
+    "description_raw": "每当你在本回合打出卡牌时，在本回合获得[blue]{StrengthPower}[/blue]点[gold]力量[/gold]。\n当前已经获得[blue]{StrengthApplied}[/blue]点[gold]力量[/gold]。",
+    "id": "MONOLOGUE",
+    "image_url": "/static/images/powers/monologue_power.png",
+    "name": "独白",
+    "stack_type": "None",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当[gold]奥斯提[/gold]失去生命值时，所有敌人失去等量生命值。",
+    "description_raw": null,
+    "id": "NECRO_MASTERY",
+    "image_url": "/static/images/powers/necro_mastery_power.png",
+    "name": "亡灵精通",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每两个回合结束时，获得[blue]1[/blue]层[gold]无实体[/gold]。",
+    "description_raw": null,
+    "id": "NEMESIS",
+    "image_url": "/static/images/powers/nemesis_power.png",
+    "name": "天罚",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，给予自身[blue]3[/blue]层[gold]灾厄[/gold]。",
+    "description_raw": null,
+    "id": "NEUROSURGE",
+    "image_url": "/static/images/powers/neurosurge_power.png",
+    "name": "精神过载",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在下个回合，将所选牌的[blue]3[/blue]张复制品加入你的[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "NIGHTMARE",
+    "image_url": "/static/images/powers/nightmare_power.png",
+    "name": "夜魇",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你无法从卡牌中获得[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "NO_BLOCK",
+    "image_url": "/static/images/powers/no_block_power.png",
+    "name": "不可格挡",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你在本回合无法再抽更多牌。",
+    "description_raw": null,
+    "id": "NO_DRAW",
+    "image_url": "/static/images/powers/no_draw_power.png",
+    "name": "不可抽牌",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合被打出第一张攻击或技能牌，将其放置于你的[gold]抽牌堆[/gold]顶端。",
+    "description_raw": null,
+    "id": "NOSTALGIA",
+    "image_url": "/static/images/powers/nostalgia_power.png",
+    "name": "怀旧",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，给予所有敌人[blue]2[/blue]层[gold]中毒[/gold]。",
+    "description_raw": null,
+    "id": "NOXIOUS_FUMES",
+    "image_url": "/static/images/powers/noxious_fumes_power.png",
+    "name": "毒雾",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你在本回合内每打出一张牌，就给予该敌人[blue]1[/blue]层[gold]灾厄[/gold]。",
+    "description_raw": null,
+    "id": "OBLIVION",
+    "image_url": "/static/images/powers/oblivion_power.png",
+    "name": "湮灭",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，你的下一张攻击牌会多打出一次。",
+    "description_raw": null,
+    "id": "ONE_TWO_PUNCH",
+    "image_url": "/static/images/powers/one_two_punch_power.png",
+    "name": "连环拳",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每花费[energy:4]，获得[energy:1]。",
+    "description_raw": "你每花费{Energy:energyIcons()}，获得{Amount:energyIcons()}。",
+    "id": "ORBIT",
+    "image_url": "/static/images/powers/orbit_power.png",
+    "name": "环绕轨道",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每给予[gold]中毒[/gold][blue]3[/blue]次时，对所有敌人造成[blue][Amount][/blue]点伤害。",
+    "description_raw": "你每给予[gold]中毒[/gold][blue]{Repeat}[/blue]次时，对所有敌人造成[blue]{Amount}[/blue]点伤害。",
+    "id": "OUTBREAK",
+    "image_url": "/static/images/powers/outbreak_power.png",
+    "name": "毒性爆发",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你抽到一张[gold]虚无[/gold]牌时，抽[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "PAGESTORM",
+    "image_url": "/static/images/powers/pagestorm_power.png",
+    "name": "书页风暴",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每次你受到未被格挡的伤害时，将[blue]1[/blue]张[gold]伤口[/gold]洗入你的[gold]弃牌堆[/gold]。",
+    "description_raw": null,
+    "id": "PAINFUL_STABS",
+    "image_url": "/static/images/powers/painful_stabs_power.png",
+    "name": "疼痛戳刺",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "如果你在一回合内打出至少[blue]5[/blue]张牌，则在你的下一回合开始时额外抽[blue][Amount][/blue]张牌。",
+    "description_raw": "如果你在一回合内打出至少[blue]{CardPlay}[/blue]张牌，则在你的下一回合开始时额外抽[blue]{Amount}[/blue]张牌。",
+    "id": "PALE_BLUE_DOT",
+    "image_url": "/static/images/powers/pale_blue_dot_power.png",
+    "name": "暗淡蓝点",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "如果你在本回合再打出[blue]5[/blue]张牌，就对所有敌人造成[blue][Amount][/blue]点伤害。",
+    "description_raw": "如果你在本回合再打出[blue]{CardsLeft}[/blue]张牌，就对所有敌人造成[blue]{Amount}[/blue]点伤害。",
+    "id": "PANACHE",
+    "image_url": "/static/images/powers/panache_power.png",
+    "name": "神气制胜",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当[gold]this creature[/gold]对你造成未被格挡的伤害时，你失去[blue][Amount][/blue]点[gold]最大生命[/gold]。",
+    "description_raw": "每当[gold]{OwnerName}[/gold]对你造成未被格挡的伤害时，你失去[blue]{Amount}[/blue]点[gold]最大生命[/gold]。",
+    "id": "PAPER_CUTS",
+    "image_url": "/static/images/powers/paper_cuts_power.png",
+    "name": "纸伤难愈",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你打出[gold]君王之剑[/gold]时，获得[blue]8[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "PARRY",
+    "image_url": "/static/images/powers/parry_power.png",
+    "name": "招架",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当这个敌人被攻击命中时，在你的[gold]抽牌堆[/gold]中加入[gold]晕眩[/gold]。",
+    "description_raw": null,
+    "id": "PERSONAL_HIVE",
+    "image_url": "/static/images/powers/personal_hive_power.png",
+    "name": "人体蜂房",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]小刀[/gold]获得[gold]保留[/gold]。\n你每回合打出的第一张[gold]小刀[/gold]伤害增加[blue]9[/blue]。",
+    "description_raw": null,
+    "id": "PHANTOM_BLADES",
+    "image_url": "/static/images/powers/phantom_blades_power.png",
+    "name": "幻影之刃",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前失去[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "PIERCING_WAIL",
+    "image_url": "/static/images/powers/piercing_wail_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你创造一张牌时，获得[blue]5[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "PILLAR_OF_CREATION",
+    "image_url": "/static/images/powers/pillar_of_creation_power.png",
+    "name": "创世之柱",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合结束时获得[blue][Amount][/blue]点[gold]格挡[/gold]。[gold]覆甲[/gold]会在你的回合开始时减少[blue]1[/blue]层。",
+    "description_raw": "在你的回合结束时获得[blue]{Amount}[/blue]点[gold]格挡[/gold]。[gold]覆甲[/gold]会在你的回合开始时减少[blue]{Decrement}[/blue]层。",
+    "id": "PLATING",
+    "image_url": "/static/images/powers/plating_power.png",
+    "name": "覆甲",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold]的生命值第一次下降到[blue][Amount][/blue]或更低时，将其[gold]击晕[/gold]并使其失去所有[gold]力量[/gold]。",
+    "description_raw": "[gold]{OwnerName}[/gold]的生命值第一次下降到[blue]{Amount}[/blue]或更低时，将其[gold]击晕[/gold]并使其失去所有[gold]力量[/gold]。",
+    "id": "PLOW",
+    "image_url": "/static/images/powers/plow_power.png",
+    "name": "横冲直撞",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "中毒的生物会在自身回合开始时失去生命。中毒层数每回合减少[blue]1[/blue]。",
+    "description_raw": null,
+    "id": "POISON",
+    "image_url": "/static/images/powers/poison_power.png",
+    "name": "中毒",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "被击杀时，将偷窃的所有[gold]敏捷[/gold]返还给玩家。",
+    "description_raw": null,
+    "id": "POSSESS_SPEED",
+    "image_url": "/static/images/powers/possess_speed_power.png",
+    "name": "抢夺速度",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "被击杀时，将偷窃的所有[gold]力量[/gold]返还给玩家。",
+    "description_raw": null,
+    "id": "POSSESS_STRENGTH",
+    "image_url": "/static/images/powers/possess_strength_power.png",
+    "name": "抢夺力量",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，获得[blue]4[/blue]点[gold]活力[/gold]。",
+    "description_raw": null,
+    "id": "PREP_TIME",
+    "image_url": "/static/images/powers/prep_time_power.png",
+    "name": "准备时间",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在每回合开始时获得[blue]1[/blue]点[gold]能量[/gold]。",
+    "description_raw": null,
+    "id": "PYRE",
+    "image_url": "/static/images/powers/pyre_power.png",
+    "name": "薪火之源",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在下[blue][Amount][/blue]个回合额外获得[energy:1]。",
+    "description_raw": "在下[blue]{Amount}[/blue]个回合额外获得{Energy:energyIcons()}。",
+    "id": "RADIANCE",
+    "image_url": "/static/images/powers/radiance_power.png",
+    "name": "明耀",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，你每打出一张攻击牌就获得[blue]3[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "RAGE",
+    "image_url": "/static/images/powers/rage_power.png",
+    "name": "狂怒",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在玩家回合开始时，高塔炮手获得[blue]25[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "RAMPART",
+    "image_url": "/static/images/powers/rampart_power.png",
+    "name": "盾墙",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "当有敌人死亡时，噬尸蛞蝓会立即吃下尸体，在本回合被[gold]击晕[/gold]然后获得[blue]1[/blue]点[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "RAVENOUS",
+    "image_url": "/static/images/powers/ravenous_power.png",
+    "name": "饥饿",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你的攻击造成伤害时，同时给予等量的[gold]灾厄[/gold]。",
+    "description_raw": null,
+    "id": "REAPER_FORM",
+    "image_url": "/static/images/powers/reaper_form_power.png",
+    "name": "死神形态",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "如果身体还有存活的其他部分，则在[blue]2[/blue]回合后以[blue]25[/blue]点生命复活。",
+    "description_raw": null,
+    "id": "REATTACH",
+    "image_url": "/static/images/powers/reattach_power.png",
+    "name": "接续",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "将你在本回合打出的下一张牌放置到你的[gold]抽牌堆[/gold]顶部。",
+    "description_raw": null,
+    "id": "REBOUND",
+    "image_url": "/static/images/powers/rebound_power.png",
+    "name": "弹回",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "被格挡的伤害会反弹到攻击者身上。",
+    "description_raw": null,
+    "id": "REFLECT",
+    "image_url": "/static/images/powers/reflect_power.png",
+    "name": "倒映",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]再生[/gold]会在你的回合结束时回复相应生命。每回合[gold]再生[/gold]的数值会减少[blue]1[/blue]。",
+    "description_raw": null,
+    "id": "REGEN",
+    "image_url": "/static/images/powers/regen_power.png",
+    "name": "再生",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "REPTILE_TRINKET",
+    "image_url": "/static/images/powers/reptile_trinket_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在[blue]2[/blue]回合内[gold]保留[/gold]你的[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "RETAIN_HAND",
+    "image_url": "/static/images/powers/retain_hand_power.png",
+    "name": "保留手牌",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合你只能打出[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "RINGING",
+    "image_url": "/static/images/powers/ringing_power.png",
+    "name": "昏眩",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合结束时获得[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "RITUAL",
+    "image_url": "/static/images/powers/ritual_power.png",
+    "name": "仪式",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，对所有敌人造成[blue][Amount][/blue]点伤害，然后将此伤害增加[blue]5[/blue]。",
+    "description_raw": "在你的回合开始时，对所有敌人造成[blue]{Amount}[/blue]点伤害，然后将此伤害增加[blue]{Damage}[/blue]。",
+    "id": "ROLLING_BOULDER",
+    "image_url": "/static/images/powers/rolling_boulder_power.png",
+    "name": "滚石",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在战斗结束时，获得[blue]25[/blue][gold]金币[/gold]。",
+    "description_raw": null,
+    "id": "ROYALTIES",
+    "image_url": "/static/images/powers/royalties_power.png",
+    "name": "王国资产",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你在自身回合失去生命时，获得[blue]1[/blue]点[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "RUPTURE",
+    "image_url": "/static/images/powers/rupture_power.png",
+    "name": "撕裂",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "无厌沙虫的能力。",
+    "description_raw": null,
+    "id": "SANDPIT",
+    "image_url": "/static/images/powers/sandpit_power.png",
+    "name": "沙坑",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]君王之剑[/gold]现在会对所有敌人造成伤害。",
+    "description_raw": null,
+    "id": "SEEKING_EDGE",
+    "image_url": "/static/images/powers/seeking_edge_power.png",
+    "name": "追踪之刃",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在下回合获得[blue]3[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "SELF_FORMING_CLAY",
+    "image_url": "/static/images/powers/self_forming_clay_power.png",
+    "name": "自成型黏土",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，将[blue]1[/blue]张[gold]扫荡凝视[/gold]加入你的[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "SENTRY_MODE",
+    "image_url": "/static/images/powers/sentry_mode_power.png",
+    "name": "哨卫模式",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每打出一张牌，就对随机一名敌人造成[blue]4[/blue]点伤害。",
+    "description_raw": null,
+    "id": "SERPENT_FORM",
+    "image_url": "/static/images/powers/serpent_form_power.png",
+    "name": "群蛇形态",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "SETUP_STRIKE",
+    "image_url": "/static/images/powers/setup_strike_power.png",
+    "name": "Temporary Strength",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前失去[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "SHACKLING_POTION",
+    "image_url": "/static/images/powers/shackling_potion_power.png",
+    "name": "Temporary Strength Down",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在下个回合，攻击造成双倍伤害。",
+    "description_raw": null,
+    "id": "SHADOW_STEP",
+    "image_url": "/static/images/powers/shadow_step_power.png",
+    "name": "暗影步",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合你获得的[gold]格挡[/gold]值翻倍。",
+    "description_raw": null,
+    "id": "SHADOWMELD",
+    "image_url": "/static/images/powers/shadowmeld_power.png",
+    "name": "融入暗影",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": true,
+    "description": "[gold]this creature[/gold]的生命值第一次降到[blue][Amount][/blue]或以下时，会被[gold]击晕[/gold]。",
+    "description_raw": "[gold]{OwnerName}[/gold]的生命值第一次降到[blue]{Amount}[/blue]或以下时，会被[gold]击晕[/gold]。",
+    "id": "SHRIEK",
+    "image_url": "/static/images/powers/shriek_power.png",
+    "name": "尖叫",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": true,
+    "description": "[gold]this creature的[/gold]攻击伤害减少[blue]30%[/blue]。",
+    "description_raw": "{ApplierName.StringValue:cond:{}存活时，你的|[gold]{OwnerName}的[/gold]}攻击伤害{Amount:cond:==1?在本回合内|>1?在[blue]{}[/blue]回合内|}减少[blue]{DamageDecrease}%[/blue]。",
+    "id": "SHRINK",
+    "image_url": "/static/images/powers/shrink_power.png",
+    "name": "缩小",
+    "stack_type": "None",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每次给予[gold]灾厄[/gold]时，获得[blue]3[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "SHROUD",
+    "image_url": "/static/images/powers/shroud_power.png",
+    "name": "厄运之衣",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，每当[gold]奥斯提[/gold]命中这个敌人时，[gold]召唤[/gold][blue]3[/blue]。",
+    "description_raw": null,
+    "id": "SIC_EM",
+    "image_url": "/static/images/powers/sic_em_power.png",
+    "name": "紧追不放",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你的下一张能力牌会额外打出一次。",
+    "description_raw": null,
+    "id": "SIGNAL_BOOST",
+    "image_url": "/static/images/powers/signal_boost_power.png",
+    "name": "信号增强",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold]每回合第一次被命中时，获得[blue][Amount][/blue]点[gold]格挡[/gold]。",
+    "description_raw": "[gold]{OwnerName}[/gold]每回合第一次被命中时，获得[blue]{Amount}[/blue]点[gold]格挡[/gold]。",
+    "id": "SKITTISH",
+    "image_url": "/static/images/powers/skittish_power.png",
+    "name": "胆小",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你给予一个敌人负面状态时，使其受到[blue]13[/blue]点伤害。",
+    "description_raw": null,
+    "id": "SLEIGHT_OF_FLESH",
+    "image_url": "/static/images/powers/sleight_of_flesh_power.png",
+    "name": "血肉戏法",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold]下[blue][Amount][/blue]次要失去生命值时，只会失去[blue]1[/blue]点生命。",
+    "description_raw": "[gold]{OwnerName}[/gold]下[blue]{Amount}[/blue]次要失去生命值时，只会失去[blue]1[/blue]点生命。",
+    "id": "SLIPPERY",
+    "image_url": "/static/images/powers/slippery_power.png",
+    "name": "滑溜",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你在每个回合不能打出超过[blue]3[/blue]张牌。",
+    "description_raw": null,
+    "id": "SLOTH",
+    "image_url": "/static/images/powers/sloth_power.png",
+    "name": "懒惰",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你在本回合内每打出一张牌，该敌人本回合从攻击牌中受到的伤害增加[blue]10%[/blue]。",
+    "description_raw": null,
+    "id": "SLOW",
+    "image_url": "/static/images/powers/slow_power.png",
+    "name": "缓慢",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在一定回合经过后或失去生命3次后苏醒。",
+    "description_raw": null,
+    "id": "SLUMBER",
+    "image_url": "/static/images/powers/slumber_power.png",
+    "name": "熟睡",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合你只能打出[blue]1[/blue]张技能牌。",
+    "description_raw": null,
+    "id": "SMOGGY",
+    "image_url": "/static/images/powers/smoggy_power.png",
+    "name": "烟雾弥漫",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你生成一张状态牌时，对所有敌人造成伤害。",
+    "description_raw": null,
+    "id": "SMOKESTACK",
+    "image_url": "/static/images/powers/smokestack_power.png",
+    "name": "烟囱",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当另一名玩家攻击敌人时，获得[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "SNEAKY",
+    "image_url": "/static/images/powers/sneaky_power.png",
+    "name": "鬼祟",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在落地之前受到的伤害减少[blue]50%[/blue]。",
+    "description_raw": "在落地之前受到的伤害减少[blue]{DamageDecrease}%[/blue]。",
+    "id": "SOAR",
+    "image_url": "/static/images/powers/soar_power.png",
+    "name": "翱翔",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，将[blue]1[/blue]张随机无色牌添加到你的[gold]手牌[/gold]中。",
+    "description_raw": null,
+    "id": "SPECTRUM_SHIFT",
+    "image_url": "/static/images/powers/spectrum_shift_power.png",
+    "name": "光谱偏移",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]敏捷[/gold]。",
+    "description_raw": null,
+    "id": "SPEED_POTION",
+    "image_url": "/static/images/powers/speed_potion_power.png",
+    "name": "Temporary Dexterity",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你在回合中抽到一张牌时，对所有敌人造成[blue]1[/blue]点伤害。",
+    "description_raw": null,
+    "id": "SPEEDSTER",
+    "image_url": "/static/images/powers/speedster_power.png",
+    "name": "速行者",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，[gold]生成[/gold][blue]1[/blue]个[gold]玻璃充能球[/gold]。",
+    "description_raw": null,
+    "id": "SPINNER",
+    "image_url": "/static/images/powers/spinner_power.png",
+    "name": "旋转工艺",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你打出一张[gold]虚无[/gold]牌时，获得[blue]4[/blue]点[gold]格挡[/gold]。",
+    "description_raw": null,
+    "id": "SPIRIT_OF_ASH",
+    "image_url": "/static/images/powers/spirit_of_ash_power.png",
+    "name": "灰烬之灵",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合结束时，随机打出你[gold]手牌[/gold]中的[blue]1[/blue]张攻击牌攻击随机敌人。",
+    "description_raw": null,
+    "id": "STAMPEDE",
+    "image_url": "/static/images/powers/stampede_power.png",
+    "name": "惊逃",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在下回合获得1[star:1]。",
+    "description_raw": "在下回合获得1{singleStarIcon}。",
+    "id": "STAR_NEXT_TURN",
+    "image_url": "/static/images/powers/star_next_turn_power.png",
+    "name": "下回合辉星",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "被击杀时，在你的下一回合结束时造成伤害。",
+    "description_raw": null,
+    "id": "STEAM_ERUPTION",
+    "image_url": "/static/images/powers/steam_eruption_power.png",
+    "name": "蒸汽喷发",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "被击杀时，召唤一个全新的巨斧机器人。",
+    "description_raw": null,
+    "id": "STOCK",
+    "image_url": "/static/images/powers/stock_power.png",
+    "name": "库存",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每打出一张能力牌，就[gold]生成[/gold][blue]1[/blue]个[gold]闪电充能球[/gold]。",
+    "description_raw": null,
+    "id": "STORM",
+    "image_url": "/static/images/powers/storm_power.png",
+    "name": "雷暴",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，你每次打出牌时，这名敌人失去[blue]2[/blue]点生命。",
+    "description_raw": null,
+    "id": "STRANGLE",
+    "image_url": "/static/images/powers/strangle_power.png",
+    "name": "紧勒",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每次洗牌[gold]抽牌堆[/gold]时，从中选择[blue]1[/blue]张牌放入你的[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "STRATAGEM",
+    "image_url": "/static/images/powers/stratagem_power.png",
+    "name": "计策",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": true,
+    "description": "力量会增加攻击牌造成的伤害。",
+    "description_raw": null,
+    "id": "STRENGTH",
+    "image_url": "/static/images/powers/strength_power.png",
+    "name": "力量",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每次打出能力牌时，都获得[blue]1[/blue][energy:1]。",
+    "description_raw": "你每次打出能力牌时，都获得[blue]1[/blue]{energyPrefix:energyIcons(1)}。",
+    "id": "SUBROUTINE",
+    "image_url": "/static/images/powers/subroutine_power.png",
+    "name": "子程序",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold]每次造成未被格挡的伤害时，都会获得[blue][Amount][/blue]点[gold]力量[/gold]。",
+    "description_raw": "[gold]{OwnerName}[/gold]每次造成未被格挡的伤害时，都会获得[blue]{Amount}[/blue]点[gold]力量[/gold]。",
+    "id": "SUCK",
+    "image_url": "/static/images/powers/suck_power.png",
+    "name": "吮吸",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的下回合开始时，[gold]召唤[/gold][blue]2[/blue]。",
+    "description_raw": null,
+    "id": "SUMMON_NEXT_TURN",
+    "image_url": "/static/images/powers/summon_next_turn_power.png",
+    "name": "下回合召唤",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "这个生物有点不太对劲……",
+    "description_raw": null,
+    "id": "SURPRISE",
+    "image_url": "/static/images/powers/surprise_power.png",
+    "name": "意外",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "被从后方攻击时受到的伤害增加[blue]50%[/blue]。使用有目标的卡牌或药水来改变你的朝向。",
+    "description_raw": null,
+    "id": "SURROUNDED",
+    "image_url": "/static/images/powers/surrounded_power.png",
+    "name": "遭到包围",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "击杀这名敌人时，会取回被偷走的卡牌。",
+    "description_raw": null,
+    "id": "SWIPE",
+    "image_url": "/static/images/powers/swipe_power.png",
+    "name": "顺走",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]君王之剑[/gold]的耗能增加[blue]1[/blue]。[gold]君王之剑[/gold]现在额外命中[blue]1[/blue]次。",
+    "description_raw": null,
+    "id": "SWORD_SAGE",
+    "image_url": "/static/images/powers/sword_sage_power.png",
+    "name": "剑圣",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束前获得[gold]集中[/gold]。",
+    "description_raw": null,
+    "id": "SYNCHRONIZE",
+    "image_url": "/static/images/powers/synchronize_power.png",
+    "name": "Temporary Focus",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "另一名玩家对该敌人的下一张攻击牌会多打出一次。",
+    "description_raw": null,
+    "id": "TAG_TEAM",
+    "image_url": "/static/images/powers/tag_team_power.png",
+    "name": "多人组队",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，攻击牌的[gold]能量[/gold]费用增加[blue]1[/blue]。",
+    "description_raw": null,
+    "id": "TANGLED",
+    "image_url": "/static/images/powers/tangled_power.png",
+    "name": "缠结",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "自身受到敌人伤害加倍。盟友受到敌人伤害减半。",
+    "description_raw": null,
+    "id": "TANK",
+    "image_url": "/static/images/powers/tank_power.png",
+    "name": "肉盾",
+    "stack_type": "Single",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "本回合，你每打出一张牌，就失去[blue]1[/blue]点[gold]力量[/gold]和[blue]1[/blue]点[gold]敏捷[/gold]。",
+    "description_raw": null,
+    "id": "TENDER",
+    "image_url": "/static/images/powers/tender_power.png",
+    "name": "柔嫩",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "自身回合结束时，获得[blue]1[/blue]点[gold]力量[/gold]。",
+    "description_raw": null,
+    "id": "TERRITORIAL",
+    "image_url": "/static/images/powers/territorial_power.png",
+    "name": "领地意识",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在本回合结束时，对所有敌人造成[blue]40[/blue]点伤害。",
+    "description_raw": "在{Amount:choose(1):本回合|第[blue]{}[/blue]回合}结束时，对所有敌人造成[blue]{Damage}[/blue]点伤害。",
+    "id": "THE_BOMB",
+    "image_url": "/static/images/powers/the_bomb_power.png",
+    "name": "炸弹",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "如果你在这场战斗中受到未被格挡的攻击伤害，则立即死亡。",
+    "description_raw": null,
+    "id": "THE_GAMBIT",
+    "image_url": "/static/images/powers/the_gambit_power.png",
+    "name": "孤注一掷",
+    "stack_type": "Single",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在战斗结束时额外获得[blue]1[/blue]份卡牌奖励。",
+    "description_raw": null,
+    "id": "THE_HUNT",
+    "image_url": "/static/images/powers/the_hunt_power.png",
+    "name": "狩猎",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你每打出一张牌，获得[star:1]。",
+    "description_raw": "你每打出一张牌，获得{singleStarIcon}。",
+    "id": "THE_SEALED_THRONE",
+    "image_url": "/static/images/powers/the_sealed_throne_power.png",
+    "name": "封印王座",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "攻击时偷走[gold]金币[/gold]。",
+    "description_raw": null,
+    "id": "THIEVERY",
+    "image_url": "/static/images/powers/thievery_power.png",
+    "name": "偷窃",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "当被攻击命中时，反击造成伤害。",
+    "description_raw": null,
+    "id": "THORNS",
+    "image_url": "/static/images/powers/thorns_power.png",
+    "name": "荆棘",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你[gold]激发闪电充能球[/gold]时，对命中的敌人造成[blue]8[/blue]点伤害。",
+    "description_raw": null,
+    "id": "THUNDER",
+    "image_url": "/static/images/powers/thunder_power.png",
+    "name": "雷霆",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，抽[blue]1[/blue]张牌并丢弃[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "TOOLS_OF_THE_TRADE",
+    "image_url": "/static/images/powers/tools_of_the_trade_power.png",
+    "name": "必备工具",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在下[blue][Amount][/blue]个回合开始时获得[blue]0[/blue]点[gold]格挡[/gold]。",
+    "description_raw": "在下[blue]{Amount}[/blue]个回合开始时获得[blue]{Block:diff()}[/blue]点[gold]格挡[/gold]。",
+    "id": "TORIC_TOUGHNESS",
+    "image_url": "/static/images/powers/toric_toughness_power.png",
+    "name": "坚韧之环",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]虚弱[/gold]的敌人从攻击牌中受到[blue]2[/blue]倍伤害。",
+    "description_raw": null,
+    "id": "TRACKING",
+    "image_url": "/static/images/powers/tracking_power.png",
+    "name": "跟踪",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你生成状态牌的时候，随机[gold]生成[/gold][blue]1[/blue]个充能球。",
+    "description_raw": null,
+    "id": "TRASH_TO_TREASURE",
+    "image_url": "/static/images/powers/trash_to_treasure_power.png",
+    "name": "化废为宝",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，抽一张牌然后[gold]消耗[/gold]你的一张[gold]手牌[/gold]。",
+    "description_raw": null,
+    "id": "TYRANNY",
+    "image_url": "/static/images/powers/tyranny_power.png",
+    "name": "暴政",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每个回合你第一次从卡牌中获得[gold]格挡[/gold]时，将数值翻倍。",
+    "description_raw": null,
+    "id": "UNMOVABLE",
+    "image_url": "/static/images/powers/unmovable_power.png",
+    "name": "不动",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "你打出的下一张[gold]虚无[/gold]牌耗能为[blue]0[/blue]。",
+    "description_raw": null,
+    "id": "VEILPIERCER",
+    "image_url": "/static/images/powers/veilpiercer_power.png",
+    "name": "刺破帷幕",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每当你给予[gold]易伤[/gold], 抽[blue]1[/blue]张牌。",
+    "description_raw": null,
+    "id": "VICIOUS",
+    "image_url": "/static/images/powers/vicious_power.png",
+    "name": "凶恶",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature的[/gold]下一张攻击牌伤害增加造成[blue][Amount][/blue]。",
+    "description_raw": "{OnPlayer:你的|[gold]{OwnerName}的[/gold]}下一张攻击牌伤害增加造成[blue]{Amount}[/blue]。",
+    "id": "VIGOR",
+    "image_url": "/static/images/powers/vigor_power.png",
+    "name": "活力",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "[gold]this creature[/gold]每回合第一次受到攻击伤害时，攻击者获得[energy:1]。",
+    "description_raw": "[gold]{OwnerName}[/gold]每回合第一次受到攻击伤害时，攻击者获得{Energy:energyIcons()}。",
+    "id": "VITAL_SPARK",
+    "image_url": "/static/images/powers/vital_spark_power.png",
+    "name": "活力火花",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合你打出的前[blue]2[/blue]张牌会免费打出。",
+    "description_raw": null,
+    "id": "VOID_FORM",
+    "image_url": "/static/images/powers/void_form_power.png",
+    "name": "虚空形态",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "易伤的生物从攻击中受到的伤害增加[blue]50%[/blue]。",
+    "description_raw": null,
+    "id": "VULNERABLE",
+    "image_url": "/static/images/powers/vulnerable_power.png",
+    "name": "易伤",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "每回合获得的[gold]能量[/gold]减少[blue]1[/blue]点。",
+    "description_raw": null,
+    "id": "WASTE_AWAY",
+    "image_url": "/static/images/powers/waste_away_power.png",
+    "name": "衰朽",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "虚弱的生物造成的攻击伤害减少[blue]25%[/blue]。",
+    "description_raw": null,
+    "id": "WEAK",
+    "image_url": "/static/images/powers/weak_power.png",
+    "name": "虚弱",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合结束时，[gold]保留[/gold]最多[blue]1[/blue]张手牌。",
+    "description_raw": null,
+    "id": "WELL_LAID_PLANS",
+    "image_url": "/static/images/powers/well_laid_plans_power.png",
+    "name": "计划妥当",
+    "stack_type": "Counter",
+    "type": "Buff"
+  },
+  {
+    "allow_negative": null,
+    "description": "在你的回合开始时，失去[blue]1[/blue]点[gold]敏捷[/gold]。",
+    "description_raw": null,
+    "id": "WRAITH_FORM",
+    "image_url": "/static/images/powers/wraith_form_power.png",
+    "name": "幽魂形态",
+    "stack_type": "Counter",
+    "type": "Debuff"
+  }
+]

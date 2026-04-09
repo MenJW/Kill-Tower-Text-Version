@@ -22,6 +22,7 @@ DEFAULT_ENDPOINTS = (
     "cards",
     "relics",
     "potions",
+    "enchantments",
     "monsters",
     "encounters",
     "events",
@@ -64,6 +65,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--base-url", default=get_config().runtime.spire_codex_api_base)
     parser.add_argument("--game-version", default="TBD")
     parser.add_argument("--build-id", default="TBD")
+    parser.add_argument("--source-tag", default=None, help="Optional upstream changelog tag.")
     parser.add_argument("--skip-manifest", action="store_true")
     return parser.parse_args()
 
@@ -102,6 +104,8 @@ def main() -> None:
         sources=[args.base_url],
         counts=build_counts(first_lang_downloads),
     )
+    if args.source_tag is not None:
+        manifest = manifest.model_copy(update={"source_tag": args.source_tag})
     manifest_path = config.paths.snapshots_dir / args.snapshot_tag / "manifest.json"
     write_json(manifest_path, manifest.model_dump(mode="json"))
     print(f"saved {manifest_path}")
