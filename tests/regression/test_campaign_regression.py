@@ -74,3 +74,34 @@ def test_ascension_regression_changes_setup_and_rewards() -> None:
         "elite",
     ]
     assert asc3.record.player.gold == 114
+
+
+def test_regression_transcripts_have_no_unresolved_effect_markers() -> None:
+    service = RunService()
+    scenarios = [
+        ("ironclad", None),
+        ("silent", 5),
+        ("defect", 5),
+        ("regent", 5),
+        ("necrobinder", 5),
+    ]
+
+    for character_id, floors in scenarios:
+        result = service.run_auto(
+            character_id=character_id,
+            snapshot_tag="2026-04-09_build_unknown",
+            lang="eng",
+            act_id="underdocks",
+            seed=7,
+            floors=floors,
+        )
+        issues = [
+            line
+            for line in result.record.transcript
+            if "unimplemented clauses" in line
+            or "Unsupported event effect" in line
+            or "number-only fallback" in line
+            or "has no executable script yet" in line
+        ]
+
+        assert issues == [], (character_id, issues)

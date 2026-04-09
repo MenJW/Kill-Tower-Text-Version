@@ -13,7 +13,8 @@ if TYPE_CHECKING:
 _VALUE_TAG_RE = re.compile(r"\[(?P<name>[a-z-]+):(?P<value>-?\d+)\]", re.IGNORECASE)
 _MARKUP_TAG_RE = re.compile(r"\[/?[^\]]+\]")
 _LEADING_ARTICLE_RE = re.compile(r"^(?:a|an|the)\s+", re.IGNORECASE)
-_TRAILING_ITEM_TYPE_RE = re.compile(r"\s+(?:relic|card|potion)$", re.IGNORECASE)
+_LEADING_COUNT_RE = re.compile(r"^(?P<count>\d+)\s+", re.IGNORECASE)
+_TRAILING_ITEM_TYPE_RE = re.compile(r"\s+(?:relics?|cards?|potions?)$", re.IGNORECASE)
 
 
 def strip_markup(text: str) -> str:
@@ -53,20 +54,20 @@ def parse_event_outcomes(
         outcomes.append(payload)
 
     numeric_patterns = [
-        (r"\bGain (\d+) Max HP\b", "gain_max_hp"),
-        (r"\bLose (\d+) Max HP\b", "lose_max_hp"),
-        (r"\bHeal (\d+) HP\b", "heal"),
-        (r"\bTake (\d+) damage\b", "take_damage"),
-        (r"\bLose (\d+) HP\b", "take_damage"),
-        (r"\bGain (\d+) gold\b", "gain_gold"),
-        (r"\bLose (\d+) gold\b", "lose_gold"),
-        (r"\bPay (\d+) gold\b", "lose_gold"),
-        (r"\bGain (\d+) Block\b", "gain_block"),
-        (r"\bGain (\d+) star\b", "gain_star"),
+        (r"\bGain (\d+)(?:-(\d+))? Max HP\b", "gain_max_hp"),
+        (r"\bLose (\d+)(?:-(\d+))? Max HP\b", "lose_max_hp"),
+        (r"\bHeal (\d+)(?:-(\d+))? HP\b", "heal"),
+        (r"\bTake (\d+)(?:-(\d+))? damage\b", "take_damage"),
+        (r"\bLose (\d+)(?:-(\d+))? HP\b", "take_damage"),
+        (r"\bGain (\d+)(?:-(\d+))? gold\b", "gain_gold"),
+        (r"\bLose (\d+)(?:-(\d+))? gold\b", "lose_gold"),
+        (r"\bPay (\d+)(?:-(\d+))? gold\b", "lose_gold"),
+        (r"\bGain (\d+)(?:-(\d+))? Block\b", "gain_block"),
+        (r"\bGain (\d+)(?:-(\d+))? star\b", "gain_star"),
     ]
     for pattern, outcome_type in numeric_patterns:
         for match in re.finditer(pattern, cleaned, flags=re.IGNORECASE):
-            add(outcome_type, int(match.group(1)))
+            add(outcome_type, _range_midpoint(match.group(1), match.group(2)))
 
     simple_patterns = [
         (r"\bRemove a card\b", "remove_card"),
@@ -79,15 +80,96 @@ def parse_event_outcomes(
         if re.search(pattern, cleaned, flags=re.IGNORECASE):
             add(outcome_type)
 
+    if match := re.search(r"\bRemove (\d+) cards? from your Deck\b", cleaned, re.IGNORECASE):
+        add("remove_card", int(match.group(1)))
+    elif re.search(r"\bRemove a card(?: from your Deck)?\b", cleaned, re.IGNORECASE):
+        add("remove_card", 1)
+
+    if match := re.search(r"\bUpgrade (\d+) random cards?\b", cleaned, re.IGNORECASE):
+        add("upgrade_card", {"count": int(match.group(1)), "random": True})
+    elif re.search(r"\bUpgrade a random card(?: in your Deck)?\b", cleaned, re.IGNORECASE):
+        add("upgrade_card", {"count": 1, "random": True})
+    elif re.search(r"\bUpgrade a card(?: in your Deck)?\b", cleaned, re.IGNORECASE):
+        add("upgrade_card", {"count": 1})
+
+    if match := re.search(r"\bDowngrade (\d+) random cards?\b", cleaned, re.IGNORECASE):
+        add("downgrade_card", {"count": int(match.group(1)), "random": True})
+
+    if match := re.search(r"\bTransform (\d+) cards?(?: in your Deck)?\b", cleaned, re.IGNORECASE):
+        add("transform_card", {"count": int(match.group(1))})
+    elif re.search(r"\bTransform a card(?: in your Deck)?\b", cleaned, re.IGNORECASE):
+        add("transform_card", {"count": 1})
+
+    if match := re.search(r"\bObtain (\d+) (Ironclad|Silent|Defect|Regent|Necrobinder) cards\b", cleaned, re.IGNORECASE):
+        add(
+            "obtain_random_card",
+            {"count": int(match.group(1)), "character_id": slugify(match.group(2))},
+        )
+    elif match := re.search(r"\bChoose (\d+) of (\d+) random cards to add to your Deck\b", cleaned, re.IGNORECASE):
+        add(
+            "obtain_random_card",
+            {"count": int(match.group(1)), "choices": int(match.group(2))},
+        )
+    elif re.search(r"\bObtain a random Power\b", cleaned, re.IGNORECASE):
+        add("obtain_random_card", {"count": 1, "card_type": "Power"})
+    elif re.search(r"\bObtain a random 0 cost card\b", cleaned, re.IGNORECASE):
+        add("obtain_random_card", {"count": 1, "cost": 0})
+
+    if match := re.search(r"\bObtain (\d+) random Relics\b", cleaned, re.IGNORECASE):
+        add("obtain_random_relic", {"count": int(match.group(1))})
+    elif re.search(r"\b(?:Obtain|Receive) a random Relic\b", cleaned, re.IGNORECASE):
+        add("obtain_random_relic", {"count": 1})
+    elif re.search(r"\bObtain a random Doll Relic\b", cleaned, re.IGNORECASE):
+        add("obtain_random_relic", {"count": 1, "tag": "doll"})
+    elif match := re.search(r"\bChoose (\d+) of (\d+) Doll Relics\b", cleaned, re.IGNORECASE):
+        add(
+            "obtain_random_relic",
+            {"count": int(match.group(1)), "choices": int(match.group(2)), "tag": "doll"},
+        )
+    elif re.search(r"\bTrade one of your Relics for a random Relic\b", cleaned, re.IGNORECASE):
+        add("trade_relic", {"count": 1})
+
+    if match := re.search(r"\bProcure (\d+) random (Common|Uncommon|Rare) Potion\b", cleaned, re.IGNORECASE):
+        add(
+            "obtain_random_potion",
+            {"count": int(match.group(1)), "rarity": match.group(2).title()},
+        )
+    elif match := re.search(r"\bProcure (\d+) random (Common|Uncommon|Rare) Potions\b", cleaned, re.IGNORECASE):
+        add(
+            "obtain_random_potion",
+            {"count": int(match.group(1)), "rarity": match.group(2).title()},
+        )
+
+    if match := re.search(r"\bDivine (\d+) times\b", cleaned, re.IGNORECASE):
+        add("divine", int(match.group(1)))
+
+    if registry is not None and (enchantment_reference := _match_enchantment_reference(cleaned, registry)) is not None:
+        add("enchant_card", {"count": 1}, enchantment_reference)
+
     if registry is not None:
-        item_reference = _match_item_reference(cleaned, registry)
+        item_reference, item_count = _match_item_reference(cleaned, registry)
         if item_reference is not None:
-            add(f"obtain_{item_reference['entity_type']}", 1, item_reference)
+            add(f"obtain_{item_reference['entity_type']}", item_count, item_reference)
 
     if not outcomes and cleaned:
-        if any(keyword in cleaned.lower() for keyword in ["upgrade", "transform", "random"]) or len(cleaned) <= 80:
+        lowered = cleaned.lower()
+        if "requires" in lowered or "you don't have" in lowered or "out of gold" in lowered:
+            return outcomes
+        if any(keyword in lowered for keyword in ["upgrade", "transform", "random", "procure", "relic", "deck"]) or len(cleaned) <= 80:
             add("unsupported", cleaned)
     return outcomes
+
+
+def slugify(value: str) -> str:
+    return collapse_whitespace(value).lower().replace(" ", "-")
+
+
+def _range_midpoint(start: str, end: str | None) -> int:
+    first = int(start)
+    if end is None:
+        return first
+    second = int(end)
+    return (first + second) // 2
 
 
 def enrich_event_choice_outcomes(
@@ -113,33 +195,71 @@ def enrich_registry_events(registry: "ContentRegistry") -> None:
         enrich_event_definition(event, registry=registry)
 
 
-def _match_item_reference(cleaned_description: str, registry: "ContentRegistry") -> dict[str, str] | None:
-    obtain_match = re.search(r"\b(?:Obtain|Receive|Get)\s+(.+?)(?:\.|$)", cleaned_description, re.IGNORECASE)
-    if obtain_match is None:
+def _match_item_reference(cleaned_description: str, registry: "ContentRegistry") -> tuple[dict[str, str] | None, int]:
+    patterns = [
+        r"\b(?:Obtain|Receive|Get|Procure)\s+(.+?)(?:\.|$)",
+        r"\bAdd\s+(.+?)\s+to your Deck\b",
+        r"\bGain\s+(.+?)(?:\.|$)",
+    ]
+    for pattern in patterns:
+        obtain_match = re.search(pattern, cleaned_description, re.IGNORECASE)
+        if obtain_match is None:
+            continue
+        candidate, count = _normalize_item_name(obtain_match.group(1))
+        if not candidate:
+            continue
+        for entity_type, collection in (
+            ("relic", registry.relics),
+            ("card", registry.cards),
+            ("potion", registry.potions),
+        ):
+            for entity in collection.values():
+                for text in entity.texts.values():
+                    normalized_name, _ = _normalize_item_name(text.name)
+                    if normalized_name == candidate:
+                        return (
+                            {
+                                "entity_type": entity_type,
+                                "entity_id": entity.id,
+                                "source_id": entity.source_id,
+                            },
+                            count,
+                        )
+    return None, 1
+
+
+def _match_enchantment_reference(cleaned_description: str, registry: "ContentRegistry") -> dict[str, str] | None:
+    enchant_match = re.search(r"\bEnchant a card(?: that [^.]+)? with (.+?)(?:\.|$)", cleaned_description, re.IGNORECASE)
+    if enchant_match is None:
         return None
-    candidate = _normalize_item_name(obtain_match.group(1))
+    candidate, _ = _normalize_item_name(enchant_match.group(1))
     if not candidate:
         return None
-    for entity_type, collection in (
-        ("relic", registry.relics),
-        ("card", registry.cards),
-        ("potion", registry.potions),
-    ):
-        for entity in collection.values():
-            for text in entity.texts.values():
-                if _normalize_item_name(text.name) == candidate:
-                    return {
-                        "entity_type": entity_type,
-                        "entity_id": entity.id,
-                        "source_id": entity.source_id,
-                    }
+    for enchantment in registry.enchantments.values():
+        for text in enchantment.texts.values():
+            normalized_name, _ = _normalize_item_name(text.name)
+            if normalized_name == candidate:
+                return {
+                    "entity_type": "enchantment",
+                    "entity_id": enchantment.id,
+                    "source_id": enchantment.source_id,
+                }
     return None
 
 
-def _normalize_item_name(value: str | None) -> str:
+def _normalize_item_name(value: str | None) -> tuple[str, int]:
     if not value:
-        return ""
+        return "", 1
     cleaned = strip_markup(value)
+    cleaned = re.sub(r"\b(?:random|common|uncommon|rare)\b", "", cleaned, flags=re.IGNORECASE)
+    count = 1
+    count_match = _LEADING_COUNT_RE.match(cleaned)
+    if count_match is not None:
+        count = int(count_match.group("count"))
+        cleaned = cleaned[count_match.end() :]
     cleaned = _LEADING_ARTICLE_RE.sub("", cleaned)
     cleaned = _TRAILING_ITEM_TYPE_RE.sub("", cleaned)
-    return cleaned.strip(" .!").lower()
+    cleaned = cleaned.strip(" .!")
+    if not cleaned or cleaned[0].isdigit() or "choose" in cleaned.lower() or "divine" in cleaned.lower():
+        return "", count
+    return cleaned.lower(), count

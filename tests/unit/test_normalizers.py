@@ -1,4 +1,5 @@
 from kill_tower.data.normalizers import normalize_entity
+from kill_tower.data.event_outcomes import parse_event_outcomes
 
 
 def test_normalize_card_merges_texts_and_maps_fields() -> None:
@@ -134,3 +135,16 @@ def test_normalize_event_option_extracts_common_outcomes() -> None:
         {"outcome_type": "take_damage", "value": 3},
     ]
     assert root_choices[1]["outcomes"] == [{"outcome_type": "heal", "value": 10}]
+
+
+def test_parse_event_outcomes_extracts_structured_randomized_effects() -> None:
+    outcomes = parse_event_outcomes(
+        "Upgrade 2 random cards. Procure 1 random Uncommon Potion. Obtain a random Power. Remove 2 cards from your Deck."
+    )
+
+    assert outcomes == [
+        {"outcome_type": "remove_card", "value": 2},
+        {"outcome_type": "upgrade_card", "value": {"count": 2, "random": True}},
+        {"outcome_type": "obtain_random_card", "value": {"count": 1, "card_type": "Power"}},
+        {"outcome_type": "obtain_random_potion", "value": {"count": 1, "rarity": "Uncommon"}},
+    ]

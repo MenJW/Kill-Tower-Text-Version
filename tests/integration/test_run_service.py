@@ -70,3 +70,31 @@ def test_all_characters_can_clear_three_floor_run_slice() -> None:
         assert result.record.floor == 5, character_id
         assert result.record.victory is True, character_id
         assert result.record.player.hp > 0, character_id
+
+
+def test_fairy_in_a_bottle_prevents_lethal_damage() -> None:
+    service = RunService()
+    bundle = service.data_service.load_bundle(snapshot_tag="2026-04-09_build_unknown", lang="eng")
+    runtime = __import__("kill_tower.engine.combat", fromlist=["CombatRuntime"]).CombatRuntime(
+        registry=bundle.registry,
+        seed=11,
+        snapshot_tag=bundle.snapshot.tag,
+    )
+    player_state = runtime.build_player_state(
+        character_id="ironclad",
+        current_hp=5,
+        max_hp=80,
+        potion_ids=["fairy-in-a-bottle"],
+    )
+    state = runtime.start_encounter(
+        character_id="ironclad",
+        encounter_id="toadpoles-normal",
+        shuffle_draw_pile=False,
+        player_state=player_state,
+    )
+
+    runtime.attack(state.enemies[0], state.player, 99, 1, "Test Lethal")
+
+    assert state.player.hp == 24
+    assert "fairy-in-a-bottle" not in state.player.potion_ids
+    assert any("Fairy in a Bottle saves" in line for line in state.transcript)

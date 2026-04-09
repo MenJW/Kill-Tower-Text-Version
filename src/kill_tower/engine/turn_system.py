@@ -30,6 +30,7 @@ class TurnManager:
         state.phase = CombatPhase.PLAYER
         state.player.block = 0
         state.player.energy = state.player.max_energy
+        state.cards_played_this_turn.clear()
         draw_cards(state.player, cards_to_draw, self.rng)
         state.transcript.append(f"Turn {state.turn}: player turn started.")
 

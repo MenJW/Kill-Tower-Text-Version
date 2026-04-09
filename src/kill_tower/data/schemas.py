@@ -151,7 +151,7 @@ class MonsterDefinition(BaseEntity):
 
 class EventOutcome(BaseModel):
     outcome_type: str
-    value: str | int | float | None = None
+    value: str | int | float | dict[str, object] | None = None
     reference: EntityReference | None = None
 
 

@@ -9,6 +9,8 @@ from kill_tower.engine.cards.scripts import (
     dualcast_script,
     falling_star_script,
     neutralize_script,
+    pacts_end_script,
+    squeeze_script,
     strike_script,
     survivor_script,
     unsupported_card_script,
@@ -32,6 +34,8 @@ CARD_SCRIPTS: dict[str, CardScript] = {
     "dualcast": dualcast_script,
     "bodyguard": bodyguard_script,
     "unleash": unleash_script,
+    "pacts-end": pacts_end_script,
+    "squeeze": squeeze_script,
 }
 
 

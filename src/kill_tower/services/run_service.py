@@ -328,6 +328,7 @@ class RunService:
             gold=record.player.gold,
             relic_ids=record.player.relic_ids,
             deck_definition_ids=record.player.deck_definition_ids,
+            potion_ids=record.player.potion_ids,
         )
         result = runtime.run_encounter(
             encounter_id=room.encounter_id or "",
@@ -339,6 +340,7 @@ class RunService:
         record.transcript.extend(result.transcript)
         record.player.hp = result.player_hp
         record.player.max_hp = result.max_player_hp
+        record.player.potion_ids = result.potion_ids
         replay.record(
             room.floor,
             "combat_resolved",

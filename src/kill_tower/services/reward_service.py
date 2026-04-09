@@ -72,10 +72,14 @@ class RewardService:
         ]
         if not candidates:
             return None
-        ranked = sorted(candidates, key=lambda card: (self._card_score(card), card.id), reverse=True)
+        ranked = sorted(
+            candidates,
+            key=lambda card: (self._card_score(card, player_state), card.id),
+            reverse=True,
+        )
         offset = (seed + floor) % min(len(ranked), 7)
         preview = ranked[offset : offset + 3] or ranked[:3]
-        return max(preview, key=lambda card: (self._card_score(card), card.id))
+        return max(preview, key=lambda card: (self._card_score(card, player_state), card.id))
 
     def _choose_relic_reward(
         self,
@@ -124,8 +128,11 @@ class RewardService:
     def _is_reward_safe_card(self, card: CardDefinition) -> bool:
         return card.numbers.damage is not None or card.numbers.block is not None or card.id in SUPPORTED_SPECIAL_CARDS
 
-    def _card_score(self, card: CardDefinition) -> float:
+    def _card_score(self, card: CardDefinition, player_state: Any | None = None) -> float:
         score = float(card.numbers.damage or 0) + float(card.numbers.block or 0) * 0.9
+        if player_state is not None and getattr(player_state, "max_hp", 0) > 0:
+            missing_hp_ratio = max(0, player_state.max_hp - player_state.hp) / player_state.max_hp
+            score += float(card.numbers.block or 0) * missing_hp_ratio
         if card.id in SUPPORTED_SPECIAL_CARDS:
             score += 4
         if card.rarity == "Rare":

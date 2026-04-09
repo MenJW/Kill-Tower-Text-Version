@@ -29,6 +29,7 @@ class CombatantState:
     hp: int
     block: int = 0
     powers: dict[str, int] = field(default_factory=dict)
+    end_turn_power_deltas: dict[str, int] = field(default_factory=dict)
 
     @property
     def alive(self) -> bool:
@@ -99,6 +100,7 @@ class CombatState:
     phase: CombatPhase = CombatPhase.PLAYER
     victory: bool | None = None
     transcript: list[str] = field(default_factory=list)
+    cards_played_this_turn: list[str] = field(default_factory=list)
 
 
 @dataclass(slots=True)
