@@ -1,0 +1,366 @@
+Run started for The Defect in Underdocks at Ascension 0.
+Floor 1: entering monster room.
+Encounter queued: Punch Construct.
+The Defect enters combat against Punch Construct.
+Combat started.
+Turn 1: player turn started.
+The Defect channels lightning-orb from Cracked Core.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+lightning-orb deals 3 lightning damage to Punch Construct (3 HP lost).
+Punch Construct uses READY.
+Punch Construct gains 10 Block from READY.
+Next intent for Punch Construct: Attack.
+Turn 2: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+Turn 2: player turn ended.
+lightning-orb deals 3 lightning damage to Punch Construct (0 HP lost).
+Punch Construct uses Strong Punch.
+Punch Construct uses Strong Punch on The Defect for 14 damage x1 (0 HP lost).
+Next intent for Punch Construct: Attack + Debuff.
+Turn 3: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+lightning-orb deals 3 lightning damage to Punch Construct (3 HP lost).
+Punch Construct uses Fast Punch.
+Punch Construct uses Fast Punch on The Defect for 5 damage x2 (0 HP lost).
+The Defect gains 1 weak from Fast Punch.
+Next intent for Punch Construct: Defend.
+Turn 4: player turn started.
+The Defect plays Dualcast for 1 energy.
+The Defect evokes lightning-orb from Dualcast.
+Dualcast deals 8 lightning damage to Punch Construct (8 HP lost).
+Dualcast has no orb to evoke.
+The Defect plays Zap for 1 energy.
+The Defect channels lightning-orb from Zap.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Punch Construct for 4 damage x1 (4 HP lost).
+Turn 4: player turn ended.
+lightning-orb deals 3 lightning damage to Punch Construct (3 HP lost).
+The Defect's weak decreases to 0.
+Punch Construct uses READY.
+Punch Construct gains 10 Block from READY.
+Next intent for Punch Construct: Attack.
+Turn 5: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Dualcast for 1 energy.
+The Defect evokes lightning-orb from Dualcast.
+Dualcast deals 8 lightning damage to Punch Construct (0 HP lost).
+Dualcast has no orb to evoke.
+Turn 5: player turn ended.
+Punch Construct uses Strong Punch.
+Punch Construct uses Strong Punch on The Defect for 14 damage x1 (4 HP lost).
+Next intent for Punch Construct: Attack + Debuff.
+Turn 6: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Zap for 1 energy.
+The Defect channels lightning-orb from Zap.
+Turn 6: player turn ended.
+lightning-orb deals 3 lightning damage to Punch Construct (3 HP lost).
+Punch Construct uses Fast Punch.
+Punch Construct uses Fast Punch on The Defect for 5 damage x2 (0 HP lost).
+The Defect gains 1 weak from Fast Punch.
+Next intent for Punch Construct: Defend.
+Turn 7: player turn started.
+The Defect plays Dualcast for 1 energy.
+The Defect evokes lightning-orb from Dualcast.
+Dualcast deals 8 lightning damage to Punch Construct (8 HP lost).
+Punch Construct is defeated.
+Combat won.
+Dualcast has no orb to evoke.
+Combat won.
+Floor 1: gained 20 gold.
+Reward: add meteor-strike to the deck.
+Reward: obtain potion liquid-memories.
+Floor 2: entering monster room.
+Encounter queued: Sewer Clam.
+The Defect enters combat against Sewer Clam.
+Combat started.
+Turn 1: player turn started.
+The Defect channels lightning-orb from Cracked Core.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+lightning-orb deals 3 lightning damage to Sewer Clam (3 HP lost).
+Sewer Clam uses Pressurize.
+Sewer Clam gains 4 strength from Pressurize.
+Next intent for Sewer Clam: Attack.
+Turn 2: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+Turn 2: player turn ended.
+lightning-orb deals 3 lightning damage to Sewer Clam (3 HP lost).
+Sewer Clam uses Jet.
+Sewer Clam uses Jet on The Defect for 14 damage x1 (0 HP lost).
+Next intent for Sewer Clam: Buff.
+Turn 3: player turn started.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+Turn 3: player turn ended.
+lightning-orb deals 3 lightning damage to Sewer Clam (3 HP lost).
+Sewer Clam uses Pressurize.
+Sewer Clam gains 4 strength from Pressurize.
+Next intent for Sewer Clam: Attack.
+Turn 4: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Dualcast for 1 energy.
+The Defect evokes lightning-orb from Dualcast.
+Dualcast deals 8 lightning damage to Sewer Clam (8 HP lost).
+Dualcast has no orb to evoke.
+Turn 4: player turn ended.
+Sewer Clam uses Jet.
+Sewer Clam uses Jet on The Defect for 18 damage x1 (8 HP lost).
+Next intent for Sewer Clam: Buff.
+Turn 5: player turn started.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+Sewer Clam is defeated.
+Combat won.
+Floor 2: gained 20 gold.
+Reward: add sunder to the deck.
+Floor 3: entering monster room.
+Encounter queued: Haunted Ship.
+The Defect enters combat against Haunted Ship.
+Combat started.
+Turn 1: player turn started.
+The Defect channels lightning-orb from Cracked Core.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+lightning-orb deals 3 lightning damage to Haunted Ship (3 HP lost).
+Haunted Ship uses Ramming Speed.
+Haunted Ship uses Ramming Speed on The Defect for 10 damage x1 (5 HP lost).
+Next intent for Haunted Ship: Attack.
+Turn 2: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+Turn 2: player turn ended.
+lightning-orb deals 3 lightning damage to Haunted Ship (3 HP lost).
+Haunted Ship uses Swipe.
+Haunted Ship uses Swipe on The Defect for 13 damage x1 (0 HP lost).
+Next intent for Haunted Ship: Attack.
+Turn 3: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Zap for 1 energy.
+The Defect channels lightning-orb from Zap.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+lightning-orb deals 3 lightning damage to Haunted Ship (3 HP lost).
+lightning-orb deals 3 lightning damage to Haunted Ship (3 HP lost).
+Haunted Ship uses Stomp.
+Haunted Ship uses Stomp on The Defect for 4 damage x3 (7 HP lost).
+Next intent for Haunted Ship: Debuff.
+Turn 4: player turn started.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+Turn 4: player turn ended.
+lightning-orb deals 3 lightning damage to Haunted Ship (3 HP lost).
+lightning-orb deals 3 lightning damage to Haunted Ship (3 HP lost).
+Haunted Ship uses Haunt.
+The Defect gains 2 weak from Haunt.
+The Defect gains 2 frail from Haunt.
+The Defect gains 2 vulnerable from Haunt.
+Next intent for Haunted Ship: Attack + Status.
+Turn 5: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 3 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 3 Block from Defend.
+The Defect plays Dualcast for 1 energy.
+The Defect evokes lightning-orb from Dualcast.
+Dualcast deals 8 lightning damage to Haunted Ship (8 HP lost).
+The Defect evokes lightning-orb from Dualcast.
+Dualcast deals 8 lightning damage to Haunted Ship (8 HP lost).
+Haunted Ship is defeated.
+Combat won.
+Combat won.
+Floor 3: gained 20 gold.
+Reward: add ice-lance to the deck.
+Reward: obtain potion ship-in-a-bottle.
+Floor 4: entering event room.
+Event: Doors of Light and Dark
+A doorway existed where none existed moments before...
+
+You enter to find two shimmering doorways and a [gold]well-dressed doorman[/gold].
+“Finally, a visitor! Please please! Choose a door, any door!”
+
+[blue]Are we still in the Spire? How is this place so clean?[/blue]
+Chosen option: Light Door.
+[sine][gold]Into the light...[/gold][/sine]
+
+[jitter]It's blinding!![/jitter] But the light [gold]strengthens[/gold] you.
+
+You're back in the [blue]Underdocks[/blue].
+How did you? Huh...?
+Upgrade dualcast, ice-lance.
+Floor 5: entering merchant room.
+Merchant visited with 159 gold.
+Merchant removes strike-defect for 75 gold.
+Merchant sells meteor-strike for 75 gold.
+Floor 6: entering campfire room.
+Campfire heals The Defect for 22 HP.
+Floor 7: entering elite room.
+Encounter queued: Skulking Colony.
+The Defect enters combat against Skulking Colony.
+Combat started.
+Turn 1: player turn started.
+The Defect channels lightning-orb from Cracked Core.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+lightning-orb deals 3 lightning damage to Skulking Colony (3 HP lost).
+Skulking Colony uses Inertia.
+Skulking Colony gains 10 Block from Inertia.
+Skulking Colony gains 3 strength from Inertia.
+Next intent for Skulking Colony: Attack.
+Turn 2: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Dualcast for 1 energy.
+The Defect evokes lightning-orb from Dualcast.
+Dualcast deals 8 lightning damage to Skulking Colony (0 HP lost).
+Dualcast has no orb to evoke.
+Turn 2: player turn ended.
+Skulking Colony uses Zoom.
+Skulking Colony uses Zoom on The Defect for 19 damage x1 (9 HP lost).
+Next intent for Skulking Colony: Attack.
+Turn 3: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+Skulking Colony uses Super Crab.
+Skulking Colony uses Super Crab on The Defect for 9 damage x2 (13 HP lost).
+Next intent for Skulking Colony: Attack + Status.
+Turn 4: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+Turn 4: player turn ended.
+Skulking Colony uses Smash.
+Skulking Colony uses Smash on The Defect for 12 damage x1 (2 HP lost).
+Next intent for Skulking Colony: Defend + Buff.
+Turn 5: player turn started.
+The Defect plays Zap for 1 energy.
+The Defect channels lightning-orb from Zap.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+Turn 5: player turn ended.
+lightning-orb deals 3 lightning damage to Skulking Colony (3 HP lost).
+Skulking Colony uses Inertia.
+Skulking Colony gains 10 Block from Inertia.
+Skulking Colony gains 3 strength from Inertia.
+Next intent for Skulking Colony: Attack.
+Turn 6: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (0 HP lost).
+Turn 6: player turn ended.
+lightning-orb deals 3 lightning damage to Skulking Colony (0 HP lost).
+Skulking Colony uses Zoom.
+Skulking Colony uses Zoom on The Defect for 22 damage x1 (12 HP lost).
+Next intent for Skulking Colony: Attack.
+Turn 7: player turn started.
+The Defect gains 10 Block from Ship in a Bottle.
+The Defect uses potion Ship in a Bottle.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Dualcast for 1 energy.
+The Defect evokes lightning-orb from Dualcast.
+Dualcast deals 8 lightning damage to Skulking Colony (8 HP lost).
+Dualcast has no orb to evoke.
+Turn 7: player turn ended.
+Skulking Colony uses Super Crab.
+Skulking Colony uses Super Crab on The Defect for 12 damage x2 (4 HP lost).
+Next intent for Skulking Colony: Attack + Status.
+Turn 8: player turn started.
+The Defect plays Defend for 1 energy.
+The Defect gains 5 Block from Defend.
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+The Defect plays Strike for 1 energy.
+The Defect uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+Turn 8: player turn ended.
+Skulking Colony uses Smash.
+Skulking Colony uses Smash on The Defect for 15 damage x1 (10 HP lost).
+Next intent for Skulking Colony: Defend + Buff.
+Turn 9: player turn started.
+The Defect plays Sunder for 3 energy.
+The Defect uses Sunder on Skulking Colony for 24 damage x1 (24 HP lost).
+Skulking Colony is defeated.
+The Defect gains 3 energy from Sunder.
+Combat won.
+Floor 7: gained 35 gold.
+Reward: add hyperbeam to the deck.
+Reward: obtain relic vexing-puzzlebox.
+Reward: obtain potion energy-potion.
+Completed underdocks run slice.

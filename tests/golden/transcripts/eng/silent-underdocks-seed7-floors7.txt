@@ -1,0 +1,423 @@
+Run started for The Silent in Underdocks at Ascension 0.
+Floor 1: entering monster room.
+Encounter queued: Punch Construct.
+The Silent enters combat against Punch Construct.
+Combat started.
+Turn 1: player turn started.
+Ring of the Snake draws 2 additional cards for The Silent.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+Punch Construct uses READY.
+Punch Construct gains 10 Block from READY.
+Next intent for Punch Construct: Attack.
+Turn 2: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Neutralize for 0 energy.
+The Silent uses Neutralize on Punch Construct for 3 damage x1 (0 HP lost).
+Punch Construct gains 1 weak from Neutralize.
+Turn 2: player turn ended.
+Punch Construct uses Strong Punch.
+Punch Construct uses Strong Punch on The Silent for 10 damage x1 (0 HP lost).
+Punch Construct's weak decreases to 0.
+Next intent for Punch Construct: Attack + Debuff.
+Turn 3: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+Punch Construct uses Fast Punch.
+Punch Construct uses Fast Punch on The Silent for 5 damage x2 (0 HP lost).
+The Silent gains 1 weak from Fast Punch.
+Next intent for Punch Construct: Defend.
+Turn 4: player turn started.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 4 damage x1 (4 HP lost).
+The Silent plays Neutralize for 0 energy.
+The Silent uses Neutralize on Punch Construct for 2 damage x1 (2 HP lost).
+Punch Construct gains 1 weak from Neutralize.
+The Silent plays Survivor for 1 energy.
+The Silent gains 8 Block from Survivor.
+The Silent discards Defend from Survivor.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+Turn 4: player turn ended.
+The Silent's weak decreases to 0.
+Punch Construct uses READY.
+Punch Construct gains 10 Block from READY.
+Punch Construct's weak decreases to 0.
+Next intent for Punch Construct: Attack.
+Turn 5: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (0 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (2 HP lost).
+The Silent plays Neutralize for 0 energy.
+The Silent uses Neutralize on Punch Construct for 3 damage x1 (3 HP lost).
+Punch Construct gains 1 weak from Neutralize.
+Turn 5: player turn ended.
+Punch Construct uses Strong Punch.
+Punch Construct uses Strong Punch on The Silent for 10 damage x1 (5 HP lost).
+Punch Construct's weak decreases to 0.
+Next intent for Punch Construct: Attack + Debuff.
+Turn 6: player turn started.
+The Silent plays Survivor for 1 energy.
+The Silent gains 8 Block from Survivor.
+The Silent discards Defend from Survivor.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+Turn 6: player turn ended.
+Punch Construct uses Fast Punch.
+Punch Construct uses Fast Punch on The Silent for 5 damage x2 (0 HP lost).
+The Silent gains 1 weak from Fast Punch.
+Next intent for Punch Construct: Defend.
+Turn 7: player turn started.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 4 damage x1 (4 HP lost).
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+Turn 7: player turn ended.
+The Silent's weak decreases to 0.
+Punch Construct uses READY.
+Punch Construct gains 10 Block from READY.
+Next intent for Punch Construct: Attack.
+Turn 8: player turn started.
+The Silent plays Survivor for 1 energy.
+The Silent gains 8 Block from Survivor.
+The Silent discards Neutralize from Survivor.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (0 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (2 HP lost).
+Turn 8: player turn ended.
+Punch Construct uses Strong Punch.
+Punch Construct uses Strong Punch on The Silent for 14 damage x1 (6 HP lost).
+Next intent for Punch Construct: Attack + Debuff.
+Turn 9: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 6 damage x1 (6 HP lost).
+Turn 9: player turn ended.
+Punch Construct uses Fast Punch.
+Punch Construct uses Fast Punch on The Silent for 5 damage x2 (0 HP lost).
+The Silent gains 1 weak from Fast Punch.
+Next intent for Punch Construct: Defend.
+Turn 10: player turn started.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Punch Construct for 4 damage x1 (4 HP lost).
+Punch Construct is defeated.
+Combat won.
+Floor 1: gained 20 gold.
+Reward: add dash to the deck.
+Reward: obtain potion liquid-memories.
+Floor 2: entering monster room.
+Encounter queued: Sewer Clam.
+The Silent enters combat against Sewer Clam.
+Combat started.
+Turn 1: player turn started.
+Ring of the Snake draws 2 additional cards for The Silent.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+Sewer Clam uses Pressurize.
+Sewer Clam gains 4 strength from Pressurize.
+Next intent for Sewer Clam: Attack.
+Turn 2: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Neutralize for 0 energy.
+The Silent uses Neutralize on Sewer Clam for 3 damage x1 (3 HP lost).
+Sewer Clam gains 1 weak from Neutralize.
+Turn 2: player turn ended.
+Sewer Clam uses Jet.
+Sewer Clam uses Jet on The Silent for 10 damage x1 (0 HP lost).
+Sewer Clam's weak decreases to 0.
+Next intent for Sewer Clam: Buff.
+Turn 3: player turn started.
+The Silent plays Dash for 2 energy.
+The Silent gains 10 Block from Dash.
+The Silent uses Dash on Sewer Clam for 10 damage x1 (10 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+Sewer Clam uses Pressurize.
+Sewer Clam gains 4 strength from Pressurize.
+Next intent for Sewer Clam: Attack.
+Turn 4: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Survivor for 1 energy.
+The Silent gains 8 Block from Survivor.
+The Silent discards Strike from Survivor.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Silent plays Neutralize for 0 energy.
+The Silent uses Neutralize on Sewer Clam for 3 damage x1 (3 HP lost).
+Sewer Clam gains 1 weak from Neutralize.
+Turn 4: player turn ended.
+Sewer Clam uses Jet.
+Sewer Clam uses Jet on The Silent for 13 damage x1 (0 HP lost).
+Sewer Clam's weak decreases to 0.
+Next intent for Sewer Clam: Buff.
+Turn 5: player turn started.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+Turn 5: player turn ended.
+Sewer Clam uses Pressurize.
+Sewer Clam gains 4 strength from Pressurize.
+Next intent for Sewer Clam: Attack.
+Turn 6: player turn started.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Sewer Clam for 6 damage x1 (6 HP lost).
+Sewer Clam is defeated.
+Combat won.
+Floor 2: gained 20 gold.
+Reward: add pinpoint to the deck.
+Floor 3: entering monster room.
+Encounter queued: Haunted Ship.
+The Silent enters combat against Haunted Ship.
+Combat started.
+Turn 1: player turn started.
+Ring of the Snake draws 2 additional cards for The Silent.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+Haunted Ship uses Ramming Speed.
+Haunted Ship uses Ramming Speed on The Silent for 10 damage x1 (0 HP lost).
+Next intent for Haunted Ship: Attack.
+Turn 2: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Neutralize for 0 energy.
+The Silent uses Neutralize on Haunted Ship for 3 damage x1 (3 HP lost).
+Haunted Ship gains 1 weak from Neutralize.
+Turn 2: player turn ended.
+Haunted Ship uses Swipe.
+Haunted Ship uses Swipe on The Silent for 9 damage x1 (0 HP lost).
+Haunted Ship's weak decreases to 0.
+Next intent for Haunted Ship: Attack.
+Turn 3: player turn started.
+The Silent plays Dash for 2 energy.
+The Silent gains 10 Block from Dash.
+The Silent uses Dash on Haunted Ship for 10 damage x1 (10 HP lost).
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Neutralize for 0 energy.
+The Silent uses Neutralize on Haunted Ship for 3 damage x1 (3 HP lost).
+Haunted Ship gains 1 weak from Neutralize.
+Turn 3: player turn ended.
+Haunted Ship uses Stomp.
+Haunted Ship uses Stomp on The Silent for 3 damage x3 (0 HP lost).
+Haunted Ship's weak decreases to 0.
+Next intent for Haunted Ship: Debuff.
+Turn 4: player turn started.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Haunted Ship for 6 damage x1 (6 HP lost).
+Turn 4: player turn ended.
+Haunted Ship uses Haunt.
+The Silent gains 2 weak from Haunt.
+The Silent gains 2 frail from Haunt.
+The Silent gains 2 vulnerable from Haunt.
+Next intent for Haunted Ship: Attack + Status.
+Turn 5: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 3 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 3 Block from Defend.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Haunted Ship for 4 damage x1 (4 HP lost).
+Turn 5: player turn ended.
+The Silent's weak decreases to 1.
+The Silent's frail decreases to 1.
+The Silent's vulnerable decreases to 1.
+Haunted Ship uses Ramming Speed.
+Haunted Ship uses Ramming Speed on The Silent for 15 damage x1 (9 HP lost).
+Next intent for Haunted Ship: Attack.
+Turn 6: player turn started.
+The Silent plays Survivor for 1 energy.
+The Silent gains 6 Block from Survivor.
+The Silent discards Defend from Survivor.
+The Silent plays Dash for 2 energy.
+The Silent gains 7 Block from Dash.
+The Silent uses Dash on Haunted Ship for 7 damage x1 (7 HP lost).
+The Silent plays Neutralize for 0 energy.
+The Silent uses Neutralize on Haunted Ship for 2 damage x1 (2 HP lost).
+Haunted Ship gains 1 weak from Neutralize.
+Turn 6: player turn ended.
+The Silent's weak decreases to 0.
+The Silent's frail decreases to 0.
+The Silent's vulnerable decreases to 0.
+Haunted Ship uses Swipe.
+Haunted Ship uses Swipe on The Silent for 9 damage x1 (0 HP lost).
+Haunted Ship's weak decreases to 0.
+Next intent for Haunted Ship: Attack.
+Turn 7: player turn started.
+The Silent plays Pinpoint for 3 energy.
+The Silent uses Pinpoint on Haunted Ship for 17 damage x1 (17 HP lost).
+Haunted Ship is defeated.
+Combat won.
+Floor 3: gained 20 gold.
+Reward: add predator to the deck.
+Reward: obtain potion ship-in-a-bottle.
+Floor 4: entering event room.
+Event: Doors of Light and Dark
+A doorway existed where none existed moments before...
+
+You enter to find two shimmering doorways and a [gold]well-dressed doorman[/gold].
+“Finally, a visitor! Please please! Choose a door, any door!”
+
+[blue]Are we still in the Spire? How is this place so clean?[/blue]
+Chosen option: Light Door.
+[sine][gold]Into the light...[/gold][/sine]
+
+[jitter]It's blinding!![/jitter] But the light [gold]strengthens[/gold] you.
+
+You're back in the [blue]Underdocks[/blue].
+How did you? Huh...?
+Upgrade dash, neutralize.
+Floor 5: entering merchant room.
+Merchant visited with 159 gold.
+Merchant removes strike-silent for 75 gold.
+Merchant sells dash for 75 gold.
+Floor 6: entering campfire room.
+Campfire heals The Silent for 20 HP.
+Floor 7: entering elite room.
+Encounter queued: Skulking Colony.
+The Silent enters combat against Skulking Colony.
+Combat started.
+Turn 1: player turn started.
+Ring of the Snake draws 2 additional cards for The Silent.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+Skulking Colony uses Inertia.
+Skulking Colony gains 10 Block from Inertia.
+Skulking Colony gains 3 strength from Inertia.
+Next intent for Skulking Colony: Attack.
+Turn 2: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Survivor for 1 energy.
+The Silent gains 8 Block from Survivor.
+The Silent discards Neutralize from Survivor.
+Turn 2: player turn ended.
+Skulking Colony uses Zoom.
+Skulking Colony uses Zoom on The Silent for 19 damage x1 (1 HP lost).
+Next intent for Skulking Colony: Attack.
+Turn 3: player turn started.
+The Silent plays Dash for 2 energy.
+The Silent gains 10 Block from Dash.
+The Silent uses Dash on Skulking Colony for 10 damage x1 (10 HP lost).
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+Turn 3: player turn ended.
+Skulking Colony uses Super Crab.
+Skulking Colony uses Super Crab on The Silent for 9 damage x2 (3 HP lost).
+Next intent for Skulking Colony: Attack + Status.
+Turn 4: player turn started.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+The Silent plays Neutralize for 0 energy.
+The Silent uses Neutralize on Skulking Colony for 3 damage x1 (3 HP lost).
+Skulking Colony gains 1 weak from Neutralize.
+Turn 4: player turn ended.
+Skulking Colony uses Smash.
+Skulking Colony uses Smash on The Silent for 9 damage x1 (0 HP lost).
+Skulking Colony's weak decreases to 0.
+Next intent for Skulking Colony: Defend + Buff.
+Turn 5: player turn started.
+The Silent plays Dash for 2 energy.
+The Silent gains 10 Block from Dash.
+The Silent uses Dash on Skulking Colony for 10 damage x1 (10 HP lost).
+The Silent plays Strike for 1 energy.
+The Silent uses Strike on Skulking Colony for 6 damage x1 (6 HP lost).
+Turn 5: player turn ended.
+Skulking Colony uses Inertia.
+Skulking Colony gains 10 Block from Inertia.
+Skulking Colony gains 3 strength from Inertia.
+Next intent for Skulking Colony: Attack.
+Turn 6: player turn started.
+The Silent plays Dash for 2 energy.
+The Silent gains 10 Block from Dash.
+The Silent uses Dash on Skulking Colony for 10 damage x1 (0 HP lost).
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+Turn 6: player turn ended.
+Skulking Colony uses Zoom.
+Skulking Colony uses Zoom on The Silent for 22 damage x1 (7 HP lost).
+Next intent for Skulking Colony: Attack.
+Turn 7: player turn started.
+The Silent plays Dash for 2 energy.
+The Silent gains 10 Block from Dash.
+The Silent uses Dash on Skulking Colony for 10 damage x1 (10 HP lost).
+The Silent plays Defend for 1 energy.
+The Silent gains 5 Block from Defend.
+Turn 7: player turn ended.
+Skulking Colony uses Super Crab.
+Skulking Colony uses Super Crab on The Silent for 12 damage x2 (9 HP lost).
+Next intent for Skulking Colony: Attack + Status.
+Turn 8: player turn started.
+The Silent plays Pinpoint for 3 energy.
+The Silent uses Pinpoint on Skulking Colony for 17 damage x1 (17 HP lost).
+Skulking Colony is defeated.
+Combat won.
+Floor 7: gained 35 gold.
+Reward: add grand-finale to the deck.
+Reward: obtain relic vexing-puzzlebox.
+Reward: obtain potion energy-potion.
+Completed underdocks run slice.

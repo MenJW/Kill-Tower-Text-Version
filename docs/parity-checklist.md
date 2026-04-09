@@ -27,6 +27,7 @@
 ## Validation
 
 - [ ] Deterministic replay from seed
-- [ ] Transcript golden tests
+- [x] Transcript golden tests
 - [ ] Snapshot manifest verification
-- [ ] Entity gap report generated
+- [x] Entity gap report generated
+- [x] Unresolved coverage report generated

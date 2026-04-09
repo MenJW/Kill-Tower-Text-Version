@@ -1,0 +1,364 @@
+Run started for 故障机器人 in 暗港 at Ascension 0.
+Floor 1: entering monster room.
+Encounter queued: 拳击构装体.
+故障机器人 enters combat against 拳击构装体.
+Combat started.
+Turn 1: player turn started.
+故障机器人 channels lightning-orb from Cracked Core.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+lightning-orb deals 3 lightning damage to 拳击构装体 (3 HP lost).
+拳击构装体 uses 准备就绪.
+拳击构装体 gains 10 Block from 准备就绪.
+Next intent for 拳击构装体: Attack.
+Turn 2: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+Turn 2: player turn ended.
+lightning-orb deals 3 lightning damage to 拳击构装体 (0 HP lost).
+拳击构装体 uses 强力拳.
+拳击构装体 uses 强力拳 on 故障机器人 for 14 damage x1 (0 HP lost).
+Next intent for 拳击构装体: Attack + Debuff.
+Turn 3: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 拳击构装体 for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+lightning-orb deals 3 lightning damage to 拳击构装体 (3 HP lost).
+拳击构装体 uses 快速拳.
+拳击构装体 uses 快速拳 on 故障机器人 for 5 damage x2 (0 HP lost).
+故障机器人 gains 1 weak from 快速拳.
+Next intent for 拳击构装体: Defend.
+Turn 4: player turn started.
+故障机器人 plays 双重释放 for 1 energy.
+故障机器人 evokes lightning-orb from 双重释放.
+双重释放 deals 8 lightning damage to 拳击构装体 (8 HP lost).
+双重释放 has no orb to evoke.
+故障机器人 plays 电击 for 1 energy.
+故障机器人 channels lightning-orb from 电击.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 拳击构装体 for 4 damage x1 (4 HP lost).
+Turn 4: player turn ended.
+lightning-orb deals 3 lightning damage to 拳击构装体 (3 HP lost).
+故障机器人's weak decreases to 0.
+拳击构装体 uses 准备就绪.
+拳击构装体 gains 10 Block from 准备就绪.
+Next intent for 拳击构装体: Attack.
+Turn 5: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 双重释放 for 1 energy.
+故障机器人 evokes lightning-orb from 双重释放.
+双重释放 deals 8 lightning damage to 拳击构装体 (0 HP lost).
+双重释放 has no orb to evoke.
+Turn 5: player turn ended.
+拳击构装体 uses 强力拳.
+拳击构装体 uses 强力拳 on 故障机器人 for 14 damage x1 (4 HP lost).
+Next intent for 拳击构装体: Attack + Debuff.
+Turn 6: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 电击 for 1 energy.
+故障机器人 channels lightning-orb from 电击.
+Turn 6: player turn ended.
+lightning-orb deals 3 lightning damage to 拳击构装体 (3 HP lost).
+拳击构装体 uses 快速拳.
+拳击构装体 uses 快速拳 on 故障机器人 for 5 damage x2 (0 HP lost).
+故障机器人 gains 1 weak from 快速拳.
+Next intent for 拳击构装体: Defend.
+Turn 7: player turn started.
+故障机器人 plays 双重释放 for 1 energy.
+故障机器人 evokes lightning-orb from 双重释放.
+双重释放 deals 8 lightning damage to 拳击构装体 (8 HP lost).
+拳击构装体 is defeated.
+Combat won.
+双重释放 has no orb to evoke.
+Combat won.
+Floor 1: gained 20 gold.
+Reward: add meteor-strike to the deck.
+Reward: obtain potion energy-potion.
+Floor 2: entering monster room.
+Encounter queued: 下水道蚌.
+故障机器人 enters combat against 下水道蚌.
+Combat started.
+Turn 1: player turn started.
+故障机器人 channels lightning-orb from Cracked Core.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+lightning-orb deals 3 lightning damage to 下水道蚌 (3 HP lost).
+下水道蚌 uses 增压.
+下水道蚌 gains 4 strength from 增压.
+Next intent for 下水道蚌: Attack.
+Turn 2: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+Turn 2: player turn ended.
+lightning-orb deals 3 lightning damage to 下水道蚌 (3 HP lost).
+下水道蚌 uses 喷射.
+下水道蚌 uses 喷射 on 故障机器人 for 14 damage x1 (0 HP lost).
+Next intent for 下水道蚌: Buff.
+Turn 3: player turn started.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+Turn 3: player turn ended.
+lightning-orb deals 3 lightning damage to 下水道蚌 (3 HP lost).
+下水道蚌 uses 增压.
+下水道蚌 gains 4 strength from 增压.
+Next intent for 下水道蚌: Attack.
+Turn 4: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 双重释放 for 1 energy.
+故障机器人 evokes lightning-orb from 双重释放.
+双重释放 deals 8 lightning damage to 下水道蚌 (8 HP lost).
+双重释放 has no orb to evoke.
+Turn 4: player turn ended.
+下水道蚌 uses 喷射.
+下水道蚌 uses 喷射 on 故障机器人 for 18 damage x1 (8 HP lost).
+Next intent for 下水道蚌: Buff.
+Turn 5: player turn started.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 下水道蚌 for 6 damage x1 (6 HP lost).
+下水道蚌 is defeated.
+Combat won.
+Floor 2: gained 20 gold.
+Reward: add sunder to the deck.
+Floor 3: entering monster room.
+Encounter queued: 幽灵船.
+故障机器人 enters combat against 幽灵船.
+Combat started.
+Turn 1: player turn started.
+故障机器人 channels lightning-orb from Cracked Core.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 幽灵船 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 幽灵船 for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+lightning-orb deals 3 lightning damage to 幽灵船 (3 HP lost).
+幽灵船 uses 撞击速度.
+幽灵船 uses 撞击速度 on 故障机器人 for 10 damage x1 (5 HP lost).
+Next intent for 幽灵船: Attack.
+Turn 2: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+Turn 2: player turn ended.
+lightning-orb deals 3 lightning damage to 幽灵船 (3 HP lost).
+幽灵船 uses 扫击.
+幽灵船 uses 扫击 on 故障机器人 for 13 damage x1 (0 HP lost).
+Next intent for 幽灵船: Attack.
+Turn 3: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 电击 for 1 energy.
+故障机器人 channels lightning-orb from 电击.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 幽灵船 for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+lightning-orb deals 3 lightning damage to 幽灵船 (3 HP lost).
+lightning-orb deals 3 lightning damage to 幽灵船 (3 HP lost).
+幽灵船 uses 践踏.
+幽灵船 uses 践踏 on 故障机器人 for 4 damage x3 (7 HP lost).
+Next intent for 幽灵船: Debuff.
+Turn 4: player turn started.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 幽灵船 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 幽灵船 for 6 damage x1 (6 HP lost).
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+Turn 4: player turn ended.
+lightning-orb deals 3 lightning damage to 幽灵船 (3 HP lost).
+lightning-orb deals 3 lightning damage to 幽灵船 (3 HP lost).
+幽灵船 uses 纠缠.
+故障机器人 gains 2 weak from 纠缠.
+故障机器人 gains 2 frail from 纠缠.
+故障机器人 gains 2 vulnerable from 纠缠.
+Next intent for 幽灵船: Attack + Status.
+Turn 5: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 3 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 3 Block from 防御.
+故障机器人 plays 双重释放 for 1 energy.
+故障机器人 evokes lightning-orb from 双重释放.
+双重释放 deals 8 lightning damage to 幽灵船 (8 HP lost).
+故障机器人 evokes lightning-orb from 双重释放.
+双重释放 deals 8 lightning damage to 幽灵船 (8 HP lost).
+幽灵船 is defeated.
+Combat won.
+Combat won.
+Floor 3: gained 20 gold.
+Reward: add ice-lance to the deck.
+Reward: obtain potion vulnerable-potion.
+Floor 4: entering event room.
+Event: 光与暗的门扉
+一道门扉突然凭空出现了…
+
+你步入其中，见到了两道散发着微光的门，以及一位[gold]衣着得体的看门人[/gold]。
+“终于有访客了！请，请！选一扇门，任何一扇都可以！”
+
+[blue]我们还在尖塔里吗？这地方为何竟如此洁净？[/blue]
+Chosen option: 光之门.
+[sine][purple]步入光明之中…[/purple][/sine]
+
+[jitter]好刺眼的光！！[/jitter]但这股光流转而[gold]强化[/gold]了你。
+
+你回到了[blue]暗港[/blue]。
+怎么个事儿? 哈…?
+Upgrade dualcast, ice-lance.
+Floor 5: entering merchant room.
+Merchant visited with 159 gold.
+Merchant removes strike-defect for 75 gold.
+Merchant sells meteor-strike for 75 gold.
+Floor 6: entering campfire room.
+Campfire heals 故障机器人 for 22 HP.
+Floor 7: entering elite room.
+Encounter queued: 鬼祟珊瑚群.
+故障机器人 enters combat against 鬼祟珊瑚群.
+Combat started.
+Turn 1: player turn started.
+故障机器人 channels lightning-orb from Cracked Core.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+Turn 1: player turn ended.
+lightning-orb deals 3 lightning damage to 鬼祟珊瑚群 (3 HP lost).
+鬼祟珊瑚群 uses 惯性.
+鬼祟珊瑚群 gains 10 Block from 惯性.
+鬼祟珊瑚群 gains 3 strength from 惯性.
+Next intent for 鬼祟珊瑚群: Attack.
+Turn 2: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 双重释放 for 1 energy.
+故障机器人 evokes lightning-orb from 双重释放.
+双重释放 deals 8 lightning damage to 鬼祟珊瑚群 (0 HP lost).
+双重释放 has no orb to evoke.
+Turn 2: player turn ended.
+鬼祟珊瑚群 uses 猛冲.
+鬼祟珊瑚群 uses 猛冲 on 故障机器人 for 19 damage x1 (9 HP lost).
+Next intent for 鬼祟珊瑚群: Attack.
+Turn 3: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+Turn 3: player turn ended.
+鬼祟珊瑚群 uses 超级蟹.
+鬼祟珊瑚群 uses 超级蟹 on 故障机器人 for 9 damage x2 (13 HP lost).
+Next intent for 鬼祟珊瑚群: Attack + Status.
+Turn 4: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+Turn 4: player turn ended.
+鬼祟珊瑚群 uses Smash.
+鬼祟珊瑚群 uses Smash on 故障机器人 for 12 damage x1 (2 HP lost).
+Next intent for 鬼祟珊瑚群: Defend + Buff.
+Turn 5: player turn started.
+故障机器人 plays 电击 for 1 energy.
+故障机器人 channels lightning-orb from 电击.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+Turn 5: player turn ended.
+lightning-orb deals 3 lightning damage to 鬼祟珊瑚群 (3 HP lost).
+鬼祟珊瑚群 uses 惯性.
+鬼祟珊瑚群 gains 10 Block from 惯性.
+鬼祟珊瑚群 gains 3 strength from 惯性.
+Next intent for 鬼祟珊瑚群: Attack.
+Turn 6: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (0 HP lost).
+Turn 6: player turn ended.
+lightning-orb deals 3 lightning damage to 鬼祟珊瑚群 (0 HP lost).
+鬼祟珊瑚群 uses 猛冲.
+鬼祟珊瑚群 uses 猛冲 on 故障机器人 for 22 damage x1 (12 HP lost).
+Next intent for 鬼祟珊瑚群: Attack.
+Turn 7: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 双重释放 for 1 energy.
+故障机器人 evokes lightning-orb from 双重释放.
+双重释放 deals 8 lightning damage to 鬼祟珊瑚群 (8 HP lost).
+双重释放 has no orb to evoke.
+Turn 7: player turn ended.
+鬼祟珊瑚群 uses 超级蟹.
+鬼祟珊瑚群 uses 超级蟹 on 故障机器人 for 12 damage x2 (14 HP lost).
+Next intent for 鬼祟珊瑚群: Attack + Status.
+Turn 8: player turn started.
+故障机器人 plays 防御 for 1 energy.
+故障机器人 gains 5 Block from 防御.
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+故障机器人 plays 打击 for 1 energy.
+故障机器人 uses 打击 on 鬼祟珊瑚群 for 6 damage x1 (6 HP lost).
+Turn 8: player turn ended.
+鬼祟珊瑚群 uses Smash.
+鬼祟珊瑚群 uses Smash on 故障机器人 for 15 damage x1 (10 HP lost).
+Next intent for 鬼祟珊瑚群: Defend + Buff.
+Turn 9: player turn started.
+故障机器人 plays 分离 for 3 energy.
+故障机器人 uses 分离 on 鬼祟珊瑚群 for 24 damage x1 (24 HP lost).
+鬼祟珊瑚群 is defeated.
+故障机器人 gains 3 energy from 分离.
+Combat won.
+Floor 7: gained 35 gold.
+Reward: add hyperbeam to the deck.
+Reward: obtain relic sozu.
+Reward: obtain potion cure-all.
+Completed underdocks run slice.

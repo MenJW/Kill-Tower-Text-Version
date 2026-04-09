@@ -1,4 +1,5 @@
 from kill_tower.services.ascension_service import AscensionRules, AscensionService
+from kill_tower.services.coverage_service import CoverageService, LanguageCoverageReport
 from kill_tower.services.event_service import EventResolution, EventService
 from kill_tower.services.map_service import MapService
 from kill_tower.services.reward_service import RewardService
@@ -11,8 +12,10 @@ __all__ = [
 	"AscensionRules",
 	"AscensionService",
 	"AutoRunResult",
+	"CoverageService",
 	"EventResolution",
 	"EventService",
+	"LanguageCoverageReport",
 	"MapService",
 	"RewardService",
 	"RunRecord",

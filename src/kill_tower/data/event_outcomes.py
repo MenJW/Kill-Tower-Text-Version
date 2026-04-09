@@ -64,6 +64,15 @@ def parse_event_outcomes(
         (r"\bPay (\d+)(?:-(\d+))? gold\b", "lose_gold"),
         (r"\bGain (\d+)(?:-(\d+))? Block\b", "gain_block"),
         (r"\bGain (\d+)(?:-(\d+))? star\b", "gain_star"),
+        (r"获得(\d+)(?:-(\d+))?点最大生命", "gain_max_hp"),
+        (r"失去(\d+)(?:-(\d+))?点最大生命", "lose_max_hp"),
+        (r"恢复(\d+)(?:-(\d+))?点生命", "heal"),
+        (r"受到(\d+)(?:-(\d+))?点伤害", "take_damage"),
+        (r"失去(\d+)(?:-(\d+))?点生命", "take_damage"),
+        (r"获得(\d+)(?:-(\d+))?金币", "gain_gold"),
+        (r"失去(\d+)(?:-(\d+))?金币", "lose_gold"),
+        (r"支付(\d+)(?:-(\d+))?金币", "lose_gold"),
+        (r"获得(\d+)(?:-(\d+))?点格挡", "gain_block"),
     ]
     for pattern, outcome_type in numeric_patterns:
         for match in re.finditer(pattern, cleaned, flags=re.IGNORECASE):
@@ -75,6 +84,10 @@ def parse_event_outcomes(
         (r"\bObtain a potion\b", "obtain_potion"),
         (r"\bFight\b", "start_combat"),
         (r"\bCombat\b", "start_combat"),
+        (r"移除1张牌", "remove_card"),
+        (r"获得1张牌", "obtain_card"),
+        (r"获得1瓶药水", "obtain_potion"),
+        (r"战斗", "start_combat"),
     ]
     for pattern, outcome_type in simple_patterns:
         if re.search(pattern, cleaned, flags=re.IGNORECASE):
@@ -82,14 +95,24 @@ def parse_event_outcomes(
 
     if match := re.search(r"\bRemove (\d+) cards? from your Deck\b", cleaned, re.IGNORECASE):
         add("remove_card", int(match.group(1)))
+    elif match := re.search(r"从你的牌组中(?:选择)?(\d+)张牌移除", cleaned, re.IGNORECASE):
+        add("remove_card", int(match.group(1)))
     elif re.search(r"\bRemove a card(?: from your Deck)?\b", cleaned, re.IGNORECASE):
+        add("remove_card", 1)
+    elif re.search(r"从你的牌组中(?:选择)?1张牌移除", cleaned, re.IGNORECASE):
         add("remove_card", 1)
 
     if match := re.search(r"\bUpgrade (\d+) random cards?\b", cleaned, re.IGNORECASE):
         add("upgrade_card", {"count": int(match.group(1)), "random": True})
+    elif match := re.search(r"随机升级(\d+)张牌", cleaned, re.IGNORECASE):
+        add("upgrade_card", {"count": int(match.group(1)), "random": True})
     elif re.search(r"\bUpgrade a random card(?: in your Deck)?\b", cleaned, re.IGNORECASE):
         add("upgrade_card", {"count": 1, "random": True})
+    elif re.search(r"随机升级1张牌", cleaned, re.IGNORECASE):
+        add("upgrade_card", {"count": 1, "random": True})
     elif re.search(r"\bUpgrade a card(?: in your Deck)?\b", cleaned, re.IGNORECASE):
+        add("upgrade_card", {"count": 1})
+    elif re.search(r"升级1张牌", cleaned, re.IGNORECASE):
         add("upgrade_card", {"count": 1})
 
     if match := re.search(r"\bDowngrade (\d+) random cards?\b", cleaned, re.IGNORECASE):
@@ -97,7 +120,11 @@ def parse_event_outcomes(
 
     if match := re.search(r"\bTransform (\d+) cards?(?: in your Deck)?\b", cleaned, re.IGNORECASE):
         add("transform_card", {"count": int(match.group(1))})
+    elif match := re.search(r"转化(\d+)张牌", cleaned, re.IGNORECASE):
+        add("transform_card", {"count": int(match.group(1))})
     elif re.search(r"\bTransform a card(?: in your Deck)?\b", cleaned, re.IGNORECASE):
+        add("transform_card", {"count": 1})
+    elif re.search(r"转化1张牌", cleaned, re.IGNORECASE):
         add("transform_card", {"count": 1})
 
     if match := re.search(r"\bObtain (\d+) (Ironclad|Silent|Defect|Regent|Necrobinder) cards\b", cleaned, re.IGNORECASE):

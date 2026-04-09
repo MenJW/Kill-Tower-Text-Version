@@ -1,0 +1,17 @@
+{
+  "snapshot_tag": "2026-04-09_build_unknown",
+  "language": "zhs",
+  "character_id": "silent",
+  "act_id": "underdocks",
+  "seed": 7,
+  "floors_requested": 7,
+  "floors_cleared": 7,
+  "victory": true,
+  "hp": 50,
+  "max_hp": 70,
+  "gold": 44,
+  "deck_size": 16,
+  "relic_count": 2,
+  "potion_count": 3,
+  "issue_count": 0
+}

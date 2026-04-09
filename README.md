@@ -29,6 +29,8 @@ kill-tower data paths
 kill-tower data init-manifest
 kill-tower run ui
 python scripts/smoke_run.py
+python scripts/generate_unresolved_coverage_report.py 2026-04-09_build_unknown
+python scripts/generate_transcript_goldens.py
 pytest
 ```
 

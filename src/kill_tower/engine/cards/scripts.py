@@ -231,6 +231,8 @@ _IGNORABLE_CLAUSE_PATTERNS = (
     re.compile(r"^Costs? \[[a-z-]+:\d+\] less\b", re.IGNORECASE),
     re.compile(r"^Next turn\b", re.IGNORECASE),
     re.compile(r"^Retain your Hand this turn\b", re.IGNORECASE),
+    re.compile(r"^只有在", re.IGNORECASE),
+    re.compile(r"^你在本回合中每打出过一张技能牌，其耗能减少", re.IGNORECASE),
 )
 
 _POWER_NAME_TO_ID = {
@@ -263,7 +265,7 @@ def generic_description_script(
     applied = False
     unhandled: list[str] = []
     clauses: list[str] = []
-    for sentence in re.split(r"\.\s*", description.replace("\n", ". ").strip()):
+    for sentence in re.split(r"[。.]\s*", description.replace("\n", ". ").strip()):
         expanded = _expand_clause(sentence)
         clauses.extend(expanded)
 
@@ -314,6 +316,12 @@ def _looks_like_action(clause: str) -> bool:
             "osty deals ",
             "you gain ",
             "exhaust ",
+            "造成",
+            "对所有敌人造成",
+            "获得",
+            "抽",
+            "弃",
+            "失去",
         )
     )
 
@@ -331,11 +339,23 @@ def _apply_clause(
         runtime.gain_block(runtime.state.player, int(match.group(1)), definition.name or card.definition_id)
         return True
 
+    if match := re.fullmatch(r"获得(\d+)点格挡", clause, flags=re.IGNORECASE):
+        runtime.gain_block(runtime.state.player, int(match.group(1)), definition.name or card.definition_id)
+        return True
+
     if match := re.fullmatch(r"Draw (\d+) cards?", clause, flags=re.IGNORECASE):
         runtime.draw_cards_for_player(int(match.group(1)), definition.name or card.definition_id)
         return True
 
+    if match := re.fullmatch(r"抽(\d+)张牌", clause, flags=re.IGNORECASE):
+        runtime.draw_cards_for_player(int(match.group(1)), definition.name or card.definition_id)
+        return True
+
     if match := re.fullmatch(r"Discard (\d+) cards?", clause, flags=re.IGNORECASE):
+        runtime.discard_cards(int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"弃(\d+)张牌", clause, flags=re.IGNORECASE):
         runtime.discard_cards(int(match.group(1)), definition.name or card.definition_id)
         return True
 
@@ -347,11 +367,19 @@ def _apply_clause(
         runtime.exhaust_top_draw_pile(1, definition.name or card.definition_id)
         return True
 
+    if match := re.fullmatch(r"消耗你的抽牌堆顶部的牌", clause, flags=re.IGNORECASE):
+        runtime.exhaust_top_draw_pile(1, definition.name or card.definition_id)
+        return True
+
     if match := re.fullmatch(r"Exhaust ALL your (\w+) cards", clause, flags=re.IGNORECASE):
         exhausted = runtime.exhaust_cards(len(runtime.player.hand), definition.name or card.definition_id, card_type=match.group(1))
         return exhausted > 0
 
     if match := re.fullmatch(r"Lose (\d+) HP", clause, flags=re.IGNORECASE):
+        runtime.lose_hp(runtime.state.player, int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"失去(\d+)点生命", clause, flags=re.IGNORECASE):
         runtime.lose_hp(runtime.state.player, int(match.group(1)), definition.name or card.definition_id)
         return True
 
@@ -376,6 +404,10 @@ def _apply_clause(
             runtime.player.add_resource("osty_attacks_played", 1)
         return True
 
+    if match := re.fullmatch(r"对所有敌人造成(\d+)点伤害", clause, flags=re.IGNORECASE):
+        runtime.attack_all_enemies(runtime.state.player, int(match.group(1)), 1, definition.name or card.definition_id)
+        return True
+
     if match := re.fullmatch(r"(?:Deal|Osty deals) (\d+) damage", clause, flags=re.IGNORECASE):
         resolved_enemy = _require_target(runtime, enemy, definition.name or card.definition_id)
         runtime.attack(
@@ -387,6 +419,17 @@ def _apply_clause(
         )
         if clause.lower().startswith("osty deals"):
             runtime.player.add_resource("osty_attacks_played", 1)
+        return True
+
+    if match := re.fullmatch(r"造成(\d+)点伤害", clause, flags=re.IGNORECASE):
+        resolved_enemy = _require_target(runtime, enemy, definition.name or card.definition_id)
+        runtime.attack(
+            attacker=runtime.state.player,
+            target=resolved_enemy,
+            base_damage=int(match.group(1)),
+            hits=1,
+            source_name=definition.name or card.definition_id,
+        )
         return True
 
     if match := re.fullmatch(r"Enemy loses (\d+) (Strength|Dexterity|Focus) this turn", clause, flags=re.IGNORECASE):
@@ -467,6 +510,18 @@ def _apply_clause(
     ):
         if len(runtime.state.cards_played_this_turn) < int(match.group(1)):
             runtime.draw_cards_for_player(int(match.group(2)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"If this kills an enemy, gain (\d+) energy", clause, flags=re.IGNORECASE):
+        resolved_enemy = _require_target(runtime, enemy, definition.name or card.definition_id)
+        if not resolved_enemy.alive:
+            runtime.gain_energy(int(match.group(1)), definition.name or card.definition_id)
+        return True
+
+    if match := re.fullmatch(r"如果这张牌击杀了敌人，则获得(\d+) energy", clause, flags=re.IGNORECASE):
+        resolved_enemy = _require_target(runtime, enemy, definition.name or card.definition_id)
+        if not resolved_enemy.alive:
+            runtime.gain_energy(int(match.group(1)), definition.name or card.definition_id)
         return True
 
     return False

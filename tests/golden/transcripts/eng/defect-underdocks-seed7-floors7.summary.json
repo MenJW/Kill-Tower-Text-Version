@@ -1,0 +1,17 @@
+{
+  "snapshot_tag": "2026-04-09_build_unknown",
+  "language": "eng",
+  "character_id": "defect",
+  "act_id": "underdocks",
+  "seed": 7,
+  "floors_requested": 7,
+  "floors_cleared": 7,
+  "victory": true,
+  "hp": 23,
+  "max_hp": 75,
+  "gold": 44,
+  "deck_size": 14,
+  "relic_count": 2,
+  "potion_count": 2,
+  "issue_count": 0
+}
